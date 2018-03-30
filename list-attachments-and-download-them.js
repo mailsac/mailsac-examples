@@ -2,8 +2,13 @@ const fs = require('fs')
 const request = require('request');
 const requestp = require('request-promise-native')
 
-const MAILSAC_API_KEY = 'YOUR API KEY GOES HERE';
+const MAILSAC_API_KEY = process.env.MAILSAC_KEY || 'YOUR API KEY GOES HERE';
 const address = process.argv[2];
+
+if (!address) {
+    console.error('Missing email address argument');
+    process.exit(1);
+}
 
 requestp(`https://mailsac.com/api/addresses/${address}/messages`, {
         json: true,
