@@ -11,8 +11,9 @@ Another simple header
 
 Here is text explaining some very complicated stuff.
 
-    print 'hello'
-    >> hello
+.. code-block:: bash
+    
+    curl -H -X GET https://mailsac.com/api/headers/admin%40mailsac.com/NJcklRxT341eSWLtcOEZgLgMTTJfv9RZ-0 
 
 Guide
 ^^^^^
