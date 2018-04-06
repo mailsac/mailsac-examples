@@ -14,3 +14,7 @@ You can use curl to view emails sent to admin@mailsac.com
     :language: bash
     :emphasize-lines: 1
     :lines: 1-35,49-51
+
+.. tip:: This may look for more information than you need. But it provides
+         a great example of all the hard work mailsac has done to make parsing
+         of email easier.
