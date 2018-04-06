@@ -4,7 +4,7 @@ Introduction
 ============
 Until now, interacting with email was limitted using desktop or web based 
 clients. Mailsac allows you to interact with your email via REST API,
-webhooks and websockets. How easy is it? easy. 
+webhooks and websockets. How easy is it? Easy. 
 
 --------------------------------------------
 
