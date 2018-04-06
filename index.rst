@@ -15,7 +15,6 @@ The table of contents is the sidebar and will let you easily access the
 documentation for your topic of interest. You can also use the search function
 in the top left corner.
 
-
 .. toctree::
    :maxdepth: 1
    :caption: General
