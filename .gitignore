@@ -67,3 +67,7 @@ typings/
 
 #sphinx
 _build/
+
+#ignore vim swp files
+*.swp
+*.swo
