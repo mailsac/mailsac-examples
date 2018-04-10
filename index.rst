@@ -21,3 +21,10 @@ in the top left corner.
    :name: sec-general
 
    about/index
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Getting Started
+   :name: sec-getting_started
+
+   getting_started/step_by_step/index
