@@ -23,7 +23,7 @@ in the top left corner.
    about/index
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Getting Started
    :name: sec-getting_started
 
