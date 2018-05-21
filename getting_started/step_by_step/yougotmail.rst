@@ -3,22 +3,23 @@
 You Got Mail!
 =============
 
-Now that curl and jq are installed we can start interacting with mailsac. The
-`MailSac API Documentation <https://mailsac.com/docs/api/>`_ includes all the
-endpoints supported. The API documentation is great to use if you a familiar with
-REST APIs or for reference after completing this step-by-step introduction. In 
-this example we are going to check an abritrary email address
+Now that curl and jq are installed, we can start interacting with mailsaci API. The
+`MailSac API Documentation <https://mailsac.com/docs/api/>`_ includes all supported
+endpoints. The API documentation is great starting place, if you a familiar with
+REST APIs or for reference after completing this step-by-step introduction.
+
+In this example, we are going to check an abritrary email address
 for mail, read that email and respond to the email.
 
 Check Mail
 ----------
 
-In this example I'll show you how to check mail sent `admin@mailsac.com` using curl and JQ.
-You will first need to retrieve messages using the 
+In this example, we will list inbox email messages for `admin@mailsac.com`.
+To list the available messages we will use the 
 `List Inbox Email Messages endpoint <https://mailsac.com/docs/api/#list-inbox-email-messages>`_.
 This endpoint can be accessed with :code:`GET /api/addresses/:email/messages`. You 
 will substitue `:email` with `admin@mailsac.com` giving us :code:`GET /api/addresses/admin@mailsac.com/messages`.
-Curl does not encode URLs. The `@` character needs to be url encoded as `%40` giving. 
+Curl does not encode URLs. The `@` character needs to be url encoded as `%40`. 
 :code:`GET /api/addresses/admin%40mailsac.com/messages`. The base URI of the mailsac API is mailsac.com, which 
 translates to :code:`https://mailsac.com/api/addresses/admin%40mailsac.com/messages`
 
