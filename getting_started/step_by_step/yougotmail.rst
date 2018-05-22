@@ -17,6 +17,10 @@ Check Mail
 In this example, we will list inbox email messages for `admin@mailsac.com`.
 To list the available messages we will use the 
 `List Inbox Email Messages endpoint <https://mailsac.com/docs/api/#list-inbox-email-messages>`_.
+
+.. tip:: API documentation is generalized. Modifications are needed to translate an API endpoint
+   into a usable url. The base URI of all MailSac API requests will be https://mailsac.com. 
+
 This endpoint can be accessed with :code:`GET /api/addresses/:email/messages`. You 
 will substitue `:email` with `admin@mailsac.com` giving us :code:`GET /api/addresses/admin@mailsac.com/messages`.
 Curl does not encode URLs. The `@` character needs to be url encoded as `%40`. 
@@ -65,4 +69,29 @@ using curl.
     :language: text 
     :caption: **Plain text message**
 
+Sending Mail
+------------
+
+.. important:: Sending messages requires the `purchase <https://mailsac.com/pricing>`_ of outgoing message credits.
+
+Sending an email uses the `outgoing-messages endpoint <https://mailsac.com/docs/api/#send-email-messages>`_. This 
+endpoint is accessed with :code:`POST /api/outgoing-messages`. This API uses a POST method, unlike our previous 
+two examples, which use GET. Several pieces of information are required to send an email.
+
+* MailSac API Key
+* To address
+* From address
+* Text
+
+Since emails without subjects frequently get marked as spam, we are also going to include a subject in our email. Our email
+message will be transmitted in JSON, therefore we have to set the content type to ::code:`Content-Type: application/json`.
+Our message data will be a comma separated key value array.
+
+.. code-block:: bash
+    :caption: **Send an email**
+
+    curl --header "Content-Type: application/json" --request POST \
+    --data '{"_mailsacKey": "eoj1mn7x5y61w0egs25j6xrvs6lwrrld0oh43rj583cgdps10tokp2ceux9s6ri8eoj1mn7x5y6", \
+    "to": "recipient@gmail.com", "subject": "This is a test", "from": "sender@mailsac.com", \
+    "text": "This is a test"}' https://mailsac.com/api/outgoing-messages
 
