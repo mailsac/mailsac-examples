@@ -23,8 +23,11 @@ in the top left corner.
    about/index
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Getting Started
    :name: sec-getting_started
 
-   getting_started/step_by_step/index
+   getting_started/prereq
+   getting_started/checkmail
+   getting_started/readmail
+   getting_started/sendmail
