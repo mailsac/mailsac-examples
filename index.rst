@@ -31,3 +31,11 @@ in the top left corner.
    getting_started/checkmail
    getting_started/readmail
    getting_started/sendmail
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Delivery Confirmation:
+   :name: sec-delivery_confirmation:
+
+   delivery_confirmation/overview 
+   delivery_confirmation/example

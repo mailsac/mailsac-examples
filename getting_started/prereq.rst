@@ -1,4 +1,4 @@
-.. _doc_curl_prerq
+.. _doc_curl_prerq:
 
 Prerequisites
 =============

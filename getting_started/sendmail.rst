@@ -1,4 +1,4 @@
-.. _doc_sendmail
+.. _doc_sendmail:
 
 Sending Mail
 ============

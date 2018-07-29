@@ -1,4 +1,4 @@
-.. _doc_checkmail
+.. _doc_checkmail:
 
 Check Mail
 =============

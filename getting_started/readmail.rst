@@ -1,4 +1,4 @@
-.. _doc_readmail
+.. _doc_readmail:
 
 Read Mail
 =========
