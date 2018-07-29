@@ -34,8 +34,9 @@ in the top left corner.
 
 .. toctree::
    :maxdepth: 1
-   :caption: Delivery Confirmation:
-   :name: sec-delivery_confirmation:
+   :caption: API Examples
+   :name: sec-api_examples:
 
-   delivery_confirmation/overview 
-   delivery_confirmation/example
+   api_examples/overview 
+   api_examples/delivery_confirmation
+   api_examples/download_all_inbox_attachments
