@@ -40,3 +40,4 @@ in the top left corner.
    api_examples/overview 
    api_examples/delivery_confirmation
    api_examples/download_all_inbox_attachments
+   api_examples/verify_email_address
