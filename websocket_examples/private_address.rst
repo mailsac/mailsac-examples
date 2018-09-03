@@ -1,0 +1,3 @@
+.. _doc_private_address_for_websocket:
+
+# TODO Add description about how to configure a private email address for websocket use
