@@ -37,7 +37,4 @@ in the top left corner.
    :caption: API Examples
    :name: sec-api_examples:
 
-   api_examples/overview 
-   api_examples/delivery_confirmation
-   api_examples/download_all_inbox_attachments
-   api_examples/verify_email_address
+   api_examples/index

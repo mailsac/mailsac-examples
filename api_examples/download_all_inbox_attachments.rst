@@ -1,4 +1,4 @@
-.. _docs_download_all_inbox_attachments:
+.. _doc_download_all_inbox_attachments:
 
 Download All Inbox Attachments
 ==============================
