@@ -8,7 +8,7 @@ Receiving mail from a websocket allows for interacting with incomming email in n
 Prerequsites
 -------------
 * `Mailsac API Key <https://mailsac.com/api-keys>`_
-* Private email address with websocket configured
+* :ref:`Private email address with websocket configured <doc_private_address_for_websocket>`
 
 
 

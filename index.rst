@@ -38,3 +38,10 @@ in the top left corner.
    :name: sec-api_examples:
 
    api_examples/index
+
+.. toctree::
+   :maxdepth: 1
+   :caption: WebSocket/Webhook Examples
+   :name: sec-websocket-examples:
+
+   websocket_examples/index
