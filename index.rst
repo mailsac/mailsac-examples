@@ -16,11 +16,12 @@ documentation for your topic of interest. You can also use the search function
 in the top left corner.
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: General
    :name: sec-general
 
    about/index
+   about/faq
 
 .. toctree::
    :maxdepth: 1
