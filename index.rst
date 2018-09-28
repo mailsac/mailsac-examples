@@ -26,7 +26,7 @@ in the top left corner.
 
 .. toctree::
    :maxdepth: 1
-   :caption: Getting Started
+   :caption: API Getting Started
    :name: sec-getting_started
 
    getting_started/prereq
