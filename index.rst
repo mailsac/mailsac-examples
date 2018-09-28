@@ -23,6 +23,7 @@ in the top left corner.
    about/index
    about/faq
    about/contact_and_support
+   about/privacy_policy
 
 .. toctree::
    :maxdepth: 1
