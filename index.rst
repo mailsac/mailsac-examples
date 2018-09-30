@@ -28,6 +28,15 @@ in the top left corner.
 
 .. toctree::
    :maxdepth: 1
+   :caption: Services
+   :name: sec-services
+
+   services/index
+   services/introduction
+   services/mailstorage
+
+.. toctree::
+   :maxdepth: 1
    :caption: API Getting Started
    :name: sec-getting_started
 
