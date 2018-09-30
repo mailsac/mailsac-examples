@@ -24,6 +24,7 @@ in the top left corner.
    about/faq
    about/contact_and_support
    about/privacy_policy
+   about/terms_of_service
 
 .. toctree::
    :maxdepth: 1
