@@ -34,7 +34,13 @@ in the top left corner.
    services/index
    services/introduction
    services/mailstorage
-   services/attachments.rst
+   services/attachments
+   services/email_hosting
+   services/catchall
+   services/webhook
+   services/mailforwarding
+   services/sendingmail
+   services/mailredirect
 
 .. toctree::
    :maxdepth: 1
