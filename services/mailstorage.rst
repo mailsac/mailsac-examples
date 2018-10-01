@@ -36,3 +36,11 @@ Mailsac will delete messages on regular intervals. One way around this is to cre
 star messages so they will be saved.
 
 :red:`Use the star symbol ★`
+
+When you star a message, it counts towards your overall storage. But once it’s
+starred, you can be sure it will not get recycled, so you can refer back to it
+later.
+
+Your user `dashboard <https://mailsac.com/dashboard>`_ has links to all inboxes where you starred messages.
+
+You can star messages on any address, including those you own or other public addresses.
