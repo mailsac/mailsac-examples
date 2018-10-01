@@ -34,6 +34,7 @@ in the top left corner.
    services/index
    services/introduction
    services/mailstorage
+   services/attachments.rst
 
 .. toctree::
    :maxdepth: 1
