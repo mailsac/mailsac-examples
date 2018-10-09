@@ -7,7 +7,7 @@ Private addresses (or Catch-All addresses) can be redirected to a URL of your
 choice, also called a webhook.
 
 To enable webhooks for an email address, select Edit next to the address in the
-dashboard, then enter a URL under the Forward to Webhook section, and click
+dashboard, then enter a URL under the 'Forward to Webhook' section, and click
 Save.
 
 .. code-block:: json

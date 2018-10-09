@@ -6,7 +6,7 @@ Contact and Support
 Feature Requests
 ----------------
 
-To discuss new ideas and features, visit the `discussion forum for feature requests <https://community.mailsac.com/forums/forum/feature-requests/>`_.
+To discuss new ideas and features, visit the `feature discussion forum <https://community.mailsac.com/forums/forum/feature-requests/>`_.
 
 General Help
 ------------

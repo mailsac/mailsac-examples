@@ -9,7 +9,7 @@ Sending an email uses the `outgoing-messages endpoint <https://mailsac.com/docs/
 endpoint is accessed with :code:`POST /api/outgoing-messages`. This API uses a POST method, unlike our previous 
 two examples, which use GET. Several pieces of information are required to send an email.
 
-* MailSac API Key
+* Mailsac API Key
 * To address
 * From address
 * Text

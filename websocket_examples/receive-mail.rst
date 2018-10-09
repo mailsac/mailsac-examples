@@ -3,7 +3,7 @@
 Receive Mail Using a WebSocket
 ==============================
 
-Receiving mail from a websocket allows for interacting with incomming email in near real time.
+Receiving mail from a Websocket allows for interacting with incoming email in near real time.
 
 Prerequsites
 -------------

@@ -15,7 +15,7 @@ Email
 -----
 This site provides public email service. Email inboxes that are not purchased (aka private) are public and have no privacy. 
 Consider this warning carefully when you opt to receive email on this website and give out addresses
-that will have mail delivered to this website. Email is publically viewable content unless otherwise explicitly indicated.
+that will have mail delivered to this website. Email is publicly viewable content unless otherwise explicitly indicated.
 
 Information Collection, Use, and Sharing
 ----------------------------------------
@@ -52,7 +52,7 @@ Orders
 We request information from you on our order and checkout form via third party.
 
 To buy services from us, you may need provide contact information and financial information, including
-to third parties (payment processers and other business partners). This information is used for
+to third parties (payment processors and other business partners). This information is used for
 billing purposes and to provide you service. It is stored with the payment processor and not on this
 site. If we have trouble processing an order, we’ll use this information to contact you. We may
 share this information with third parties to ensure payment and provide targeted and improved services.
@@ -91,7 +91,7 @@ any other site that collects personally identifiable information.
 
 Users must exercise extreme caution about visiting links in emails received by this website.
 
-Outgoing mail sent through this service may be interceptable or publically viewable and shared with
+Outgoing mail sent through this service may be interceptable or publicly viewable and shared with
 third parties. We may use a third party to store or deliver email and in such cases it may be 
 subject to the terms and policies of those respective services. This site is not responsible for 
 anything resulting from the presence of you data in their handling.

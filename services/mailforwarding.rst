@@ -3,7 +3,7 @@
 How to Setup Email Forwarding
 =============================
 
-After purchasing a private address, you can forward its emails to another
+After purchasing a private address, you can forward mail to another
 address. (Forwarding is not available for public disposable email addresses.)
 
 Forward to Other Email Address
@@ -22,13 +22,13 @@ main@mailsac.com, you could setup the following scheme:
 
 Catch-All Domain Forwarding Addresses
 -------------------------------------
-A :ref: `Catch-All email address <doc_catchall>` can receive all the mail for your custom domain that
+A :ref:`Catch-All email address <doc_catchall>` can receive all the mail for your custom domain that
 is hosted on Mailsac, and optionally forward it to another address. Catch-All
 inboxes are just an asterisk and the domain, like \*@example.com.
 
 Alternate Forwarding
 --------------------
 
-By writing a little *code*, you can forward emails to a :ref: `Webhook
-<doc_webhook>` or a `Web Socket
+By writing a little *code*, you can forward emails to a :ref:`Webhook <doc_webhook_setup>`
+or a `Web Socket
 <https://mailsac.com/docs/api/#web-socket-api>`_. 
