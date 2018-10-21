@@ -129,9 +129,10 @@ any customer, paying or non-paying, personal or commercial.
 Customers wanting service uptime guarantees should contact sales.
 
 
-7. Compatability
+7. Accuracy and Compatability
 -------------
-Mailsac provides an API service, with free and paid tiers. This service is not responsible for
+
+7a. Mailsac provides an API service, with free and paid tiers. This service is not responsible for
 adverse effects in any situation, and offers no compatibility guarantee. We reserve the right to
 change the API without notice. No guranatees are made on the following:
 
@@ -140,6 +141,12 @@ change the API without notice. No guranatees are made on the following:
 - API incompatibility
 - API support for a particular programming language
 - API help in any language other than English
+
+7b. We make our best effort to produce bug free software and accurate documentation. However the user
+acknowledges that the service may perform sub-optimally and in a way that is unexpected, and in such cases
+Mailsac is not responsible. We make no guarantees that the service will function as described or intended,
+but we hope it does so. There is no guarantee that documentation about the service, including the API or
+email routing or email privacy, will be accurate.
 
 
 8. Data and Retention
