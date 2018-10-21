@@ -89,8 +89,7 @@ The user acknowledges:
 - the SMTP protocol is not guaranteed to be transmitted under encryption
 - when encrypted in transit, email may use broken or insufficient encryption algorithms
 - stored emails may not be encrypted at rest
-- third parties (including but not limited to routers, ISPs, intermediary providers, email providers including Mailsac) may
-decrypt and store email, even though it was not the message's final destination
+- third parties (including but not limited to routers, ISPs, intermediary providers, email providers including Mailsac) may decrypt and store email, even though it was not the message's final destination
 
 4d. Outbound Mail
 
