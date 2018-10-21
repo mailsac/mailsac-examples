@@ -3,6 +3,8 @@
 Privacy Policy
 ==============
 
+Revised October 2018
+
 1. Preamble
 -----
 
