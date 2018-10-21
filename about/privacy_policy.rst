@@ -11,10 +11,10 @@ internet services that support the mailsac.com website).
 
 1b. This Privacy Policy applies to information collected by this web site. It will educate the user of the following:
 
-1b-i. What personally identifiable information is collected from you through the web site, how it is used and with whom it may be shared.
-1b-ii. What choices are available to you regarding the use of your data.
-1b-iii. The security procedures in place to protect the misuse of your information.
-1b-iv. How you can correct any inaccuracies in the information.
+- 1b-i. What personally identifiable information is collected from you through the web site, how it is used and with whom it may be shared.
+- 1b-ii. What choices are available to you regarding the use of your data.
+- 1b-iii. The security procedures in place to protect the misuse of your information.
+- 1b-iv. How you can correct any inaccuracies in the information.
 
 2. Email
 -----
