@@ -13,13 +13,13 @@ This privacy policy applies to information collected by this web site. It will n
 
 Email
 -----
-This site provides public email service. Email inboxes that are not purchased (aka private) are public and have no privacy. 
+This site provides public email and email testing services. Email inboxes that are not purchased (aka private) are public and have no privacy. 
 Consider this warning carefully when you opt to receive email on this website and give out addresses
-that will have mail delivered to this website. Email is publicly viewable content unless otherwise explicitly indicated.
+that will have mail delivered to this website. Email is publicly viewable content unless otherwise explicitly indicated. On private email, we reserve the right to inspect or share information contained in those emails, but it can be reasonably expected it will not be made public.
 
 Information Collection, Use, and Sharing
 ----------------------------------------
-We are the sole owners of the information collected on this site. We may choose to sell or rent this information to third parties, manually or via paid or free API.
+We are the sole owners of the information collected on this site. We may choose to sell or rent this information to third parties, manually or via paid or free API, or by exporting archives of information to third parties.
 
 We will use your information to respond to you, regarding the reason you contacted us. We may share
 your information with third parties outside of our organization, for the purpose of providing better
@@ -28,7 +28,7 @@ and more relevant services to you.
 Unless you ask us not to, we may contact you via email in the future to tell you about specials, new
 products or services, or changes to this privacy policy.
 
-Ads and analytics tracking services on inbox pages may be exposed to inbox contents, even on private or paid accounts.
+Ads and analytics tracking services on (such as, but not limited to, Google Analytics) may be exposed to inbox contents, even on private or paid accounts.
 
 Your Access To and Control Over Information
 -------------------------------------------
