@@ -172,4 +172,4 @@ as an enterprise), please contact support@team.mailsac.com to purchase a standal
 other kind of contract. This Privacy Policy may be superseded by an alternative agreement acquired
 by working with Mailsac Support and obtaining a signed agreement.
 
-13b. WE RECOMMEND USERS CHECK REVIEW THIS PRIVACY POLICY REGULARLY SINCE IT MAY CHANGE WITHOUT NOTICE.
+13b. WE RECOMMEND USERS REGULARLY REVIEW THIS PRIVACY POLICY SINCE IT MAY CHANGE WITHOUT NOTICE.
