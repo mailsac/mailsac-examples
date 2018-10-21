@@ -19,33 +19,33 @@ Terms and policies apply to paid and unpaid features of Mailsac.
 ---------------------------
 
 * Illegal is defined as against the law in the United States, the State of California, and the 
-  applicable jurisdictions of the end user (you).
+applicable jurisdictions of the end user (you).
 * This website can never be used to break the law.
 * You will not send unsolicited spam to or from this service and you will comply with CAN-SPAM as
-  well as applicable international, national, and local spam laws in your jurisdiction and the State of California, United States.
+well as applicable international, national, and local spam laws in your jurisdiction and the State of California, United States.
 * This website and its overseers may cooperate with legal enforcement authorities to uphold law enforcement, without
 necessarily notifying the user of such coorporation.
 * This website can never be used for malicious activity, terrorist activity, planning illegal 
-  activities, discussing illegal activities, gambling, pornography, or condoning illegal activities.
+activities, discussing illegal activities, gambling, pornography, or condoning illegal activities.
 * This website can never be used to spread spam, untruth, gambling, pornography of any kind whether legal or illegal.
 * Apparent terrorism or threatening behavior, harmful messages or usage to conduct intolerant or 
-  hateful or discriminatory actions, whether carried out, intended, or simulated, proven or 
-  unproven, will be blocked and removed without notice, and potentially handed over to the proper authorities.
+hateful or discriminatory actions, whether carried out, intended, or simulated, proven or 
+unproven, will be blocked and removed without notice, and potentially handed over to the proper authorities.
 * This website RESERVES THE RIGHT TO BLOCK OR DELETE MAIL WITHOUT ANY NOTICE OR REASON, INCLUDING DATA RETAINED BY
 PAID USERS. The user agrees to take action outside Mailsac services to engage in a backup strategy, when persistence is
 desired or required. ALL MAILSAC DATA, INCLUDING EMAIL CONTENTS AND EMAIL ADDRESSES, MUST BE CONSIDERED EPHEMERAL BY THE USER.
 * You agree to be a good citizen of this service and will not engage in any activity which degrades
-  the quality, experience or integrity of it, and accept that if we determine you are degrading the service for others, your
-  usage may be limited in a way which may be indesirable to you.
+the quality, experience or integrity of it, and accept that if we determine you are degrading the service for others, your
+usage may be limited in a way which may be indesirable to you.
 * This service reserves the right to delete or block any email for any reason without notice and 
-  without stating any reason.
+without stating any reason.
 * Unless otherwise indicated, by using the service you acknowledge that all of your incoming emails
-  are public, not private, and unsecured, and not under copyright or ownership.
+are public, not private, and unsecured, and not under copyright or ownership.
 * This service makes no guarantees about how long email will be retained, neither minimum nor 
-  maximum, or that email will be accepted or received.
+maximum, or that email will be accepted or received.
 * This service is offered for use with NO WARRANTIES and MAKES NO PROMISES THAT IT WILL FUNCTION AS INTENDED OR UNINTENDED.
-  There is no "service level agreement" nor any guarantee of service uptime. We provide uptime system metrics, such as
-  https://status.mailsac.com, on a purely information basis. Nor is status or uptime information required to be available.
+There is no "service level agreement" nor any guarantee of service uptime. We provide uptime system metrics, such as
+https://status.mailsac.com, on a purely information basis. Nor is status or uptime information required to be available.
 
 3. Commercial and Non-Commercial Use
 ---------------------
