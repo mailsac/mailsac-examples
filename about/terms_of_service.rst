@@ -205,5 +205,5 @@ As indicated above, refunds are not given.
 If a clause of this agreement is found to be invalid or violated, the rest of this agreement still stands.
 
 This agreement represents the entire agreement between the user and Mailsac, which includes the Privacy Policy.
-The two parties may supersede this parts of this agreement through writing signed by legal representatives of
+The two parties may supersede parts of this agreement through writing signed by legal representatives of
 both parties. Clauses of this agreement not addressed in any superseding agreement will still stand.
