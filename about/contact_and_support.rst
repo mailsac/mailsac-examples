@@ -31,5 +31,5 @@ your solution can be shared with other developers.
 Support Hours
 -------------
 
-We answer support requests during business hour, USA West Coast/ Pacific time (PDT/PST)
+We answer support requests during business hours, USA West Coast Pacific Time (PDT/PST)
 
