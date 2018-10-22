@@ -1,4 +1,4 @@
-$curl -s -X GET https://mailsac.com/api/addresses/admin%40mailsac.com/messages | jq ".[0]"
+$curl -s -X GET https://mailsac.com/api/addresses/user1%40mailsac.com/messages | jq ".[0]"
 
 {
   "_id": "BotvTxaona7gLID1Adtpfj8Fnfi7HSSv-0",
@@ -10,7 +10,7 @@ $curl -s -X GET https://mailsac.com/api/addresses/admin%40mailsac.com/messages |
   ],
   "to": [
     {
-      "address": "admin@mailsac.com",
+      "address": "user1@mailsac.com",
       "name": ""
     }
   ],
@@ -18,8 +18,8 @@ $curl -s -X GET https://mailsac.com/api/addresses/admin%40mailsac.com/messages |
   "bcc": null,
   "subject": "Ahoy, Sea of Thieves for PC is here",
   "savedBy": null,
-  "originalInbox": "admin@mailsac.com",
-  "inbox": "admin@mailsac.com",
+  "originalInbox": "user1@mailsac.com",
+  "inbox": "user1@mailsac.com",
   "domain": "mailsac.com",
   "received": "2018-03-29T18:28:07.732Z",
   "size": 23420,

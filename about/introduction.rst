@@ -14,7 +14,7 @@ reserve and release email addresses, check messages, download attachments, and r
 Curl Example
 ------------
 
-You can use curl to view emails sent to admin@mailsac.com
+You can use curl to view emails sent to user1@mailsac.com
 
 .. literalinclude:: intro_curl.bash
     :language: bash
