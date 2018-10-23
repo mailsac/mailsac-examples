@@ -6,7 +6,7 @@ Privacy Policy
 Revised October 2018
 
 1. Preamble
------
+-----------
 
 1a. This Privacy Policy discloses the privacy practices for Mailsac (mailsac.com, associated sites, and backend or frontend
 internet services that support the mailsac.com website).
@@ -19,7 +19,7 @@ internet services that support the mailsac.com website).
 - 1b-iv. How you can correct any inaccuracies in the information.
 
 2. Email
------
+--------
 This site provides public email, and public or private email testing services. Email inboxes that are not purchased 
 (aka private) are public and have no privacy.
 
@@ -30,7 +30,7 @@ EXPECTED that mail termed "private" will not be made viewable to the public at l
 customers or other third parties.
 
 3. Information Collection, Use, and Sharing
-----------------------------------------
+-------------------------------------------
 
 3a. We are the sole owners of the information collected on this site. We may choose to sell or rent this information to third parties, manually or via paid or free API, or by exporting archives of information to third parties.
 
@@ -44,7 +44,7 @@ products or services, or changes to this privacy policy.
 3d. Ads and analytics tracking services on (such as, but not limited to, Google Analytics) may be exposed to inbox contents, even on private or paid accounts.
 
 4. Your Access To and Control Over Information
--------------------------------------------
+----------------------------------------------
 You may opt out of any future contacts from us at any time.
 
 You can do the following at any time by contacting us via the email given on our website:
@@ -54,7 +54,7 @@ You can do the following at any time by contacting us via the email given on our
 * Express any concern you have about our use of your data.
 
 5. Registration
-------------
+---------------
 5a. In order to gain FULL USE of Mailsac, user registration IS REQUIRED.
 
 5b. Partial use of Mailsac is possible without user registration, in which case information such as, but not limited
@@ -64,7 +64,7 @@ to, IP address, geographic information, or cookies may be used to identify the u
 you about the products/services. It may be shared with 3rd parties.
 
 6. Orders
---------
+---------
 We request information from you on our order and checkout form via third party.
 
 To buy services from us, you may need provide contact information and financial information, including
@@ -74,7 +74,7 @@ site. If we have trouble processing an order, we’ll use this information to co
 share this information with third parties to ensure payment and provide targeted and improved services.
 
 7. Cookies
--------
+----------
 We use cookies on this site. A cookie is a piece of data stored on a site visitor’s device to help 
 us improve your access to our site and identify repeat visitors to our site. For instance, when we 
 use a cookie to identify you, you would not have to log in a password more than once, thereby saving
@@ -86,7 +86,7 @@ Some of our business partners may use cookies on our site (for example, advertis
 have no access to or control over these cookies.
 
 8. Sharing
--------
+----------
 We share aggregated demographic information with our partners and advertisers. We do our best to not
 link to any personal information that can identify any individual person, but this cannot be guaranteed. We do
 our best to limit sharing email contents or usage with our financial providers, but that information is necessary
@@ -98,7 +98,7 @@ you to them. They may retain, share, store or use personally identifiable inform
 We are not responsible for third party usage of your information. Refer to their privacy policies and terms.
 
 9. Links and Content
------------------
+--------------------
 9a. This website contains links to other sites. This website displays email information received by 
 unknown parties over the internet.
 
@@ -118,7 +118,7 @@ anything resulting from the presence of you data in their handling.
 indefinitely by Mailsac. Some of this information may be available for free or for purchase by Mailsac partners or customers.
 
 10. Surveys and Contests
---------------------
+------------------------
 From time-to-time our site requests information via surveys or contests.
 
 Participation in these surveys or contests is completely voluntary and you may choose whether or not
@@ -126,7 +126,7 @@ to participate and therefore disclose this information. Survey information will 
 of monitoring or improving the use and satisfaction of this site, and to share with third parties.
 
 11. Security
---------
+------------
 11a. We take precautions to protect your information. When you submit sensitive information via the website, 
 your information is protected both online and offline. Our goal is to use encryption while information is in transit
 and at rest, but there are exceptions and data may be transmitted or stored without encryption.
@@ -159,7 +159,7 @@ Hosting provider workers may have privilieged access to Mailsac servers.
 customers or third parties to consume.
 
 12. Updates
--------
+-----------
 This Privacy Policy may change from time to time and all updates will be posted on this website. The user
 is expected to check back here for updates, and we reserve the right to NOT NOTIFY the user via email
 when this Privacy Policy changes.
@@ -168,7 +168,7 @@ If you feel that we are not abiding by this privacy policy, you should contact u
 via support@team.mailsac.com.
 
 13. Altering this Policy
---------------------
+------------------------
 13a. If you have other privacy concerns, or are interested in an alternative privacy arrangement (such 
 as an enterprise), please contact support@team.mailsac.com to purchase a standalone deployment or 
 other kind of contract. This Privacy Policy may be superseded by an alternative agreement acquired

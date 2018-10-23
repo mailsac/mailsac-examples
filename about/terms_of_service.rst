@@ -5,7 +5,7 @@ Terms of Service and Acceptable Use Policy
 Revised October 2018
 
 1. Preamble
-------------
+-----------
 
 By using Mailsac (also "mailsac", "we", "us", "this/the service", "this/the website", "this/the site"),
 you (also "user", "the user", "end user", "customer") accept these terms and the Privacy Policies (separate agreement) and agree to ABIDE BY THEM AT ALL TIMES WITH NO EXCEPTION, and with no right to a refund in the event of terms violation.
@@ -16,7 +16,7 @@ that THESE TERMS MAY CHANGE AT ANY TIME WITHOUT NOTICE - you have been warned.
 Terms and policies apply to paid and unpaid features of Mailsac.
 
 2. Warnings and Acceptable Use
----------------------------
+------------------------------
 
 * Illegal is defined as against the law in the United States, the State of California, and the applicable jurisdictions of the end user (you).
 * This website can never be used to break the law.
@@ -33,7 +33,7 @@ Terms and policies apply to paid and unpaid features of Mailsac.
 * This service is offered for use with NO WARRANTIES and MAKES NO PROMISES THAT IT WILL FUNCTION AS INTENDED OR UNINTENDED. There is no "service level agreement" nor any guarantee of service uptime. We provide uptime system metrics, such as https://status.mailsac.com, on a purely information basis. Nor is status or uptime information required to be available.
 
 3. Commercial and Non-Commercial Use
----------------------
+------------------------------------
 3a. Personal (where personal is non-business and non-commercial) use of this website is free, though it may require
 the user to register for an account and provide information such as a legal name, username, email address, phone number,
 physical address, and password. We will store the password using a one-way hash which cannot be retrieved by Mailsac.
@@ -112,7 +112,7 @@ was compromised. It is the responsibility of the account holder (user) to secure
 contact support via when it appears to have been compromised.
 
 5. Throttling
-----------
+-------------
 Inbound and outbound email traffic is throttled due to various dynamic factors, including but not limited
 to: IP addresses, email addresses, domains, frequency of inbound or outbound mail. Banning traffic will
 happens permanently or temporarily. Entire domains and companies may be banned. For an up-to-date list of banned traffic,
@@ -122,7 +122,7 @@ We reserve the right to throttle API access, even for paid customers. Throttling
 quality of service for all other customers.
 
 6. Downtime
---------
+-----------
 This service follows a best-effort policy to maintain uptime. No service level agreement exists, for
 any customer, paying or non-paying, personal or commercial.
 
@@ -130,7 +130,7 @@ Customers wanting service uptime guarantees should contact sales.
 
 
 7. Accuracy and Compatability
--------------
+-----------------------------
 
 7a. Mailsac provides an API service, with free and paid tiers. This service is not responsible for
 adverse effects in any situation, and offers no compatibility guarantee. We reserve the right to
@@ -150,7 +150,7 @@ email routing or email privacy, will be accurate.
 
 
 8. Data and Retention
-------------------
+---------------------
 
 8a. Deleted data (including messages/email) are removed from the servers and the
 databases using standard deletion practices. However we cannot guarantee that
@@ -201,7 +201,7 @@ If the lack of notification of terms changes presents a concern, contact support
 arrangement.
 
 11. Privileges
--------------
+--------------
 This service retains the right to revoke or deny access to anyone at anytime, with or without stated
 reason. Likewise any user may cease using the service and request that data be removed, in
 accordance with the data and retention policies outlined herein and in the jurisdictions indicated herin. 
