@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'mailsac-examples'
+project = u'Mailsac Documentation'
 copyright = u'2018, Michael Mayer, Jeff Parrish'
 author = u'Michael Mayer, Jeff Parrish'
 

@@ -1,7 +1,4 @@
-.. mailsac-examples documentation master file, created by
-   sphinx-quickstart on Tue Apr  3 15:41:31 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. mailsac-examples documentation master file, created by Michael Mayer
 
 Mailsac Docs
 ============================================
@@ -31,7 +28,6 @@ in the top left corner.
    :caption: Services
    :name: sec-services
 
-   services/index
    services/introduction
    services/mailstorage
    services/attachments

@@ -1,16 +1,21 @@
 {% extends "!layout.html" %}
   {% block extrahead %} {{ super() }}
 
-  <style type="text/css">
-    /* Sidebar header (and topbar for mobile) */
-    .wy-side-nav-search, .wy-nav-top {
-      background: #EB649C !important;
-    }
+    <style type="text/css">
+      /* Sidebar header (and topbar for mobile) */
+      .wy-side-nav-search, .wy-nav-top {
+        background: #EB649C !important;
+      }
 
-    h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
-        font-family: 'Arial', 'Helvetica', sans-serif !important;
-        color: #EB649C !important;
-    }
-  </style>
+      h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
+          font-family: 'Arial', 'Helvetica', sans-serif !important;
+          color: #EB649C !important;
+      }
 
-{% endblock %}
+      /* needed to make a red star */
+      .red {
+        color: red;
+      }
+    </style>
+
+  {% endblock %}
