@@ -11,6 +11,7 @@ for testing purposes.
 
 2. Install sphinx
    `pip install Sphinx`
+   `pip install sphinx_rtd_theme`
 
 3. Change directories to the cloned repo
    `cd mailsac-examples`
