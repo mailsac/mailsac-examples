@@ -1,7 +1,7 @@
 .. _doc_curl_prerq:
 
 API Guide Prerequisites
-=============
+=======================
 
 There are only two programs you need to get started `curl <https://curl.haxx.se/>`_  and
 `jq <https://stedolan.github.io/jq/>`_ . If you are using Linux or OS X curl is likely

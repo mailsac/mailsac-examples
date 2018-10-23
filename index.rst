@@ -17,7 +17,7 @@ in the top left corner.
    :caption: General
    :name: sec-general
 
-   about/index
+   about/introduction
    about/faq
    about/contact_and_support
    about/privacy_policy
