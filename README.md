@@ -11,6 +11,7 @@ for testing purposes.
 
 2. Install sphinx
    `pip install Sphinx`
+   `pip install sphinx_rtd_theme`
 
 3. Change directories to the cloned repo
    `cd mailsac-examples`
@@ -18,6 +19,10 @@ for testing purposes.
 4. Run build script
    `make html`
 
-5. Build results can be found in `mailsac-examples\_build\html`\
+5. Build results can be found in `_build/html/`
+
+6. Optional - run a server to view the html output.
+    `npm install http-server -g`
+    `http-server _build/html`
 
 Copyright © 2018 by Michael Mayer and Jeff Parrish

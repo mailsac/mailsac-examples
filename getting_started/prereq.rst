@@ -1,6 +1,6 @@
 .. _doc_curl_prerq:
 
-Prerequisites
+API Guide Prerequisites
 =============
 
 There are only two programs you need to get started `curl <https://curl.haxx.se/>`_  and
