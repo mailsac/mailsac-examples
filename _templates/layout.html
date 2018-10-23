@@ -1,0 +1,16 @@
+{% extends "!layout.html" %}
+  {% block footer %} {{ super() }}
+
+  <style>
+    /* Sidebar header (and topbar for mobile) */
+    .wy-side-nav-search, .wy-nav-top {
+      background: #EB649C;
+    }
+
+    h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
+        font-family: 'Arial', 'Helvetica', sans-serif;
+        color: #EB649C;
+    }
+
+  </style>
+{% endblock %}
