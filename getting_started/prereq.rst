@@ -4,8 +4,8 @@ API Guide Prerequisites
 =======================
 
 There are only two programs you need to get started:
-* `curl <https://curl.haxx.se/>`_
-* `jq <https://stedolan.github.io/jq/>`_
+- `curl <https://curl.haxx.se/>`_
+- `jq <https://stedolan.github.io/jq/>`_
 
 If you are using Linux or OS X curl is likely
 already installed. The `jq download <https://stedolan.github.io/jq/download/>`_ page provides
