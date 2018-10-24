@@ -5,6 +5,11 @@ Receive Mail Using a WebSocket
 
 Receiving mail from a Websocket allows for interacting with incoming email in near real time.
 
+Web sockets are a powerful tool allowing you to end-to-end test your application's email delivery
+systems, or respond to incoming mail in sophisticated ways - without having to setup a mail server
+or mess around with SMTP code.
+
+
 Prerequsites
 -------------
 * `Mailsac API Key <https://mailsac.com/api-keys>`_
