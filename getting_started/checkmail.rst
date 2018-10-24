@@ -4,19 +4,19 @@ Check Mail
 =============
 
 Now that curl and jq are installed, we can start interacting with Mailsac API. The
-`MailSac API Documentation <https://mailsac.com/docs/api/>`_ includes all supported
-endpoints. The API documentation is great starting place, if you a familiar with
-REST APIs or for reference after completing this step-by-step introduction.
+`Mailsac API Reference <https://mailsac.com/docs/api/>`_ includes all supported
+endpoints. The API Reference is great starting place, if you a familiar with
+REST APIs, or for reference after completing this step-by-step introduction.
 
 In this example, we are going to check an arbitrary email address
 for mail, read that email and respond to the email.
 
-In this example, we will list inbox email messages for `user1@mailsac.com`.
+We will list inbox email messages for `user1@mailsac.com`.
 To list the available messages we will use the 
 `List Inbox Email Messages endpoint <https://mailsac.com/docs/api/#list-inbox-email-messages>`_.
 
 .. tip:: API documentation is generalized. Modifications are needed to translate an API endpoint
-   into a usable URL. The base URI of all MailSac API requests will be https://mailsac.com. 
+   into a usable URL. The base URI of all Mailsac API requests will be https://mailsac.com. 
 
 This endpoint can be accessed with :code:`GET /api/addresses/:email/messages`. You 
 will substitute `:email` with `user1@mailsac.com` giving us :code:`GET /api/addresses/user1@mailsac.com/messages`.
