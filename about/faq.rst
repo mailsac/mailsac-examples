@@ -3,11 +3,6 @@
 FAQ
 ===
 
-How do I reply to my Mailsac emails?
-------------------------------------
-
-You must `create an account <https://mailsac.com/register>`_ to reply to emails.
-
 Where are my email attachments?
 -------------------------------
 
@@ -17,6 +12,10 @@ Why would I use Mailsac?
 ------------------------
 Any time you need a temporary email address, just make one up@mailsac.com.
 
+If you need to test your email system, send it to mailsac.com - even for a custom domain.
+
+Other uses:
+
 * if you need an email address, but do not want to receive spam in your personal inbox
 * use it for sign ups on web sites that force you to login
 * give it out to strangers
@@ -25,6 +24,7 @@ Any time you need a temporary email address, just make one up@mailsac.com.
 * use it when you (legally) want to receive email without disclosing your identity
 * it is perfect if you want an email address or multiple addresses and do not want to sign up for them
 * comment on blogs without creating an account
+* as a developer, to test that your application is sending email
 
 Why weren't my messages received?
 ---------------------------------
@@ -34,7 +34,7 @@ There are many reasons messages may not be received by Mailsac.
 1. The sender blocks traffic to disposable email providers like Mailsac. This is
    common with email signups or email verifications. People running websites do
    not want a bunch of spam accounts.
-2. Large message size. Mailsac only supports messages up to about 1 MB.
+2. Large message size. Mailsac only supports messages up to about 2 MB.
 3. Throttling. Non-paying customers can be throttled for sending too much. We
    are happy to lift this for paying customers. Usually, it is easiest for us to
    lift it on your `Verified Domain <https://mailsac.com/domains>`_.
@@ -42,6 +42,19 @@ There are many reasons messages may not be received by Mailsac.
 In all cases, if you contact support, we can help you work around these
 problems. Either by hosting your own instance of Mailsac, contacting  us for
 help, or moving you to a separate inbound or outbound IP.
+
+
+Can I use Mailsac for testing purposes?
+---------------------------------------
+Absolutely!
+
+We love to hear from developers that use Mailsac - contact us anytime.
+
+.. tip:: support@team.mailsac.com
+
+If you expect to send more than a few messages per minute, you might get throttled. Contact us about 
+reducing throttling, or setup a Verified Domain, or buy an API key.
+
 
 How long is email saved?
 ------------------------
@@ -54,8 +67,9 @@ Can other people see messages that I starred?
 ---------------------------------------------
 Nope. Only you can see them when you are logged in.
 
-Can I use Mailsac for testing purposes?
----------------------------------------
-Absolutely! We love to hear from developers that use Mailsac.
 
-All we ask is that you don’t send more that a few messages per minute. More than that might degrade the quality of the service for everyone else, and get you throttled. Contact us about reducing throttling, or buy an API key.
+How do I reply to my Mailsac emails?
+------------------------------------
+
+You must `create an account <https://mailsac.com/register>`_ to reply to emails. You'll get a few to start out, then can buy more as needed.
+
