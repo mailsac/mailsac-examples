@@ -103,3 +103,7 @@ Launch WebSocket Example
 
     {"status":200,"msg":"ok"}
 
+
+Now, when an email messages are delivered to user1@mailsac.com, they will also be sent to your web socket. Try sending
+a message - it will be parsed into JSON and dumped to your console.
+
