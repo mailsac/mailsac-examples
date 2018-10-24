@@ -1,4 +1,4 @@
-$curl -s -X GET https://mailsac.com/api/addresses/user1%40mailsac.com/messages | jq ".[0]"
+$ curl -s -X GET https://mailsac.com/api/addresses/user1%40mailsac.com/messages | jq ".[0]"
 
 {
   "_id": "BotvTxaona7gLID1Adtpfj8Fnfi7HSSv-0",
