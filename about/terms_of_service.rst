@@ -129,7 +129,7 @@ any customer, paying or non-paying, personal or commercial.
 Customers wanting service uptime guarantees should contact sales.
 
 
-7. Accuracy and Compatability
+7. Accuracy and Compatibility
 -----------------------------
 
 7a. Mailsac provides an API service, with free and paid tiers. This service is not responsible for
