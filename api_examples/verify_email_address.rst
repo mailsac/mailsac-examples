@@ -7,6 +7,8 @@ Mailsac has two API endpoints for confirming the validity of email addresses. A 
 
 Email validation is a useful tool for keeping invalid signups from invading your mailing list. If you run software-as-a-service, it can be used to keep users from signing up with anonymous or disposable email addresses.
 
+Unlike our competitors, Mailsac has few limitations or costs for verifying email. You can verify single email addresses, or up to 50 at a time (more coming soon - contact support). We don't charge extra for these types of API requests.
+
 
 Prerequisites
 -------------
