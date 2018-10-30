@@ -64,3 +64,10 @@ typings/
 .env
 
 >>>>>>> 4180f6db77af84b004621f12f201de8f77d8676b
+
+#sphinx
+_build/
+
+#ignore vim swp files
+*.swp
+*.swo

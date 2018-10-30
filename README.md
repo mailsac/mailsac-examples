@@ -1,36 +1,28 @@
-# Mailsac API Examples
+# Mailsac-Examples
+This repository is the documentation for Mailsac. It includes examples, service
+information, privacy policy, and terms of services.
 
-This repository contains examples for integrating with the
-[Mailsac API](https://mailsac.com/docs/api). The examples are written using
-[Node.js](https://nodejs.org/en/download/) which must be setup first. You should
-install at least Node version 8.
+## Build Instructions
+These documents are published to docs.mailsac.com, they can be built locally
+for testing purposes.
 
-You will also need a [Mailsac API key](https://mailsac.com/api-keys).
+1. Clone this repo
+   `git clone https://github.com/mailsac/mailsac-examples.git`
 
-## Getting Started
+2. Install sphinx
+   `pip install Sphinx`
+   `pip install sphinx_rtd_theme`
 
-Clone this repository and navigate to the directory:
+3. Change directories to the cloned repo
+   `cd mailsac-examples`
 
-```bash
-git clone https://github.com/mailsac/mailsac-examples
-cd mailsac-examples
-```
+4. Run build script
+   `make html`
 
-Now that you are inside the `mailsac-examples` folder and have Node.js installed,
-running an example can be done like this:
+5. Build results can be found in `_build/html/`
 
-```bash
-MAILSAC_KEY=your_api_key_goes_here node validate-single-email asdf@mailsac.com
-```
-*(replace `your_api_key_goes_here` with
-your key from https://mailsac.com/api-keys)*
+6. Optional - run a server to view the html output.
+    `npm install http-server -g`
+    `http-server _build/html`
 
-## Troubleshooting
-
-Each example has slightly different parameters, and should print what is missing
-if you do not supply an expected argument. If you have trouble, try opening
-the script up and looking at the usage of `process.argv`.
-
-## License
-
-MIT
+Copyright © 2018 by Michael Mayer and Jeff Parrish
