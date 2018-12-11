@@ -16,7 +16,7 @@ Browse our `documentation <https://docs.mailsac.com>`_ and `forums <https://comm
 Mail Not Received
 -----------------
 
-Read about mail not received on the :ref:`#hy-weren-t-my-messages-received`.
+Read about mail not received on the :ref:`faq-messages-not-received`.
 
 Paying Customers - Email and API Support
 ----------------------------------------

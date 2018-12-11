@@ -26,6 +26,8 @@ Other uses:
 * comment on blogs without creating an account
 * as a developer, to test that your application is sending email
 
+.. _faq-messages-not-received:
+
 Why weren't my messages received?
 ---------------------------------
 
