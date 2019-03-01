@@ -25,4 +25,4 @@ for testing purposes.
     `npm install http-server -g`
     `http-server _build/html`
 
-Copyright © 2018 by Michael Mayer and Jeff Parrish
+Copyright © 2019 by Forking Software LLC
