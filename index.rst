@@ -1,4 +1,4 @@
-.. mailsac-examples documentation master file, created by Michael Mayer
+.. mailsac-examples documentation master file, created by Forking Software LLC
 
 Mailsac Docs
 ============================================

@@ -20,8 +20,8 @@
 # -- Project information -----------------------------------------------------
 
 project = u'Mailsac Documentation'
-copyright = u'2018, Michael Mayer, Jeff Parrish'
-author = u'Michael Mayer, Jeff Parrish'
+copyright = u'2019, Forking Software LLC'
+author = u'Forking Software LLC'
 
 # The short X.Y version
 version = u''
@@ -137,7 +137,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'mailsac-examples.tex', u'mailsac-examples Documentation',
-     u'Michael Mayer, Jeff Parrish', 'manual'),
+     u'Forking Software LLC', 'manual'),
 ]
 
 
