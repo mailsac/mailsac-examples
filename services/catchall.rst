@@ -4,7 +4,7 @@ Catch-All Email Address Setup
 =============================
 
 .. image:: catch-all.jpg
-   :scale: 50%
+   :width: 100%
    :align: center
 
 You can redirect all email on the domain to a single “Catch-All” address, no matter which inbox it was sent to.
