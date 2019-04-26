@@ -20,6 +20,9 @@ var opts struct {
 
 func main() {
 	_, err := flags.Parse(&opts)
+	if err != nil {
+		log.Fatal(err)
+	}
 	log.SetFlags(0)
 
 	interrupt := make(chan os.Signal, 1)
