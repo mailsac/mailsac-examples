@@ -1,7 +1,8 @@
 package main
 
 import (
-	"flag"
+	"github.com/gorilla/websocket"
+	"github.com/jessevdk/go-flags"
 	"io/ioutil"
 	"log"
 	"net/url"
@@ -9,22 +10,22 @@ import (
 	"os/signal"
 	"strings"
 	"time"
-
-	"github.com/gorilla/websocket"
 )
 
-var addr = flag.String("addr", "sock.mailsac.com", "http service address")
-var key = flag.String("key", "", "key")
-var addresses = flag.String("addresses", "", "Comma seperated  addresses")
+var opts struct {
+	addr      string `long:"addr" description:"http service address" default:"sock.mailsac.com"`
+	key       string `long:"key" description:"API Key" required:"yes"`
+	addresses string `short:"a" long:"addresses" description:"Comma seperated addresses" required:"yes"`
+}
 
 func main() {
-	flag.Parse()
+	_, err := flags.Parse(&opts)
 	log.SetFlags(0)
 
 	interrupt := make(chan os.Signal, 1)
 	signal.Notify(interrupt, os.Interrupt)
 
-	u := url.URL{Scheme: "wss", Host: *addr, Path: "/incoming-messages", RawQuery: strings.Join([]string{"key=", *key, "&addresses=", *addresses}, "")}
+	u := url.URL{Scheme: "wss", Host: opts.addr, Path: "/incoming-messages", RawQuery: strings.Join([]string{"key=", opts.key, "&addresses=", opts.addresses}, "")}
 	log.Printf("connecting to %s", u.String())
 
 	c, resp, err := websocket.DefaultDialer.Dial(u.String(), nil)
@@ -35,7 +36,7 @@ func main() {
 		if bodyErr != nil {
 			log.Printf("Body error: %s", bodyErr)
 		}
-		log.Printf("handshake failed: %d", bodyString)
+		log.Printf("handshake failed: %s", bodyString)
 	} else if err != nil {
 		log.Fatal("dial:", err)
 	}
