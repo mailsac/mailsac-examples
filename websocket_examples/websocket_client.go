@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/gorilla/websocket"
-	"github.com/jessevdk/go-flags"
+	flags "github.com/jessevdk/go-flags"
 	"io/ioutil"
 	"log"
 	"net/url"
@@ -13,22 +13,24 @@ import (
 )
 
 var opts struct {
-	addr      string `long:"addr" description:"http service address" default:"sock.mailsac.com"`
-	key       string `long:"key" description:"API Key" required:"yes"`
-	addresses string `short:"a" long:"addresses" description:"Comma seperated addresses" required:"yes"`
+	Host      string `short:"H" long:"host" description:"http service address" default:"sock.mailsac.com"`
+	Key       string `short:"k" long:"key" description:"API Key" required:"yes"`
+	Addresses string `short:"a" long:"addresses" description:"Comma seperated addresses" required:"true"`
 }
 
 func main() {
-	_, err := flags.Parse(&opts)
+	Options, err := flags.Parse(&opts)
 	if err != nil {
 		log.Fatal(err)
 	}
+	log.Printf("Options: %s", Options)
+
 	log.SetFlags(0)
 
 	interrupt := make(chan os.Signal, 1)
 	signal.Notify(interrupt, os.Interrupt)
 
-	u := url.URL{Scheme: "wss", Host: opts.addr, Path: "/incoming-messages", RawQuery: strings.Join([]string{"key=", opts.key, "&addresses=", opts.addresses}, "")}
+	u := url.URL{Scheme: "wss", Host: opts.Host, Path: "/incoming-messages", RawQuery: strings.Join([]string{"key=", opts.Key, "&addresses=", opts.Addresses}, "")}
 	log.Printf("connecting to %s", u.String())
 
 	c, resp, err := websocket.DefaultDialer.Dial(u.String(), nil)
