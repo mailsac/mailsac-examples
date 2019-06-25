@@ -24,8 +24,8 @@ Select *Incoming Webhooks* from the *Add features and functionality* dropdown.
 
 .. image:: slack_select_incomming_webhook.png
 
-From here click the *Activate Incomming Webhooks* toggle to switch it on and select
-*Add New Webhook to Workspace*.
+From here click the *Activate Incomming Webhooks* toggle to switch it on and
+select *Add New Webhook to Workspace*.
 
 .. image:: slack_activate_webhook.png
 
