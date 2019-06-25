@@ -37,6 +37,7 @@ in the top left corner.
    services/mailforwarding
    services/sendingmail
    services/mailredirect
+   services/slack_webhook
 
 .. toctree::
    :maxdepth: 1
