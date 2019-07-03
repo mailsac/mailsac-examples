@@ -6,48 +6,69 @@ Slack Integration
 Mailsac integrates seamlessly with Slack. Any Mailsac private address or domain
 can be configured to send email to Slack.
 
-Configure Slack Webhook
------------------------
+Create Slack Application
+------------------------
 
-1. Click this `link <https://api.slack.com/apps/new>`_ to create a new Slack app.
-Once signed in define an app name and workspace for your app. In this example,
-we are calling the app *Mailsac*.
+All configuration steps in this section take place on Slack's website. You will
+need a slack username and workspace setup.
 
-.. image:: create_slack_app.png
+**1.** Define an app name for your workspace in the `Slack API
+portal <https://api.slack.com/apps/new>`_.
 
-2. Enable webhooks on your new slack app by selecting your app from this
-`list <https://api.slack.com/apps>`_.
+.. figure:: create_slack_app.png
+     :align: center
+     :width: 650px
 
-.. image:: slack_select_app.png
+     You can call your app Mailsac or customize the name.
 
-Select *Incoming Webhooks* from the *Add features and functionality* dropdown.
+**2.** Configure Webhooks for your new Slack app
 
-.. image:: slack_select_incomming_webhook.png
+  **A.** Select your new Slack from from this
+  `list <https://api.slack.com/apps>`_.
 
-From here click the *Activate Incomming Webhooks* toggle to switch it on and
-select *Add New Webhook to Workspace*.
+  .. figure:: slack_select_app.png
+       :align: center
+       :width: 650px
 
-.. image:: slack_activate_webhook.png
+  **B.** Select *Incoming Webhooks* from the *Add features and functionality* dropdown.
 
-3. Configure the Webhook Slack channel by selecting the channel you want the
-Mailsac Webhook to post to.
+  .. figure:: slack_select_incomming_webhook.png
+       :align: center
+       :width: 650px
 
-.. image:: slack_select_channel.png
+  **C.** Toggle *Activate Incomming Webhooks* to switch on and select *Add New Webhook to Workspace*.
 
-4. Copy Webhook URL
+  .. figure:: slack_activate_webhook.png
+       :align: center
+       :width: 650px
 
-.. image:: slack_copy_webhook_url.png
+  **D.** Configure the Webhook Slack channel by selecting the channel you want the
+  Mailsac Webhook to post to.
 
-5. Select settings for an email address from the Mailsac `console <https://mailsac.com/addresses>`_
+  .. figure:: slack_select_channel.png
+       :align: center
+       :width: 650px
+
+  **E.** Copy Webhook URL
+
+  .. image:: slack_copy_webhook_url.png
+       :align: center
+       :width: 650px
+
+Configure Mailsac Webhook Forwarding
+------------------------------------
+
+**1.** Select settings for an email address from the Mailsac `console <https://mailsac.com/addresses>`_
 to configure Slack integration.
 
 .. image:: slack_select_email.png
 
-5. Paste Webhook URL to enable Mailsac Slack Integration
+
+**2.** Paste Webhook URL to enable Mailsac Slack Integration
 
 **SCREENSHOT OF SLACK WEBHOOK MAILSAC FORM**
 
-6. Send test email to your Mailsac address you configured for Webhooks to
+**3.** Send test email to your Mailsac address you configured for Webhooks to
 verify Mailsac can post to the Slack Webhook.
 
 
