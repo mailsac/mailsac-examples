@@ -16,3 +16,4 @@ the services provided:
 * :ref:`Sending Mail <doc_sendingmail>`
 * :ref:`Alternate Address Redirect <doc_mailredirect>`
 * :ref:`Receive Pushed Email via WebSocket <doc_websocket_example_overview>`
+* :ref:`Private Domains <doc_privatedomains>`
