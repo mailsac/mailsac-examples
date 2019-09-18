@@ -33,8 +33,34 @@ Setting up a Zero-Setup domain only takes a few seconds.
 #. From the `dashboard <https://mailsac.com/dashboard>`_, select `Verified
    Domains <https://mailsac.com/domains>`_.
 
-   .. image:: add_email_address.png
+   .. image:: verified_domains.png
       :scale: 50%
       :align: center
 
 #. Select "Setup a Custom Domain"
+
+   .. image:: setup_custom_domain.png
+      :scale: 50%
+      :align: center
+
+#. Enter a subdomain name and select continue
+
+   .. image:: enter_domain_name.png
+      :scale: 50%
+      :align: center
+
+#. Send a test email to any address at in the private domain. There is no
+   need to configure individual addresses. Sending an email to the address
+   creates the address.
+
+#. Enter the email address you sent the email to.
+
+   .. image:: check_mail.png
+      :scale: 50%
+      :align: center
+
+#. Verify the email was received.
+
+   .. image:: verified_mail.png
+      :scale: 50%
+      :align: center
