@@ -4,9 +4,9 @@
 Private Domains
 ===============
 
-Private domains allow an unlimited number of email addresses within a domain.
-Private domains can be `purchased <https://mailsac.com/pricing>`_ as an addon
-or as part of a plan.
+Private domains allow for receiving of email at any address within a
+domain. Private domains can be `purchased <https://mailsac.com/pricing>`_ as
+an addon or as part of a plan.
 
 BYODomain
 ---------
