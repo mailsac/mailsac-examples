@@ -37,6 +37,7 @@ in the top left corner.
    services/mailforwarding
    services/sendingmail
    services/mailredirect
+   services/private_domains/private_domains
 
 .. toctree::
    :maxdepth: 1
