@@ -65,10 +65,11 @@ to configure Slack integration.
     :align: center
     :width: 400px
 
+**2.** Paste Webhook URL to enable forward to Mailsac
 
-**2.** Paste Webhook URL to enable Mailsac Slack Integration
-
-**SCREENSHOT OF SLACK WEBHOOK MAILSAC FORM**
+.. figure:: slack_webhook_input.png
+    :align: center
+    :width: 400px
 
 **3.** Send test email to your Mailsac address you configured for Webhooks to
 verify Mailsac can post to the Slack Webhook.
