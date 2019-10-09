@@ -17,6 +17,44 @@ use our Zero-Setup Subdomain. Alternatively, you can purchase a domain from a
 registrar (`Namecheap <https://namecheap.com>`_ or
 `GoDaddy <https://godaddy.com>`_) and configure it for Mailsac.
 
+BYODomain Configuration
+=======================
+
+BYODomain configuration requires you to have access to modify DNS records on
+your domain.
+
+#. From the `dashboard <https://mailsac.com/dashboard>`_, select `Verified
+   Domains <https://mailsac.com/domains>`_.
+
+   .. image:: verified_domains.png
+      :scale: 50%
+      :align: center
+
+#. Select "Setup a Custom Domain"
+
+   .. image:: setup_custom_domain.png
+      :scale: 50%
+      :align: center
+
+#. Enter the fully qualified domain name of your domain
+
+    .. image:: byod_enter_fqdn.png
+       :scale: 50%
+       :align: center
+
+#. Select the DNS Setup Tab
+
+    .. image:: byod_select_dns.png
+        :scale: 50%
+        :align: center
+
+    .. note:: "Not Verified - Action Required" indicates DNS is not properly
+               configured.
+
+#. Update Domain DNS Settings
+
+
+
 Zero-Setup Subdomain
 --------------------
 
