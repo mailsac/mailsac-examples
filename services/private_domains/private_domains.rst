@@ -95,6 +95,17 @@ your domain.
 
     .. note:: DNS can take up to 24 hours to propagate
 
+#. DNS Setup Complete
+
+   DNS setup is complete when the status message changes to "We have verified
+   that the DNS settings below were added correctly".
+
+    .. image:: byod_dns_verified.png
+       :width: 600px
+       :align: center
+
+Email can now be received and sent from your BYODomain!
+
 Zero-Setup Subdomain
 --------------------
 
