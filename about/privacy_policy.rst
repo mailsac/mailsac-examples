@@ -3,15 +3,15 @@
 Privacy Policy
 ==============
 
-Revised October 2018
+Revised December 2019
 
 1. Preamble
 -----------
 
-1a. This Privacy Policy discloses the privacy practices for Mailsac (mailsac.com, associated sites, and backend or frontend
+1a. This Privacy Policy discloses the privacy practices for the Mailsac service by Forking Software LLC (mailsac.com, associated sites, and backend or frontend
 internet services that support the mailsac.com website).
 
-1b. This Privacy Policy applies to information collected by this web site. It will educate the user of the following:
+1b. This Privacy Policy applies to information collected by Mailsac. It will educate the user of the following:
 
 - 1b-i. What personally identifiable information is collected from you through the web site, how it is used and with whom it may be shared.
 - 1b-ii. What choices are available to you regarding the use of your data.
@@ -20,19 +20,21 @@ internet services that support the mailsac.com website).
 
 2. Email
 --------
-This site provides public email, and public or private email testing services. Email inboxes that are not purchased 
-(aka private) are public and have no privacy.
+This site provides public (non-private) email, and public or private email testing services. Email inboxes that are not purchased (AKA private) are public and have no privacy expectation. Private addresses which are "released" or
+for which the account loses good standing (such as due to a past-due subscription), may become non-private again.
 
 Consider this warning carefully when you opt to receive email on this website and give out addresses
 that will have email delivered to this website. Email is PUBLICLY VIEWABLE CONTENT unless otherwise explicitly indicated.
 On private email, we reserve the right to inspect or share information contained in those emails, but it REASONABLY 
-EXPECTED that mail termed "private" will not be made viewable to the public at large. It MAY BE MADE PUBLIC to paying
-customers or other third parties.
+EXPECTED that mail termed "private" will not be made viewable to the public at large or to any third party. However it
+MAY BE MADE PUBLIC due to lack of payment or lapsed accounts, and it MAY BE MADE AVAILBLE to third parties in the case
+of fraud complaints or other security requests from entities deemed reliably verified by the Mailsac team.
 
 3. Information Collection, Use, and Sharing
 -------------------------------------------
 
-3a. We are the sole owners of the information collected on this site. We may choose to sell or rent this information to third parties, manually or via paid or free API, or by exporting archives of information to third parties.
+3a. We are the sole owners of the information collected on this site, email received to public email addresses on
+this site, email turned public due to released private email addresses, and ALL derived/aggregated analytics about email or usage on the website. We may choose to sell or rent this information to third parties, manually or via paid or free API, or by exporting archives of information to third parties. We will not sell the private email contents to third parties.
 
 3b. We will use your information to respond to you, regarding the reason you contacted us. We may share
 your information with third parties outside of our organization, for the purpose of providing better
