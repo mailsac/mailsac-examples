@@ -2,12 +2,12 @@
 
 Terms of Service and Acceptable Use Policy
 ==========================================
-Revised October 2018
+Revised December 2019
 
 1. Preamble
 -----------
 
-By using Mailsac (also "mailsac", "we", "us", "this/the service", "this/the website", "this/the site"),
+By using Forking Software LLC (also "Mailsac" "mailsac", "we", "us", "this/the service", "this/the website", "this/the site"),
 you (also "user", "the user", "end user", "customer") accept these terms and the Privacy Policies (separate agreement) and agree to ABIDE BY THEM AT ALL TIMES WITH NO EXCEPTION, and with no right to a refund in the event of terms violation.
 
 You accept that any of these policies and procedures will be available on the website but
@@ -177,11 +177,12 @@ should not use this service, and find another service upon which to rely.
 - IP addresses or user accounts of derivable data from service activities
 
 Analytics on received SMTP messages are recorded. We may track which users
-or IP addresses view which email addresses and messages. All analytics data may 
-be shared with third parties including being packaged and resold, or made available 
-via API to paying or non-paying customers. This data can be used internally to study spam,
-or learn about users, to provide more useful services, and to sell as a product
-for customers to derive value.
+or IP addresses view which email addresses and messages for internal purposes.
+
+We do not share this analytics data of individual usage with third parties, except when it
+is necessary to comply with verified requests of fraud, hacking, or other legally dubious behavior.
+We use the data internally to study spam and to provide more useful services, or to aggregate
+into products. We may choose to sell anonymized or aggregated usage data.
 
 9. Refunds
 ----------
@@ -190,6 +191,8 @@ of Mailsac and its overseers. As a general rule, refunds are never given for any
 event the service is down or ceases to operate, any unused services and remaining service purchases
 are not refunded. We make exceptions on a case-by-case basis with no guarantee as to the methods
 for determination. ALL SALES ARE FINAL WHETHER SERVICES HAVE BEEN RENDERED OR NOT.
+
+We may make exceptions to this refund policy on a case-by-case basis.
 
 10. Updates
 -----------
