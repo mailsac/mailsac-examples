@@ -43,13 +43,16 @@ and more relevant services to you.
 3c. Unless you ask us not to, we may contact you via email in the future to tell you about specials, new
 products or services, or changes to this privacy policy.
 
-3d. Ads and analytics tracking services on (such as, but not limited to, Google Analytics) may be exposed to inbox contents, even on private or paid accounts.
+3d. Mailsac has no advertisements or ad tracking.
+
+3e. Analytics tracking services on (such as, but not limited to, Google Analytics) may be exposed to inbox contents, even on private or paid accounts.
 
 4. Your Access To and Control Over Information
 ----------------------------------------------
 You may opt out of any future contacts from us at any time.
 
 You can do the following at any time by contacting us via the email given on our website:
+
 * See what data we have about you, if any.
 * Change/correct any data we have about you.
 * Have us delete any data we have about you.
@@ -152,13 +155,11 @@ Hosting provider workers may have privilieged access to Mailsac servers.
 - https://aws.amazon.com
 - https://cloud.google.com
 - https://www.chicagovps.net
-- https://www.ramnode.com
-- https://www.vultr.com
 
 11e. From time to time we may run general analytics to determine usage statistics.
 
-11f. We may track analytics on 1) inbound email, 2) outbound email, and 3) API or website usage - as a feature for 
-customers or third parties to consume.
+11f. We track analytics on 1) inbound email, 2) outbound email, and 3) API or website usage - aggregated or anonymized
+when non-public, as a feature for customers to consume.
 
 12. Updates
 -----------
