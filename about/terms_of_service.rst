@@ -90,6 +90,7 @@ The user acknowledges:
 - when encrypted in transit, email may use broken or insufficient encryption algorithms
 - stored emails may not be encrypted at rest
 - third parties (including but not limited to routers, ISPs, intermediary providers, email providers including Mailsac) may decrypt and store email, even though it was not the message's final destination
+- Mailsac strives for encrypted traffic (HTTPS with TLS, SMTP with TLS), however internal traffic or even public API / UI traffic may be transmitted unencrypted
 
 4d. Outbound Mail
 
@@ -121,12 +122,14 @@ contact Mailsac support.
 We reserve the right to throttle API access, even for paid customers. Throttling is necessary to ensure 
 quality of service for all other customers.
 
-6. Downtime
------------
+6. Uptime and Support
+---------------------
 This service follows a best-effort policy to maintain uptime. No service level agreement exists, for
 any customer, paying or non-paying, personal or commercial.
 
 Customers wanting service uptime guarantees should contact sales.
+
+Support response times are not guaranteed, but support will make a best effort to respond promptly. Support is not offered in any language other than US English.
 
 
 7. Accuracy and Compatibility
@@ -160,7 +163,9 @@ emails on this website are public) may retain that information indefinitely and
 this website is not responsible. This website makes no guarantees about
 retention practices but intends to have deleted content be deleted. Standard
 application logs and failed attempts to pass data between internal services may
-be retained for troubleshooting.
+be retained for troubleshooting. Mailsac is a best-effort, disposable-first email
+service and API. Mailsac is not a service that is intended to be used for storage
+of important information.
 
 Saved or "starred" messages are intended to be retained up to the indicated
 limits on an account.
@@ -168,7 +173,7 @@ limits on an account.
 The user agrees that Mailsac is never responsible for lost data. It is the user’s
 responsibility to backup or retain any data they may wish to keep.
 
-If data retention or secure deltion is a concern it is recommend that the user 
+If data retention or secure deletion is a concern it is recommend that the user 
 should not use this service, and find another service upon which to rely.
 
 8b. Usage metrics are tracked. Usage includes but is not limited to:
@@ -177,12 +182,15 @@ should not use this service, and find another service upon which to rely.
 - IP addresses or user accounts of derivable data from service activities
 
 Analytics on received SMTP messages are recorded. We may track which users
-or IP addresses view which email addresses and messages for internal purposes.
+or IP addresses view which email addresses and messages for internal purposes, and to create features
+for users or organizations to track their usage.
 
 We do not share this analytics data of individual usage with third parties, except when it
 is necessary to comply with verified requests of fraud, hacking, or other legally dubious behavior.
-We use the data internally to study spam and to provide more useful services, or to aggregate
-into products. We may choose to sell anonymized or aggregated usage data.
+We use the data internally to study spam, study traffic, respond to scaling needs, and to provide
+more useful services, or to aggregate anonymously into products. We may choose to sell anonymized
+or aggregated usage data.
+
 
 9. Refunds
 ----------
@@ -217,3 +225,9 @@ If a clause of this agreement is found to be invalid or violated, the rest of th
 This agreement represents the entire agreement between the user and Mailsac, which includes the Privacy Policy.
 The two parties may supersede parts of this agreement through writing signed by legal representatives of
 both parties. Clauses of this agreement not addressed in any superseding agreement will still stand.
+
+Appendix
+---------
+Support email address: support@team.mailsac.com
+Alternate support email address: mailsac.com@gmail.com
+
