@@ -42,6 +42,13 @@ in the top left corner.
 
 .. toctree::
    :maxdepth: 1
+   :caption: Help
+   :name: sec-Help
+
+   help/missing_mail
+
+.. toctree::
+   :maxdepth: 1
    :caption: API Getting Started
    :name: sec-getting_started
 
