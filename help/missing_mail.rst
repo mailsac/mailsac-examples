@@ -57,3 +57,19 @@ causes:
 * The sending SMTP service has a queue
 * The sending domain, IP address, or receiving address has been `blacklisted
   <https://mailsac.com/docs/api/#check-blacklist>`_
+
+Contacting Support
+------------------
+
+Feel free to reach out to support@team.mailsac.com if you need assistance.
+Including the following information will help us identify why you are not
+receiving mail.
+
+* the IP address of your sending program, or your IP address if sending locally
+* the email addresses you are sending to, and/or the domain you are sending TO
+* the from email addresses, and/or the domain you are sending FROM
+* Did you use an API key, or the website user interface?
+* Time frames when messages were lost. A ball park is ok, like,
+  "from 8am - 9am on Dec 3rd GMT we sent 100 messages and only 85 were received"
+  or just "I tried sending 5 messages from 8am - 9am GMT Dec 3rd and none of
+  them went through"
