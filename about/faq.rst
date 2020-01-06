@@ -31,7 +31,9 @@ Other uses:
 Why weren't my messages received?
 ---------------------------------
 
-There are many reasons messages may not be received by Mailsac.
+There are many reasons messages may not be received by Mailsac. The
+:ref:`doc_missingmail` document in our help section provides detailed
+explanations of why messages are not received.
 
 1. The sender blocks traffic to disposable email providers like Mailsac. This is
    common with email signups or email verifications. People running websites do
