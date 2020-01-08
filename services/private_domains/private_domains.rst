@@ -17,7 +17,7 @@ BYODomain (Bring Your Own Domain) allows you to easily receive email with a
 domain or subdomain you already own. If you do not already own a domain you can
 use our Zero-Setup Subdomain. Alternatively, you can purchase a domain from a
 registrar (`Namecheap <https://namecheap.com>`_ or
-`GoDaddy <https://godaddy.com>`_) and configure it for Mailsac.
+`GoDaddy <https://godaddy.com>`_) and configure it for use with Mailsac.
 
 BYODomain Configuration
 =======================
@@ -55,7 +55,7 @@ your domain.
 
 #. Configure TXT DNS record for DKIM
 
-   Create a TXT record for DKIM with the hostname and value found on the DN
+   Create a TXT record for DKIM with the hostname and value found on the DNS
    Setup page
    in the Mailsac dashboard.
 
