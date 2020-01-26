@@ -1,0 +1,135 @@
+.. _doc_sendingmail:
+.. _Unified Inbox: https://mailsac.com/app
+.. _Dashboard: https://mailsac.com/dashboard
+.. _Web Form: https://mailsac.com/compose
+
+Sending Mail
+============
+
+Mail can be sent via the following methods:
+
+- `Web Form`_
+- `Unified Inbox`_
+- `REST API <https://mailsac.com/docs/api/#send-email-messages>`_
+- `SMTP <doc_sendingmail_smtp_>`__
+
+Sending mail, both replies and new messages, is available only from private
+addresses and private domains. Sending or replying requires `mail credits
+<https://mailsac.com/pricing>`_.
+
+Sent messages are not save using any method, with the exception of the Unified
+Inbox.
+
+Sending from the Web Form
+-------------------------
+
+The `Web Form`_ is the easiest way to get started
+sending mail through mailsac.
+
+#. Use the `Web Form`_ or select *Compose New Email* from the Dashboard_
+#. Fill in the *From*, *To*, *Subject*, and *Text* fields
+#. Click *Send*
+
+  .. figure:: webform.png
+       :align: center
+       :width: 400px
+
+Sending from the Unified Inbox
+------------------------------
+
+The `Unified Inbox`_ allows you to send and receive
+like you would with gmail or yahoo mail.
+
+1. Go to the `Unified Inbox`_ or select *Unified
+   Inbox* from the Dashboard_
+2. Select *compose* from the Unified Inbox
+
+    .. figure:: unified_inbox_compose_button.png
+        :align: center
+        :width: 400px
+
+3. Select the *from address* in the from dropdown, fill out the to address,
+   subject, and text.
+
+    .. figure:: unified_inbox_compose_form.png
+        :align: center
+        :width: 400px
+
+4. Click *Send* to send the message.
+
+Sending from the REST API
+-------------------------
+
+The REST API is the preferred method for sending messages programmattically.
+The :code:`/api-outgoing-messages` endpoint is documented in the
+`API documentation <https://mailsac.com/api/#send-email-messages>`_.
+
+1. Generate an API by selecting `API Keys <https://mailsac.com/api-keys>`_ from
+   the Dashboard_.
+2. Send email using curl or your favorite HTTP library.
+
+    .. code-block:: bash
+
+       curl -H "Mailsac-Key: w9Hc8j8dhh2jeE1VS9VEKt4nxE0JsHLM" -X POST
+       https://mailsac.com/api/outgoing-messages
+       -H "Content-Type: application/json" --data '{ "to":"myfriend@gmail.com", "from": "user1@mailsac.com",
+       "subject": "Hello Myfriend", "text": "test message from mailsac" }'
+
+    .. code-block:: python
+
+        import requests
+        url = 'https://mailsac.com/api/outgoing-messages'
+        headers = {'Mailsac-Key': 'w9Hc8j8dhh2jeE1VS9VEKt4nxE0JsHLM'}
+        mail = { 'to':'myfriend@gmail.com', 'from':'user1@mailsac.com', 'subject':'Hello Myfriend', 'text': 'mailsac allows for sending of email'}
+        x = requests.post(url, data=mail, headers=headers)
+        print(x.text)
+        {"from":"user1@mailsac.com","to":["myfriend@gmail.com"],"id":"fe-f2r4tdoe3a"}
+
+.. _doc_sendingmail_smtp:
+
+Sending with SMTP
+-----------------
+
+Sending via SMTP allows email clients to send email using mailsac.
+
+**Authentication**
+
+SMTP uses a username and passowrd for authentication. The API key for your
+account can be used to send from any of your private addresses or domains.
+Alternatively, you can use a per private address SMTP password. The per private
+address SMTP password can be set through using the Dashboard_
+-> *Manage Email Addresses* -> Select the
+*POP/SMTP* button next to the email address -> Select *Set New Password*
+
+    .. figure:: pop_smtp_set_password.png
+        :align: center
+        :width: 400px
+
+**Email Client Configuration**
+
+Configure your email client (Gmail, Apple mail, Thunberbird, Outlook, iPhone,
+etc) using these SMTP settings:
+
+
++-----------------------+-------------------------------------------------------+
+| **Hostname / Server** | out.mailsac.com                                       |
++-----------------------+-------------------------------------------------------+
+| **Email Address**     | Private email address                                 |
++-----------------------+-------------------------------------------------------+
+| **Username**          + Private email address                                 |
++-----------------------+-------------------------------------------------------+
+| **Password**          | `API Key <https://mailsac.com/api-keys>`_ or SMTP Key |
++-----------------------+-------------------------------------------------------+
+| **Port**              | 587                                                   |
++-----------------------+-------------------------------------------------------+
+| **Auth Settings**     | Password / allow plain / insecure                     |
++-----------------------+-------------------------------------------------------+
+| **Encryption**        | TLS                                                   |
++-----------------------+-------------------------------------------------------+
+
+
+Sent Messages Are Not Saved
+---------------------------
+Outgoing messages are not saved. They may be visible or cached temporarily by
+our outgoing mail services, and logged in debugging messages on Mailsac
+servers, but not explicitly archived by Mailsac at this time.

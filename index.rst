@@ -35,7 +35,7 @@ in the top left corner.
    services/catchall
    services/webhook
    services/mailforwarding
-   services/sendingmail
+   services/sending_mail/sendingmail
    services/mailredirect
    services/slack_webhook/slack_webhook
    services/private_domains/private_domains
