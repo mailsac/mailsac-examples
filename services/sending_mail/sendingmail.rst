@@ -69,6 +69,7 @@ The :code:`/api-outgoing-messages` endpoint is documented in the
 2. Send email using curl or your favorite HTTP library.
 
     .. code-block:: bash
+       :caption: curl
 
        curl -H "Mailsac-Key: w9Hc8j8dhh2jeE1VS9VEKt4nxE0JsHLM" -X POST
        https://mailsac.com/api/outgoing-messages
@@ -76,6 +77,7 @@ The :code:`/api-outgoing-messages` endpoint is documented in the
        "subject": "Hello Myfriend", "text": "test message from mailsac" }'
 
     .. code-block:: python
+        :caption: Python
 
         import requests
         url = 'https://mailsac.com/api/outgoing-messages'
