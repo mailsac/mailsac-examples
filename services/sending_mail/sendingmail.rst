@@ -135,3 +135,45 @@ Sent Messages Are Not Saved
 Outgoing messages are not saved. They may be visible or cached temporarily by
 our outgoing mail services, and logged in debugging messages on Mailsac
 servers, but not explicitly archived by Mailsac at this time.
+
+Internal SMTP Sending
+---------------------
+Mailsac's receiving SMTP servers accept all mail regardless of the
+recipient. This allows customers to send directly to Mailsac's servers using
+their existing SMTP client or library. This mail is only delivered to Mailsac
+servers.
+
++-----------------------+-------------------------------------------------------+
+| **Hostname / Server** | in.mailsac.com                                        |
++-----------------------+-------------------------------------------------------+
+| **Username**          + Not required                                          |
++-----------------------+-------------------------------------------------------+
+| **Password**          | Not required                                          |
++-----------------------+-------------------------------------------------------+
+| **Port**              | 25/587/465                                            |
++-----------------------+-------------------------------------------------------+
+| **Auth Settings**     | Not required                                          |
++-----------------------+-------------------------------------------------------+
+| **Encryption**        | None/TLS                                              |
++-----------------------+-------------------------------------------------------+
+
+For `plans <https://mailsac.com/pricing>`_ with unlimited internal sending
+messages can be sent through Mailsac's outbound SMTP server
+(out.mailsac.com). Any messages sent to a Mailsac hosted domain do not require
+sending credits. 
+
++-----------------------+-------------------------------------------------------+
+| **Hostname / Server** | out.mailsac.com                                       |
++-----------------------+-------------------------------------------------------+
+| **Email Address**     | Private email address                                 |
++-----------------------+-------------------------------------------------------+
+| **Username**          + Private email address                                 |
++-----------------------+-------------------------------------------------------+
+| **Password**          | `API Key <https://mailsac.com/api-keys>`_ or SMTP Key |
++-----------------------+-------------------------------------------------------+
+| **Port**              | 587                                                   |
++-----------------------+-------------------------------------------------------+
+| **Auth Settings**     | Password / allow plain / insecure                     |
++-----------------------+-------------------------------------------------------+
+| **Encryption**        | TLS                                                   |
++-----------------------+-------------------------------------------------------+
