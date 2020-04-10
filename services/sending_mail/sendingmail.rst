@@ -139,9 +139,11 @@ servers, but not explicitly archived by Mailsac at this time.
 Internal SMTP Sending
 ---------------------
 Mailsac's receiving SMTP servers accept all mail regardless of the
-recipient. This allows customers to send directly to Mailsac's servers using
-their existing SMTP client or library. This mail is only delivered to Mailsac
-servers.
+recipient. This allows customers to send directly to Mailsac using
+their existing SMTP client or library. This mail is only delivered to Mailsac.
+If the recipient domain is a private domain, the mail will only be visible to
+the owner of the domain. If the domain is not private, the email will be publicly
+accessible.
 
 +-----------------------+-------------------------------------------------------+
 | **Hostname / Server** | in.mailsac.com                                        |
@@ -159,7 +161,7 @@ servers.
 
 For `plans <https://mailsac.com/pricing>`_ with unlimited internal sending
 messages can be sent through Mailsac's outbound SMTP server
-(out.mailsac.com). Any messages sent to a Mailsac hosted domain do not require
+(out.mailsac.com). Any messages sent to a Mailsac hosted domain will not require
 sending credits. 
 
 +-----------------------+-------------------------------------------------------------------------------------------+
