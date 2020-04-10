@@ -96,7 +96,7 @@ Sending via SMTP allows email clients to send email using mailsac.
 
 **Authentication**
 
-SMTP uses a username and passowrd for authentication. The API key for your
+SMTP uses a username and password for authentication. The API key for your
 account can be used to send from any of your private addresses or domains.
 Alternatively, you can use a per private address SMTP password. The per private
 address SMTP password can be set through using the Dashboard_
