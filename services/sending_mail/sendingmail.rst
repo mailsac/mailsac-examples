@@ -20,6 +20,11 @@ addresses and private domains. Sending or replying requires `mail credits
 Sent messages are not save using any method, with the exception of the Unified
 Inbox.
 
+Allowed from addresses
+----------------------
+When sending an email, the :code:`from` address must be a private address or an address
+within a private domain.
+
 Sending from the Web Form
 -------------------------
 
@@ -135,6 +140,8 @@ Sent Messages Are Not Saved
 Outgoing messages are not saved. They may be visible or cached temporarily by
 our outgoing mail services, and logged in debugging messages on Mailsac
 servers, but not explicitly archived by Mailsac at this time.
+
+.. _doc_internal_smtp:
 
 Internal SMTP Sending
 ---------------------
