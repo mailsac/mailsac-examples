@@ -96,7 +96,7 @@ Sending via SMTP allows email clients to send email using mailsac.
 
 **Authentication**
 
-SMTP uses a username and passowrd for authentication. The API key for your
+SMTP uses a username and password for authentication. The API key for your
 account can be used to send from any of your private addresses or domains.
 Alternatively, you can use a per private address SMTP password. The per private
 address SMTP password can be set through using the Dashboard_
@@ -135,3 +135,47 @@ Sent Messages Are Not Saved
 Outgoing messages are not saved. They may be visible or cached temporarily by
 our outgoing mail services, and logged in debugging messages on Mailsac
 servers, but not explicitly archived by Mailsac at this time.
+
+Internal SMTP Sending
+---------------------
+Mailsac's receiving SMTP servers accept all mail regardless of the
+recipient. This allows customers to send directly to Mailsac using
+their existing SMTP client or library. This mail is only delivered to Mailsac.
+If the recipient domain is a private domain, the mail will only be visible to
+the owner of the domain. If the domain is not private, the email will be publicly
+accessible.
+
++-----------------------+-------------------------------------------------------+
+| **Hostname / Server** | in.mailsac.com                                        |
++-----------------------+-------------------------------------------------------+
+| **Username**          + Not required                                          |
++-----------------------+-------------------------------------------------------+
+| **Password**          | Not required                                          |
++-----------------------+-------------------------------------------------------+
+| **Port**              | 25
++-----------------------+-------------------------------------------------------+
+| **Auth Settings**     | Not required                                          |
++-----------------------+-------------------------------------------------------+
+| **Encryption**        | None/TLS                                              |
++-----------------------+-------------------------------------------------------+
+
+For `plans <https://mailsac.com/pricing>`_ with unlimited internal sending
+messages can be sent through Mailsac's outbound SMTP server
+(out.mailsac.com). Any messages sent to a Mailsac hosted domain will not require
+sending credits. 
+
++-----------------------+-------------------------------------------------------------------------------------------+
+| **Hostname / Server** | out.mailsac.com                                                                           |
++-----------------------+-------------------------------------------------------------------------------------------+
+| **Email Address**     | Private email address or email address in a private domain                                |
++-----------------------+-------------------------------------------------------------------------------------------+
+| **Username**          + Private email address or email address in a private domain                                |
++-----------------------+-------------------------------------------------------------------------------------------+
+| **Password**          | `API Key <https://mailsac.com/api-keys>`_                                                 |
++-----------------------+-------------------------------------------------------------------------------------------+
+| **Port**              | 587                                                                                       |
++-----------------------+-------------------------------------------------------------------------------------------+
+| **Auth Settings**     | Password / allow plain / insecure                                                         |
++-----------------------+-------------------------------------------------------------------------------------------+
+| **Encryption**        | TLS                                                                                       |
++-----------------------+-------------------------------------------------------------------------------------------+
