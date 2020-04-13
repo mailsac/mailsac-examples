@@ -13,7 +13,7 @@ the services provided:
 * :ref:`Catch-All <doc_catchall>`
 * :ref:`Receive Email via JSON Webhook <doc_webhook_setup>`
 * :ref:`Mail Forwarding <doc_mailforwarding>`
-* :ref:`SendingMail <doc_sendingmail>`
+* :ref:`Sending Mail <doc_sendingmail>`
 * :ref:`Alternate Address Redirect <doc_mailredirect>`
 * :ref:`Receive Pushed Email via WebSocket <doc_websocket_example_overview>`
 * :ref:`Private Domains <doc_privatedomains>`
