@@ -24,4 +24,4 @@ subdomain (mail.yourdomain.com).
 4. Make sure Catch-All is Enabled.
 5. You will now be able to setup a forwarding address (click Forwarding button next to the email address), or just check mail at
    the \* inbox, like \*@yourdomain.com
-5. You could also use `POP3 to pull the emails into GMail, Apple Mail, Thunderbird, or any other email client that supports POP3 <https://mailsac.com/docs/fetch-messages-with-pop3>`_.
+6. You could also use `POP3 to pull the emails into GMail, Apple Mail, Thunderbird, or any other email client that supports POP3 <https://mailsac.com/docs/fetch-messages-with-pop3>`_.

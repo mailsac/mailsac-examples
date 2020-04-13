@@ -25,5 +25,7 @@ for testing purposes.
     `npm install http-server -g`
     `http-server _build/html`
 
+7. Alternatively the reStructuredText Visual Studio Code extension can be used for live previews
+
 Copyright © 2019 by Forking Software LLC
 
