@@ -1,4 +1,4 @@
-.. _mailstorage:
+.. _doc_mailstorage:
 .. role:: red
 
 Message Storage

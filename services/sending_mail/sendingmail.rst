@@ -1,7 +1,9 @@
-.. _doc_sendingmail:
 .. _Unified Inbox: https://mailsac.com/app
 .. _Dashboard: https://mailsac.com/dashboard
 .. _Web Form: https://mailsac.com/compose
+.. _API Key: https://mailsac.com/api-keys
+
+.. _doc_sendingmail:
 
 Sending Mail
 ============
@@ -11,7 +13,7 @@ Mail can be sent via the following methods:
 - `Web Form`_
 - `Unified Inbox`_
 - `REST API <https://mailsac.com/docs/api/#send-email-messages>`_
-- `SMTP <doc_sendingmail_smtp_>`__
+- `SMTP <doc_sendingmail_smtp>`_
 
 Sending mail, both replies and new messages, is available only from private
 addresses and private domains. Sending or replying requires `mail credits
@@ -125,7 +127,7 @@ etc) using these SMTP settings:
 +-----------------------+-------------------------------------------------------+
 | **Username**          + Private email address                                 |
 +-----------------------+-------------------------------------------------------+
-| **Password**          | `API Key <https://mailsac.com/api-keys>`_ or SMTP Key |
+| **Password**          | `API Key`_ or SMTP Key                                |
 +-----------------------+-------------------------------------------------------+
 | **Port**              | 587                                                   |
 +-----------------------+-------------------------------------------------------+
@@ -159,7 +161,7 @@ accessible.
 +-----------------------+-------------------------------------------------------+
 | **Password**          | Not required                                          |
 +-----------------------+-------------------------------------------------------+
-| **Port**              | 25
+| **Port**              | 25                                                    |
 +-----------------------+-------------------------------------------------------+
 | **Auth Settings**     | Not required                                          |
 +-----------------------+-------------------------------------------------------+
@@ -178,7 +180,7 @@ sending credits.
 +-----------------------+-------------------------------------------------------------------------------------------+
 | **Username**          + Private email address or email address in a private domain                                |
 +-----------------------+-------------------------------------------------------------------------------------------+
-| **Password**          | `API Key <https://mailsac.com/api-keys>`_                                                 |
+| **Password**          | `API Key`_                                                                                |
 +-----------------------+-------------------------------------------------------------------------------------------+
 | **Port**              | 587                                                                                       |
 +-----------------------+-------------------------------------------------------------------------------------------+
