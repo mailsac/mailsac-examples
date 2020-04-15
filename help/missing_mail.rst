@@ -74,6 +74,11 @@ SendGrid
 Messages sent through SendGrid are often queued and may not be sent 
 immediately.
 
+Mandrill
+^^^^^^^^
+Messages sent through Mandrall are often `queued <https://mandrill.zendesk.com/hc/en-us/articles/205582717-Why-does-a-delivered-message-say-queued->`_
+and are not sent immediately.
+
 Contacting Support
 ------------------
 
