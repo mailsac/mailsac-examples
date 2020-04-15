@@ -63,12 +63,14 @@ Sender Limits
 Some services place restrictions on the size, type, rate, and quantity of
 email that can be sent.
 
-**GMail**
+GMail
+^^^^^
 GMail is not designed for sending bulk mail. The service places `limits 
-<https://support.google.com/mail/answer/22839?hl=en>`_ on the number of emails
-sent per day and the number of recipients.
+<https://support.google.com/mail/answer/22839?hl=en>`_ on the number of
+emails sent per day and the number of recipients.
 
-**SendGrid**
+SendGrid
+^^^^^^^^
 Messages sent through SendGrid are often queued and may not be sent 
 immediately.
 
