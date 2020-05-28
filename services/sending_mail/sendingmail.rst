@@ -13,7 +13,7 @@ Mail can be sent via the following methods:
 - `Web Form`_
 - `Unified Inbox`_
 - `REST API <https://mailsac.com/docs/api/#send-email-messages>`_
-- `SMTP <doc_sendingmail_smtp>`_
+- :ref:`SMTP <doc_sendingmail_smtp>`
 
 Sending mail, both replies and new messages, is available only from private
 addresses and private domains. Sending or replying requires `mail credits
