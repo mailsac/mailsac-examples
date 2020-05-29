@@ -20,11 +20,10 @@ a day.
 Mail Not Received
 -----------------
 
-The most common support request is about mail not being received. First read this article with troubleshooting tips:
+The most common support request is about mail not being received. Read this article with troubleshooting tips:
 
 :ref:`faq-messages-not-received`
 
-When 
 
 Paying Customers - Email and API Support
 ----------------------------------------
