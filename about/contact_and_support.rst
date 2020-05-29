@@ -35,8 +35,7 @@ For service setup issues, billing questions, and sales support, contact:
 
 including the following information, or we will not be able to immediately help you:
 
-1. Your account ID / **username**, and the account with an active subscription, if on an
-`Enterprise plan <https://mailsac.com/enterprise>`_ 
+1. Your account ID / **username**, and the account with an active subscription, if on an `Enterprise plan <https://mailsac.com/enterprise>`_ 
 
 2. Any TO and FROM email addresses or domains for troubleshooting
 
