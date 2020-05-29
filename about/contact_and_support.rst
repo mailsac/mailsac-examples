@@ -6,26 +6,42 @@ Contact and Support
 Feature Requests
 ----------------
 
-To discuss new ideas and features, visit the `feature discussion forum <https://community.mailsac.com/forums/forum/feature-requests/>`_.
+To discuss new ideas and features, visit the `feature discussion forum <https://forum.mailsac.com/c/site-feedback/2>`_.
 
-General Help
+General Questions and API Integration Help
 ------------
 
-Browse our `documentation <https://docs.mailsac.com>`_ and `forums <https://community.mailsac.com/forums/>`_.
+Browse our `documentation <https://docs.mailsac.com>`_ and `forums <https://forum.mailsac.com>`_.
+
+If you are not on a paid subscription, please post to the forum. API integration requests which are received
+via our support email may be redirected to the forum, too. Mailsac tries to respond to forum requests within
+a day.
 
 Mail Not Received
 -----------------
 
-Read about mail not received on the :ref:`faq-messages-not-received`.
+The most common support request is about mail not being received. First read this article with troubleshooting tips:
+
+:ref:`faq-messages-not-received`
+
+When 
 
 Paying Customers - Email and API Support
 ----------------------------------------
 
-For service setup issues, billing questions, sales contact **support@team.mailsac.com**.
+For service setup issues, billing questions, and sales support, contact:
 
-Indicate your account **username** and the email address (if different from the email you are sending from).
+**support@team.mailsac.com**
 
-For **API support** we encourage you to post to the `Developers and API forum <https://community.mailsac.com/forums/forum/api/>`_ so
+including the following information, or we will not be able to immediately help you:
+
+1. Your account ID / **username**, and the account with an active subscription, if on an
+`Enterprise plan <https://mailsac.com/enterprise>`_ 
+2. Any TO and FROM email addresses or domains for troubleshooting
+3. The approximate time, and timezone, when any issues occurred
+4. IP addresses of your workstation or servers you are using with Mailsac
+
+For **API support** we encourage you to post to the `Developers and API forum <https://forum.mailsac.com/c/api-help/>`_ so
 your solution can be shared with other developers.
 
 Support Hours
