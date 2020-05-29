@@ -3,7 +3,11 @@
 Slack Integration
 =================
 
-Mailsac integrates seamlessly with Slack. Forwarding to Slack is available on
+Mailsac integrates email seamlessly with Slack, using Slack webhooks. It works even
+on a free Slack workspace. Using a Mailsac private email address, you can configure
+forwarding messages directly to a Slack channel.
+
+Forwarding email to Slack is available on
 the `The Indie <https://mailsac.com/pricing>`_ and `The Business
 <https://mailsac.com/pricing>`_ plans.
 
@@ -58,23 +62,25 @@ portal <https://api.slack.com/apps/new>`_.
        :align: center
        :width: 400px
 
-Configure Mailsac Forward to Slack
+Configure Mailsac Email Address to Forward Messages to Slack
 ------------------------------------
 
-**1.** Select settings for an email address from the Mailsac
-`console <https://mailsac.com/addresses>`_ to configure Slack integration.
+**1.** To configure Slack integration, select settings for your private email address from the Mailsac
+`console <https://mailsac.com/addresses>`_.
 
 .. figure:: slack_select_email.png
     :align: center
     :width: 400px
 
-**2.** Paste Webhook URL to enable forward to Mailsac
+**2.** Paste Webhook URL (from Slack's Create Application UI) into the Slack Webhook box.
 
 .. figure:: slack_webhook_input.png
     :align: center
     :width: 400px
 
-**3.** Send test email to your Mailsac address you configured for Webhooks to
-verify Mailsac can post to the Slack Webhook.
+**3.** Send a test email to your Mailsac private address. It should post to the Slack channel.
+
+If messages are not being forwarded, you can check `Recent Mail Activity Log <https://mailsac.com/usage>`_ under the Usage
+section of the Mailsac dashboard.
 
 
