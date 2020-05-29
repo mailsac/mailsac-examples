@@ -37,8 +37,11 @@ including the following information, or we will not be able to immediately help 
 
 1. Your account ID / **username**, and the account with an active subscription, if on an
 `Enterprise plan <https://mailsac.com/enterprise>`_ 
+
 2. Any TO and FROM email addresses or domains for troubleshooting
+
 3. The approximate time, and timezone, when any issues occurred
+
 4. IP addresses of your workstation or servers you are using with Mailsac
 
 For **API support** we encourage you to post to the `Developers and API forum <https://forum.mailsac.com/c/api-help/>`_ so
