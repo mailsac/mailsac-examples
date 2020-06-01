@@ -26,6 +26,16 @@ A :ref:`Catch-All email address <doc_catchall>` can receive all the mail for you
 is hosted on Mailsac, and optionally forward it to another address. Catch-All
 inboxes are just an asterisk and the domain, like \*@example.com.
 
+
+Slack Email Forwarding
+----------------------
+
+Without writing any code, you can direct :ref:`inbound emails to a Slack Channel <_doc_slack_webhook>`.
+
+Slack forwarding requires a private address to be configured, but this can be a custom domain with a catch-all
+private address (included with a verified custom domain).
+
+
 Alternate Forwarding
 --------------------
 
