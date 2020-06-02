@@ -18,3 +18,6 @@ In your domain's DNS configuration, you will need to create or modify the MX rec
 1                @           in.mailsac.com
 5                @           alt.mailsac.com
 ============     ========    ===============
+
+.. include:: ./private_domains/mx_record_links.rst
+   :tab-width: 10
