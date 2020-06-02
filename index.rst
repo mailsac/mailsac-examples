@@ -19,37 +19,10 @@ in the top left corner.
 
    about/introduction
    about/faq
-   about/contact_and_support
-   about/privacy_policy
-   about/terms_of_service
 
 .. toctree::
    :maxdepth: 1
-   :caption: Services
-   :name: sec-services
-
-   services/introduction
-   services/mailstorage
-   services/attachments
-   services/email_hosting
-   services/catchall
-   services/webhook
-   services/mailforwarding
-   services/sending_mail/sendingmail
-   services/mailredirect
-   services/slack_webhook/slack_webhook
-   services/private_domains/private_domains
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Help
-   :name: sec-Help
-
-   help/missing_mail
-
-.. toctree::
-   :maxdepth: 1
-   :caption: API Getting Started
+   :caption: API Getting Started Guides
    :name: sec-getting_started
 
    getting_started/prereq
@@ -70,3 +43,32 @@ in the top left corner.
    :name: sec-websocket-examples:
 
    websocket_examples/index
+   
+
+.. toctree::
+   :maxdepth: 1
+   :caption: How Mailsac Works
+   :name: sec-services
+
+   services/introduction
+   services/mailstorage
+   services/attachments
+   services/email_hosting
+   services/catchall
+   services/webhook
+   services/mailforwarding
+   services/sending_mail/sendingmail
+   services/mailredirect
+   services/slack_webhook/slack_webhook
+   services/private_domains/private_domains
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Help
+   :name: sec-Help
+
+   help/missing_mail
+   about/contact_and_support
+   about/privacy_policy
+   about/terms_of_service
