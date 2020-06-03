@@ -7,3 +7,13 @@
 .rst-content .blockquote-noleftmargin {
         margin-left: 0px;
 }
+
+/* Sidebar header (and topbar for mobile) */
+.wy-side-nav-search, .wy-nav-top {
+  background: #006DA5 !important;
+}
+
+h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
+    font-family: 'Arial', 'Helvetica', sans-serif !important;
+    color: #F67373 !important;
+}
