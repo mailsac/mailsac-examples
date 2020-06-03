@@ -2,3 +2,8 @@
 .red {
         color: red;
 }
+
+/* no left margin on included rst file */
+.rst-content .blockquote-noleftmargin {
+        margin-left: 0px;
+}

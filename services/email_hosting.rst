@@ -19,4 +19,8 @@ In your domain's DNS configuration, you will need to create or modify the MX rec
 5                @           alt.mailsac.com
 ============     ========    ===============
 
+Common DNS Provider Links
+-------------------------
+
+.. rst-class:: blockquote-noleftmargin
 .. include:: ./private_domains/mx_record_links.rst
