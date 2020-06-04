@@ -69,6 +69,7 @@ in the top left corner.
    :name: sec-Help
 
    help/missing_mail
+   help/dns_verification/dns_verification
    about/contact_and_support
    about/privacy_policy
    about/terms_of_service
