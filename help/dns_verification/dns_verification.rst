@@ -6,12 +6,9 @@ DNS Verification
 ================
 
 DNS (Domain Name System) is at the core of the internet and email delivery.
-When configuring a :ref:`BYO Domain <section_byod_configuration>` the following
-records need to be configured:
-
-- 2 MX Records
-- 1 DKIM Record
-- 1 SPF Record
+When configuring a :ref:`BYO Domain <section_byod_configuration>` DKIM and SPF
+records are required for sending mail. MX records are required for receiving
+mail.
 
 MX Record Verification
 ----------------------
@@ -59,7 +56,7 @@ tool `dig`.
 
 .. image:: dig_dkim_record.png
 
-The values in the `ANSWER SECTION` show that the record is configured
+The value in the `ANSWER SECTION` show that the DKIM record is configured
 correctly because it corresponds to the value of the provided DKIM record in
 the Dashboard_ under Domains_.
 
@@ -74,7 +71,7 @@ The Host will be unique per domain.
 TXT      dogtreats.msdc.co.  v=spf1 include:relays.mailsac.com ~all
 ======== =================== ======================================
 
-SPF Records are a DNS TXT records and can be queried using the command line
+SPF Records are a DNS TXT record and can be queried using the command line
 tool `dig`. 
 
 .. code-block:: bash
