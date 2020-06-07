@@ -7,8 +7,8 @@ DNS Verification
 
 DNS (Domain Name System) is at the core of the internet and email delivery.
 When configuring a :ref:`BYO Domain <section_byod_configuration>` DKIM and SPF
-records are required for sending mail. MX records are required for receiving
-mail.
+records are required to confirm domain ownership and enable outbound mail. MX
+records are required to receive mail at Mailsac.
 
 MX Record Verification
 ----------------------
