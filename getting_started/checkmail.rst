@@ -41,7 +41,7 @@ JQ will only show the first JSON object with the filter `".[0]"`
 .. literalinclude:: /about/intro_curl.bash
     :language: bash
     :caption: **Inbox message**
-    :lines: 2-35,49-51
+    :lines: 2-
 
 As you can see, the JSON contains information about the email message including  to address,
 from address, subject, time stamp, attachments and much more. Make note of the `_id` field, you

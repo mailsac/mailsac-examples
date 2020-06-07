@@ -25,7 +25,7 @@ Information about the most recent email is returned as JSON
 .. literalinclude:: intro_curl.bash
     :language: bash
     :emphasize-lines: 1
-    :lines: 2-35,49-51
+    :lines: 2-
 .. tip:: This may look for more information than you need. But it provides
          a great example of all the hard work mailsac has done to make parsing
          of email easier.
