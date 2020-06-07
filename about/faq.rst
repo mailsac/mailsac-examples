@@ -8,7 +8,11 @@ Where are my email attachments?
 
 For `private addresses, the Inbox App will allow you to download attachments <https://mailsac.com/app>`_. You can also `fetch private messages with POP3 <https://mailsac.com/docs/fetch-messages-with-pop3>`_ in your email client, such as Apple Mail or GMail.
 
-When working with disposable email via the API, :ref:`you must download the message and parse attachments yourself <doc_attachments>`. Attachments cannot be hosted publicly for download because attachments often contain viruses and spam.
+Disposable emails under public email addresses disallow downloading attachments - :ref:`you must download the entire message file, or fetch attachments programmatically using the API <doc_attachments>`.
+
+For private addresses, using the `Unified Inbox App <https://mailsac.com/app>`, attachment files are downloadable.
+
+Attachments cannot be hosted publicly for download because attachments often contain viruses and spam.
 
 Why would I use Mailsac?
 ------------------------
