@@ -9,7 +9,7 @@ Feature Requests
 To discuss new ideas and features, visit the `feature discussion forum <https://forum.mailsac.com/c/site-feedback/2>`_.
 
 General Questions and API Integration Help
-------------
+------------------------------------------
 
 Browse our `documentation <https://docs.mailsac.com>`_ and `forums <https://forum.mailsac.com>`_.
 

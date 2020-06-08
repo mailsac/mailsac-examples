@@ -63,7 +63,7 @@ portal <https://api.slack.com/apps/new>`_.
        :width: 400px
 
 Configure Mailsac Email Address to Forward Messages to Slack
-------------------------------------
+------------------------------------------------------------
 
 **1.** To configure Slack integration, select settings for your private email address from the Mailsac
 `console <https://mailsac.com/addresses>`_.

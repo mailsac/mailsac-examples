@@ -8,6 +8,8 @@ will be public. If you require a domain to be private or to setup forwarding of
 all emails received to single address you can `sign up
 <https://mailsac.com/pricing>`_ for those services.
 
+.. _section_email_hosting:
+
 Configure Email Hosting
 -----------------------
 
