@@ -10,7 +10,7 @@ For `private addresses, the Inbox App will allow you to download attachments <ht
 
 Disposable emails under public email addresses disallow downloading attachments - :ref:`you must download the entire message file, or fetch attachments programmatically using the API <doc_attachments>`.
 
-For private addresses, using the `Unified Inbox App <https://mailsac.com/app>`, attachment files are downloadable.
+For private addresses, using the `Unified Inbox App <https://mailsac.com/app>`_, attachment files are downloadable.
 
 Attachments cannot be hosted publicly for download because attachments often contain viruses and spam.
 
