@@ -8,10 +8,10 @@ service (Webhook, Websocket, Slack Webhook). Private addresses and custom
 domains can be configured for email forwarding. Forwarding is not available on
 disposable email addresss.
 
-Forward to Other Email Address
-------------------------------
+Forward to Another Mailsac Address
+----------------------------------
 
-Any email address you own may be forwarded to another email address you own.
+Any private address can be forwarded to another email private address.
 This allows you to consolidate many email addresses into a single inbox.
 
 For example, if you own 1@mailsac.com, 2@mailsac.com, 3@mailsac.com, and
