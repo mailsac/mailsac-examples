@@ -24,9 +24,10 @@ main@mailsac.com, you could setup the following scheme:
 
 Catch-All Domain Forwarding Addresses
 -------------------------------------
-A :ref:`Catch-All email address <doc_catchall>` can receive all the mail for your custom domain that
-is hosted on Mailsac, and optionally forward it to another address. Catch-All
-inboxes are just an asterisk and the domain, like \*@example.com.
+A :ref:`Catch-All email address <doc_catchall>` can receive all the mail for
+a custom domain, and optionally forward it to another address or service (
+Webhook, Websocket, or Slack Webhook). A Catch-All address is a private address
+which in the format `*@example.com`.
 
 
 Slack Email Forwarding
