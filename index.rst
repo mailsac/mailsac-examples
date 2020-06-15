@@ -56,7 +56,7 @@ in the top left corner.
    services/email_hosting
    services/catchall
    services/webhook
-   services/mailforwarding
+   services/forwarding/forwarding
    services/sending_mail/sendingmail
    services/mailredirect
    services/slack_webhook/slack_webhook
