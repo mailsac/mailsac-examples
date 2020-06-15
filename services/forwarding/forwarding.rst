@@ -1,10 +1,12 @@
 .. _doc_mailforwarding:
 
-How to Setup Email Forwarding
-=============================
+Email Forwarding
+================
 
-After purchasing a private address, you can forward mail to another
-address. (Forwarding is not available for public disposable email addresses.)
+Forwarding allows email to be sent to a different email address or
+service (Webhook, Websocket, Slack Webhook). Private addresses and custom
+domains can be configured for email forwarding. Forwarding is not available on
+disposable email addresss.
 
 Forward to Other Email Address
 ------------------------------
