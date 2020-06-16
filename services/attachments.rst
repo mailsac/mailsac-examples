@@ -6,7 +6,7 @@ Email Attachments
 For security, and to ensure the Mailsac website is not marked as a distributor of viruses, attachments are not publicly accessible on the web.
 
 Getting Attachments as Files
-===========================
+============================
 
 There are several ways to download attachments when authenticated to the Mailsac service
 
