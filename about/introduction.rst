@@ -3,14 +3,14 @@
 Introduction
 ============
 
-With Mailsac, it's super easy to interact with email via API, Webhooks and WebSockets. You can
+With Mailsac, it is easy to interact with email via REST API, Webhooks and WebSockets. You can
 reserve and release email addresses, check messages, download attachments, and route mail.
 
-.. tip:: All API endpoints can be found in the `API Specification <https://mailsac.com/docs/api/>`_
+.. tip:: All REST API endpoints can be found in the `API Specification <https://mailsac.com/docs/api/>`_
 
 --------------------------------------------
 
-cURL API Example
+cURL REST API Example
 ----------------
 
 You can use cURL to fetch emails from a fake inbox at user1@mailsac.com
