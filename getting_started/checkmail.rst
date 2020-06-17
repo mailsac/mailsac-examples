@@ -4,7 +4,7 @@ Check Mail
 =============
 
 Now that curl and jq are installed, we can start interacting with Mailsac API. The
-`Mailsac API Specification <https://mailsac.com/docs/api/>`_ includes all supported
+`Mailsac REST API Specification <https://mailsac.com/docs/api/>`_ includes all supported
 endpoints. The API Specification reference is great starting place, if you a familiar with
 APIs, or for reference after completing this step-by-step introduction.
 

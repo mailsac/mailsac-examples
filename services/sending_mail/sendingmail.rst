@@ -12,7 +12,7 @@ Mail can be sent via the following methods:
 
 - `Web Form`_
 - `Unified Inbox`_
-- `API <https://mailsac.com/docs/api/#send-email-messages>`_
+- `REST API <https://mailsac.com/docs/api/#send-email-messages>`_
 - :ref:`SMTP <doc_sendingmail_smtp>`
 
 Sending mail, both replies and new messages, is available only from private
@@ -67,9 +67,9 @@ like you would with gmail or yahoo mail.
 Sending from the API
 --------------------
 
-The API is the preferred method for sending messages programmattically.
+The REST API is the preferred method for sending messages programmattically.
 The :code:`/api-outgoing-messages` endpoint is documented in the
-`API documentation <https://mailsac.com/api/#send-email-messages>`_.
+`REST API documentation <https://mailsac.com/api/#send-email-messages>`_.
 
 1. Generate an API by selecting `API Keys <https://mailsac.com/api-keys>`_ from
    the Dashboard_.
