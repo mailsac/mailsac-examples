@@ -7,7 +7,7 @@ Email Forwarding
 ================
 
 Forwarding allows email to be sent to a different email address or
-service (Webhook, Websocket, Slack Webhook). Private addresses and custom
+service (Webhook, WebSocket, Slack Webhook). Private addresses and custom
 domains can be configured for email forwarding. Forwarding is not available on
 disposable email addresss.
 
@@ -36,7 +36,7 @@ Catch-All Domain Forwarding Addresses
 
 A :ref:`Catch-All email address <doc_catchall>` can receive all the mail for
 a custom domain, and optionally forward it to another address or service (
-Webhook, Websocket, or Slack Webhook). A Catch-All address is a private address
+Webhook, WebSocket, or Slack Webhook). A Catch-All address is a private address
 in the format `*@example.com`.
 
 A Catch-All email address can be configured by selecting `Manage Domains`_ from
@@ -70,21 +70,21 @@ from the Dashboard_. Select the *Settings* button next to the email address to
 manage, then input the URL under *Forward To Custom Webhook* and select *Save
 Settings*.
 
-Websocket Forwarding
+WebSocket Forwarding
 --------------------
 
 Private addresses and Catch-All addresses can have their mail forwarded to a
-websocket. A websocket uses a single persistent connection to notify a websocket
+WebSocket. A WebSocket uses a single persistent connection to notify a WebSocket
 client as soon as a message arrives.
 
-Forwarding to a Websocket can be configured by selecting
+Forwarding to a WebSocket can be configured by selecting
 `Manage Email Addresses`_ from the Dashboard_. Select the *Settings* button next
 to the email address to manage, then check the box labeled *Enable forwarding
 all incoming email via web socket*, and select *Save Settings*.
 
-A code example for a websocket is available :ref:`available
+A code example for a WebSocket is available :ref:`available
 <doc_websocket_example_overview>`.
 
-Additional information about the websocket endpoint, authentication and example
+Additional information about the WebSocket endpoint, authentication and example
 frame format is show in the `API Documentation
 <https://mailsac.com/docs/api/#web-socket-api>`_. 
