@@ -14,8 +14,9 @@ disposable email addresss.
 Forward to Another Mailsac Address
 ----------------------------------
 
-Any private address can be forwarded to another private address.
-This allows you to consolidate many email addresses into a single inbox.
+Any private address, in the *@mailsac.com* domain or private domain can be
+forwarded to another private address. This allows you to consolidate many email
+addresses into a single inbox.
 
 Forwarding to another private address can be configured by selecting
 `Manage Email Addresses`_ from the Dashboard_. Select the *Settings* button
