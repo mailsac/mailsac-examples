@@ -76,7 +76,8 @@ WebSocket Forwarding
 
 Private addresses and Catch-All addresses can have their mail forwarded to a
 WebSocket. A WebSocket uses a single persistent connection to notify a WebSocket
-client as soon as a message arrives.
+client as soon as a message arrives. The `WebSocket Test Page
+<https://sock.mailsac.com>`_ demonstrates a WebSocket.
 
 Forwarding to a WebSocket can be configured by selecting
 `Manage Email Addresses`_ from the Dashboard_. Select the *Settings* button next
