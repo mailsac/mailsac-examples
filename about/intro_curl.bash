@@ -1,6 +1,6 @@
-$ curl -s -X GET https://mailsac.com/api/addresses/user1%40mailsac.com/messages | jq ".[0]"
+$ curl -s -X GET https://mailsac.com/api/addresses/user1%40mailsac.com/messages
 
-{
+[{
   "_id": "BotvTxaona7gLID1Adtpfj8Fnfi7HSSv-0",
   "from": [
     {
@@ -36,4 +36,4 @@ $ curl -s -X GET https://mailsac.com/api/addresses/user1%40mailsac.com/messages 
     "https://account.microsoft.com/profile/unsubscribe?CTID=0&ECID=jIce0uXtDC5qRlyCYqZsz5yCL"
   ],
   "spam": 0.331
-}
+}]
