@@ -32,14 +32,14 @@ in the top left corner.
 
 .. toctree::
    :maxdepth: 1
-   :caption: API Examples
+   :caption: REST API Examples
    :name: sec-api_examples:
 
    api_examples/index
 
 .. toctree::
    :maxdepth: 1
-   :caption: WebSocket/Webhook Examples
+   :caption: WebSocket and Webhook Examples
    :name: sec-websocket-examples:
 
    websocket_examples/index
