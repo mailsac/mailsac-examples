@@ -22,7 +22,7 @@ in the top left corner.
 
 .. toctree::
    :maxdepth: 1
-   :caption: API Getting Started Guides
+   :caption: REST API - Getting Started Guides
    :name: sec-getting_started
 
    getting_started/prereq
