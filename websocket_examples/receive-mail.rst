@@ -5,7 +5,7 @@ Receive Mail Using a WebSocket
 
 Receiving mail from a Websocket allows for interacting with incoming email in near real time.
 
-Web sockets are a powerful tool allowing you to end-to-end test your application's email delivery
+WebSockets are a powerful tool allowing you to end-to-end test your application's email delivery
 systems, or respond to incoming mail in sophisticated ways - without having to setup a mail server
 or mess around with SMTP code.
 
@@ -54,7 +54,7 @@ Setup
    const WebSocket = require('ws');
    const log = console.log; // eslint-disable-line
    
-   // Mailsac uses secure web sockets. This is the web socket API base endpoint.
+   // Mailsac uses secure WebSockets. This is the WebSocket API base endpoint.
    const BASE_URL = 'wss://sock.mailsac.com/incoming-messages';
    
    // In this example, we pull the username and API key from environment variables.
@@ -62,16 +62,16 @@ Setup
    const username = process.env.MAILSAC_USER;
    const apiKey = process.env.MAILSAC_KEY;
    // List the addresses you want to receive messages for.
-   // You MUST have web socket forwarding turned on for the addresses!
+   // You MUST have WebSocket forwarding turned on for the addresses!
    const listenAddresses = process.env.ADDRESSES;
    
    const urlParams = '?_id=' + username + '&key=' +apiKey+ '&addresses=' + listenAddresses;
    
-   log('attempting to open web socket to', BASE_URL + urlParams);
+   log('attempting to open WebSocket to', BASE_URL + urlParams);
    const ws = new WebSocket(BASE_URL + urlParams);
    
    ws.on('open', function () {
-     log('web socket opened');
+     log('WebSocket opened');
    });
    
    ws.on('error', function (err) {
@@ -102,18 +102,18 @@ Launch WebSocket Example
 .. code-block:: bash
     :caption: **Expected output**
 
-    attempting to open web socket to wss://sock.mailsac.com/incoming-messages?_id=username&key=apikey&addresses=user1@mailsac.com
-    web socket opened
+    attempting to open WebSocket to wss://sock.mailsac.com/incoming-messages?_id=username&key=apikey&addresses=user1@mailsac.com
+    WebSocket opened
     {"status":200,"msg":"Listening","addresses":["user1@mailsac.com"]}
 
 
 
-Now, when an email messages are delivered to user1@mailsac.com, they will also be sent to your web socket. Try sending
+Now, when an email messages are delivered to user1@mailsac.com, they will also be sent to your WebSocket. Try sending
 a message - it will be parsed into JSON and logged to the console.
 
 
 .. code-block:: json
-    :caption: **Example message received over web socket**
+    :caption: **Example message received over WebSocket**
     
     {
       "_id": "8mryf3viZQpWLX7E8SUzI3a5rEwg-0",
@@ -163,11 +163,11 @@ a message - it will be parsed into JSON and logged to the console.
       "via": "172.31.42.57"
     }
 
-The web socket message body is nearly identical to the `Messages REST API <https://mailsac.com/docs/api/#email-messages-api>`_ with the addition of the key `"raw"` which contains the entire raw email message received over SMTP.
+The WebSocket message body is nearly identical to the `Messages REST API <https://mailsac.com/docs/api/#email-messages-api>`_ with the addition of the key `"raw"` which contains the entire raw email message received over SMTP.
 
 Try It
 ------
 
-Visit the `Web Socket Test Page <https://sock.mailsac.com>`_ and receive web socket emails without writing any code.
+Visit the `Web Socket Test Page <https://sock.mailsac.com>`_ and receive emails in your web browser, without writing any code.
 
 
