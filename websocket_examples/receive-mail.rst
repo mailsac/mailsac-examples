@@ -43,6 +43,10 @@ Setup
         "ws": "^2.2.3"
       }
 
+.. code-block:: bash
+    :caption: **Install required node packages**
+
+    npm install
 
 .. code-block:: javascript
    :caption: **Create example.js file with the following contents**
@@ -78,10 +82,6 @@ Setup
      log(data);
    });
 
-.. code-block:: bash
-    :caption: **Install required node packages**
-
-    npm install
 
 .. code-block:: bash
     :caption: **Set environmental variables** 
@@ -106,9 +106,68 @@ Launch WebSocket Example
     web socket opened
     {"status":200,"msg":"Listening","addresses":["user1@mailsac.com"]}
 
-    {"status":200,"msg":"ok"}
 
 
 Now, when an email messages are delivered to user1@mailsac.com, they will also be sent to your web socket. Try sending
-a message - it will be parsed into JSON and dumped to your console.
+a message - it will be parsed into JSON and logged to the console.
+
+
+.. code-block:: json
+    :caption: **Example message received over web socket**
+    
+    {
+      "_id": "8mryf3viZQpWLX7E8SUzI3a5rEwg-0",
+      "to": [
+        {
+          "address": "jeff@mailsac.com",
+          "name": ""
+        }
+      ],
+      "from": [
+        {
+          "address": "from_test@mailsac.com",
+          "name": ""
+        }
+      ],
+      "subject": "This is a subject",
+      "inbox": "jeff@mailsac.com",
+      "originalInbox": "jeff@mailsac.com",
+      "domain": "mailsac.com",
+      "received": "2020-06-23T01:33:13.790Z",
+      "raw": "Received: from 107.174.234.77 by frontend1-172-31-29-224 via 172.31.42.57 with HTTP id 8ml9bOrEQ7J_0VMd0vjPULgc for ; Tue Jun 23 2020 01:33:13 GMT+0000 (Coordinated Universal Time)\nReceived: from 107.174.234.77\n\tsmtp-in2-172-31-42-57 via 172.31.23.10 (proxy)\n\twith SMTP id 8ml9bOrEQ7J_0VMd0vjPULgc\n\tfor ; Tue, 23 Jun 2020 01:33:13 UTC\nX-Mailsac-Whitelist: jeff@mailsac.com,from_test@mailsac.com,107.174.234.77\nX-Mailsac-Inbound-Version: 7463aab\nDKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mailsac.com;\n q=dns/txt; s=mailsacrelay;\n bh=r0Rk73qDq89EuDZsfA4VqbZ/rqPclpo6FwUp6HTtsgg=;\n h=from:subject:to:mime-version:content-type:list-unsubscribe;\n b=C7leDzbCghwRfubINLbVmzTiecO/nA7zEsX0xuFJ9D8om617iGcD6q7CGysMu8jXcohxeeINI\n i2GvfKq2L7sXNPPFwBsnjGvIL8mJQYHWI+FEG3+TCnTc7ZRavKmQPAJl3B2k9QroWp5s2RyCdpJ\n vX+qjcoo7zwld6R2+C6Kmz4=\nContent-Type: multipart/alternative;\n boundary=\"----sinikael-?=_1-15928759930350.8681360034141601\"\nReceived: from frontend1-172-31-29-224 ([34.211.232.3]) with HTTP by\n cranberry; Mon Jun 22 2020 21:33:12 GMT-0400 (Eastern Daylight Time)\nReceived: from ruffrey (from_test@mailsac.com) ([76.20.5.183]) with HTTP id\n fe-vlp0jxneoa8 by frontend1-172-31-29-224 ([34.211.232.3]);\n 2020-06-23T01:33:12.177Z\nFrom: from_test@mailsac.com\nTo: jeff@mailsac.com\nSubject: This is a subject\nMessage-ID: <8lncjPWgrxtLxryJG2VNSf6z@mailsac.com>\nList-Unsubscribe: \nDate: Tue, 23 Jun 2020 01:33:13 +0000\nMIME-Version: 1.0\n\n------sinikael-?=_1-15928759930350.8681360034141601\nContent-Type: text/plain\nContent-Transfer-Encoding: 7bit\n\nHere's some message text.\n\nWe are testing web sockets.\n\n------sinikael-?=_1-15928759930350.8681360034141601\nContent-Type: text/html\nContent-Transfer-Encoding: 7bit\n\n Here's some message text.\n\nWe are testing web sockets.\n \n------sinikael-?=_1-15928759930350.8681360034141601--",
+      "size": 1697,
+      "rtls": true,
+      "ip": "0.0.0.0",
+      "spam": 0.014,
+      "headers": {
+        "received": [
+          "from 0.0.0.0 by frontend1-172-31-29-224 via 172.31.42.57 with HTTP id 8ml9bOrEQ7J_0VMd0vjPULgc for ; Tue Jun 23 2020 01:33:13 GMT+0000 (Coordinated Universal Time)",
+          "from 107.174.234.77 smtp-in2-172-31-42-57 via 172.31.23.10 (proxy) with SMTP id 8ml9bOrEQ7J_0VMd0vjPULgc for ; Tue, 23 Jun 2020 01:33:13 UTC",
+          "from frontend1-172-31-29-224 ([0.0.0.0]) with HTTP by cranberry; Mon Jun 22 2020 21:33:12 GMT-0400 (Eastern Daylight Time)",
+          "from ruffrey (from_test@mailsac.com) ([0.0.0.0]) with HTTP id fe-vlp0jxneoa8 by frontend1-172-31-29-224 ([0.0.0.0]); 2020-06-23T01:33:12.177Z"
+        ],
+        "x-mailsac-whitelist": "jeff@mailsac.com,from_test@mailsac.com,107.174.234.77",
+        "x-mailsac-inbound-version": "7463aab",
+        "dkim-signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=mailsac.com; q=dns/txt; s=mailsacrelay; bh=r0Rk73qDq89EuDZsfA4VqbZ/rqPclpo6FwUp6HTtsgg=; h=from:subject:to:mime-version:content-type:list-unsubscribe; b=C7leDzbCghwRfubINLbVmzTiecO/nA7zEsX0xuFJ9D8om617iGcD6q7CGysMu8jXcohxeeINI i2GvfKq2L7sXNPPFwBsnjGvIL8mJQYHWI+FEG3+TCnTc7ZRavKmQPAJl3B2k9QroWp5s2RyCdpJ vX+qjcoo7zwld6R2+C6Kmz4=",
+        "content-type": "multipart/alternative; boundary=\"----sinikael-?=_1-15928759930350.8681360034141601\"",
+        "from": "from_test@mailsac.com",
+        "to": "jeff@mailsac.com",
+        "subject": "This is a subject",
+        "message-id": "<8lncjPWgrxtLxryJG2VNSf6z@mailsac.com>",
+        "list-unsubscribe": "",
+        "date": "Tue, 23 Jun 2020 01:33:13 +0000",
+        "mime-version": "1.0"
+      },
+      "text": "Here's some message text.\n\nWe are testing web sockets.\n",
+      "html": "<div>Here's some message text.\n\nWe are testing web sockets.</div>\n",
+      "via": "172.31.42.57"
+    }
+
+The web socket message body is nearly identical to the `Messages REST API <https://mailsac.com/docs/api/#email-messages-api>`_ with the addition of the key `"raw"` which contains the entire raw email message received over SMTP.
+
+Try It
+------
+
+Visit the `Web Socket Test Page <https://sock.mailsac.com>`_ and receive web socket emails without writing any code.
+
 
