@@ -5,7 +5,7 @@ Mailsac Docs
 
 Welcome to the official documentation for Mailsac, the disposable email service built for
 developers. Mailsac accepts nearly all email, like a fake SMTP server. You can fetch and
-manage email using simple REST APIs, WebSockets, and Webhooks, routed to Slack, or checked with POP3. 
+manage email using simple REST APIs, WebSockets, and Webhooks; route mail to Slack, or checked it with POP3. 
 
 If you are new to this documentation we recommend taking a look at 
 the :ref:`introduction page <about_intro>` to get an overview of what the
