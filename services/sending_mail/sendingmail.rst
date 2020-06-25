@@ -78,9 +78,9 @@ The :code:`/api-outgoing-messages` endpoint is documented in the
     .. code-block:: bash
        :caption: curl
 
-       curl -H "Mailsac-Key: w9Hc8j8dhh2jeE1VS9VEKt4nxE0JsHLM" -X POST
+       curl -H "Mailsac-Key: MY_MAILSAC_API_KEY" -X POST
        https://mailsac.com/api/outgoing-messages
-       -H "Content-Type: application/json" --data '{ "to":"myfriend@gmail.com", "from": "user1@mailsac.com",
+       -H "Content-Type: application/json" --data '{ "to":"myfriend@mailsac.com", "from": "user1@mailsac.com",
        "subject": "Hello Myfriend", "text": "test message from mailsac" }'
 
     .. code-block:: python
@@ -88,11 +88,31 @@ The :code:`/api-outgoing-messages` endpoint is documented in the
 
         import requests
         url = 'https://mailsac.com/api/outgoing-messages'
-        headers = {'Mailsac-Key': 'w9Hc8j8dhh2jeE1VS9VEKt4nxE0JsHLM'}
-        mail = { 'to':'myfriend@gmail.com', 'from':'user1@mailsac.com', 'subject':'Hello Myfriend', 'text': 'mailsac allows for sending of email'}
+        headers = {'Mailsac-Key': 'MY_MAILSAC_API_KEY'}
+        mail = { 'to':'myfriend@mailsac.com', 'from':'user1@mailsac.com', 'subject':'Hello Myfriend', 'text': 'mailsac allows for sending of email'}
         x = requests.post(url, data=mail, headers=headers)
         print(x.text)
-        {"from":"user1@mailsac.com","to":["myfriend@gmail.com"],"id":"fe-f2r4tdoe3a"}
+   
+   .. code-block:: javascript
+        :caption: Node.js
+        
+        // npm install superagent
+        const superagent = require('superagent')
+        superagent.post('https://mailsac.com/api/outgoing-messages')
+          .set('Mailsac-Key', 'MY_MAILSAC_API_KEY')
+          .send({
+            to: "myfriend@mailsac.com",
+            from: "user1@mailsac.com",
+            subject: "Hello Myfriend",
+            text: "test message from mailsac"
+          })
+          .ok(res => res.status === 200)
+          .then(res => console.log(res.body))
+          .catch(err => console.error(err))
+
+    .. code-block:: bash
+        :caption: Response example
+        {"from":"user1@mailsac.com","to":["myfriend@mailsac.com"],"id":"fe-f2r4tdoe3a"}
 
 .. _doc_sendingmail_smtp:
 
