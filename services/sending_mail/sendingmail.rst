@@ -92,27 +92,32 @@ The :code:`/api-outgoing-messages` endpoint is documented in the
         mail = { 'to':'myfriend@mailsac.com', 'from':'user1@mailsac.com', 'subject':'Hello Myfriend', 'text': 'mailsac allows for sending of email'}
         x = requests.post(url, data=mail, headers=headers)
         print(x.text)
-   
+
    .. code-block:: javascript
-        :caption: Node.js
-        
-        // npm install superagent
+        :caption: Node.js - requires :code:`npm install superagent`
+
         const superagent = require('superagent')
         superagent.post('https://mailsac.com/api/outgoing-messages')
-          .set('Mailsac-Key', 'MY_MAILSAC_API_KEY')
-          .send({
-            to: "myfriend@mailsac.com",
-            from: "user1@mailsac.com",
-            subject: "Hello Myfriend",
-            text: "test message from mailsac"
-          })
-          .ok(res => res.status === 200)
-          .then(res => console.log(res.body))
-          .catch(err => console.error(err))
+            .set('Mailsac-Key', 'MY_MAILSAC_API_KEY')
+            .send({
+                to: "myfriend@mailsac.com",
+                from: "user1@mailsac.com",
+                subject: "Hello Myfriend",
+                text: "test message from mailsac"
+            })
+            .ok(res => res.status === 200)
+            .then(res => console.log(res.body))
+            .catch(err => console.error(err))
+
+Response example:
 
     .. code-block:: bash
-        :caption: Response example
-        {"from":"user1@mailsac.com","to":["myfriend@mailsac.com"],"id":"fe-f2r4tdoe3a"}
+
+        {
+            "from": "user1@mailsac.com",
+            "to": ["myfriend@mailsac.com"],
+            "id": "fe-f2r4tdoe3a"
+        }
 
 .. _doc_sendingmail_smtp:
 
@@ -191,7 +196,7 @@ accessible.
 For `plans <https://mailsac.com/pricing>`_ with unlimited internal sending
 messages can be sent through Mailsac's outbound SMTP server
 (out.mailsac.com). Any messages sent to a Mailsac hosted domain will not require
-sending credits. 
+sending credits.
 
 +-----------------------+-------------------------------------------------------------------------------------------+
 | **Hostname / Server** | out.mailsac.com                                                                           |
