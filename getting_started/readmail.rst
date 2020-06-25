@@ -26,4 +26,4 @@ SMTP body.
 - :code:`/raw/` entire received SMTP message including headers, body, and attachments 
 - :code:`/body/` HTML body, with images, links and scripts scrubbed
 - :code:`/dirty/` HTML body, with nothing scrubbed and images inlined
-- :code:`/headers/` JSON object representation of SMTP headers. The key will be the header key, lowercased. When there are multiple headers with the same name, such as :code:`Received: ` header, the value of the header will be an array of strings. Otherwise the value will be a string.
+- :code:`/headers/` JSON object representation of SMTP headers. The key will be the header key, lowercased. When there are multiple headers with the same name, such as :code:`Received` header, the value of the header will be an array of strings. Otherwise the value will be a string.
