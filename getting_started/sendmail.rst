@@ -15,7 +15,7 @@ two examples, which use GET. Several pieces of information are required to send 
 * :code:`text` message text body
 
 Since emails without subjects frequently get marked as spam, we are also going to include a subject in our email. Our email
-message will be transmitted in JSON, therefore we must set the content type to ::code:`Content-Type: application/json`.
+message will be transmitted in JSON, therefore we must set the content type to :code:`Content-Type: application/json`.
 Our message data will be a JSON object. Mailsac also supports sending raw
 SMTP text through this REST API - see the REST API specification for more info.
 
