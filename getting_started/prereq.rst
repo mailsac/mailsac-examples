@@ -15,12 +15,12 @@ installation instructions for most operating systems.
 .. code-block:: bash
    :caption: For operating systems using yum
 
-   $sudo yum install curl jq -y
+   sudo yum install curl jq -y
 
 .. code-block:: bash
    :caption: For operating system using apt
 
-   $sudo apt-get install jq curl -y
+   sudo apt-get install jq curl -y
 
 .. tip:: Windows users can use `chocolatey <https://chocolatey.org/>`_ to install jq and curl
 
