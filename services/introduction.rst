@@ -11,7 +11,7 @@ the services provided:
 * :ref:`Email Attachments <doc_attachments>`
 * :ref:`Email Hosting <doc_emailhosting>`
 * :ref:`Receive Email via JSON Webhook <doc_webhook_setup>`
-* :ref:`Mail Forwarding <doc_mailforwarding>`
+* :ref:`Mail Forwarding <doc_forwarding>`
 * :ref:`Sending Mail <doc_sendingmail>`
 * :ref:`Alternate Address Redirect <doc_mailredirect>`
 * :ref:`Receive Pushed Email via WebSocket <doc_websocket_example_overview>`

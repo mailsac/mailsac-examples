@@ -1,7 +1,8 @@
-.. _doc_mailforwarding:
 .. _Dashboard: https://mailsac.com/dashboard
 .. _`Manage Email Addresses`: http://mailsac.com/addresses
 .. _`Manage Domains`: http://mailsac.com/domains
+
+.. _doc_forwarding:
 
 Email Forwarding
 ================
