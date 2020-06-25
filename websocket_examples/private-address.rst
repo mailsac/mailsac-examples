@@ -14,7 +14,7 @@ The API is the easiest way to reserve a private address. A simple HTTP POST will
 
 .. code-block:: bash
 
-     curl -s --request POST  https://mailsac.com/api/addresses/user1%40mailsac.com?_mailsacKey=API_KEY
+     curl -X POST -H "Mailsac-Key: YOUR_API_KEY_HERE" https://mailsac.com/api/addresses/user1%40mailsac.com
 
 
 
