@@ -22,7 +22,7 @@ Forwarding to another private address can be configured by selecting
 `Manage Email Addresses`_ from the Dashboard_. Select the *Settings* button
 next to the email address to manage, then choose the private address to forward
 to from the *Forward to Another Email Address* dropdown and select *Save
-Settings* 
+Settings*
 
 For example, if you own 1@mailsac.com, 2@mailsac.com, 3@mailsac.com, and
 main@mailsac.com, you could setup the following scheme:
@@ -50,7 +50,7 @@ Slack Email Forwarding
 Emails sent to a private address or Catch-All can be forwarded
 :ref:`to a Slack Channel <doc_slack_webhook>`.
 
-Slack forwarding requires a private address to be configured, but this can be 
+Slack forwarding requires a private address to be configured, but this can be
 a custom domain with a Catch-All private address (included with a verified
 custom domain).
 
@@ -89,4 +89,4 @@ A code example for a WebSocket is available :ref:`available
 
 Additional information about the WebSocket endpoint, authentication and example
 frame format is show in the `API Documentation
-<https://mailsac.com/docs/api/#web-socket-api>`_. 
+<https://mailsac.com/docs/api/#web-socket-api>`_.

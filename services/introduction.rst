@@ -10,7 +10,6 @@ the services provided:
 * :ref:`Message  Storage <doc_mailstorage>`
 * :ref:`Email Attachments <doc_attachments>`
 * :ref:`Email Hosting <doc_emailhosting>`
-* :ref:`Catch-All <doc_catchall>`
 * :ref:`Receive Email via JSON Webhook <doc_webhook_setup>`
 * :ref:`Mail Forwarding <doc_mailforwarding>`
 * :ref:`Sending Mail <doc_sendingmail>`
