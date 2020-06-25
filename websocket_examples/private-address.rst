@@ -7,8 +7,8 @@ To use the Websocket feature a private email is required. Private addresses can
 be purchased `individually <https://mailsac.com/pricing>`_ as part of a `API Developer Subscription
 <https://mailsac.com/subscription>`_. 
 
-Define Private Address via API
-------------------------------
+Option 1: Reserve Private Address via API
+-----------------------------------------
 
 The API is the easiest way to reserve a private address. A simple HTTP POST will do.
 
@@ -18,8 +18,8 @@ The API is the easiest way to reserve a private address. A simple HTTP POST will
 
 
 
-Define Private Address in the Dashboard
----------------------------------------
+Option 2: Reserve Private Address in the Dashboard
+--------------------------------------------------
 
 #. `Sign in <https://mailsac.com/login>`_ to your Mailsac account.
 #. Select `Manage Email Addresses <https://mailsac.com/addresses>`_ from the dropdown.
