@@ -27,10 +27,8 @@ translates to :code:`https://mailsac.com/api/addresses/user1%40mailsac.com/messa
 .. tip:: You can validate the url is properly formatted by accessing it in your web browser. Go ahead and try it with
    our `example <https://mailsac.com/api/addresses/user1%40mailsac.com/messages>`_ or try it with a different email address.
 
-Curl requires us to add a few extra parameters. `-X GET` instructs curl to us a HTTP GET request. `-s` suppresses
-a progress bar. In the command below we pipe the contents of curl into JQ for JSON formatting. JQ requires a filter to function.
-We are using the simplest filter `"."` which matches all JSON. `user1@mailsac` is a popular address and receives lots of email.
-JQ will only show the first JSON object with the filter `".[0]"`
+Curl requires us to add a single parameter for a GET request. `-H` instructs curl to add an HTTP header.
+
 
 .. literalinclude:: /about/intro_curl.bash
     :language: bash
