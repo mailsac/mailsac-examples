@@ -19,11 +19,11 @@ The email message can be retrieved using curl:
     :language: text 
     :caption: **Plain text email message**
 
-The :code:`/text/` portion of the URL can be replaced with other values, to retried different parsed representations of the
+The :code:`/text/` portion of the URL can be replaced with other values, to retrieve different parsed representations of the
 SMTP body.
 
-- /text/ plaintext email body, or HTML parsed to plaintext
-- /raw/ entire received SMTP message including headers, body, and attachments 
-- /body/ HTML body, with images, links and scripts scrubbed
-- /dirty/ HTML body, with nothing scrubbed and images inlined
-- /headers/ JSON object representation of SMTP headers. The key will be the header key, lowercased. When there are multiple headers with the same name, such as :code:`Received: ` header, the value of the header will be an array of strings. Otherwise the value will be a string.
+- :code:`/text/` plaintext email body, or HTML parsed to plaintext
+- :code:`/raw/` entire received SMTP message including headers, body, and attachments 
+- :code:`/body/` HTML body, with images, links and scripts scrubbed
+- :code:`/dirty/` HTML body, with nothing scrubbed and images inlined
+- :code:`/headers/` JSON object representation of SMTP headers. The key will be the header key, lowercased. When there are multiple headers with the same name, such as :code:`Received: ` header, the value of the header will be an array of strings. Otherwise the value will be a string.
