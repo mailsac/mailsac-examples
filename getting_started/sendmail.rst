@@ -23,7 +23,7 @@ SMTP text through this REST API - see the REST API specification for more info.
     :caption: **Send an email**
 
     curl -H "Content-Type: application/json" \
-        -H "Mailsac-Key: YOUR_API_KEY_HERE"
+        -H "Mailsac-Key: YOUR_API_KEY_HERE" \
         -X POST \
         --data '{"to": "recipient@mailsac.com.com", "subject": "This is a test", "from": "my_sender@mailsac.com", "text": "This is a test"}' \
         https://mailsac.com/api/outgoing-messages
