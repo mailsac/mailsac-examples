@@ -3,13 +3,13 @@
 Sending Mail
 ============
 
-.. important:: Sending messages requires the `purchase <https://mailsac.com/pricing>`_ of outgoing message credits.
+.. important:: Sending messages requires the `purchase <https://mailsac.com/pricing>`_ of outgoing message credits, unless you are sending interally, within a custom domain you are hosting on Mailsac.
 
 Sending an email uses the `outgoing-messages endpoint <https://mailsac.com/docs/api/#send-email-messages>`_. This 
 endpoint is accessed with :code:`POST /api/outgoing-messages`. This API uses a POST method, unlike our previous 
 two examples, which use GET. Several pieces of information are required to send an email.
 
-* Mailsac API Key
+* :code:`Mailsac-Key` header with `your API key <https://mailsac.com/api-keys>`_
 * :code:`to` address
 * :code:`from` address
 * :code:`text` message text body
@@ -23,7 +23,7 @@ SMTP text through this REST API - see the REST API specification for more info.
     :caption: **Send an email**
 
     curl -H "Content-Type: application/json" \
-        -H "Mailsac-Key: eoj1mn7x5y61w0egs25j6xrvs6lwrrl"
+        -H "Mailsac-Key: YOUR_API_KEY_HERE"
         -X POST \
         --data '{"to": "recipient@mailsac.com.com", "subject": "This is a test", "from": "my_sender@mailsac.com", "text": "This is a test"}' \
         https://mailsac.com/api/outgoing-messages
