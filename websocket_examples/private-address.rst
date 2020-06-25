@@ -10,11 +10,22 @@ be purchased `individually <https://mailsac.com/pricing>`_ as part of a `API Dev
 Option 1: Reserve Private Address via API
 -----------------------------------------
 
-The API is the easiest way to reserve a private address. A simple HTTP POST will do.
+The REST API is the easiest way to reserve a private address.
+
+A simple HTTP POST will do. Make sure you have private address credits already, from a paid plan or addon purchase.
+
+user1@mailsac.com in the example should be replaced with the email address you wish to reserve. If you use a custom domain,
+different than mailsac.com, you must have the domain configured with DNS records to delivery mail to Mailsac.
 
 .. code-block:: bash
 
-     curl -X POST -H "Mailsac-Key: YOUR_API_KEY_HERE" https://mailsac.com/api/addresses/user1%40mailsac.com
+     curl -X POST -H "Mailsac-Key: YOUR_API_KEY_HERE" https://mailsac.com/api/addresses/user1@mailsac.com
+
+Next, configure the private address for web socket publishing:
+
+.. code-block:: bash
+
+     curl -H 'Mailsac-Key: YOUR_API_KEY_HERE' -X PUT https://mailsac.com/api/private-address-forwarding/user1@mailsac.com -d '{"enablews": true}'
 
 
 
