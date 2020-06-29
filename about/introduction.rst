@@ -13,7 +13,8 @@ reserve and release email addresses, check messages, download attachments, and r
 cURL REST API Example
 ---------------------
 
-You can use cURL to fetch emails from a fake inbox at user1@mailsac.com
+In this example, we are fetching messages sent to the email address
+`user1@mailsac.com`.
 
 .. literalinclude:: intro_curl.bash
     :language: bash
