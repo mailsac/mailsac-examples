@@ -59,8 +59,8 @@ Most often, the following happens:
 3. Fast recycling. Without enough message storage, your inbound emails may be
    deleted quickly.
 4. Throttling. Non-paying customers can be throttled for sending too much. We
-   are happy to lift this for paying customers. Usually, it is easiest for us to
-   lift it on your `Custom Domain <https://mailsac.com/domains>`_.
+   are happy to lift this for paying customers.
+   `Custom Domain <https://mailsac.com/domains>`_ are not throttled.
 
 The Mailsac Team is highly responsive to `forum <https://forum.mailsac.com>`_
 and support emails. Contact us and we will resolve your issue.
