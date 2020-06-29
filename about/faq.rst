@@ -76,8 +76,8 @@ Absolutely!
 
 We love to hear from developers that use Mailsac - contact us anytime.
 
-
-If you expect to send more than a few messages per minute, you might get throttled.
+Throttling may occur when sending. Avoid throttling by using a
+`Custom Domain <https://mailsac.com/domains>`_
 
 
 How long is email saved?
