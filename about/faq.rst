@@ -104,5 +104,6 @@ You must `create an account <https://mailsac.com/register>`_ to reply to
 emails. New accounts have 5 sending credits. Additional credits can be
 `purchased <https://mailsac.com/pricing>_`.
 
-Or, you can use `POP3 <https://mailsac.com/docs/fetch-messages-with-pop3>`_ to download
-messages on a private address or custom domain.
+You can use `POP3 <https://mailsac.com/docs/fetch-messages-with-pop3>`_ to
+download messages on a private address or custom domain. Responses can be sent
+from non-mailsac accounts you have configured your email client to use.
