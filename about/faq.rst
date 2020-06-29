@@ -30,14 +30,14 @@ custom domain.
 
 Other uses:
 
-* if you need an email address, but do not want to receive spam in your personal inbox
-* use it for sign ups on web sites that force you to login
+* avoid spam by keeping your real email address private
+* create an account on a website without disclosing your real email address
 * give it out to strangers
-* use it to collaborate for projects
+* use it as a shared email address
 * send mail to Mailsac for QA testing purposes
 * use it when you (legally) want to receive email without disclosing your identity
-* it is perfect if you want an email address or multiple addresses and do not want to sign up for them
-* comment on blogs without creating an account
+* send to an email address or multiple email addresses without needing to
+  create them
 * as a developer, to test that your application is sending email
 
 .. _faq-messages-not-received:
