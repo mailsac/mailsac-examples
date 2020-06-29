@@ -6,19 +6,27 @@ Frequently Asked Questions
 Where are my email attachments?
 -------------------------------
 
-For `private addresses, the Inbox App will allow you to download attachments <https://mailsac.com/app>`_. You can also `fetch private messages with POP3 <https://mailsac.com/docs/fetch-messages-with-pop3>`_ in your email client, such as Apple Mail or GMail.
+For `private addresses, the Inbox App will allow you to download attachments
+<https://mailsac.com/app>`_. You can also `fetch private messages with POP3
+<https://mailsac.com/docs/fetch-messages-with-pop3>`_ in your email client,
+such as Apple Mail or GMail.
 
-Disposable emails under public email addresses disallow downloading attachments - :ref:`you must download the entire message file, or fetch attachments programmatically using the API <doc_attachments>`.
+Disposable emails under public email addresses disallow downloading attachments
+- :ref:`you must download the entire message file, or fetch attachments
+programmatically using the API <doc_attachments>`.
 
-For private addresses, using the `Unified Inbox App <https://mailsac.com/app>`_, attachment files are downloadable.
+For private addresses, when using the `Unified Inbox App
+<https://mailsac.com/app>`_, attachment files are downloadable.
 
-Attachments cannot be hosted publicly for download because attachments often contain viruses and spam.
+Attachments cannot be hosted publicly for download because attachments often
+contain viruses and spam.
 
 Why would I use Mailsac?
 ------------------------
 Any time you need a temporary email address, just make one `up@mailsac.com`.
 
-If you need to test your email system, send it to mailsac.com - even for a custom domain.
+If you need to test your email system, send it to mailsac.com - even for a
+custom domain.
 
 Other uses:
 
@@ -39,21 +47,23 @@ Why weren't my messages received?
 
 There are many reasons messages may not be received or displayed by Mailsac.
 
-The :ref:`doc_missingmail` page provides detailed explanations about why messages are not received.
+The :ref:`doc_missingmail` page provides detailed explanations about why
+messages are not received.
 
 Most often, the following happens:
 
-1. The sender blocks traffic to disposable email providers like Mailsac. This is
-   common with email signups or email verifications. People running websites do
-   not want a bunch of spam accounts.
+1. The sender blocks traffic to disposable email providers like Mailsac. This
+   is common with email signups or email verifications. People running websites
+   do not want a bunch of spam accounts.
 2. Large message size. Mailsac only supports messages up to about 2 MB.
-3. Fast recycling. Without enough message storage, your inbound emails may be deleted quickly.
+3. Fast recycling. Without enough message storage, your inbound emails may be
+   deleted quickly.
 4. Throttling. Non-paying customers can be throttled for sending too much. We
    are happy to lift this for paying customers. Usually, it is easiest for us to
    lift it on your `Custom Domain <https://mailsac.com/domains>`_.
 
-The Mailsac Team is highly responsive to `forum <https://forum.mailsac.com>`_ and support emails.
-Contact us and we will resolve your issue.
+The Mailsac Team is highly responsive to `forum <https://forum.mailsac.com>`_
+and support emails. Contact us and we will resolve your issue.
 
 .. tip::
   https://forum.mailsac.com
