@@ -83,7 +83,8 @@ Throttling may occur when sending. Avoid throttling by using a
 How long is email saved?
 ------------------------
 
-Email messages are saved for somewhere between three days and 1 week or more, sometimes less. No guarantees!
+Email messages that are sent to public domains ( ie `mailsac.com`) are retained
+for 4 days and have a max number of messages per inbox of 6 days.
 
 *Message storage* prevents emails from being recycled.
 
