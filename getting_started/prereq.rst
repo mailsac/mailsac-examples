@@ -22,5 +22,13 @@ page provides installation instructions for most operating systems.
 
    sudo apt-get install jq curl -y
 
-.. tip:: Windows users can use `chocolatey <https://chocolatey.org/>`_ to install jq and curl
+.. code-block:: bash
+   :caption: For OS X
 
+   brew install curl jq
+
+.. code-block:: bash
+   :caption: For Windows's Operating System using `Chocolately Nuget
+       <https://chocolatey.org/>`_.
+
+   chocolately install curl jq
