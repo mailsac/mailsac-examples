@@ -1,4 +1,4 @@
-curl -H 'Mailsac-Key: YOUR_API_KEY_HERE' https://mailsac.com/api/addresses/user1%40mailsac.com/messages
+curl -H 'Mailsac-Key: YOUR_API_KEY_HERE' https://mailsac.com/api/addresses/user1@mailsac.com/messages | jq .
 
 [{
   "_id": "BotvTxaona7gLID1Adtpfj8Fnfi7HSSv-0",

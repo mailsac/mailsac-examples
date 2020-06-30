@@ -27,16 +27,6 @@ Table of Contents
 
 .. toctree::
    :maxdepth: 1
-   :caption: REST API - Getting Started Guides
-   :name: sec-getting_started
-
-   getting_started/prereq
-   getting_started/checkmail
-   getting_started/readmail
-   getting_started/sendmail
-
-.. toctree::
-   :maxdepth: 1
    :caption: REST API Examples
    :name: sec-api_examples:
 
