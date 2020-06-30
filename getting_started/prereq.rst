@@ -1,7 +1,7 @@
-.. _doc_curl_prerq:
+.. _doc_getting_started_prereq:
 
-API Guide Prerequisites
-=======================
+Prerequisites
+=============
 
 There are only two programs you need to get started:
 
