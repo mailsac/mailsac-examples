@@ -9,8 +9,8 @@ There are only two programs you need to get started:
 * `jq <https://stedolan.github.io/jq/>`_
 
 If you are using Linux or OS X curl is likely
-already installed. The `jq download <https://stedolan.github.io/jq/download/>`_ page provides
-installation instructions for most operating systems.
+already installed. The `jq download <https://stedolan.github.io/jq/download/>`_
+page provides installation instructions for most operating systems.
 
 .. code-block:: bash
    :caption: For operating systems using yum
