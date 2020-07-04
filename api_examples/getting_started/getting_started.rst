@@ -10,7 +10,7 @@
 REST API - Getting Started
 ==========================
 
-This example will show how to do the following using the REST API. 
+This example will show how to do the following using the REST API.
 
 - list emails sent to `user1@mailsac.com`
 - read an email sent to `user1@mailsac.com`
@@ -24,39 +24,36 @@ Prerequisites
 -------------
 
 API access is included with all Mailsac accounts. Create or view `your API key
-<https://mailsac.com/api-keys>`_. Your API key will be used as the value for the 
+<https://mailsac.com/api-keys>`_. Your API key will be used as the value for the
 :code:`Mailsac-Key` `Authentication Header`_.
 
-The two programs required to complete this example:
-
-* `curl <https://curl.haxx.se/>`_
-* `jq <https://stedolan.github.io/jq/>`_
-
-If you are using Linux or OS X curl is likely
-already installed. The `jq download <https://stedolan.github.io/jq/download/>`_
-page provides installation instructions for most operating systems. The
-following commands can be used to install curl and jq.
+`curl <https://curl.haxx.se/>`_ is the only program used in this example. If
+you are using Linux or OS X curl is likely already installed. The following
+commands can be used to install curl.
 
 .. code-block:: bash
    :caption: For operating systems using yum
 
-   sudo yum install curl jq -y
+   sudo yum install curl -y
 
 .. code-block:: bash
    :caption: For operating system using apt
 
-   sudo apt-get install jq curl -y
+   sudo apt-get install curl -y
 
 .. code-block:: bash
    :caption: For OS X
 
-   brew install curl jq
+   brew install curl
 
 .. code-block:: bash
    :caption: For Windows's Operating System using `Chocolately Nuget
        <https://chocolatey.org/>`_.
 
-   chocolately install curl jq
+   chocolately install curl
+
+.. tip:: `jq <https://stedolan.github.io/jq/>`_ can be used to parse JSON,
+   making the output from curl pretty.
 
 Get Mail
 --------
@@ -66,7 +63,7 @@ To list the available messages for `user1@mailsac.com` we will use the
 <List Inbox Email Messages Endpoint_>`_. This endpoint accepts one parameter
 :code:`:email`. After substituting the :code:`:email` parameter and providing
 the required `Authentication Header`_, the following curl command will return
-JSON to be parsed by jq.
+JSON.
 
 .. literalinclude:: /about/intro_curl.bash
     :language: bash
@@ -94,16 +91,16 @@ To read an email message we will use the :code:`/api/text/:email/:messageId`
 `endpoint <Get Message Text Endpoint_>`_. This endpoint
 requires two parameters, :code:`:email` and :code:`:messageId`. After
 substituting the :code:`:email` and :code:`:messageId` parameters and providing
-the required `Authentication Header`_, the following curl command will return a 
+the required `Authentication Header`_, the following curl command will return a
 plain-text version of the message.
 
 .. code-block:: bash
-    :caption: **Retrieve text of message** 
+    :caption: **Retrieve text of message**
 
     curl -H "Mailsac-Key: YOUR_API_KEY_HERE" https://mailsac.com/api/text/user1@mailsac.com/Jn1wa9AwLigQwIbwUGyMMollJkeWSeUd-0
 
 .. literalinclude:: text_message
-    :language: text 
+    :language: text
     :caption: **Plain text email message**
 
 The :code:`/text/` portion of the URL can be replaced with other values, to
@@ -111,7 +108,7 @@ retrieve different parsed representations of the SMTP body.
 
 - :code:`/text/` plaintext email body, or HTML parsed to plaintext
 - :code:`/raw/` entire received SMTP message including headers, body, and
-  attachments 
+  attachments
 - :code:`/body/` HTML body, with images, links and scripts scrubbed
 - :code:`/dirty/` HTML body, with nothing scrubbed and images inlined
 - :code:`/headers/` JSON object representation of SMTP headers. The key will be
