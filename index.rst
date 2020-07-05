@@ -3,15 +3,15 @@
 Mailsac Docs
 ============================================
 
-Welcome to the official documentation for Mailsac, the disposable email 
+Welcome to the official documentation for Mailsac, the disposable email
 service built for developers.
 
 Mailsac accepts nearly all email, like a fake SMTP server. You can fetch and
-manage email using simple REST APIs, WebSockets, and Webhooks; route mail to 
-Slack, or check it with POP3. 
+manage email using simple REST APIs, WebSockets, and Webhooks; route mail to
+Slack, or check it with POP3.
 
-Newcomers may want to look at 
-the :ref:`introduction page <about_intro>` to get an overview of what Mailsac 
+Newcomers may want to look at
+the :ref:`introduction page <about_intro>` to get an overview of what Mailsac
 has to offer.
 
 Table of Contents
@@ -38,7 +38,7 @@ Table of Contents
    :name: sec-websocket-examples:
 
    websocket_examples/index
-   
+
 
 .. toctree::
    :maxdepth: 1
@@ -55,6 +55,7 @@ Table of Contents
    services/mailredirect
    services/slack_webhook/slack_webhook
    services/private_domains/private_domains
+   services/direct_delivery/direct_delivery
 
 
 .. toctree::
