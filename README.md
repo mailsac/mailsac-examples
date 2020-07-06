@@ -10,8 +10,7 @@ for testing purposes.
    `git clone https://github.com/mailsac/mailsac-examples.git`
 
 2. Install sphinx
-   `pip install Sphinx`
-   `pip install sphinx_rtd_theme`
+   `pip install Sphinx sphinx_rtd_theme sphinx-tabs`
 
 3. Change directories to the cloned repo
    `cd mailsac-examples`
@@ -28,4 +27,3 @@ for testing purposes.
 7. Alternatively the reStructuredText Visual Studio Code extension can be used for live previews
 
 Copyright © 2019 by Forking Software LLC
-
