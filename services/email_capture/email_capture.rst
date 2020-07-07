@@ -1,13 +1,13 @@
-.. _doc_direct_deliver:
+.. _doc_email_capture:
 
 .. _Mailsac website: https://mailsac.com
 .. _Mailsac API: https://mailsac.com/api
 
-Direct Delivery
+Email Capture
 ===============
 
-Direct Delivery is the service that allows Mailsac to act as a fake SMTP
-server. Email messages sent using Direct Delivery will not be delivered to
+Email Capture is the service that allows Mailsac to act as a fake SMTP
+server. Email messages sent using Email Capture will not be delivered to
 the intended recipients but instead will be available via the `Mailsac website`_
 and `Mailsac API`_.
 
@@ -15,17 +15,17 @@ Email Validation in a Non-Production Environment
 ------------------------------------------------
 
 Non-production environments of applications often do not send email for fear
-that non-production systems may send email to customers. Using Direct Delivery,
+that non-production systems may send email to customers. Using Email Capture,
 emails can be sent and verified using customer email addresses, without the
 customer receiving the email.
 
-Sending with Direct Delivery
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Sending with Email Capture
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To configure applications to use Direct Delivery replace existing
+To configure applications to use Email Capture replace existing
 SMTP configuration with these settings.
 
-- Server Name: `in.mailsac.com`
+- Server Name: `capture.mailsac.com`
 - Port: 587
 - Use Secure Connection: Yes (TLS)
 - User Authentication: No
@@ -33,18 +33,18 @@ SMTP configuration with these settings.
 .. tabs::
    .. tab::  Python
 
-      .. literalinclude:: direct_delivery_example.py
+      .. literalinclude:: email_capture_example.py
          :language: python
-         :caption: Send email using Direct Delivery
+         :caption: Send email using Email Capture
 
 
    .. tab:: Node.js Javascript
 
       .. pygments throws error because of the \r\n in the code example use force
-      .. literalinclude:: direct_delivery_example.js
+      .. literalinclude:: email_capture_example.js
          :language: javascript
          :force:
-         :caption: Send email using Direct Delivery
+         :caption: Send email using Email Capture
 
 Validate Email Was Received
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -110,10 +110,10 @@ will use SPF records, to validate that the sending MTA is allowed to send the
 mail, and DKIM records to validate the integrity of the email. Finally, the MUA
 authenticates against the MDA, typically using a username and password.
 
-Direct Delivery Email Flow
---------------------------
+Email Capture Flow
+-------------------
 
-In the Direct Delivery model the Mail User Agent uses Mailsac's receiving Mail
+In the Email Capture model the Mail User Agent uses Mailsac's receiving Mail
 Transfer Agent as the outbound MTA. The Mailsac MTA will accept all mail,
 regardless of the destination domain.
 

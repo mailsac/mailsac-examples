@@ -55,7 +55,7 @@ Table of Contents
    services/mailredirect
    services/slack_webhook/slack_webhook
    services/private_domains/private_domains
-   services/direct_delivery/direct_delivery
+   services/email_capture/email_capture
 
 
 .. toctree::

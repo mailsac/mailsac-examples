@@ -1,7 +1,7 @@
 const nodemailer = require('nodemailer')
 
 const transporter = nodemailer.createTransport({
-  host: 'in.mailsac.com',
+  host: 'capture.mailsac.com',
   port: 587,
   // will use TLS by upgrading later in the connection with STARTTLS
   secure: false
