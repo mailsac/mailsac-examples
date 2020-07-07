@@ -4,10 +4,10 @@ superagent
   .get('https://mailsac.com/api/addresses/mycustomer@gmail.com/messages')
   .set('Mailsac-Key', 'YOUR_API_KEY_HERE')
   .then((mail) => {
-      console.log(mail.body);
+      console.log(mail.body)
   })
   .catch(err => {
-      console.log(err.message);
+      console.log(err.message)
   })
 
 /*
