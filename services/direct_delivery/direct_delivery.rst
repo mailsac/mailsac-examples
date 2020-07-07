@@ -38,7 +38,7 @@ SMTP configuration with these settings.
          :caption: Send email using Direct Delivery
 
 
-   .. tab:: Javascript
+   .. tab:: Node.js Javascript
 
       .. literalinclude:: direct_delivery_example.js
          :language: javascript
@@ -75,7 +75,7 @@ are provided.
           :language: bash
           :caption: Validate email was received
 
-   .. tab:: Javascript
+   .. tab:: Node.js Javascript 
 
        .. literalinclude:: javascript_validation.js
           :language: javascript
