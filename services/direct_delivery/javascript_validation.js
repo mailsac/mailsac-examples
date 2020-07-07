@@ -1,25 +1,19 @@
-const request = require('request');
+const superagent = require('superagent')
 
-const mailsacKey = 'YOUR_API_KEY_HERE';
+superagent
+  .get('https://mailsac.com/api/addresses/mycustomer@gmail.com/messages')
+  .set('Mailsac-Key', 'YOUR_API_KEY_HERE')
+  .then((mail) => {
+      console.log(mail.body);
+  })
+  .catch(err => {
+      console.log(err.message);
+  })
 
-const options = {
-    url: 'https://mailsac.com/api/addresses/mycustomer@gmail.com/messages',
-    headers: {
-        'Mailsac-Key': mailsacKey
-    }
-};
-
-function callback(error, response, body) {
-    if (!error && response.statusCode == 200) {
-        const info = JSON.parse(body);
-        console.log(info);
-    }
-}
-
-request(options, callback);
-
-// Output from script
-[ { _id: '9j1rpnMNc2KbgH9hzk0umIgq-0',
+/*
+[
+  {
+    _id: 'ssda77K5zR25P2ErL3Wi8gUnB8-0',
     from: [ [Object] ],
     to: [ [Object] ],
     cc: [],
@@ -29,8 +23,8 @@ request(options, callback);
     inbox: 'mycustomer@gmail.com',
     originalInbox: 'mycustomer@gmail.com',
     domain: 'gmail.com',
-    received: '2020-07-05T22:25:41.408Z',
-    size: 603,
+    received: '2020-07-07T13:52:07.612Z',
+    size: 509,
     attachments: [],
     ip: '98.244.15.2',
     via: '172.31.27.141',
@@ -39,4 +33,7 @@ request(options, callback);
     read: null,
     rtls: true,
     links: [ 'https://mywebapp.com/password-reset/PasswordResetToken' ],
-    spam: 0.114 } ]
+    spam: 0.114
+  }
+]
+*/
