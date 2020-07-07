@@ -40,8 +40,10 @@ SMTP configuration with these settings.
 
    .. tab:: Node.js Javascript
 
+      .. pygments throws error because of the \r\n in the code example use force
       .. literalinclude:: direct_delivery_example.js
          :language: javascript
+         :force:
          :caption: Send email using Direct Delivery
 
 Validate Email Was Received
