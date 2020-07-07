@@ -6,8 +6,7 @@ url = 'https://mailsac.com/api/addresses/mycustomer@gmail.com/messages'
 
 r = requests.get(url, headers=headers)
 pprint(r.json())
-
-# Output from script
+"""
 [{'_id': '9j1rpnMNc2KbgH9hzk0umIgq-0',
   'attachments': [],
   'bcc': [],
@@ -30,3 +29,4 @@ pprint(r.json())
   'subject': 'Password reset',
   'to': [{'address': 'mycustomer@gmail.com', 'name': ''}],
   'via': '172.31.27.141'}]
+"""
