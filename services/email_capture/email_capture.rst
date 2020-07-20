@@ -31,19 +31,18 @@ SMTP configuration with these settings.
 - User Authentication: No
 
 .. tabs::
-   .. tab::  Python
-
-      .. literalinclude:: email_capture_example.py
-         :language: python
-         :caption: Send email using Email Capture
-
-
    .. tab:: Node.js Javascript
 
       .. pygments throws error because of the \r\n in the code example use force
       .. literalinclude:: email_capture_example.js
          :language: javascript
          :force:
+         :caption: Send email using Email Capture
+
+   .. tab::  Python
+
+      .. literalinclude:: email_capture_example.py
+         :language: python
          :caption: Send email using Email Capture
 
 Validate Email Was Received
