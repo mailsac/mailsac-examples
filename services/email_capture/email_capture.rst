@@ -26,7 +26,7 @@ To configure applications to use Email Capture replace existing
 SMTP configuration with these settings.
 
 - Server Name: `capture.mailsac.com`
-- Port: 587
+- Port: 5587
 - Use Secure Connection: Yes (TLS)
 - User Authentication: No
 
