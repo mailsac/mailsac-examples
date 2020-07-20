@@ -2,7 +2,7 @@ import smtplib
 import email.utils
 from email.mime.text import MIMEText
 
-SMTP_SERVER = 'in.mailsac.com'
+SMTP_SERVER = 'capture.mailsac.com'
 SMTP_PORT = 587
 FROM_ADDRESS = 'no-reply@mywebapp.com'
 FROM_NAME = 'Mywebapp Customer Support'
