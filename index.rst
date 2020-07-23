@@ -56,6 +56,7 @@ Table of Contents
    services/slack_webhook/slack_webhook
    services/private_domains/private_domains
    services/private_addresses/private_addresses
+   services/email_validation/email_validation
 
 
 .. toctree::
