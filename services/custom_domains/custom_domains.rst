@@ -1,3 +1,11 @@
+.. _Dashboard: https://mailsac.com/dashboard
+.. _`Verified Domains`: https://mailsac.com/domains
+.. _amazon_dns: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-creating.html
+.. _cloudflare_dns: https://support.cloudflare.com/hc/en-us/articles/360019093151
+.. _namecheap_dns: https://www.namecheap.com/support/knowledgebase/article.aspx/317/2237/how-do-i-add-txtspfdkimdmarc-records-for-my-domain
+.. _names_co_uk_dns: https://www.names.co.uk/support/1156-changing_your_domains_dns_settings.html
+.. _wix_dns: https://support.wix.com/en/article/adding-or-updating-spf-records-in-your-wix-account
+
 .. _doc_custom_domains:
 
 Custom Domains
@@ -31,12 +39,11 @@ registrar (`Namecheap <https://namecheap.com>`__ or
 .. _section_zero_setup_subdomain:
 
 Zero-Setup Subdomain Configuration
-==================================
+----------------------------------
 
 Setting up a Zero-Setup domain only takes a few seconds.
 
-#. From the `dashboard <https://mailsac.com/dashboard>`_, select `Verified
-   Domains <https://mailsac.com/domains>`_.
+#. From the Dashboard_, select `Verified Domains`_.
 
    .. image:: verified_domains.png
       :scale: 50%
@@ -73,13 +80,12 @@ Setting up a Zero-Setup domain only takes a few seconds.
 .. _section_byod_configuration:
 
 BYODomain Configuration
-=======================
+-----------------------
 
 BYODomain configuration requires you to have access to modify DNS records on
 your domain.
 
-#. From the `dashboard <https://mailsac.com/dashboard>`_, select `Verified
-   Domains <https://mailsac.com/domains>`_.
+#. From the Dashboard_, select `Verified Domains`_.
 
    .. image:: verified_domains.png
       :width: 250px
@@ -110,7 +116,7 @@ your domain.
 
    Create a TXT record for DKIM with the hostname and value found on the DNS
    Setup page
-   in the Mailsac dashboard.
+   in the Mailsac Dashboard_.
 
    .. image:: byod_dkim.png
       :width: 600px
@@ -125,20 +131,20 @@ your domain.
   =============== ==================
   DNS Provider    Documentation Link
   =============== ==================
-  Amazon Route 53 `Creating Records Using the Amazon Route 53 Console <https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-creating.html>`_
+  Amazon Route 53 `Creating Records Using the Amazon Route 53 Console <amazon_dns_>`_
   GoDaddy         `Add a TXT record <https://www.godaddy.com/help/add-a-txt-record-19232>`_
   Dreamhost       `How do I add custom DNS records <https://help.dreamhost.com/hc/en-us/articles/215414867-How-do-I-add-custom-DNS-records->`_
-  Cloudflare      `Managing DNS records in CloudFlare <https://support.cloudflare.com/hc/en-us/articles/360019093151>`_
+  Cloudflare      `Managing DNS records in CloudFlare <cloudflare_dns_>`_
   HostGator       `Manage DNS records <https://www.hostgator.com/help/article/manage-dns-records-with-hostgatorenom>`_
-  Namecheap       `How do I add TXT/SPF/DKIM/DMARC records for my domain <https://www.namecheap.com/support/knowledgebase/article.aspx/317/2237/how-do-i-add-txtspfdkimdmarc-records-for-my-domain>`_
-  Names.co.uk     `Changing your domain's DNS settings <https://www.names.co.uk/support/1156-changing_your_domains_dns_settings.html>`_
-  Wix             `Adding or updating TXT Records in Your Wix account <https://support.wix.com/en/article/adding-or-updating-txt-records-in-your-wix-account>`_
+  Namecheap       `How do I add TXT/SPF/DKIM/DMARC records for my domain <namecheap_dns_>`_
+  Names.co.uk     `Changing your domain's DNS settings <names_co_uk_dns_>`_
+  Wix             `Adding or updating TXT Records in Your Wix account <wix_dns_>`_
   =============== ==================
 
 #. Configure TXT DNS record for SPF
 
    Create a TXT record for SPF with the hostname and value found on the DNS
-   Setup page in the Mailsac dashboard.
+   Setup page in the Mailsac Dashboard_.
 
    .. image:: byod_spf.png
       :width: 600px
@@ -147,20 +153,20 @@ your domain.
   =============== ==================
   DNS Provider    Documentation Link
   =============== ==================
-  Amazon Route 53 `Creating Records Using the Amazon Route 53 Console <https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-creating.html>`_
+  Amazon Route 53 `Creating Records Using the Amazon Route 53 Console <amazon_dns_>`_
   GoDaddy         `Adding an SPF record <https://www.godaddy.com/help/add-an-spf-record-19218>`_
   Dreamhost       `How do I add an SPF record <https://help.dreamhost.com/hc/en-us/articles/216106197-How-do-I-add-an-SPF-record->`_
-  Cloudflare      `Managing DNS records in CloudFlare <https://support.cloudflare.com/hc/en-us/articles/360019093151>`_
+  Cloudflare      `Managing DNS records in CloudFlare <cloudflare_dns_>`_
   HostGator       `SPF Records <https://www.hostgator.com/help/article/spf-records>`_
-  Namecheap       `How do I add TXT/SPF/DKIM/DMARC records for my domain <https://www.namecheap.com/support/knowledgebase/article.aspx/317/2237/how-do-i-add-txtspfdkimdmarc-records-for-my-domain>`_
-  Names.co.uk     `Changing your domain's DNS settings <https://www.names.co.uk/support/1156-changing_your_domains_dns_settings.html>`_
-  Wix             `Adding or updating SPF Records in Your Wix account <https://support.wix.com/en/article/adding-or-updating-spf-records-in-your-wix-account>`_
+  Namecheap       `How do I add TXT/SPF/DKIM/DMARC records for my domain <namecheap_dns_>`_
+  Names.co.uk     `Changing your domain's DNS settings <names_co_uk_dns_>`_
+  Wix             `Adding or updating TXT Records in Your Wix account <wix_dns_>`_
   =============== ==================
 
 #. Configure MX records to receive mail
 
    Create two MX records to receive mail with the hostname and value found on
-   the DNS Setup page in the Mailsac dashboard.
+   the DNS Setup page in the Mailsac Dashboard_.
 
    .. image:: byod_mx.png
       :width: 600px
