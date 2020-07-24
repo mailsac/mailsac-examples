@@ -1,0 +1,17 @@
+curl -X POST -H "Mailsac-Key: YOUR_API_KEY_HERE" https://mailsac.com/api/addresses/unitedmonkey@mailsac.com
+
+# Output from curl
+{
+    "_id": "unitedmonkey@mailsac.com",
+    "catchAll": null,
+    "created": "2020-07-23T14:49:10.129Z",
+    "enablews": null,
+    "forward": null,
+    "info": "",
+    "owner": "monkeyman",
+    "password": null,
+    "updated": "2020-07-23T14:49:10.129Z",
+    "webhook": null,
+    "webhookSlack": null,
+    "webhookSlackToFrom": null
+}
