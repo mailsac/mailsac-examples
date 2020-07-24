@@ -55,6 +55,7 @@ Table of Contents
    services/mailredirect
    services/slack_webhook/slack_webhook
    services/custom_domains/custom_domains
+   services/private_addresses/private_addresses
    services/email_validation/email_validation
 
 
