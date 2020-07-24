@@ -1,7 +1,7 @@
 .. mailsac-examples documentation master file, created by Forking Software LLC
 
 Mailsac Docs
-============================================
+============
 
 Welcome to the official documentation for Mailsac, the disposable email 
 service built for developers.
@@ -54,7 +54,7 @@ Table of Contents
    services/sending_mail/sendingmail
    services/mailredirect
    services/slack_webhook/slack_webhook
-   services/private_domains/private_domains
+   services/custom_domains/custom_domains
    services/email_validation/email_validation
 
 

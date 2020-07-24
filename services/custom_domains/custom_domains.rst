@@ -1,10 +1,10 @@
 .. _doc_custom_domains:
 
-Private Domains
-===============
+Custom Domains
+==============
 
-Private domains allow for receiving of email at any address within a
-domain. Private domains can be `purchased <https://mailsac.com/pricing>`_ as
+Custom domains allow for receiving of email at any address within a
+domain. Custom domains can be `purchased <https://mailsac.com/pricing>`_ as
 an addon or as part of a plan.
 
 Zero-Setup Subdomain
@@ -54,7 +54,7 @@ Setting up a Zero-Setup domain only takes a few seconds.
       :width: 600px
       :align: center
 
-#. Send a test email to any address at in the private domain. There is no
+#. Send a test email to any address at in the custom domain. There is no
    need to configure individual addresses. Sending an email to the address
    creates the address.
 
