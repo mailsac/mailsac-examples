@@ -9,7 +9,7 @@ All `plans <https://mailsac.com/pricing>`_ include message storage. The amount
 of message storage is how many messages can be stored before mail before
 messages are recycled.
 
-Messages that are sent to a :ref:`private domain <doc_privatedomains>`, private 
+Messages that are sent to a :ref:`private domain <doc_custom_domains>`, private 
 address, or `starred messages`_ count towards message storage.
 
 When are Messages Recycled?
@@ -18,7 +18,7 @@ When are Messages Recycled?
 Messages sent to non-private addresses and domains will be recycled at times
 to ensure capacity for new messages.
 
-Messages sent to :ref:`private domains <doc_privatedomains>`, private addresses,
+Messages sent to :ref:`private domains <doc_custom_domains>`, private addresses,
 and `starred messages`_ associated with Mailsac are recycled once the storage 
 limit is reached.
 

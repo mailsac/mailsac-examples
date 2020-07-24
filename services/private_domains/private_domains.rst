@@ -1,4 +1,4 @@
-.. _doc_privatedomains:
+.. _doc_custom_domains:
 
 Private Domains
 ===============
