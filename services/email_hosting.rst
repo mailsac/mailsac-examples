@@ -25,4 +25,4 @@ Common DNS Provider Links
 -------------------------
 
 .. rst-class:: blockquote-noleftmargin
-.. include:: ./private_domains/mx_record_links.rst
+.. include:: ./custom_domains/mx_record_links.rst
