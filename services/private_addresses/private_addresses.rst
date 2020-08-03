@@ -25,7 +25,7 @@ Reserve a Private Address
 Private Addresses In a Custom Domain
 ------------------------------------
 
-Private Addresses can be used in :ref:`Custom Domains <doc_privatedomains>`.
-This allows an address within a :ref:`Custom Domain <doc_privatedomains>` to
+Private Addresses can be used in :ref:`Custom Domains <doc_custom_domains>`.
+This allows an address within a :ref:`Custom Domain <doc_custom_domains>` to
 have the features of a 
 :ref:`Private Email Address <sec_private_addresses>`.

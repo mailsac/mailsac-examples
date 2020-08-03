@@ -15,54 +15,60 @@ Mail can be sent via the following methods:
 - `REST API <https://mailsac.com/docs/api/#send-email-messages>`_
 - :ref:`SMTP <doc_sendingmail_smtp>`
 
+.. _sec_send_mail_message:
+
+Send a Mail Message
+-------------------
+
+.. tabs::
+   .. tab:: Mailsac Website
+
+      .. figure:: webform.png 
+
+         Send using the `Compose Message Form <Web Form_>`_
+
+   .. tab:: Unified Inbox
+
+      .. figure:: unified_inbox_sending_mail.gif
+
+         Send using the `Unified Inbox`_
+
+   .. tab:: curl
+
+       .. literalinclude:: sending_mail.sh
+          :language: bash
+          :caption: Send using curl
+
+   .. tab:: Node.js Javascript 
+
+       .. literalinclude:: sending_mail.js
+          :language: javascript
+          :caption: Send using Node.js. requires
+                    :code:`npm install superagent`
+
+   .. tab:: Python
+
+       .. literalinclude:: sending_mail.py
+          :language: python
+          :caption: Send using Python
+
+Allowed from addresses
+----------------------
+The :code:`from` address must be a :ref:`Private Address
+<doc_private_addresses>` or an address within a :ref:`doc_custom_domains`.
+
+Sending credits
+---------------
+
 Sending mail, both replies and new messages, is available only from private
 addresses and private domains. Sending or replying requires `mail credits
 <https://mailsac.com/pricing>`_.
 
-Sent messages are not save using any method, with the exception of the Unified
-Inbox.
-
-Allowed from addresses
-----------------------
-When sending an email, the :code:`from` address must be a private address or an address
-within a private domain.
-
-Sending from the Web Form
--------------------------
-
-The `Web Form`_ is the easiest way to get started
-sending mail through mailsac.
-
-#. Use the `Web Form`_ or select *Compose New Email* from the Dashboard_
-#. Fill in the *From*, *To*, *Subject*, and *Text* fields
-#. Click *Send*
-
-  .. figure:: webform.png
-       :align: center
-       :width: 400px
-
-Sending from the Unified Inbox
-------------------------------
-
-The `Unified Inbox`_ allows you to send and receive
-like you would with gmail or yahoo mail.
-
-1. Go to the `Unified Inbox`_ or select *Unified
-   Inbox* from the Dashboard_
-2. Select *compose* from the Unified Inbox
-
-    .. figure:: unified_inbox_compose_button.png
-        :align: center
-        :width: 400px
-
-3. Select the *from address* in the from dropdown, fill out the to address,
-   subject, and text.
-
-    .. figure:: unified_inbox_compose_form.png
-        :align: center
-        :width: 400px
-
-4. Click *Send* to send the message.
+Sent Messages Are Not Saved
+---------------------------
+Outgoing messages are not saved. They may be visible or cached temporarily by
+our outgoing mail services, and logged in debugging messages on Mailsac
+servers, but not explicitly archived by Mailsac at this time.
 
 Sending from the API
 --------------------
@@ -73,58 +79,14 @@ The :code:`/api-outgoing-messages` endpoint is documented in the
 
 1. Generate an API by selecting `API Keys <https://mailsac.com/api-keys>`_ from
    the Dashboard_.
-2. Send email using curl or your favorite HTTP library.
-
-    .. code-block:: bash
-       :caption: curl
-
-       curl -H "Mailsac-Key: MY_MAILSAC_API_KEY" -X POST
-       https://mailsac.com/api/outgoing-messages
-       -H "Content-Type: application/json" --data '{ "to":"myfriend@mailsac.com", "from": "user1@mailsac.com",
-       "subject": "Hello Myfriend", "text": "test message from mailsac" }'
-
-    .. code-block:: python
-        :caption: Python
-
-        import requests
-        url = 'https://mailsac.com/api/outgoing-messages'
-        headers = {'Mailsac-Key': 'MY_MAILSAC_API_KEY'}
-        mail = { 'to':'myfriend@mailsac.com', 'from':'user1@mailsac.com', 'subject':'Hello Myfriend', 'text': 'mailsac allows for sending of email'}
-        x = requests.post(url, data=mail, headers=headers)
-        print(x.text)
-
-   .. code-block:: javascript
-        :caption: Node.js - requires :code:`npm install superagent`
-
-        const superagent = require('superagent')
-        superagent.post('https://mailsac.com/api/outgoing-messages')
-            .set('Mailsac-Key', 'MY_MAILSAC_API_KEY')
-            .send({
-                to: "myfriend@mailsac.com",
-                from: "user1@mailsac.com",
-                subject: "Hello Myfriend",
-                text: "test message from mailsac"
-            })
-            .ok(res => res.status === 200)
-            .then(res => console.log(res.body))
-            .catch(err => console.error(err))
-
-Response example:
-
-    .. code-block:: bash
-
-        {
-            "from": "user1@mailsac.com",
-            "to": ["myfriend@mailsac.com"],
-            "id": "fe-f2r4tdoe3a"
-        }
+2. Send email using curl or your favorite HTTP library. :ref:`Code Examples <sec_send_mail_message>`
 
 .. _doc_sendingmail_smtp:
 
 Sending with SMTP
 -----------------
 
-Sending via SMTP allows email clients to send email using mailsac.
+Sending via SMTP allows email clients to send email using Mailsac.
 
 **Authentication**
 
@@ -144,7 +106,6 @@ address SMTP password can be set through using the Dashboard_
 Configure your email client (Gmail, Apple mail, Thunberbird, Outlook, iPhone,
 etc) using these SMTP settings:
 
-
 +-----------------------+-------------------------------------------------------+
 | **Hostname / Server** | out.mailsac.com                                       |
 +-----------------------+-------------------------------------------------------+
@@ -162,36 +123,10 @@ etc) using these SMTP settings:
 +-----------------------+-------------------------------------------------------+
 
 
-Sent Messages Are Not Saved
----------------------------
-Outgoing messages are not saved. They may be visible or cached temporarily by
-our outgoing mail services, and logged in debugging messages on Mailsac
-servers, but not explicitly archived by Mailsac at this time.
-
 .. _doc_internal_smtp:
 
 Internal SMTP Sending
 ---------------------
-Mailsac's receiving SMTP servers accept all mail regardless of the
-recipient. This allows customers to send directly to Mailsac using
-their existing SMTP client or library. This mail is only delivered to Mailsac.
-If the recipient domain is a private domain, the mail will only be visible to
-the owner of the domain. If the domain is not private, the email will be publicly
-accessible.
-
-+-----------------------+-------------------------------------------------------+
-| **Hostname / Server** | in.mailsac.com                                        |
-+-----------------------+-------------------------------------------------------+
-| **Username**          + Not required                                          |
-+-----------------------+-------------------------------------------------------+
-| **Password**          | Not required                                          |
-+-----------------------+-------------------------------------------------------+
-| **Port**              | 25                                                    |
-+-----------------------+-------------------------------------------------------+
-| **Auth Settings**     | Not required                                          |
-+-----------------------+-------------------------------------------------------+
-| **Encryption**        | None/TLS                                              |
-+-----------------------+-------------------------------------------------------+
 
 For `plans <https://mailsac.com/pricing>`_ with unlimited internal sending
 messages can be sent through Mailsac's outbound SMTP server
