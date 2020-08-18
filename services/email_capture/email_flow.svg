@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="684"
+   height="74"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="E-mail.svg">
+  <metadata
+     id="metadata92">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs90" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1319"
+     inkscape:window-height="744"
+     id="namedview88"
+     showgrid="false"
+     inkscape:zoom="1.6234774"
+     inkscape:cx="303.72813"
+     inkscape:cy="37"
+     inkscape:window-x="47"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <g
+     id="g3121"
+     transform="translate(0,4)">
+    <ellipse
+       id="ellipse4"
+       style="fill:#00ffff;stroke:#00ffff;stroke-width:1"
+       ry="8"
+       rx="8"
+       cy="33"
+       cx="22"
+       sodipodi:cx="22"
+       sodipodi:cy="33"
+       sodipodi:rx="8"
+       sodipodi:ry="8"
+       d="m 30,33 c 0,4.418278 -3.581722,8 -8,8 -4.418278,0 -8,-3.581722 -8,-8 0,-4.418278 3.581722,-8 8,-8 4.418278,0 8,3.581722 8,8 z" />
+    <ellipse
+       id="ellipse6"
+       style="fill:#000000;stroke:#000000;stroke-width:1"
+       ry="8"
+       rx="8"
+       cy="33"
+       cx="22"
+       sodipodi:cx="22"
+       sodipodi:cy="33"
+       sodipodi:rx="8"
+       sodipodi:ry="8"
+       d="m 30,33 c 0,4.418278 -3.581722,8 -8,8 -4.418278,0 -8,-3.581722 -8,-8 0,-4.418278 3.581722,-8 8,-8 4.418278,0 8,3.581722 8,8 z" />
+  </g>
+  <rect
+     x="94"
+     y="15.5"
+     width="70"
+     height="43"
+     rx="16"
+     ry="16"
+     style="fill:#00ffff;stroke:#00ffff;stroke-width:1"
+     id="rect8" />
+  <rect
+     x="94"
+     y="15.5"
+     width="70"
+     height="43"
+     rx="16"
+     ry="16"
+     style="fill:#ffffff;stroke:#ffffff;stroke-width:1"
+     id="rect10" />
+  <rect
+     x="94"
+     y="15.5"
+     width="70"
+     height="43"
+     rx="16"
+     ry="16"
+     style="fill:#00aad4;stroke:#000000;stroke-width:1"
+     id="rect12" />
+  <text
+     x="117.15186"
+     y="28.5"
+     style="font-size:10px;font-family:Dialog"
+     id="text14">MUA</text>
+  <line
+     x1="94.5"
+     y1="37"
+     x2="163.5"
+     y2="37"
+     style="fill:#000000;stroke:#000000;stroke-width:1"
+     id="line16" />
+  <rect
+     x="238"
+     y="15.5"
+     width="70"
+     height="43"
+     rx="16"
+     ry="16"
+     style="fill:#00ffff;stroke:#00ffff;stroke-width:1"
+     id="rect18" />
+  <rect
+     x="238"
+     y="15.5"
+     width="70"
+     height="43"
+     rx="16"
+     ry="16"
+     style="fill:#ffffff;stroke:#ffffff;stroke-width:1"
+     id="rect20" />
+  <rect
+     x="238"
+     y="15.5"
+     width="70"
+     height="43"
+     rx="16"
+     ry="16"
+     style="fill:#00aad4;stroke:#000000;stroke-width:1"
+     id="rect22" />
+  <text
+     x="262.14795"
+     y="28.5"
+     style="font-size:10px;font-family:Dialog"
+     id="text24">MTA</text>
+  <line
+     x1="238.5"
+     y1="37"
+     x2="307.5"
+     y2="37"
+     style="fill:#000000;stroke:#000000;stroke-width:1"
+     id="line26" />
+  <rect
+     x="374"
+     y="15.5"
+     width="70"
+     height="43"
+     rx="16"
+     ry="16"
+     style="fill:#00ffff;stroke:#00ffff;stroke-width:1"
+     id="rect28" />
+  <rect
+     x="374"
+     y="15.5"
+     width="70"
+     height="43"
+     rx="16"
+     ry="16"
+     style="fill:#ffffff;stroke:#ffffff;stroke-width:1"
+     id="rect30" />
+  <rect
+     x="374"
+     y="15.5"
+     width="70"
+     height="43"
+     rx="16"
+     ry="16"
+     style="fill:#00aad4;stroke:#000000;stroke-width:1"
+     id="rect32" />
+  <text
+     x="397.0542"
+     y="28.5"
+     style="font-size:10px;font-family:Dialog"
+     id="text34">MDA</text>
+  <line
+     x1="374.5"
+     y1="37"
+     x2="443.5"
+     y2="37"
+     style="fill:#000000;stroke:#000000;stroke-width:1"
+     id="line36" />
+  <rect
+     x="518"
+     y="15.5"
+     width="70"
+     height="43"
+     rx="16"
+     ry="16"
+     style="fill:#00ffff;stroke:#00ffff;stroke-width:1"
+     id="rect38" />
+  <rect
+     x="518"
+     y="15.5"
+     width="70"
+     height="43"
+     rx="16"
+     ry="16"
+     style="fill:#ffffff;stroke:#ffffff;stroke-width:1"
+     id="rect40" />
+  <rect
+     x="518"
+     y="15.5"
+     width="70"
+     height="43"
+     rx="16"
+     ry="16"
+     style="fill:#00aad4;stroke:#000000;stroke-width:1"
+     id="rect42" />
+  <text
+     x="541.15186"
+     y="28.5"
+     style="font-size:10px;font-family:Dialog"
+     id="text44">MUA</text>
+  <line
+     x1="518.5"
+     y1="37"
+     x2="587.5"
+     y2="37"
+     style="fill:#000000;stroke:#000000;stroke-width:1"
+     id="line46" />
+  <g
+     id="g3116"
+     transform="translate(0,8)">
+    <ellipse
+       id="ellipse48"
+       style="fill:#000000;stroke:#000000;stroke-width:1"
+       ry="12"
+       rx="12"
+       cy="29"
+       cx="658"
+       sodipodi:cx="658"
+       sodipodi:cy="29"
+       sodipodi:rx="12"
+       sodipodi:ry="12"
+       d="m 670,29 c 0,6.627417 -5.37258,12 -12,12 -6.62742,0 -12,-5.372583 -12,-12 0,-6.627417 5.37258,-12 12,-12 6.62742,0 12,5.372583 12,12 z" />
+    <ellipse
+       id="ellipse50"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:1"
+       ry="11"
+       rx="11"
+       cy="29"
+       cx="658"
+       sodipodi:cx="658"
+       sodipodi:cy="29"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       d="m 669,29 c 0,6.075132 -4.92487,11 -11,11 -6.07513,0 -11,-4.924868 -11,-11 0,-6.075132 4.92487,-11 11,-11 6.07513,0 11,4.924868 11,11 z" />
+    <ellipse
+       id="ellipse52"
+       style="fill:#000000;stroke:#000000;stroke-width:1"
+       ry="7"
+       rx="7"
+       cy="29"
+       cx="658"
+       sodipodi:cx="658"
+       sodipodi:cy="29"
+       sodipodi:rx="7"
+       sodipodi:ry="7"
+       d="m 665,29 c 0,3.865993 -3.13401,7 -7,7 -3.86599,0 -7,-3.134007 -7,-7 0,-3.865993 3.13401,-7 7,-7 3.86599,0 7,3.134007 7,7 z" />
+  </g>
+  <g
+     id="g3087"
+     transform="translate(0,4)">
+    <g
+       id="g3082">
+      <polyline
+         style="fill:none;stroke:#000000;stroke-width:1"
+         points="164,33 238,33"
+         id="polyline54" />
+      <line
+         x1="226"
+         y1="40"
+         x2="238"
+         y2="33"
+         style="fill:#000000;stroke:#000000;stroke-width:1"
+         id="line56" />
+      <line
+         x1="226"
+         y1="26"
+         x2="238"
+         y2="33"
+         style="fill:#000000;stroke:#000000;stroke-width:1"
+         id="line58" />
+    </g>
+    <text
+       id="text60"
+       style="font-size:10px;font-family:Dialog"
+       y="28"
+       x="187.2793">SMTP</text>
+  </g>
+  <g
+     id="g3099"
+     transform="translate(0,4)">
+    <g
+       id="g3094">
+      <polyline
+         style="fill:none;stroke:#000000;stroke-width:1"
+         points="444,33 518,33"
+         id="polyline62" />
+      <line
+         x1="506"
+         y1="40"
+         x2="518"
+         y2="33"
+         style="fill:#000000;stroke:#000000;stroke-width:1"
+         id="line64" />
+      <line
+         x1="506"
+         y1="26"
+         x2="518"
+         y2="33"
+         style="fill:#000000;stroke:#000000;stroke-width:1"
+         id="line66" />
+    </g>
+    <text
+       id="text68"
+       style="font-size:10px;font-family:Dialog"
+       y="28"
+       x="449.6123">POP / IMAP</text>
+  </g>
+  <g
+     id="g3106"
+     transform="translate(0,4)">
+    <polyline
+       id="polyline70"
+       points="308,33 374,33"
+       style="fill:none;stroke:#000000;stroke-width:1" />
+    <line
+       id="line72"
+       style="fill:#000000;stroke:#000000;stroke-width:1"
+       y2="33"
+       x2="374"
+       y1="40"
+       x1="362" />
+    <line
+       id="line74"
+       style="fill:#000000;stroke:#000000;stroke-width:1"
+       y2="33"
+       x2="374"
+       y1="26"
+       x1="362" />
+  </g>
+  <g
+     id="g3077"
+     transform="translate(0,4)">
+    <polyline
+       id="polyline76"
+       points="29,33 94,33"
+       style="fill:none;stroke:#000000;stroke-width:1" />
+    <line
+       id="line78"
+       style="fill:#000000;stroke:#000000;stroke-width:1"
+       y2="33"
+       x2="94"
+       y1="40"
+       x1="82" />
+    <line
+       id="line80"
+       style="fill:#000000;stroke:#000000;stroke-width:1"
+       y2="33"
+       x2="94"
+       y1="26"
+       x1="82" />
+  </g>
+  <g
+     id="g3111"
+     transform="translate(0,5)">
+    <polyline
+       id="polyline82"
+       points="588,32 646,32"
+       style="fill:none;stroke:#000000;stroke-width:1" />
+    <line
+       id="line84"
+       style="fill:#000000;stroke:#000000;stroke-width:1"
+       y2="32"
+       x2="646"
+       y1="39"
+       x1="634" />
+    <line
+       id="line86"
+       style="fill:#000000;stroke:#000000;stroke-width:1"
+       y2="32"
+       x2="646"
+       y1="25"
+       x1="634" />
+  </g>
+</svg>

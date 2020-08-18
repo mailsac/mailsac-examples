@@ -55,6 +55,7 @@ Table of Contents
    services/reading_mail/reading_mail
    services/mailredirect
    services/slack_webhook/slack_webhook
+   services/email_capture/email_capture
    services/custom_domains/custom_domains
    services/private_addresses/private_addresses
    services/email_validation/email_validation
