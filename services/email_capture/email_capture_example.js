@@ -1,10 +1,17 @@
 const nodemailer = require('nodemailer')
 
+const mailsaUserName = 'MAILSAC_USERNAME'
+const mailsacAPIKey = 'MAILSAC_API_KEY'
+
 const transporter = nodemailer.createTransport({
   host: 'capture.mailsac.com',
-  port: 587,
+  port: 5587,
   // will use TLS by upgrading later in the connection with STARTTLS
-  secure: false
+  secure: false,
+  auth: {
+    user: mailsaUserName,
+    pass: mailsacAPIKey
+  }
 })
 
 transporter.sendMail({
