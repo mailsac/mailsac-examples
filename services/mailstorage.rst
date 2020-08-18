@@ -41,6 +41,8 @@ Getting More Storage
 Message storage can be purchased on a per-message basis in blocks listed on the 
 `pricing page <https://mailsac.com/pricing>`_.
 
+.. _sec_starred_messages:
+
 Starred Messages
 ----------------
 When you star a message, it counts towards your overall storage. 
