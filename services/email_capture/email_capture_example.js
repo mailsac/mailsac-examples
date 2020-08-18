@@ -18,7 +18,7 @@ transporter.sendMail({
   from: '"Mywebapp Customer Support" no-reply@mywebapp.com',
   to: 'mycustomer@gmail.com',
   subject: 'Password reset',
-  text: `Click on the link to reset you password\r\n
+  text: `Click on the link to reset you password
     https://mywebapp.com/password-reset/PasswordResetToken`
 })
   .then(response => {
