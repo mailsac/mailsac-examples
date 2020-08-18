@@ -24,6 +24,12 @@ SMTP configuration with these settings.
 :User Authentication: Yes (*Username:* Mailsac username
  *Password:* Mailsac: API key)
 
+ Some SMTP libraries or clients may not support the use of a username that is
+ different from the :code:`From` address. In that case, the :code:`From` address
+ will need to be added as a :ref:`Private Address <doc_private_addresses>`. The
+ Private address can then be used with the Mailsac API Key as authentication to
+ the Capture service.
+
 .. tabs::
    .. tab:: Node.js Javascript
 
