@@ -24,6 +24,13 @@ SMTP configuration with these settings.
 :User Authentication: Yes (*Username:* Mailsac username
  *Password:* Mailsac: API key)
 
+ Some SMTP libraries or clients may not support the use of a username that is
+ different from the :code:`From` address. In that case, the :code:`From` address
+ will need to be added as a :ref:`Private Address <doc_private_addresses>` or be
+ an address in a :ref:`Custom Domain <doc_custom_domains>`. The
+ Private address or address in a Custom Domain can then be used with the Mailsac
+ API Key as authentication to the Capture service.
+
 .. tabs::
    .. tab:: Node.js Javascript
 
@@ -127,8 +134,8 @@ regardless of the destination domain.
 Considerations
 --------------
 
-- All email sent will be public (Unless sent to a :ref:`private domain
-  <doc_privatedomains>` or configured to be
+- All email sent will be public (Unless sent to a :ref:`custom domain
+  <doc_custom_domains>` or configured to be
   :ref:`private <sec_private_captured_email>`)
 - Each message sent will count as an API call
 
