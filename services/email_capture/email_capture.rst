@@ -8,27 +8,21 @@ Email Capture
 
 Email Capture is the service that allows Mailsac to act as a fake SMTP
 server. Email messages sent using Email Capture will not be delivered to
-the intended recipients but instead will be available via the `Mailsac website`_
-and `Mailsac API`_.
+the :code:`To` recipients but instead will be available via the `Mailsac website`_
+and `Mailsac API`_. Emails can be kept private by configuring the
+:ref:`sec_private_captured_email` option.
 
-Email Validation in a Non-Production Environment
-------------------------------------------------
-
-Non-production environments of applications often do not send email for fear
-that non-production systems may send email to customers. Using Email Capture,
-emails can be sent and verified using customer email addresses, without the
-customer receiving the email.
-
-Sending with Email Capture
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Sending Using Email Capture
+---------------------------
 
 To configure applications to use Email Capture replace existing
 SMTP configuration with these settings.
 
-- Server Name: `capture.mailsac.com`
-- Port: 5587
-- Use Secure Connection: Yes (TLS)
-- User Authentication: No
+:Server Name: `capture.mailsac.com`
+:Port: 5587
+:Use Secure Connection: Yes (TLS)
+:User Authentication: Yes (*Username:* Mailsac username
+ *Password:* Mailsac: API key)
 
 .. tabs::
    .. tab:: Node.js Javascript
@@ -46,7 +40,7 @@ SMTP configuration with these settings.
          :caption: Send email using Email Capture
 
 Validate Email Was Received
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------
 
 The easiest way to check that an email was received is to use the `Mailsac
 website`_. Use the "Check the mail!" button on the
@@ -88,6 +82,20 @@ are provided.
           :language: python
           :caption: Validate email was received
 
+.. _sec_private_captured_email:
+
+Make Captured Email Private
+---------------------------
+
+Emails sent via :code:`capture.mailsac.com` can be automatically
+:ref:`starred <sec_starred_messages>`, which keeps the email private, by
+enabling the Make Capture Email Private option under `Account Settings
+<https://mailsac.com/account>`_. Starred messages count towards
+:ref:`doc_mailstorage` limits.
+
+.. figure:: private_captured_email_option.png
+
+
 Traditional Email Flow
 ----------------------
 
@@ -120,5 +128,20 @@ Considerations
 --------------
 
 - All email sent will be public (Unless sent to a :ref:`private domain
-  <doc_privatedomains>`)
-- Email will be throttled
+  <doc_privatedomains>` or configured to be
+  :ref:`private <sec_private_captured_email>`)
+- Each message sent will count as an API call
+
+Email Capture Use Cases
+-----------------------
+
+Email Capture can be used anytime a system needs to send an email, but the email
+should not be delivered to the customer.
+
+Email Validation in a Non-Production Environment
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Non-production environments of applications often do not send email for fear
+that non-production systems may send email to customers. Using Email Capture,
+emails can be sent and verified using customer email addresses, without the
+customer receiving the email.
