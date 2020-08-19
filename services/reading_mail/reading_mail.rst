@@ -14,7 +14,7 @@ There are several ways for to view email messages using Mailsac
 - :ref:`Inbox View <sec_inbox_view>`
 - :ref:`Unified Inbox <sec_unified_inbox>`
 - :ref:`REST API <sec_reading_mail_rest_api>`
-- :ref:`SMTP <sec_reading_mail_smtp>`
+- :ref:`POP3 <sec_reading_mail_pop3>`
 
 .. _sec_read_mail_message:
 
