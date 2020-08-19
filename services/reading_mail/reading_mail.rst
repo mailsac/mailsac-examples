@@ -14,7 +14,7 @@ There are several ways for to view email messages using Mailsac
 - :ref:`Inbox View <sec_inbox_view>`
 - :ref:`Unified Inbox <sec_unified_inbox>`
 - :ref:`REST API <sec_reading_mail_rest_api>`
-- :ref:`SMTP <sec_reading_mail_smtp>`
+- :ref:`POP3 <sec_reading_mail_pop3>`
 
 .. _sec_read_mail_message:
 
@@ -99,7 +99,7 @@ The :code:`/api/addresses/:email/messages` and
    the Dashboard_.
 2. Send email using curl or your favorite HTTP library. :ref:`Code Examples <sec_read_mail_message>`
 
-.. _sec_reading_mail_smtp:
+.. _sec_reading_mail_pop3:
 
 Reading with POP3
 -----------------
@@ -138,3 +138,5 @@ etc) using these POP3 settings:
 | **Auth Settings**     | Password / allow plain / insecure                     |
 +-----------------------+-------------------------------------------------------+
 
+To configure a mail client for sending see the :ref:`Sending Mail via SMTP
+Section <sec_sendingmail_smtp>`.

@@ -13,7 +13,7 @@ Mail can be sent via the following methods:
 - `Web Form`_
 - `Unified Inbox`_
 - `REST API <https://mailsac.com/docs/api/#send-email-messages>`_
-- :ref:`SMTP <doc_sendingmail_smtp>`
+- :ref:`SMTP <sec_sendingmail_smtp>`
 
 .. _sec_send_mail_message:
 
@@ -81,7 +81,7 @@ The :code:`/api-outgoing-messages` endpoint is documented in the
    the Dashboard_.
 2. Send email using curl or your favorite HTTP library. :ref:`Code Examples <sec_send_mail_message>`
 
-.. _doc_sendingmail_smtp:
+.. _sec_sendingmail_smtp:
 
 Sending with SMTP
 -----------------
@@ -122,6 +122,8 @@ etc) using these SMTP settings:
 | **Encryption**        | TLS                                                   |
 +-----------------------+-------------------------------------------------------+
 
+To configure a mail client for reading see the :ref:`Reading Mail via POP3 
+Section <sec_reading_mail_pop3>`.
 
 .. _doc_internal_smtp:
 
