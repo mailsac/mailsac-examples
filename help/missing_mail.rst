@@ -1,3 +1,5 @@
+.. _Dashboard: https://mailsac.com/dashboard
+
 .. _doc_missingmail:
 
 Missing Mail
@@ -78,6 +80,21 @@ Mandrill
 ^^^^^^^^
 Messages sent through Mandrall are often `queued <https://mandrill.zendesk.com/hc/en-us/articles/205582717-Why-does-a-delivered-message-say-queued->`_
 and are not sent immediately.
+
+Request Whitelist
+-----------------
+
+Whitelisting is only necessary if mail delivery is being slowed due to Mailsac
+throttling. A whitelist request can be submitted using the `IP Whitelist Form 
+<https://mailsac.com/whitelist-request>`_ from the Dashboard_.
+
+Whitelisting can be requested for:
+
+- IP addresses or networks
+- Sending domains
+- Sending addresses
+- Receiving domains
+- Receiving addresses
 
 Contacting Support
 ------------------
