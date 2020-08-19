@@ -7,7 +7,7 @@
 Email Forwarding
 ================
 
-Forwarding allows email to be sent to a different email address or
+Forwarding allows email to be sent on to a further email address or
 service (Webhook, WebSocket, Slack Webhook). Private addresses and custom
 domains can be configured for email forwarding. Forwarding is not available on
 disposable email addresss.
@@ -21,8 +21,8 @@ Webhook, WebSocket, or Slack Webhook). A Catch-All address is a private address
 in the format `*@example.com`.
 
 A Catch-All email address can be configured by selecting `Manage Domains`_ from
-the Dashboard_, then choosing *Manage* next to the domain, and then selecting
-the *Forwarding* tab.
+the Dashboard_, then choosing *Manage* next to the domain, then selecting
+the *Forwarding* tab, and toggling the Enable Catch-All.
 
 .. figure:: enable_catch_all.png
      :align: center
@@ -52,8 +52,8 @@ icon next to the Catch-All address.
 Catch-All Example Use Case
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Traditionally individual mailboxes or distribution lists needed to be configured
-for each address in a domain. If a small business wanted to add a new address,
+Traditionally individual mailboxes need to be configured
+for each address in a domain. If a small business wants to add a new address,
 sales@widgets.com, they would need to configure that mailbox. With a Catch-All
 address they can instruct customers to start sending to sales@widgets.com and
 all the messages sent to sales@widgets.com will be forwarded to the Catch-All
