@@ -12,6 +12,56 @@ service (Webhook, WebSocket, Slack Webhook). Private addresses and custom
 domains can be configured for email forwarding. Forwarding is not available on
 disposable email addresss.
 
+Catch-All Domain Forwarding Addresses
+-------------------------------------
+
+A Catch-All email address can receive all the mail for
+a custom domain, and optionally forward it to another address or service (
+Webhook, WebSocket, or Slack Webhook). A Catch-All address is a private address
+in the format `*@example.com`.
+
+A Catch-All email address can be configured by selecting `Manage Domains`_ from
+the Dashboard_, then choosing *Manage* next to the domain, and then selecting
+the *Forwarding* tab.
+
+.. figure:: enable_catch_all.png
+     :align: center
+     :width: 400px
+
+     Enable Catch-All address on custom domain.
+
+Configure Forwarding on a Catch-All Address
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Catch-All addresses can be forwarded to:
+
+- :ref:`Another Private Mailsac Address <sec_forward_to_another_mailsac_address>`
+- :ref:`Slack <sec_forward_to_slack>`
+- :ref:`Webhook <sec_webhook_forwarding>`
+- :ref:`WebSocket <sec_websocket_forwarding>`
+
+From the Dashboard_, select `Manage Email Addresses`, then select settings
+icon next to the Catch-All address. 
+
+.. figure:: catch-all_forwarding_settings.png
+    :align: center
+    :width: 400px
+
+    Configure Forwarding on a Catch-All Address
+
+Catch-All Example Use Case
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Traditionally individual mailboxes or distribution lists needed to be configured
+for each address in a domain. If a small business wanted to add a new address,
+sales@widgets.com, they would need to configure that mailbox. With a Catch-All
+address they can instruct customers to start sending to sales@widgets.com and
+all the messages sent to sales@widgets.com will be forwarded to the Catch-All
+(\*@widgets.com).
+
+Catch-All forwarding makes adding a new email address as simple as sending to
+it.
+
 .. _sec_forward_to_another_mailsac_address:
 
 Forward to Another Mailsac Address
@@ -35,17 +85,7 @@ main@mailsac.com, you could setup the following scheme:
 * 3@mailsac.com forwards to main@mailsac.com
 * main@mailsac.com is checked by POP3 in GMail
 
-Catch-All Domain Forwarding Addresses
--------------------------------------
-
-A Catch-All email address can receive all the mail for
-a custom domain, and optionally forward it to another address or service (
-Webhook, WebSocket, or Slack Webhook). A Catch-All address is a private address
-in the format `*@example.com`.
-
-A Catch-All email address can be configured by selecting `Manage Domains`_ from
-the Dashboard_, then choosing *Manage* next to the domain, and then selecting
-the *Forwarding* tab.
+.. _sec_forward_to_slack:
 
 Forward to Slack
 ----------------
@@ -75,6 +115,8 @@ Forwarding to a Webhook can be configured by selecting `Manage Email Addresses`_
 from the Dashboard_. Select the *Settings* button next to the email address to
 manage, then input the URL under *Forward To Custom Webhook* and select *Save
 Settings*.
+
+.. _sec_websocket_forwarding:
 
 WebSocket Forwarding
 --------------------
