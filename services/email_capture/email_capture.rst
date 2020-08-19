@@ -1,10 +1,10 @@
-.. _doc_email_capture:
-
 .. _Mailsac website: https://mailsac.com
 .. _Mailsac API: https://mailsac.com/api
 
+.. _doc_email_capture:
+
 Email Capture
-===============
+=============
 
 Email Capture is the service that allows Mailsac to act as a fake SMTP
 server. Email messages sent using Email Capture will not be delivered to
