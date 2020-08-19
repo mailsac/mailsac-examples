@@ -51,7 +51,8 @@ Table of Contents
    services/email_hosting
    services/webhook
    services/forwarding/forwarding
-   services/sending_mail/sendingmail
+   services/sending_mail/sending_mail
+   services/reading_mail/reading_mail
    services/mailredirect
    services/slack_webhook/slack_webhook
    services/email_capture/email_capture
