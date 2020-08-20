@@ -96,7 +96,7 @@ Emails sent via :code:`capture.mailsac.com` can be automatically
 :ref:`starred <sec_starred_messages>`, which keeps the email private, by
 enabling the Make Capture Email Private option under `Account Settings
 <https://mailsac.com/account>`_. Starred messages count towards
-:ref:`doc_mailstorage` limits.
+:ref:`doc_message_storage` limits.
 
 .. figure:: private_captured_email_option.png
 

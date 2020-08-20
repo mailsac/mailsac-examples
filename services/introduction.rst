@@ -7,7 +7,7 @@ To get the most out of Mailsac, an account and API key are required. Getting a p
 entitle you to support. Once you are signed up with Mailsac you can start exploring
 the services provided:
 
-* :ref:`Message  Storage <doc_mailstorage>`
+* :ref:`Message  Storage <doc_message_storage>`
 * :ref:`Email Attachments <doc_attachments>`
 * :ref:`Email Hosting <doc_emailhosting>`
 * :ref:`Receive Email via JSON Webhook <doc_webhook_setup>`
