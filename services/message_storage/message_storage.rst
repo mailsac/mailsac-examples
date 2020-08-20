@@ -80,9 +80,9 @@ Messages can proactively be deleted:
 Delete a Message
 -------------------
 
-REST API examples require :code:`messageId` parameter. messageId_ can be found
-using the `List Inbox Email Messages Endpoint`_, a `WebSocket Frame`_, and
-`Webhook POST <Webhook_>`_.
+REST API examples require the :code:`messageId` parameter. messageId_ can be
+found using the `List Inbox Email Messages Endpoint`_, a `WebSocket Frame`_,
+and `Webhook POST <Webhook_>`_.
 
 
 .. tabs::
