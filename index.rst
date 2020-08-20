@@ -46,7 +46,7 @@ Table of Contents
    :name: sec-services
 
    services/introduction
-   services/mailstorage
+   services/message_storage/message_storage
    services/attachments
    services/email_hosting
    services/webhook
