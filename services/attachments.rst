@@ -6,7 +6,7 @@ Email Attachments
 For security, and to ensure the Mailsac website is not marked as a distributor of viruses, attachments are not publicly accessible on the web.
 
 Getting Attachments as Files
-============================
+----------------------------
 
 There are several ways to download attachments when authenticated to the Mailsac service
 
@@ -16,6 +16,6 @@ There are several ways to download attachments when authenticated to the Mailsac
 4. Attachments can be parsed out of the `raw` message using the `API <https://mailsac.com/docs/api/#example-email-message-object>`_.
 
 Sending Attachments
-====================
+--------------------
 
 Attachments on outgoing messages are only supported `through the API <https://mailsac.com/docs/api/#send-email-messages>`_.
