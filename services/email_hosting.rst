@@ -3,9 +3,11 @@
 Email Hosting
 =============
 
-Mailsac will provide free email hosting for you domain. These email addresses
-will be public. If you require a domain to be private or to setup forwarding of
-all emails received to single address you can `sign up
+Mailsac can host **free** disposable email for your existing custom domain. The email addresses
+and messages will be public.
+
+If you require a email messages to be private, or to setup forwarding of
+all emails received to single address, you can `subscribe
 <https://mailsac.com/pricing>`_ for those services.
 
 .. _section_email_hosting:
@@ -13,7 +15,7 @@ all emails received to single address you can `sign up
 Configure Email Hosting
 -----------------------
 
-In your domain's DNS configuration, you will need to create or modify the MX records.
+In your domain's DNS configuration, you will need to create or modify the MX records (for public and private).
 
 ============     ========    ===============
 **Priority**     **Host**    **Value**
