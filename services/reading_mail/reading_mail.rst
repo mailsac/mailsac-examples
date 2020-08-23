@@ -6,8 +6,8 @@
 
 .. _doc_reading_mail:
 
-Reading Mail
-============
+Reading Email
+=============
 
 There are several ways for to view email messages using Mailsac
 
@@ -18,8 +18,8 @@ There are several ways for to view email messages using Mailsac
 
 .. _sec_read_mail_message:
 
-Read a Mail Message
--------------------
+Read an Email Message
+---------------------
 
 .. tabs::
    .. tab:: Mailsac Website
@@ -41,7 +41,7 @@ Read a Mail Message
           :caption: Read using curl. Requires
                     `JQ <https://stedolan.github.io/jq/>`_
 
-   .. tab:: Node.js Javascript 
+   .. tab:: Node.js Javascript
 
        .. literalinclude:: reading_mail.js
           :language: javascript
@@ -83,7 +83,7 @@ The `Unified Inbox`_ provides a way to view the mail of all
 
 .. figure:: unified_inbox_view.png
 
-The `Unified Inbox`_ is useful for managing multiple email addresses. 
+The `Unified Inbox`_ is useful for managing multiple email addresses.
 
 .. _sec_reading_mail_rest_api:
 

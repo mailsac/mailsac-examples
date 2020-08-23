@@ -2,8 +2,8 @@
 
 .. _doc_missingmail:
 
-Missing Mail
-============
+Missing Email
+=============
 
 If you have sent email to a *@mailsac.com* address or a private domain hosted
 at Mailsac and it was not received, this document will help you find out why.
@@ -67,13 +67,13 @@ email that can be sent.
 
 GMail
 ^^^^^
-GMail is not designed for sending bulk mail. The service places `limits 
+GMail is not designed for sending bulk mail. The service places `limits
 <https://support.google.com/mail/answer/22839?hl=en>`_ on the number of
 emails sent per day and the number of recipients.
 
 SendGrid
 ^^^^^^^^
-Messages sent through SendGrid are often queued and may not be sent 
+Messages sent through SendGrid are often queued and may not be sent
 immediately.
 
 Mandrill
@@ -85,7 +85,7 @@ Request Whitelist
 -----------------
 
 Whitelisting is only necessary if mail delivery is being slowed due to Mailsac
-throttling. A whitelist request can be submitted using the `IP Whitelist Form 
+throttling. A whitelist request can be submitted using the `IP Whitelist Form
 <https://mailsac.com/whitelist-request>`_ from the Dashboard_.
 
 Whitelisting can be requested for:

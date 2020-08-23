@@ -5,10 +5,10 @@
 
 .. _doc_sendingmail:
 
-Sending Mail
-============
+Sending Email
+=============
 
-Mail can be sent via the following methods:
+Email can be sent via the following methods:
 
 - `Web Form`_
 - `Unified Inbox`_
@@ -17,13 +17,13 @@ Mail can be sent via the following methods:
 
 .. _sec_send_mail_message:
 
-Send a Mail Message
--------------------
+Send an Email Message
+---------------------
 
 .. tabs::
    .. tab:: Mailsac Website
 
-      .. figure:: webform.png 
+      .. figure:: webform.png
 
          Send using the `Compose Message Form <Web Form_>`_
 
@@ -39,7 +39,7 @@ Send a Mail Message
           :language: bash
           :caption: Send using curl
 
-   .. tab:: Node.js Javascript 
+   .. tab:: Node.js Javascript
 
        .. literalinclude:: sending_mail.js
           :language: javascript
@@ -60,7 +60,7 @@ The :code:`from` address must be a :ref:`Private Address
 Sending credits
 ---------------
 
-Sending mail, both replies and new messages, is available only from private
+Sending Email, both replies and new messages, is available only from private
 addresses and private domains. Sending or replying requires `mail credits
 <https://mailsac.com/pricing>`_.
 
@@ -122,7 +122,7 @@ etc) using these SMTP settings:
 | **Encryption**        | TLS                                                   |
 +-----------------------+-------------------------------------------------------+
 
-To configure a mail client for reading see the :ref:`Reading Mail via POP3 
+To configure a mail client for reading see the :ref:`Reading Mail via POP3
 Section <sec_reading_mail_pop3>`.
 
 .. _doc_internal_smtp:
