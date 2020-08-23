@@ -45,7 +45,6 @@ Table of Contents
    :caption: How Mailsac Works
    :name: sec-services
 
-   services/introduction
    services/message_storage/message_storage
    services/attachments
    services/email_hosting
