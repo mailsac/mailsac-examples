@@ -140,3 +140,20 @@ etc) using these POP3 settings:
 
 To configure a mail client for sending see the :ref:`Sending Mail via SMTP
 Section <sec_sendingmail_smtp>`.
+
+.. _sec_reading_mail_attachments:
+
+Viewing Email Attachments
+-------------------------
+
+For :ref:`private addresses <doc_private_addresses>`, the `Unified Inbox`_
+allows downloading of attachments. Email fetched from private addresses using
+:ref:`POP3 from an email client <sec_reading_mail_pop3>`
+such as Apple Mail or GMail, will include attachments.
+
+Public email addresses disallow downloading attachments
+- :ref:`you must download the entire message file, or fetch attachments
+programmatically using the API <doc_attachments>`.
+
+Attachments cannot be hosted publicly for download because attachments often
+contain viruses and spam.
