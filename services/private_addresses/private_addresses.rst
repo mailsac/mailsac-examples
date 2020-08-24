@@ -11,7 +11,7 @@ Private Email Addresses have additional features:
 - :ref:`sec_forward_to_another_mailsac_address`
 - :ref:`Forward to Slack <doc_slack_webhook>`
 - :ref:`sec_webhook_forwarding`
-- :ref:`Forward to a Web Socket <doc_websocket_example_overview>`
+- :ref:`Forward to a Web Socket <doc_websocket>`
 - `Read / Send Mail using a mail client <https://mailsac.com/docs/fetch-messages-with-pop3>`_
 - `Purge inbox <https://blog.mailsac.com/2020/07/21/easy-purging-of-inboxes/>`_
 
@@ -25,5 +25,5 @@ Private Addresses In a Custom Domain
 
 Private Addresses can be used in :ref:`Custom Domains <doc_custom_domains>`.
 This allows an address within a :ref:`Custom Domain <doc_custom_domains>` to
-have the features of a 
+have the features of a
 :ref:`Private Email Address <doc_private_addresses>`.

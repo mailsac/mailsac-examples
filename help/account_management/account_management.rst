@@ -27,7 +27,8 @@ An account password can be changed on the Website under
 `Password Reset Form <https://mailsac.com/password-reset>`_ to send a password
 reset email.
 
-.. _sec_account_deletion:
+
+.. _sec_api_key_management:
 
 API Key Management
 ------------------
@@ -101,6 +102,8 @@ Dashboard_.
    :width: 400px
 
    Monthly outbound message count
+
+.. _sec_account_deletion:
 
 Account Deletion
 ----------------

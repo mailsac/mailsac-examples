@@ -34,14 +34,6 @@ Table of Contents
 
 .. toctree::
    :maxdepth: 1
-   :caption: WebSocket and Webhook Examples
-   :name: sec-websocket-examples:
-
-   websocket_examples/index
-
-
-.. toctree::
-   :maxdepth: 1
    :caption: How Mailsac Works
    :name: sec-services
 
@@ -49,6 +41,7 @@ Table of Contents
    services/attachments
    services/email_hosting
    services/webhook
+   services/websocket/websocket
    services/forwarding/forwarding
    services/sending_mail/sending_mail
    services/reading_mail/reading_mail
