@@ -34,7 +34,7 @@ Table of Contents
 
 .. toctree::
    :maxdepth: 1
-   :caption: How Mailsac Works
+   :caption: Use and Integration of Mailsac
    :name: sec-services
 
    services/message_storage/message_storage
