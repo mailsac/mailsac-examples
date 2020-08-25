@@ -4,11 +4,11 @@
 
 .. _doc_forwarding:
 
-Email Forwarding
-================
+Email Forwarding Overview
+=========================
 
-Forwarding allows email to be sent on to a further email address or
-service (Webhook, WebSocket, Slack Webhook). Private addresses and custom
+Forwarding, or routing, allows email to be sent on to a further email address
+or service (Webhook, WebSocket, Slack Webhook). Private addresses and custom
 domains can be configured for email forwarding. Forwarding is not available on
 disposable email addresss.
 
