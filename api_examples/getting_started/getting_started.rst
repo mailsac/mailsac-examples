@@ -20,6 +20,9 @@ This example will show how to do the following using the REST API.
 If you are familiar with REST APIs the `REST API Specification`_ can be
 referenced during this example.
 
+:ref:`Reading Email <doc_reading_mail>` and :ref:`Sending Mail
+<doc_sending_mail>` contain code samples for curl, Python, and Nodejs.
+
 Prerequisites
 -------------
 

@@ -3,7 +3,7 @@
 .. _Web Form: https://mailsac.com/compose
 .. _API Key: https://mailsac.com/api-keys
 
-.. _doc_sendingmail:
+.. _doc_sending_mail:
 
 Sending Email
 =============
