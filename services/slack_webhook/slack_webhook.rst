@@ -35,7 +35,7 @@ portal <https://api.slack.com/apps/new>`_.
        :align: center
        :width: 400px
 
-  **B.** Select *Incoming Webhooks* from the *Add features and functionality* 
+  **B.** Select *Incoming Webhooks* from the *Add features and functionality*
   dropdown.
 
   .. figure:: slack_select_incomming_webhook.png
@@ -62,6 +62,8 @@ portal <https://api.slack.com/apps/new>`_.
        :align: center
        :width: 400px
 
+.. _sec_configure_address_for_slack_forwarding:
+
 Configure Mailsac Email Address to Forward Messages to Slack
 ------------------------------------------------------------
 
@@ -83,4 +85,23 @@ Configure Mailsac Email Address to Forward Messages to Slack
 If messages are not being forwarded, you can check `Recent Mail Activity Log <https://mailsac.com/usage>`_ under the Usage
 section of the Mailsac dashboard.
 
+Test Slack Webhook
+------------------
 
+Send an email to the :ref:`Private Address <doc_private_addresses>`, that was
+:ref:`configured for Slack Forwarding
+<sec_configure_address_for_slack_forwarding>`.
+
+.. code-block::
+   :caption: Send test email using Mailsac's :ref:`doc_email_capture`.
+
+   swaks --server capture.mailsac.com:5587 --to user1@mailsac.com \
+       --from gwashington@whitehouse.gov --auth-user $MAILSAC_USERNAME \
+       --auth-pass $MAILSAC_API_AKI
+
+
+.. figure:: slack_webhook_received.png
+   :align: center
+   :width: 400px
+
+   Slack Webhook notification.
