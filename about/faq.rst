@@ -1,3 +1,6 @@
+.. _`REST API`: https://mailsac.com/api
+.. _`Unified Inbox`: https://mailsac.com/app
+
 .. _faq:
 
 Frequently Asked Questions
@@ -6,20 +9,15 @@ Frequently Asked Questions
 Where are my email attachments?
 -------------------------------
 
-For `private addresses, the Inbox App will allow you to download attachments
-<https://mailsac.com/app>`_. You can also `fetch private messages with POP3
-<https://mailsac.com/docs/fetch-messages-with-pop3>`_ in your email client,
-such as Apple Mail or GMail.
+Email attachments are not viewable for public addresses from the Website.
+Attachments must be downloaded using `REST API`_.
 
-Disposable emails under public email addresses disallow downloading attachments
-- :ref:`you must download the entire message file, or fetch attachments
-programmatically using the API <doc_attachments>`.
+Attachments on emails sent to :ref:`Private Addresses <doc_private_addresses>`
+can be viewed in the `Unified Inbox`_ or in an email client using
+:ref:`POP3 <sec_reading_mail_pop3>`.
 
-For private addresses, when using the `Unified Inbox App
-<https://mailsac.com/app>`_, attachment files are downloadable.
-
-Attachments cannot be hosted publicly for download because attachments often
-contain viruses and spam.
+:ref:`Read more about email attachments at Mailsac
+<sec_reading_mail_attachments>`.
 
 Why would I use Mailsac?
 ------------------------

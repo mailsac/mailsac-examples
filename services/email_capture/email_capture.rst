@@ -75,7 +75,7 @@ are provided.
           :language: bash
           :caption: Validate email was received
 
-   .. tab:: Node.js Javascript 
+   .. tab:: Node.js Javascript
 
        .. literalinclude:: javascript_validation.js
           :language: javascript
@@ -126,8 +126,8 @@ Email Capture Flow
 -------------------
 
 In the Email Capture model the Mail User Agent uses Mailsac's receiving Mail
-Transfer Agent as the outbound MTA. The Mailsac MTA will accept all mail,
-regardless of the destination domain.
+Transfer Agent as the outbound MTA (relay). The Email Capture MTA will
+accept all mail, regardless of the destination domain.
 
 Considerations
 --------------

@@ -6,8 +6,8 @@
 
 .. _doc_reading_mail:
 
-Reading Mail
-============
+Reading Email
+=============
 
 There are several ways for to view email messages using Mailsac
 
@@ -18,8 +18,8 @@ There are several ways for to view email messages using Mailsac
 
 .. _sec_read_mail_message:
 
-Read a Mail Message
--------------------
+Read an Email Message
+---------------------
 
 .. tabs::
    .. tab:: Mailsac Website
@@ -41,7 +41,7 @@ Read a Mail Message
           :caption: Read using curl. Requires
                     `JQ <https://stedolan.github.io/jq/>`_
 
-   .. tab:: Node.js Javascript 
+   .. tab:: Node.js Javascript
 
        .. literalinclude:: reading_mail.js
           :language: javascript
@@ -83,7 +83,7 @@ The `Unified Inbox`_ provides a way to view the mail of all
 
 .. figure:: unified_inbox_view.png
 
-The `Unified Inbox`_ is useful for managing multiple email addresses. 
+The `Unified Inbox`_ is useful for managing multiple email addresses.
 
 .. _sec_reading_mail_rest_api:
 
@@ -140,3 +140,20 @@ etc) using these POP3 settings:
 
 To configure a mail client for sending see the :ref:`Sending Mail via SMTP
 Section <sec_sendingmail_smtp>`.
+
+.. _sec_reading_mail_attachments:
+
+Viewing Email Attachments
+-------------------------
+
+For :ref:`private addresses <doc_private_addresses>`, the `Unified Inbox`_
+allows downloading of attachments. Email fetched from private addresses using
+:ref:`POP3 from an email client <sec_reading_mail_pop3>`
+such as Apple Mail or GMail, will include attachments.
+
+Public email addresses disallow downloading attachments
+- :ref:`you must download the entire message file, or fetch attachments
+programmatically using the API <doc_attachments>`.
+
+Attachments cannot be hosted publicly for download because attachments often
+contain viruses and spam.

@@ -4,13 +4,15 @@
 
 .. _doc_forwarding:
 
-Email Forwarding
-================
+Email Forwarding Overview
+=========================
 
-Forwarding allows email to be sent on to a further email address or
-service (Webhook, WebSocket, Slack Webhook). Private addresses and custom
+Forwarding, or routing, allows email to be sent on to a further email address
+or service (Webhook, WebSocket, Slack Webhook). Private addresses and custom
 domains can be configured for email forwarding. Forwarding is not available on
 disposable email addresss.
+
+.. _sec_forwarding_catchall:
 
 Catch-All Domain Forwarding Addresses
 -------------------------------------
@@ -41,7 +43,7 @@ Catch-All addresses can be forwarded to:
 - :ref:`WebSocket <sec_websocket_forwarding>`
 
 From the Dashboard_, select `Manage Email Addresses`, then select settings
-icon next to the Catch-All address. 
+icon next to the Catch-All address.
 
 .. figure:: catch-all_forwarding_settings.png
     :align: center
@@ -132,7 +134,7 @@ to the email address to manage, then check the box labeled *Enable forwarding
 all incoming email via web socket*, and select *Save Settings*.
 
 A code example for a WebSocket is available :ref:`available
-<doc_websocket_example_overview>`.
+<doc_websocket>`.
 
 Additional information about the WebSocket endpoint, authentication and example
 frame format is show in the `API Documentation

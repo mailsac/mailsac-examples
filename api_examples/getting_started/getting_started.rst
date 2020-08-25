@@ -20,6 +20,14 @@ This example will show how to do the following using the REST API.
 If you are familiar with REST APIs the `REST API Specification`_ can be
 referenced during this example.
 
+REST API Overview
+-----------------
+
+REST API interaction is at the core of Mailsac. The examples in this section
+will provide you with easy to understand curl examples. For additional code
+examples (Nodejs and Python) see: :ref:`Reading Email <doc_reading_mail>`
+and :ref:`Sending Mail <doc_sending_mail>`.
+
 Prerequisites
 -------------
 
