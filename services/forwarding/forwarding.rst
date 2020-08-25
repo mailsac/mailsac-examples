@@ -12,6 +12,8 @@ or service (Webhook, WebSocket, Slack Webhook). Private addresses and custom
 domains can be configured for email forwarding. Forwarding is not available on
 disposable email addresss.
 
+.. _sec_forwarding_catchall:
+
 Catch-All Domain Forwarding Addresses
 -------------------------------------
 

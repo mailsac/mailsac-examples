@@ -1,14 +1,51 @@
+.. _Dashboard: https://mailsac.com/dashboard
+
 .. _doc_webhook_setup:
 
-Receive Email via JSON Webhook
-==============================
+Webhook Forwarding
+==================
 
-Private addresses (or Catch-All addresses) can be redirected to a URL of your
-choice, also called a webhook.
+Emails sent to :ref:`doc_private_addresses` (or
+:ref:`Catch-All addresses <sec_forwarding_catchall>`) can be forwarded to a URL
+also known as a webhook.
 
-To enable webhooks for an email address, select Edit next to the address in the
-dashboard, then enter a URL under the 'Forward to Webhook' section, and click
-Save.
+Configure Webhook
+-----------------
+
+.. tabs::
+   .. tab:: Mailsac Website
+
+      .. figure:: webhook_setting_website.png
+
+        Select `Manage Email Addresses` from the Dashboard_. Choose `Settings`
+        next to the email address. In the `Forward to Custom Webhook` setting
+        enter the webhook address and select `Save Settings`
+
+   .. tab:: curl
+
+       .. literalinclude:: webhook_setting.sh
+          :language: bash
+          :caption: Configure webhook forwarding on private address using curl
+
+   .. tab:: Node.js Javascript
+
+       .. literalinclude:: webhook_setting.js
+          :language: javascript
+          :caption: Configure webhook forwarding on a private address using
+                    Node.js. requires :code:`npm install superagent`
+
+   .. tab:: Python
+
+       .. literalinclude:: webhook_setting.py
+          :language: python
+          :caption: Configure webhook forwarding on a private address using
+                    Python.
+
+Webhook Sample JSON
+-------------------
+
+This is an example of the JSON that will be passed to the Webhook
+URL.
 
 .. code-block:: json
 

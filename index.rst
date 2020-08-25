@@ -40,7 +40,7 @@ Table of Contents
    services/message_storage/message_storage
    services/attachments
    services/email_hosting
-   services/webhook
+   services/webhook/webhook
    services/websocket/websocket
    services/forwarding/forwarding
    services/sending_mail/sending_mail
