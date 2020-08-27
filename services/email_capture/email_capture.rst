@@ -6,11 +6,16 @@
 Email Capture
 =============
 
-Email Capture is the service that allows Mailsac to act as a fake SMTP
-server. Email messages sent using Email Capture will not be delivered to
-the :code:`To` recipients but instead will be available via the `Mailsac website`_
-and `Mailsac API`_. Emails can be kept private by configuring the
-:ref:`sec_private_captured_email` option.
+Email Capture is a fake SMTP relay service you can send to, where Mailsac captures
+all the messages.
+
+Email messages sent using Email Capture will not be delivered to
+the :code:`To` recipients but instead will be available by looking up the :code:`To`
+recipient via the `Mailsac website`_ or `Mailsac API`_.
+
+By default, captured emails are public. To keep captured mail private, toggle the
+:ref:`sec_private_captured_email` option in your account settings. This will "star"
+captured messages.
 
 Sending Using Email Capture
 ---------------------------
