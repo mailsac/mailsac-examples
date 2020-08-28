@@ -91,3 +91,9 @@ Webhook contents are very similar to web `socket emails
 
 Read more about JSON Webhooks at the `API Reference
 <https://mailsac.com/docs/api/#webhooks>`_
+
+Troubleshooting
+---------------
+
+If the Webhook forwarding is not working, additional debugging information is
+available in :ref:`doc_recent_activity`.

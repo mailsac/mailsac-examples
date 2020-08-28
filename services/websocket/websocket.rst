@@ -255,3 +255,9 @@ Try It
 ^^^^^^
 
 Visit the `Web Socket Test Page <https://sock.mailsac.com>`_ and receive emails in your web browser, without writing any code.
+
+Troubleshooting
+---------------
+
+If the WebSocket is not working, additional debugging information is
+available in :ref:`doc_recent_activity`.

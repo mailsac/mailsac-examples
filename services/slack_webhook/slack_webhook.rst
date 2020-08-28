@@ -105,3 +105,9 @@ Send an email to the :ref:`Private Address <doc_private_addresses>`, that was
    :width: 400px
 
    Slack Webhook notification.
+
+Troubleshooting
+---------------
+
+If Slack is not receiving the webhook, additional debugging information is
+available in :ref:`doc_recent_activity`.
