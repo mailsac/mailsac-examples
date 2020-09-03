@@ -13,7 +13,7 @@ Want to see it in action? The `WebSocket Test Page <https://sock.mailsac.com/>`_
 you to show how it works with no programming involved.
 
 .. tip:: You will need an :ref:`API key <sec_api_key_management>` and a
-         :ref:`private address <doc_private_addresses>`
+         :ref:`private address <doc_private_addresses>` or custom domain.
 
 
 .. _sec_private_address_for_websocket:
