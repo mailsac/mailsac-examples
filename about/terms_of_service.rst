@@ -44,6 +44,8 @@ physical address, and password. We will store the password using a one-way hash 
 3c. An exception the previous clause (3c) is made when a business is evaluating the service on a temporary trial basis.
 Service usage for evaluation purposes will require the business to abide by these terms, the acceptable use guidelines, and the Privacy Policy (separate agreement).
 
+3d. Mailsac services and customer assets (aka "entitlements") such as email addresses or custom domains, API keys, or other service features, will be locked or released publicly if an account's payment status becomes past due (aka "delinquent" or "unpaid invoice"). Past due accounts will receive courtesy payment reminder emails. MAILSAC IS NOT RESPONSIBLE FOR MISSED EMAIL NOTIFICATIONS RESULTING IN CANCELED SERVICE.
+
 4. Email
 --------
 4a. Public and Private Email
