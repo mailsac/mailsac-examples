@@ -2,16 +2,17 @@
 
 Terms of Service and Acceptable Use Policy
 ==========================================
-Revised December 2019
+Revised July 2020
 
 1. Preamble
 -----------
 
-By using Forking Software LLC (also "Mailsac" "mailsac", "we", "us", "this/the service", "this/the website", "this/the site"),
-you (also "user", "the user", "end user", "customer") accept these terms and the Privacy Policies (separate agreement) and agree to ABIDE BY THEM AT ALL TIMES WITH NO EXCEPTION, and with no right to a refund in the event of terms violation.
+By using Mailsac by Forking Software LLC (also "mailsac.com" "mailsac", "we", "us", "this/the service", "this/the website", "this/the site"),
+you (also "user", "the user", "end user", "customer", "account") accept these terms and the Privacy Policies (separate agreement) and agree to ABIDE BY THEM AT ALL TIMES WITH NO EXCEPTION, and with no right to a refund in the event of terms violation.
 
 You accept that any of these policies and procedures will be available on the website but
-that THESE TERMS MAY CHANGE AT ANY TIME WITHOUT NOTICE - you have been warned.
+that THESE TERMS MAY CHANGE AT ANY TIME WITHOUT NOTICE - you have been warned. We recommend subscribing to the
+public repository where this document's source is hosted.
 
 Terms and policies apply to paid and unpaid features of Mailsac.
 
@@ -40,43 +41,57 @@ physical address, and password. We will store the password using a one-way hash 
 
 3b. Using this service for any business operations, even once, necessitates the purchase of a subscription-based license. Incorporated or non-incorporated business use is prohibited without a paid recurring active commercial subscription.
 
-3c. An exception the previous clause (3c) is made for subscriptions and services containing the text "trial". However,
-"trial" usage will require the business to abide by these terms, the acceptable use guidelines, and the Privacy Policy (separate agreement).
+3c. An exception the previous clause (3c) is made when a business is evaluating the service on a temporary trial basis.
+Service usage for evaluation purposes will require the business to abide by these terms, the acceptable use guidelines, and the Privacy Policy (separate agreement).
+
+3d. Mailsac services and customer assets (aka "entitlements") such as email addresses or custom domains, API keys, or other service features, will be locked or released publicly if an account's payment status becomes past due (aka "delinquent" or "unpaid invoice"). Past due accounts will receive courtesy payment reminder emails. MAILSAC IS NOT RESPONSIBLE FOR MISSED EMAIL NOTIFICATIONS RESULTING IN CANCELED SERVICE.
 
 4. Email
 --------
 4a. Public and Private Email
 
-This site provides public email services and mixed public-private email testing. Email inboxes that are not purchased (aka private) are public and have no privacy whatsoever.
+This site provides public disposable email services and mixed public-private email testing services. Email inboxes that are not purchased (aka private) are public and have no expectation of privacy.
 
 Private addresses will not be accessible publicly and access to messages will be provided only to
 those with:
 - a validated username and password, which grants a temporary access "session" which may be stored in a cookie
 - a validated API key (smtp key, api access key, or other key)
 
-If you believe your username or password has been compromised, you must contact the support email address immediately. 
-This website does not accept responsibility for damages done by compromised accounts. Users acknowledge that overseers and
-associates (internal or external parties) may have access to inbox contents for the purpose of
-ongoing business operations, but that access and insight will be limited based on direct need
-(billing help, troubleshooting, and development comprise the standard reasons for such access, but
-others may apply). We may aggregate information included in emails, inbound and oubound metadata, email attachements,
-or email body information, for sale or sharing with third parties or customers.
+If you believe your username, password, or API key has been compromised, you agree to:
+1. change your compromised password, or delete the compromised API key
+2. and contact the Mailsac support email address immediately.
 
-The Privacy Policy outlines additional detail around sharing of public and private email. When in doubt, THE USER ASSUMES
+Mailsac does not accept responsibility for damages done by compromised accounts. Users acknowledge that overseers and
+associates (internal or external parties) may have access to inbox contents for the purpose of
+ongoing business operations, but that access and insight will be limited based on direct need, such as but not limited to:
+- billing and subscription help
+- troubleshooting SMTP or API issues reported by you, or issues alerted by Mailsac telemetry systems
+- system integration support from Mailsac to you
+- comprise the standard reasons for such access
+
+We may aggregate information included in emails, inbound and oubound metadata, email attachements,
+or email body information, for sale or sharing with third parties or customers. This aggregated information is useful
+for understanding system trends, spam and viruses sent by malicious systems.
+
+The Privacy Policy supercedes this agreement, and outlines additional detail around sharing of public and private email. When in doubt, THE USER ASSUMES
 CONTENTS OF THEIR DATA ON MAILSAC.COM MAY BE SHARED WITH OTHER PARTIES. Mailsac is not a service for conducting sensitive 
 or private matters.
 
-4b. Receipt and Message Accuracy Guarantees
+4b. Receipt, Delivery, and Message Accuracy Guarantees
 
-Messages receipt is not guaranteed. While this service does not intent for messages to be altered,
+EMAIL MESSAGE RECEIPT AND DELIVERY IS NOT GUARANTEED. Mailsac.com has many processes and systems in place
+built up over years, which result in high availability and reliability. Nonetheless the service does NOT
+provide a Service Level Agreement or any certainty of either receiving OR sending mail.
+
+While this service does not intend for messages to be altered,
 there may be arbitrary changes whether during transit or storage which are made without knowledge of
 the user. The user's account username and IP address may be attached to inbound or outbound email messages.
 
 We cannot guarantee accuracy of any email content. Furthermore this service does not know
-the quality, truthfulness, correctness, or origination of messages received. Users acknowledge this
-and will not hold the website responsible for the content of messages. Users acknowledge that outside
-parties often send viruses and intentionally misleading content (spam) in email messages, and Mailsac
-is unable to accurately determine whether messages are spam. Spam ratings and spam scores are for
+the quality, truthfulness, correctness, or origination of messages received. Email messages may contain
+viruses. Users acknowledge this and will not hold Mailsac responsible for the content of messages. Users acknowledge that outside
+parties often send malicious code, phishing (intentionally misleading content), and spam in email messages, and Mailsac
+is unable to accurately determine whether messages are malicious or not. Spam ratings and spam scores are for
 informational purposes only - the user acknowledges these may indicate non-spam is spam, and spam is non-spam.
 
 4c. Email Security
@@ -92,18 +107,18 @@ The user acknowledges:
 - third parties (including but not limited to routers, ISPs, intermediary providers, email providers including Mailsac) may decrypt and store email, even though it was not the message's final destination
 - Mailsac strives for encrypted traffic (HTTPS with TLS, SMTP with TLS), however internal traffic or even public API / UI traffic may be transmitted unencrypted
 
-4d. Outbound Mail
+4d. Sending Outbound Mail
 
-Outgoing mail may be purchased at cost and may be delivered/relayed by a third party OR Mailsac. The user and sender of
+Outgoing mail may be purchased at cost and may be delivered (relayed) by a third party OR Mailsac. The user and sender of
 this mail is responsible for the content they send. Delivery cannot be guaranteed. Messages which fail to be
-not be delivered will not be refunded. Contact Mailsac support if delivery appears to be failing and we may
+delivered (including but not limited to "bounces") will not be refunded. Contact Mailsac support if delivery appears to be failing and we may
 be able to assist with troubleshooting, but again we make no guarantees about outbound message delivery.
 
 Outgoing mail may be marked as spam by receivers or intermediary deliverers. Mailsac is not
 responsible for email delivered by Mailsac being marked as spam, and WILL NOT refund such mail which is 
 marked as spam or undelivered or unviewed.
 
-Sending spam email is a serious offense.
+Sending spam email is a serious offense which may result the user's account being immediately disabled.
 
 IN THE EVENT THAT LEGAL EXPENSES OR FINANCIAL JUDGEMENTS ARE INCURRED FOR THE SENDING OF EMAIL MESSAGES BY A 
 MAILSAC USER, THE USER AGREES TO ACCEPT FINANCIAL RESPOSIBILITY FOR THE PAYMENT OF THOSE FEES OR JUDGEMENTS.
@@ -115,21 +130,23 @@ contact support via when it appears to have been compromised.
 5. Throttling
 -------------
 Inbound and outbound email traffic is throttled due to various dynamic factors, including but not limited
-to: IP addresses, email addresses, domains, frequency of inbound or outbound mail. Banning traffic will
-happens permanently or temporarily. Entire domains and companies may be banned. For an up-to-date list of banned traffic,
+to: IP addresses, email addresses, domains, frequency of inbound or outbound mail. Mailsac may ban traffic
+automatically, on a permanent or temporary basis. Entire domains and companies may be banned. For an up-to-date list of banned traffic,
 contact Mailsac support.
 
-We reserve the right to throttle API access, even for paid customers. Throttling is necessary to ensure 
+We reserve the right to throttle API and SMTP (inbound or outbound) traffic, even for paid customers on unlimited plans. Throttling is necessary to ensure 
 quality of service for all other customers.
 
 6. Uptime and Support
 ---------------------
-This service follows a best-effort policy to maintain uptime. No service level agreement exists, for
-any customer, paying or non-paying, personal or commercial.
+This service follows a best-effort policy to maintain uptime. No service level agreement (SLA) exists, for
+any customer, paying or non-paying, personal or commercial. No SLA is offered on any Mailsac website, including
+but not limited to: mailsac.com, Mailsac API, SMTP services, forums, documentation, or blog.
 
-Customers wanting service uptime guarantees should contact sales.
+Customers wanting service uptime guarantees must contact a Mailsac account executive to purchase a SLA superceding this agreement.
 
-Support response times are not guaranteed, but support will make a best effort to respond promptly. Support is not offered in any language other than US English.
+Support response times are not guaranteed, but support will make a best effort to respond promptly. Support is not offered in any
+language other than US English.
 
 
 7. Accuracy and Compatibility
@@ -137,10 +154,10 @@ Support response times are not guaranteed, but support will make a best effort t
 
 7a. Mailsac provides an API service, with free and paid tiers. This service is not responsible for
 adverse effects in any situation, and offers no compatibility guarantee. We reserve the right to
-change the API without notice. No guranatees are made on the following:
+change the API without notice. No guarantees are made on the following:
 
-- API downtime
-- API changes
+- API uptime or downtime
+- API changes or API versioning
 - API incompatibility
 - API support for a particular programming language
 - API help in any language other than English
@@ -168,7 +185,8 @@ service and API. Mailsac is not a service that is intended to be used for storag
 of important information.
 
 Saved or "starred" messages are intended to be retained up to the indicated
-limits on an account.
+limits on an account, but this is not guaranteed, and starred messages may be
+removed when older than other stored messages.
 
 The user agrees that Mailsac is never responsible for lost data. It is the user’s
 responsibility to backup or retain any data they may wish to keep.
@@ -211,18 +229,29 @@ FOR CHANGES TO THE TERMS OF SERVICE, ACCEPTABLE USE POLICY, AND PRIVACY POLICY.
 If the lack of notification of terms changes presents a concern, contact support for a different
 arrangement.
 
-11. Privileges
+11. Warranty and Liability
+--------------------------
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+12. Privileges
 --------------
 This service retains the right to revoke or deny access to anyone at anytime, with or without stated
 reason. Likewise any user may cease using the service and request that data be removed, in
 accordance with the data and retention policies outlined herein and in the jurisdictions indicated herin. 
 As indicated above, refunds are not given.
 
-12. Other Agreements
+13. Other Agreements
 --------------------
 If a clause of this agreement is found to be invalid or violated, the rest of this agreement still stands.
 
-This agreement represents the entire agreement between the user and Mailsac, which includes the Privacy Policy.
+This agreement represents the entire agreement between the user and Forking Software LLC, which includes the Privacy Policy.
 The two parties may supersede parts of this agreement through writing signed by legal representatives of
 both parties. Clauses of this agreement not addressed in any superseding agreement will still stand.
 
