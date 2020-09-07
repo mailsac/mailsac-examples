@@ -8,7 +8,7 @@ Revised July 2020
 -----------
 
 By using Mailsac by Forking Software LLC (also "mailsac.com" "mailsac", "we", "us", "this/the service", "this/the website", "this/the site"),
-you (also "user", "the user", "end user", "customer", "account) accept these terms and the Privacy Policies (separate agreement) and agree to ABIDE BY THEM AT ALL TIMES WITH NO EXCEPTION, and with no right to a refund in the event of terms violation.
+you (also "user", "the user", "end user", "customer", "account") accept these terms and the Privacy Policies (separate agreement) and agree to ABIDE BY THEM AT ALL TIMES WITH NO EXCEPTION, and with no right to a refund in the event of terms violation.
 
 You accept that any of these policies and procedures will be available on the website but
 that THESE TERMS MAY CHANGE AT ANY TIME WITHOUT NOTICE - you have been warned. We recommend subscribing to the
