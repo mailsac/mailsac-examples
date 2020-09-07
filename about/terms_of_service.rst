@@ -48,7 +48,7 @@ Service usage for evaluation purposes will require the business to abide by thes
 --------
 4a. Public and Private Email
 
-This site provides public disposable email services and mixed public-private email testing services. Email inboxes that are not purchased (aka private) are public and have no expectation of privacy whatsoever.
+This site provides public disposable email services and mixed public-private email testing services. Email inboxes that are not purchased (aka private) are public and have no expectation of privacy.
 
 Private addresses will not be accessible publicly and access to messages will be provided only to
 those with:
