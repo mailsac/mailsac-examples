@@ -1,5 +1,7 @@
 .. _`REST API`: https://mailsac.com/api
 .. _`Unified Inbox`: https://mailsac.com/app
+.. _`pricing`: https://mailsac.com/pricing
+.. _api_key_login: https://mailsac.com/login-api-key
 
 .. _faq:
 
@@ -105,3 +107,11 @@ emails. New accounts have 5 sending credits. Additional credits can be
 You can use `POP3 <https://mailsac.com/docs/fetch-messages-with-pop3>`_ to
 download messages on a private address or custom domain. Responses can be sent
 from non-mailsac accounts you have configured your email client to use.
+
+How can my team members see email in our private domain?
+--------------------------------------------------------
+
+For `plans <pricing_>`_ that support multiple API keys. You can
+:ref:`create API keys <sec_api_key_management>` for your team members. These
+name API keys can be used for API access and
+`website authentication <api_key_login_>`_.

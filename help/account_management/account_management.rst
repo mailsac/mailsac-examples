@@ -3,6 +3,7 @@
 .. _`REST API`: https://mailsac.com/api
 .. _`API Keys`: https://mailsac.com/api-keys
 .. _`API Use`: https://mailsac.com/usage
+.. _`API Key Login`: https://mailsac.com/login-api-key
 
 .. _doc_account_management:
 
@@ -35,7 +36,7 @@ API Key Management
 
 API keys are used to authenticate to the `REST API`_,
 :ref:`Email Capture <doc_email_capture>`, :ref:`SMTP <sec_sendingmail_smtp>`,
-and :ref:`POP3 <sec_reading_mail_pop3>`.
+:ref:`POP3 <sec_reading_mail_pop3>`, and `API Key Login`_.
 
 API Keys can be created, viewed, and deleted `API Keys`_ section of the
 Dashboard_.
@@ -43,7 +44,7 @@ Dashboard_.
 Multiple Named API Keys
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-For teams, using unique API Keys, can help with access control, monitoring
+For teams, using unique API Keys, provide access control, monitoring
 usage, and ensuring a unique API Key in each environment.
 
 To create a named API key, go to the `API Keys`_ from the Dashboard_. Enter a
@@ -54,6 +55,40 @@ name for the API Key and select *Generate new API key*.
    :width: 400px
 
    Create new name API key
+
+
+Enable Website Login Using an API Key
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Website login can be enabled on a named API Key. This setting can be found in
+the Dashboard_ under `API Keys`_.
+
+
+.. figure:: enable_api_key_login.png
+   :align: center
+   :width: 400px
+
+   Enable API Key Login
+
+Sessions using an API Key as a login are restricted from: 
+
+- viewing and modifying payment information
+- adding or removing API keys
+
+Login Using an API Key
+^^^^^^^^^^^^^^^^^^^^^^
+
+Use the `API Key Login`_ to sign into Mailsac using an API key.
+
+- **Account ID:** The primary account name used to sign up for Mailsac
+- **Key Name:** The name of the API Key
+- **API Key:** The value of the API Key
+
+.. figure:: login_using_api_key.png
+   :align: center
+   :width: 400px
+
+   Login using an API Key
 
 API Usage
 ---------
