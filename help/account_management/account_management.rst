@@ -44,8 +44,14 @@ Dashboard_.
 Multiple Named API Keys
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-For teams, using unique API Keys, provide access control, monitoring
-usage, and ensuring a unique API Key in each environment.
+For accounts with individual plans, only one API key is allowed.
+
+For accounts with team plans, multiple API keys may be created, each with a unique name.
+
+Having multiple API keys enables:
+- restricted access control
+- usage monitoring
+- separate API Keys in each app environment
 
 To create a named API key, go to the `API Keys`_ from the Dashboard_. Enter a
 name for the API Key and select *Generate new API key*.
@@ -61,7 +67,8 @@ Enable Website Login Using an API Key
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Website login can be enabled on a named API Key. This setting can be found in
-the Dashboard_ under `API Keys`_.
+the Dashboard_ under `API Keys`_. The feature is not enabled for individual plans,
+such as Basic and Indie.
 
 
 .. figure:: enable_api_key_login.png
@@ -70,10 +77,12 @@ the Dashboard_ under `API Keys`_.
 
    Enable API Key Login
 
-Sessions using an API Key as a login are restricted from: 
+When logged into the website using an API Key, the user session is restricted from: 
 
 - viewing and modifying payment information
 - adding or removing API keys
+- managing account features
+- adding or removing custom domains
 
 Login Using an API Key
 ^^^^^^^^^^^^^^^^^^^^^^
