@@ -38,7 +38,7 @@ API keys are used to authenticate to the `REST API`_,
 :ref:`Email Capture <doc_email_capture>`, :ref:`SMTP <sec_sendingmail_smtp>`,
 :ref:`POP3 <sec_reading_mail_pop3>`, and `API Key Login`_.
 
-API Keys can be created, viewed, and deleted `API Keys`_ section of the
+API Keys can be created and deleted in the `API Keys`_ section of the
 Dashboard_.
 
 Multiple Named API Keys
@@ -55,7 +55,9 @@ Having multiple API keys enables:
 - separate API Keys in each app environment
 
 To create a named API key, go to the `API Keys`_ from the Dashboard_. Enter a
-name for the API Key and select *Generate new API key*.
+name for the API Key and select *Generate new API key*. API Keys may only be
+viewed once and are not retrievable by the system. API Keys should be treated
+with the same security considerations as a password..
 
 .. figure:: add_named_key.png
    :align: center
