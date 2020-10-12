@@ -46,7 +46,8 @@ Multiple Named API Keys
 
 For accounts with individual plans, only one API key is allowed.
 
-For accounts with team plans, multiple API keys may be created, each with a unique name.
+For accounts with team plans, multiple API keys may be created, each with a
+unique name.
 
 Having multiple API keys enables:
 - restricted access control
@@ -67,8 +68,8 @@ Enable Website Login Using an API Key
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Website login can be enabled on a named API Key. This setting can be found in
-the Dashboard_ under `API Keys`_. The feature is not enabled for individual plans,
-such as Basic and Indie.
+the Dashboard_ under `API Keys`_. The feature is not enabled for individual
+plans, such as Basic and Indie.
 
 
 .. figure:: enable_api_key_login.png
@@ -77,7 +78,8 @@ such as Basic and Indie.
 
    Enable API Key Login
 
-When logged into the website using an API Key, the user session is restricted from: 
+When logged into the website using an API Key, the user session is restricted
+from: 
 
 - viewing and modifying payment information
 - adding or removing API keys
