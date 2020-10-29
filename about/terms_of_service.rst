@@ -18,7 +18,7 @@ Terms and policies apply to paid and unpaid features of Mailsac.
 
 "Enterprise" ("enterprise") plans are paid subscriptions to Mailsac services which include the name "Enterprise" or "enterprise" within them, affording additional assurances and features throughout the agreement. End users accessing the service via an account with a current paid Enterprise plan subscription are "enterprise customers."
 
-The parties will comply with all applicable laws, rules and regulations, including without limitation those arising out of data privacy or any other rights or obligations set forth in this Agreement.
+The parties will comply with all applicable laws, rules and regulations, including without limitation to those arising out of data privacy or any other rights or obligations set forth in this Agreement.
 
 Each party represents and warrants that:
 
