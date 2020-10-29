@@ -2,7 +2,7 @@
 
 Terms of Service and Acceptable Use Policy
 ==========================================
-Revised July 2020
+Revised October 2020
 
 1. Preamble
 -----------
@@ -16,22 +16,32 @@ public repository where this document's source is hosted.
 
 Terms and policies apply to paid and unpaid features of Mailsac.
 
+"Enterprise" ("enterprise") plans are paid subscriptions to Mailsac services which include the name "Enterprise" or "enterprise" within them, affording additional assurances and features throughout the agreement. End users accessing the service via an account with a current paid Enterprise plan subscription are "enterprise customers."
+
+The parties will comply with all applicable laws, rules and regulations, including without limitation to those arising out of data privacy or any other rights or obligations set forth in this Agreement.
+
+Each party represents and warrants that:
+
+(i) it has full authority to enter and execute and perform its obligations under this Agreement;
+(ii) this Agreement will constitute a legal, enforceable and binding obligation between the parties;
+(iii) its execution and performance of this Agreement will not violate any law or breach any other agreement with or obligation to any third party.
+
 2. Warnings and Acceptable Use
 ------------------------------
 
-* Illegal is defined as against the law in the United States, the State of California, and the applicable jurisdictions of the end user (you).
-* This website can never be used to break the law.
-* You will not send unsolicited spam to or from this service and you will comply with CAN-SPAM as well as applicable international, national, and local spam laws in your jurisdiction and the State of California, United States.
-* This website and its overseers may cooperate with legal enforcement authorities to uphold law enforcement, without necessarily notifying the user of such coorporation.
-* This website can never be used for malicious activity, terrorist activity, planning illegal activities, discussing illegal activities, gambling, pornography, or condoning illegal activities.
-* This website can never be used to spread spam, untruth, gambling, pornography of any kind whether legal or illegal.
-* Apparent terrorism or threatening behavior, harmful messages or usage to conduct intolerant or hateful or discriminatory actions, whether carried out, intended, or simulated, proven or unproven, will be blocked and removed without notice, and potentially handed over to the proper authorities.
-* This website RESERVES THE RIGHT TO BLOCK OR DELETE MAIL WITHOUT ANY NOTICE OR REASON, INCLUDING DATA RETAINED BY PAID USERS. The user agrees to take action outside Mailsac services to engage in a backup strategy, when persistence is desired or required. ALL MAILSAC DATA, INCLUDING EMAIL CONTENTS AND EMAIL ADDRESSES, MUST BE CONSIDERED EPHEMERAL BY THE USER.
-* You agree to be a good citizen of this service and will not engage in any activity which degrades the quality, experience or integrity of it, and accept that if we determine you are degrading the service for others, your usage may be limited in a way which may be indesirable to you.
-* This service reserves the right to delete or block any email for any reason without notice and without stating any reason.
-* Unless otherwise indicated, by using the service you acknowledge that all of your incoming emails are public, not private, and unsecured, and not under copyright or ownership.
-* This service makes no guarantees about how long email will be retained, neither minimum nor maximum, or that email will be accepted or received.
-* This service is offered for use with NO WARRANTIES and MAKES NO PROMISES THAT IT WILL FUNCTION AS INTENDED OR UNINTENDED. There is no "service level agreement" nor any guarantee of service uptime. We provide uptime system metrics, such as https://status.mailsac.com, on a purely information basis. Nor is status or uptime information required to be available.
+2a. Illegal is defined as against the law in the United States, the State of California, Sacramento, and the applicable jurisdictions of the end user (you).
+2b. This website can never be used to break the law.
+2c. You will not send unsolicited spam to or from this service and you will comply with CAN-SPAM as well as applicable international, national, and local spam laws in your jurisdiction and the State of California, United States.
+2d. This website and its overseers may cooperate with legal enforcement authorities to uphold law enforcement, without necessarily notifying the user of such coorporation.
+2e. This website can never be used for malicious activity, terrorist activity, planning illegal activities, discussing illegal activities, gambling, pornography, or condoning illegal activities.
+2f. This website can never be used to spread spam, untruth, gambling, pornography of any kind whether legal or illegal.
+2g. Apparent terrorism or threatening behavior, harmful messages or usage to conduct intolerant or hateful or discriminatory actions, whether carried out, intended, or simulated, proven or unproven, will be blocked and removed without notice, and potentially handed over to the proper authorities.
+2h. This website RESERVES THE RIGHT TO BLOCK OR DELETE MAIL WITHOUT ANY NOTICE OR REASON, INCLUDING DATA RETAINED BY PAID USERS. The user agrees to take action outside Mailsac services to engage in a backup strategy, when persistence is desired or required. ALL MAILSAC DATA, INCLUDING EMAIL CONTENTS AND EMAIL ADDRESSES, MUST BE CONSIDERED EPHEMERAL BY THE USER.
+2i. You agree to be a good citizen of this service and will not engage in any activity which degrades the quality, experience or integrity of it, and accept that if we determine you are degrading the service for others, your usage may be limited in a way which may be undesirable to you.
+2j. This service reserves the right to delete or block any email for any reason without notice and without stating any reason.
+2k. Unless otherwise indicated, by using the service you acknowledge that all of your incoming emails are public, not private, and unsecured, and not under copyright or ownership.
+2l. This service makes no guarantees about how long email will be retained, neither minimum nor maximum, or that email will be accepted or received.
+2m. This service is offered for use with NO WARRANTIES and MAKES NO PROMISES THAT IT WILL FUNCTION AS INTENDED OR UNINTENDED. There is no "service level agreement" nor any guarantee of service uptime. We provide uptime system metrics, such as https://status.mailsac.com, on a purely information basis. Nor is status or uptime information required to be available.
 
 3. Commercial and Non-Commercial Use
 ------------------------------------
@@ -69,12 +79,12 @@ ongoing business operations, but that access and insight will be limited based o
 - system integration support from Mailsac to you
 - comprise the standard reasons for such access
 
-We may aggregate information included in emails, inbound and oubound metadata, email attachements,
+We may aggregate information included in emails, inbound and outbound metadata, email attachments,
 or email body information, for sale or sharing with third parties or customers. This aggregated information is useful
 for understanding system trends, spam and viruses sent by malicious systems.
 
 The Privacy Policy supercedes this agreement, and outlines additional detail around sharing of public and private email. When in doubt, THE USER ASSUMES
-CONTENTS OF THEIR DATA ON MAILSAC.COM MAY BE SHARED WITH OTHER PARTIES. Mailsac is not a service for conducting sensitive 
+CONTENTS OF THEIR DATA ON MAILSAC.COM MAY BE SHARED WITH OTHER PARTIES. Mailsac is not a service for conducting sensitive
 or private matters.
 
 4b. Receipt, Delivery, and Message Accuracy Guarantees
@@ -115,12 +125,12 @@ delivered (including but not limited to "bounces") will not be refunded. Contact
 be able to assist with troubleshooting, but again we make no guarantees about outbound message delivery.
 
 Outgoing mail may be marked as spam by receivers or intermediary deliverers. Mailsac is not
-responsible for email delivered by Mailsac being marked as spam, and WILL NOT refund such mail which is 
+responsible for email delivered by Mailsac being marked as spam, and WILL NOT refund such mail which is
 marked as spam or undelivered or unviewed.
 
 Sending spam email is a serious offense which may result the user's account being immediately disabled.
 
-IN THE EVENT THAT LEGAL EXPENSES OR FINANCIAL JUDGEMENTS ARE INCURRED FOR THE SENDING OF EMAIL MESSAGES BY A 
+IN THE EVENT THAT LEGAL EXPENSES OR FINANCIAL JUDGEMENTS ARE INCURRED FOR THE SENDING OF EMAIL MESSAGES BY A
 MAILSAC USER, THE USER AGREES TO ACCEPT FINANCIAL RESPOSIBILITY FOR THE PAYMENT OF THOSE FEES OR JUDGEMENTS.
 WHETHER SENT INTENTIONALLY OR UNINTENTIONALLY BY THE MAILSAC ACCOUNT OWNER, THE USER ACCEPTS FULL RESPONSIBILITY
 FOR THE MESSAGES SENT. The user is responsible for mail sent from their account even during a period that the account
@@ -134,7 +144,7 @@ to: IP addresses, email addresses, domains, frequency of inbound or outbound mai
 automatically, on a permanent or temporary basis. Entire domains and companies may be banned. For an up-to-date list of banned traffic,
 contact Mailsac support.
 
-We reserve the right to throttle API and SMTP (inbound or outbound) traffic, even for paid customers on unlimited plans. Throttling is necessary to ensure 
+We reserve the right to throttle API and SMTP (inbound or outbound) traffic, even for paid customers on unlimited plans. Throttling is necessary to ensure
 quality of service for all other customers.
 
 6. Uptime and Support
@@ -143,7 +153,7 @@ This service follows a best-effort policy to maintain uptime. No service level a
 any customer, paying or non-paying, personal or commercial. No SLA is offered on any Mailsac website, including
 but not limited to: mailsac.com, Mailsac API, SMTP services, forums, documentation, or blog.
 
-Customers wanting service uptime guarantees must contact a Mailsac account executive to purchase a SLA superceding this agreement.
+Customers wanting service uptime guarantees must contact a Mailsac account executive to purchase a Service Level Agreement (SLA) superceding this agreement.
 
 Support response times are not guaranteed, but support will make a best effort to respond promptly. Support is not offered in any
 language other than US English.
@@ -162,7 +172,7 @@ change the API without notice. No guarantees are made on the following:
 - API support for a particular programming language
 - API help in any language other than English
 
-7b. We make our best effort to produce bug free software and accurate documentation. However the user
+7b. We make our best effort to produce bug free software and accurate documentation. However, the user
 acknowledges that the service may perform sub-optimally and in a way that is unexpected, and in such cases
 Mailsac is not responsible. We make no guarantees that the service will function as described or intended,
 but we hope it does so. There is no guarantee that documentation about the service, including the API or
@@ -173,7 +183,7 @@ email routing or email privacy, will be accurate.
 ---------------------
 
 8a. Deleted data (including messages/email) are removed from the servers and the
-databases using standard deletion practices. However we cannot guarantee that
+databases using standard deletion practices. However, we cannot guarantee that
 backups may not exist or that business partners (such as hosting companies)
 will delete this data. Services which crawl publicly available content (most
 emails on this website are public) may retain that information indefinitely and
@@ -191,8 +201,8 @@ removed when older than other stored messages.
 The user agrees that Mailsac is never responsible for lost data. It is the user’s
 responsibility to backup or retain any data they may wish to keep.
 
-If data retention or secure deletion is a concern it is recommend that the user 
-should not use this service, and find another service upon which to rely.
+If data retention or secure deletion is a concern it is recommend that the user
+should not use this service, and should find another service upon which to rely.
 
 8b. Usage metrics are tracked. Usage includes but is not limited to:
 
@@ -220,43 +230,96 @@ for determination. ALL SALES ARE FINAL WHETHER SERVICES HAVE BEEN RENDERED OR NO
 
 We may make exceptions to this refund policy on a case-by-case basis.
 
-10. Updates
------------
-These Terms may change from time to time and all updates will be posted on this website. Users of
+10. Updates to Terms
+--------------------
+
+These Terms and Privacy Policy (external agreement) may change from time to time and all updates will be posted on this website. Users of
 the site WILL NOT BE NOTIFIED OF CHANGES. WE HIGHLY RECOMMEND USERS REGULARLY CHECK THIS WEBSITE
 FOR CHANGES TO THE TERMS OF SERVICE, ACCEPTABLE USE POLICY, AND PRIVACY POLICY.
 
-If the lack of notification of terms changes presents a concern, contact support for a different
-arrangement.
+If the lack of notification of terms changes presents a concern, contact support for a different arrangement.
+
+Enterprise customers are exempt from this section related to updates to this agreement being fluid and not triggering a notification to the end user.
 
 11. Warranty and Liability
 --------------------------
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS OF MAILSAC BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+For non-Enterprise customers, Mailsac software is provided WITHOUT WARRANTY OF ANY KIND OR IMPLIED OF FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 12. Privileges
 --------------
 This service retains the right to revoke or deny access to anyone at anytime, with or without stated
 reason. Likewise any user may cease using the service and request that data be removed, in
-accordance with the data and retention policies outlined herein and in the jurisdictions indicated herin. 
+accordance with the data and retention policies outlined herein and in the jurisdictions indicated herin.
 As indicated above, refunds are not given.
 
-13. Other Agreements
+13.  Payment of Fees
+
+Unless another agreement signed by Mailsac exists, payments for services are made up front using a credit card. Serivces will not be rendered until paid in full and cleared with Stripe.com. Returned or stopped payments will be subject to a $30 charge to be paid by the customer of Mailsac via credit card. Accounts in past-due status will be locked and unusable until paid in full.
+
+Enterprise customers may have payments arrangements other than via credit card, if agreed by both parties. Mailsac may
+submit invoices for fees and expenses to the customer electronically at an accounts payable email address provided by
+the customer. Payments shall be made net thirty (30) days after receipt of invoice by the customer. Mailsac services
+will not be started or restarted until the business day following receipt of payment or purchase order by Mailsac from
+the customer.
+
+14. Intellectual Property
+
+For Enterprise customers, Mailsac warranties that all Intellectual Property delivered under this agreement will be of original development by Forking Software LLC or subject to appropriate license and will not infringe or violate any patent, copyright, trade secret, trademark, or other intellectual property right of a third party.
+
+When service is not delivered under an Enterprise agreement, no such Intellectual Property warranty is provided.
+
+15. CCPA
+
+Mailsac agrees to render services consistent with the "California Consumer Privacy Act” (“CCPA”) Cal. Civ. Code Title 1.81.5, § 1798.100 et seq. Requests related to Personally identifiable Information or CCPA may be sent to the Mailsac support email listed in this agreement, and Mailsac will make every effort to respond within 20 days.
+
+If either party discovers or receives notice of an actual breach of security relating to Personal or Confidential
+Information in its possession or control, it will immediately notify the other of such breach, and will promptly
+investigate and take all reasonable steps to cure the breach.
+
+16. Information Assurance Program
+
+For Enterprise customers, Mailsac will provide an outline of business practices related to cybersecurity and continuity. This agreement is subject to the practices contained within th Information Assurance Program. As the Information Assurance Program is a living document, the customer may elect to receive updates to it by providing Mailsac with an email address, or contacting Mailsac support. Only electronic copies of the Information Assurance Program will be provided (no physical copies or mail).
+
+17. Business Continuity
+
+For Enterprise customers only, Mailsac shall maintain, and shall implement when necessary, a written business continuity plan (“BCP”) that permits it to recover from a triggering event and continue providing Services to user within the specified recovery time objectives. The BCP will be written and maintained in the Mailsac Information Assurance Program, available upon request to Enterprise customers.
+
+18. Indemnification
+
+Each party agrees to indemnify, defend, and hold harmless the other party from and against any loss, cost, or damage of any kind (including reasonable outside attorneys’ fees) to the extent arising out of its breach of this Agreement, and/or its negligence or willful misconduct.
+
+19. Insurance
+
+The parties will, at their own cost and expense, obtain and maintain in full force and effect during the term of this Agreement the following insurance coverages:
+
+- Commercial General Liability
+- Cyber Security Liability
+
+20. Other Agreements
 --------------------
 If a clause of this agreement is found to be invalid or violated, the rest of this agreement still stands.
 
-This agreement represents the entire agreement between the user and Forking Software LLC, which includes the Privacy Policy.
-The two parties may supersede parts of this agreement through writing signed by legal representatives of
-both parties. Clauses of this agreement not addressed in any superseding agreement will still stand.
+This agreement represents the entire agreement between the user and Forking Software LLC, which includes the Privacy Policy. The two parties may supersede parts of this agreement through writing signed by legal representatives of both parties. Clauses of this agreement not addressed in any superseding agreement will still stand.
+
+Both parties may assign this agreement, or any rights or obligations hereunder, including the right to enforce all of its terms, (i) in connection with a merger, acquisition, corporate reorganization, change in control or sale of all or substantially all of its assets or (ii) to an Affiliate (that is an Affiliate at the time of such assignment).
+
+No waiver by any party at any time of any other provision of this agreement will be deemed a waiver or breach of any other provision of this agreement or consent to any subsequent breach of the same of any other provision.
+
+This agreement will be governed in all respects, including validity, interpretation and effect, by the laws of the State of California without regard to principles of conflicts of law therein. Jurisdiction and venue for any claims shall be lie in:
+
+- Sacramento, California
 
 Appendix
 ---------
+
 Support email address: support@team.mailsac.com
 Alternate support email address: mailsac.com@gmail.com
 
