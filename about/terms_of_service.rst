@@ -280,7 +280,9 @@ When service is not delivered under an Enterprise agreement, no such Intellectua
 
 Mailsac agrees to render services consistent with the "California Consumer Privacy Act” (“CCPA”) Cal. Civ. Code Title 1.81.5, § 1798.100 et seq. Requests related to Personally identifiable Information or CCPA may be sent to the Mailsac support email listed in this agreement, and Mailsac will make every effort to respond within 20 days.
 
-If either party discovers or receives notice of an actual breach of security relating to Personal or Confidential Information in its possession or control, it will immediately notify the other of such breach, and will promptly investigate and take all commercially reasonable steps to cure the breach.
+If either party discovers or receives notice of an actual breach of security relating to Personal or Confidential
+Information in its possession or control, it will immediately notify the other of such breach, and will promptly
+investigate and take all reasonable steps to cure the breach.
 
 16. Information Assurance Program
 
