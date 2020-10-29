@@ -301,7 +301,7 @@ Each party agrees to indemnify, defend, and hold harmless the other party from a
 The parties will, at their own cost and expense, obtain and maintain in full force and effect during the term of this Agreement the following insurance coverages:
 
 - Commercial General Liability
-- Cyber and Information Security Liability
+- Cyber Security Liability
 
 20. Other Agreements
 --------------------
