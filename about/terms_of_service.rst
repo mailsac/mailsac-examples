@@ -264,7 +264,11 @@ As indicated above, refunds are not given.
 
 Unless another agreement signed by Mailsac exists, payments for services are made up front using a credit card. Serivces will not be rendered until paid in full and cleared with Stripe.com. Returned or stopped payments will be subject to a $30 charge to be paid by the customer of Mailsac via credit card. Accounts in past-due status will be locked and unusable until paid in full.
 
-Enterprise customers may have payments arrangements other than via credit card, if agreed by both parties. Mailsac may submit invoices for fees and expenses to the customer electronically at an accounts payable email address provided by the customer. Payments shall be made net thirty (30) days after receipt of invoice by the customer. Mailsac services will not be started or restarted until the business day following receipt of payment by Mailsac from the customer.
+Enterprise customers may have payments arrangements other than via credit card, if agreed by both parties. Mailsac may
+submit invoices for fees and expenses to the customer electronically at an accounts payable email address provided by
+the customer. Payments shall be made net thirty (30) days after receipt of invoice by the customer. Mailsac services
+will not be started or restarted until the business day following receipt of payment or purchase order by Mailsac from
+the customer.
 
 14. Intellectual Property
 
