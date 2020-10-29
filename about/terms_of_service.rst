@@ -317,8 +317,6 @@ This agreement will be governed in all respects, including validity, interpretat
 
 - Sacramento, California
 
-The terms and conditions of this agreement or and any other documents referenced herein may not be amended, waived or modified, except in a writing signed by both parties.
-
 Appendix
 ---------
 
