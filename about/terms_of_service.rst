@@ -278,11 +278,13 @@ When service is not delivered under an Enterprise agreement, no such Intellectua
 
 15. CCPA
 
-Mailsac agrees to render services consistent with the "California Consumer Privacy Act” (“CCPA”) Cal. Civ. Code Title 1.81.5, § 1798.100 et seq. Requests related to Personally identifiable Information or CCPA may be sent to the Mailsac support email listed in this agreement, and Mailsac will make every effort to respond within 20 days.
+Mailsac agrees to render services consistent with the "California Consumer Privacy Act” (“CCPA”) Cal. Civ. Code Title 1.81.5, § 1798.100 et seq. Requests related to Personally Identifiable Information (PII) or CCPA may be sent to the Mailsac support email listed in this agreement, and Mailsac will make every effort to respond within 20 days.
 
-If either party discovers or receives notice of an actual breach of security relating to Personal or Confidential
-Information in its possession or control, it will immediately notify the other of such breach, and will promptly
-investigate and take all reasonable steps to cure the breach.
+The user agrees to remove confidential information and PII ("sensitive information") from Mailsac systems at the earliest extent possible through features provided to the user in the Mailsac platform, such as, but not limited to, (i) deleting email messages containing the sensitive information, or (ii) bulk deleting all email for a custom domain when containing the sensitive information.
+
+The user agrees that Mailsac is not responsible for damage caused by sensitive information made public through the Customer’s use of the Mailsac platform, such as, but not limited to, (i) user making email for a custom domain public by changing settings, or (ii) user sharing public links to private content with embedded access credentials.
+
+If either party discovers or receives notice of an actual breach of security relating to sensitive information in its possession or control, it will immediately notify the other of such breach, and will promptly investigate and take all reasonable steps to cure the breach.
 
 16. Information Assurance Program
 
