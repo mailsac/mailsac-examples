@@ -1,10 +1,5 @@
 .. _Dashboard: https://mailsac.com/dashboard
-.. _`Verified Domains`: https://mailsac.com/domains
-.. _amazon_dns: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-creating.html
-.. _cloudflare_dns: https://support.cloudflare.com/hc/en-us/articles/360019093151
-.. _namecheap_dns: https://www.namecheap.com/support/knowledgebase/article.aspx/317/2237/how-do-i-add-txtspfdkimdmarc-records-for-my-domain
-.. _names_co_uk_dns: https://www.names.co.uk/support/1156-changing_your_domains_dns_settings.html
-.. _wix_dns: https://support.wix.com/en/article/adding-or-updating-spf-records-in-your-wix-account
+.. _`Custom Domains`: https://mailsac.com/domains
 
 .. _doc_custom_domains:
 
@@ -34,6 +29,11 @@ use our Zero-Setup Subdomain. Alternatively, you can purchase a domain from a
 registrar (`Namecheap <https://namecheap.com>`__ or
 `GoDaddy <https://godaddy.com>`_) and configure it for use with Mailsac.
 
+The adding of DNS records will depend on your DNS name server. Your IT
+department may be able to assist with this. Links to configuring DNS records
+for popular :ref:`DNS solutions <sec_mx_record_links>` are found at the bottom of this page.
+
+
 `BYODomain Configuration`_
 
 .. _section_zero_setup_subdomain:
@@ -43,9 +43,9 @@ Zero-Setup Subdomain Configuration
 
 Setting up a Zero-Setup domain only takes a few seconds.
 
-#. From the Dashboard_, select `Verified Domains`_.
+#. From the Dashboard_, select `Custom Domains`_.
 
-   .. image:: verified_domains.png
+   .. image:: dashboard_domains.png
       :scale: 50%
       :align: center
 
@@ -85,9 +85,23 @@ BYODomain Configuration
 BYODomain configuration requires you to have access to modify DNS records on
 your domain.
 
-#. From the Dashboard_, select `Verified Domains`_.
+Domain verification requires the addition of a TXT record validate domain
+ownership. Receiving mail requires configuring MX records. Sending mail
+requires configuring DKIM and SPF records.
 
-   .. image:: verified_domains.png
+The following sections will show how to:
+
+- Add a custom domain to Mailsac
+- Verify a custom domain using a TXT record
+- Configure a custom domain to receive mail by adding an MX record
+- Configure a custom domain to send mail by adding DKIM and SPF records
+
+Adding a Custom Domain
+^^^^^^^^^^^^^^^^^^^^^^
+
+#. From the Dashboard_, select `Custom Domains`_.
+
+   .. image:: dashboard_domains.png
       :width: 250px
       :align: center
 
@@ -103,95 +117,136 @@ your domain.
        :width: 600px
        :align: center
 
-#. Select the DNS Setup Tab to configure DNS
-
+#. Select the DNS Setup tab to verify DNS
+    
+   "Not Verified - Action Required" indicates DNS is not properly
+   configured. The next section explains how to verify
+   domain ownership.
+   
     .. image:: byod_select_dns.png
         :width: 600px
         :align: center
 
-    .. note:: "Not Verified - Action Required" indicates DNS is not properly
-               configured.
 
-#. Configure TXT DNS record for DKIM
+.. _sec_verify_domain_ownership:
 
-   Create a TXT record for DKIM with the hostname and value found on the DNS
-   Setup page
-   in the Mailsac Dashboard_.
+Verify Custom Domain Ownership
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-   .. image:: byod_dkim.png
+#. Create a TXT record with the hostname and value found on the DNS Setup
+   page in the Mailsac Dashboard_
+
+   See :ref:`sec_txt_record_links` for DNS provider specific
+   instructions.
+
+   .. image:: byod_txt_verification.png
       :width: 600px
       :align: center
 
-   .. note:: The adding of DNS records will depend on your DNS name server.
-      Your IT department may be able to assist with this. If you use your domain
-      registrar's name server they should have documentation on how to configure
-      DNS (`Namecheap <https://www.namecheap.com/support/knowledgebase/article.aspx/317/2237/how-do-i-add-txtspfdkimdmarc-records-for-my-domain>`__
-      , `Godaddy Documentation <https://www.godaddy.com/help/add-a-txt-record-19232>`_).
+#. Select "Query My DNS Settings Now"
 
-  =============== ==================
-  DNS Provider    Documentation Link
-  =============== ==================
-  Amazon Route 53 `Creating Records Using the Amazon Route 53 Console <amazon_dns_>`_
-  GoDaddy         `Add a TXT record <https://www.godaddy.com/help/add-a-txt-record-19232>`_
-  Dreamhost       `How do I add custom DNS records <https://help.dreamhost.com/hc/en-us/articles/215414867-How-do-I-add-custom-DNS-records->`_
-  Cloudflare      `Managing DNS records in CloudFlare <cloudflare_dns_>`_
-  HostGator       `Manage DNS records <https://www.hostgator.com/help/article/manage-dns-records-with-hostgatorenom>`_
-  Namecheap       `How do I add TXT/SPF/DKIM/DMARC records for my domain <namecheap_dns_>`_
-  Names.co.uk     `Changing your domain's DNS settings <names_co_uk_dns_>`_
-  Wix             `Adding or updating TXT Records in Your Wix account <wix_dns_>`_
-  =============== ==================
+   Mailsac will attempt to verify domain ownership by querying DNS records for
+   the custom domain. 
 
-#. Configure TXT DNS record for SPF
-
-   Create a TXT record for SPF with the hostname and value found on the DNS
-   Setup page in the Mailsac Dashboard_.
-
-   .. image:: byod_spf.png
+   .. image:: byod_query_dns.png
       :width: 600px
       :align: center
 
-  =============== ==================
-  DNS Provider    Documentation Link
-  =============== ==================
-  Amazon Route 53 `Creating Records Using the Amazon Route 53 Console <amazon_dns_>`_
-  GoDaddy         `Adding an SPF record <https://www.godaddy.com/help/add-an-spf-record-19218>`_
-  Dreamhost       `How do I add an SPF record <https://help.dreamhost.com/hc/en-us/articles/216106197-How-do-I-add-an-SPF-record->`_
-  Cloudflare      `Managing DNS records in CloudFlare <cloudflare_dns_>`_
-  HostGator       `SPF Records <https://www.hostgator.com/help/article/spf-records>`_
-  Namecheap       `How do I add TXT/SPF/DKIM/DMARC records for my domain <namecheap_dns_>`_
-  Names.co.uk     `Changing your domain's DNS settings <names_co_uk_dns_>`_
-  Wix             `Adding or updating TXT Records in Your Wix account <wix_dns_>`_
-  =============== ==================
+#. Confirm domain ownership.
 
-#. Configure MX records to receive mail
+   If the TXT record is correct an "OK" image will appear in the
+   "DNS Records" section.
+   
+   .. image:: byod_txt_verified.png
+      :width: 600px
+      :align: center
 
-   Create two MX records to receive mail with the hostname and value found on
-   the DNS Setup page in the Mailsac Dashboard_.
+   .. note:: DNS can take up to 24 hours to propagate
+
+.. _sec_configure_mx_records:
+
+Configure Custom Domain for Receiving Mail
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. Create two MX records to receive mail with the hostname and value
+   found on the DNS Setup page in the Mailsac Dashboard_.
 
    .. image:: byod_mx.png
       :width: 600px
       :align: center
 
-   .. include:: ./mx_record_links.rst
+   See :ref:`sec_mx_record_links` for DNS provider specific
+   instructions
 
-#. Verify DNS Settings
+#. Select "Query My DNS Settings Now"
 
-   Click the "Query My DNS Settings Now" button to verify your DNS settings.
+   Mailsac will attempt to verify domain by querying DNS records for
+   the custom domain. 
 
-    .. image:: check_dns.png
-       :width: 600px
-       :align: center
+   .. image:: byod_query_dns.png
+      :width: 600px
+      :align: center
 
-    .. note:: DNS can take up to 24 hours to propagate
+#. Confirm MX records.
 
-#. DNS Setup Complete
+   If the MX record is correct an "OK" image will appear next to the
+   "MX Record Type" section of "DNS Records"
 
-   DNS setup is complete when the status message changes to "We have verified
-   that the DNS settings below were added correctly".
+   .. image:: byod_mx_verified.png
+      :width: 600px
+      :align: center 
 
-    .. image:: byod_dns_verified.png
-       :width: 600px
-       :align: center
+.. _sec_configure_dkim_spf_records:
 
-Email can now be received and sent from your BYODomain!
+Configure Custom Domain for Sending Mail
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+#. Create a TXT record for DKIM with the hostname and value found on
+   the DNS Setup page in the Mailsac Dashboard_.
+
+   See :ref:`sec_txt_record_links` and DNS provider specific
+   instructions
+
+   .. image:: byod_dkim.png
+      :width: 600px
+      :align: center
+
+#. Create a TXT record for SPF with the hostname and value found on the
+   DNS Setup page in the Mailsac Dashboard_.
+
+   See :ref:`sec_spf_record_links` for DNS provider specific
+   instructions
+
+   .. image:: byod_spf.png
+      :width: 600px
+      :align: center
+
+#. Confirm DKIM and SPF records.
+
+   If the DKIM and SPF records are correct an "OK" image will appear
+   next to the "DKIM Public Key"  and "SPF" section of "DNS Records"
+
+   .. image:: byod_dkim_spf_verified.png
+      :width: 600px
+      :align: center 
+
+.. _sec_mx_record_links:
+
+DNS Provider MX Record Links
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. include:: ./mx_record_links.rst
+
+.. _sec_txt_record_links:
+
+DNS Provider TXT Record Links
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. include:: ./txt_record_links.rst
+
+.. _sec_spf_record_links:
+
+DNS Provider SPF Record Links
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. include:: ./spf_record_links.rst
