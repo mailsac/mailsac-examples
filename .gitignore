@@ -69,3 +69,6 @@ _build/
 #ignore vim swp files
 *.swp
 *.swo
+
+# python virtual envrionment
+venv/
