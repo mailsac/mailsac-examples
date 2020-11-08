@@ -6,9 +6,12 @@
 Custom Domains
 ==============
 
-Custom domains allow for receiving of email at any address within a
-domain. Custom domains can be `purchased <https://mailsac.com/pricing>`_ as
-an addon or as part of a plan.
+Mailsac lets you configure a custom domain to receive disposable email at any address
+within the domain, while keep mail private. Mail can be fetched via API and by
+logged-in API users, if your plan supports it.
+
+Custom domains `are included with every subscription <https://mailsac.com/pricing>`_.
+Additional domains may be added to any subscription.
 
 Zero-Setup Subdomain
 --------------------
@@ -29,7 +32,7 @@ use our Zero-Setup Subdomain. Alternatively, you can purchase a domain from a
 registrar (`Namecheap <https://namecheap.com>`__ or
 `GoDaddy <https://godaddy.com>`_) and configure it for use with Mailsac.
 
-The adding of DNS records will depend on your DNS name server. Your IT
+The method for adding DNS records will depend on your DNS hostring provider. Your IT
 department may be able to assist with this. Links to configuring DNS records
 for popular :ref:`DNS solutions <sec_mx_record_links>` are found at the bottom of this page.
 
@@ -92,7 +95,7 @@ requires configuring DKIM and SPF records.
 The following sections will show how to:
 
 - Add a custom domain to Mailsac
-- Verify a custom domain using a TXT record
+- Verify ownership of a custom domain using a TXT record
 - Configure a custom domain to receive mail by adding an MX record
 - Configure a custom domain to send mail by adding DKIM and SPF records
 
@@ -154,7 +157,7 @@ Verify Custom Domain Ownership
 
 #. Confirm domain ownership.
 
-   If the TXT record is correct an "OK" image will appear in the
+   If the TXT record is correct, an "OK" image will appear in the
    "DNS Records" section.
    
    .. image:: byod_txt_verified.png
@@ -168,8 +171,9 @@ Verify Custom Domain Ownership
 Configure Custom Domain for Receiving Mail
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Create two MX records to receive mail with the hostname and value
-   found on the DNS Setup page in the Mailsac Dashboard_.
+#. Create two MX ("Mail eXchange") records to receive mail with 
+   the hostname and value found on the DNS Setup page under the
+   `Custom Domains`_ page.
 
    .. image:: byod_mx.png
       :width: 600px
@@ -180,8 +184,8 @@ Configure Custom Domain for Receiving Mail
 
 #. Select "Query My DNS Settings Now"
 
-   Mailsac will attempt to verify domain by querying DNS records for
-   the custom domain. 
+   Mailsac will attempt to verify the MX records for
+   the custom domain.
 
    .. image:: byod_query_dns.png
       :width: 600px
@@ -189,7 +193,7 @@ Configure Custom Domain for Receiving Mail
 
 #. Confirm MX records.
 
-   If the MX record is correct an "OK" image will appear next to the
+   If the MX records are correct, an "OK" image will appear next to the
    "MX Record Type" section of "DNS Records"
 
    .. image:: byod_mx_verified.png
@@ -201,8 +205,9 @@ Configure Custom Domain for Receiving Mail
 Configure Custom Domain for Sending Mail
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Create a TXT record for DKIM with the hostname and value found on
-   the DNS Setup page in the Mailsac Dashboard_.
+#. Create a TXT record for DKIM (DomainKeys Identified Mail) with
+   the hostname and value found on the DNS Setup page under the
+   `Custom Domains`_ page.
 
    See :ref:`sec_txt_record_links` and DNS provider specific
    instructions
@@ -211,8 +216,9 @@ Configure Custom Domain for Sending Mail
       :width: 600px
       :align: center
 
-#. Create a TXT record for SPF with the hostname and value found on the
-   DNS Setup page in the Mailsac Dashboard_.
+#. Create a TXT record for SPF (Sender Policy Framework) with the 
+   hostname and value found on the DNS Setup page on the 
+   `Custom Domains`_ page.
 
    See :ref:`sec_spf_record_links` for DNS provider specific
    instructions
@@ -223,7 +229,7 @@ Configure Custom Domain for Sending Mail
 
 #. Confirm DKIM and SPF records.
 
-   If the DKIM and SPF records are correct an "OK" image will appear
+   If the DKIM and SPF records are correct, an "OK" image will appear
    next to the "DKIM Public Key"  and "SPF" section of "DNS Records"
 
    .. image:: byod_dkim_spf_verified.png
