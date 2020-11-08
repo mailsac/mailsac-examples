@@ -88,9 +88,11 @@ BYODomain Configuration
 BYODomain configuration requires you to have access to modify DNS records on
 your domain.
 
-Domain verification requires the addition of a TXT record validate domain
-ownership. Receiving mail requires configuring MX records. Sending mail
-requires configuring DKIM and SPF records.
+Domain verification requires the addition of a TXT record to validate domain
+ownership.
+
+Receiving mail requires configuring MX records. Sending mail requires
+configuring DKIM and SPF records.
 
 The following sections will show how to:
 
