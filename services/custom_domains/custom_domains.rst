@@ -17,9 +17,12 @@ Zero-Setup Subdomain
 --------------------
 
 The Zero-Setup Subdomain automatically creates a subdomain under msdc.co (eg
-test123.msdc.co) that is ready to receive email with no additional setup. This
-is the ideal option if you do not own a domain or do not have access to change
-the DNS records for a domain.
+test123.msdc.co).
+
+It is ready to receive and send email with no additional setup.
+
+This is the ideal option if you do not already own a domain - or do not have
+access to change the DNS records for a domain.
 
 `Zero-Setup Subdomain Configuration`_
 
@@ -27,12 +30,14 @@ BYODomain
 ---------
 
 BYODomain (Bring Your Own Domain) allows you to easily receive email with a
-domain or subdomain you already own. If you do not already own a domain you can
-use our Zero-Setup Subdomain. Alternatively, you can purchase a domain from a
-registrar (`Namecheap <https://namecheap.com>`__ or
-`GoDaddy <https://godaddy.com>`_) and configure it for use with Mailsac.
+domain or subdomain you already own.
 
-The method for adding DNS records will depend on your DNS hostring provider. Your IT
+If you do not already own a domain you can use our Zero-Setup Subdomain.
+Alternatively, you can purchase a domain from a
+registrar (`Namecheap <https://namecheap.com>`__ or
+`GoDaddy <https://godaddy.com>`_ are popular) and configure it for use with Mailsac.
+
+The exact method for adding DNS records will depend on your DNS hostring provider. Your IT
 department may be able to assist with this. Links to configuring DNS records
 for popular :ref:`DNS solutions <sec_mx_record_links>` are found at the bottom of this page.
 
@@ -44,7 +49,7 @@ for popular :ref:`DNS solutions <sec_mx_record_links>` are found at the bottom o
 Zero-Setup Subdomain Configuration
 ----------------------------------
 
-Setting up a Zero-Setup domain only takes a few seconds.
+Adding a Zero-Setup domain only takes a few seconds. 
 
 #. From the Dashboard_, select `Custom Domains`_.
 
@@ -139,7 +144,7 @@ Verify Custom Domain Ownership
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Create a TXT record with the hostname and value found on the DNS Setup
-   page in the Mailsac Dashboard_
+   page under _`Custom Domains`.
 
    See :ref:`sec_txt_record_links` for DNS provider specific
    instructions.
