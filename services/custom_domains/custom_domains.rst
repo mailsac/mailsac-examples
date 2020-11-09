@@ -1,5 +1,5 @@
 .. _Dashboard: https://mailsac.com/dashboard
-.. _`Custom Domains`: https://mailsac.com/domains
+.. _dash_custom_domains: https://mailsac.com/domains
 
 .. _doc_custom_domains:
 
@@ -49,9 +49,9 @@ for popular :ref:`DNS solutions <sec_mx_record_links>` are found at the bottom o
 Zero-Setup Subdomain Configuration
 ----------------------------------
 
-Adding a Zero-Setup domain only takes a few seconds. 
+Adding a Zero-Setup domain only takes a few seconds.
 
-#. From the Dashboard_, select `Custom Domains`_.
+#. From the Dashboard_, select `Custom Domains <dash_custom_domains_>`_.
 
    .. image:: dashboard_domains.png
       :scale: 50%
@@ -109,7 +109,7 @@ The following sections will show how to:
 Adding a Custom Domain
 ^^^^^^^^^^^^^^^^^^^^^^
 
-#. From the Dashboard_, select `Custom Domains`_.
+#. From the Dashboard_, select `Custom Domains <dash_custom_domains_>`_.
 
    .. image:: dashboard_domains.png
       :width: 250px
@@ -144,7 +144,7 @@ Verify Custom Domain Ownership
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Create a TXT record with the hostname and value found on the DNS Setup
-   page under _`Custom Domains`.
+   page under `Custom Domains <dash_custom_domains_>`_.
 
    See :ref:`sec_txt_record_links` for DNS provider specific
    instructions.
@@ -178,9 +178,9 @@ Verify Custom Domain Ownership
 Configure Custom Domain for Receiving Mail
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Create two MX ("Mail eXchange") records to receive mail with 
+#. Create two MX ("Mail eXchange") records to receive mail with
    the hostname and value found on the DNS Setup page under the
-   `Custom Domains`_ page.
+   `Custom Domains <dash_custom_domains_>`_ page.
 
    .. image:: byod_mx.png
       :width: 600px
@@ -214,7 +214,7 @@ Configure Custom Domain for Sending Mail
 
 #. Create a TXT record for DKIM (DomainKeys Identified Mail) with
    the hostname and value found on the DNS Setup page under the
-   `Custom Domains`_ page.
+   `Custom Domains <dash_custom_domains_>`_ page.
 
    See :ref:`sec_txt_record_links` and DNS provider specific
    instructions
@@ -223,9 +223,9 @@ Configure Custom Domain for Sending Mail
       :width: 600px
       :align: center
 
-#. Create a TXT record for SPF (Sender Policy Framework) with the 
-   hostname and value found on the DNS Setup page on the 
-   `Custom Domains`_ page.
+#. Create a TXT record for SPF (Sender Policy Framework) with the
+   hostname and value found on the DNS Setup page on the
+   `Custom Domains <dash_custom_domains_>`_ page.
 
    See :ref:`sec_spf_record_links` for DNS provider specific
    instructions
