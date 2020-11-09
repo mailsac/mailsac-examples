@@ -33,13 +33,14 @@ BYODomain (Bring Your Own Domain) allows you to easily receive email with a
 domain or subdomain you already own.
 
 If you do not already own a domain you can use our Zero-Setup Subdomain.
-Alternatively, you can purchase a domain from a
-registrar (`Namecheap <https://namecheap.com>`__ or
-`GoDaddy <https://godaddy.com>`_ are popular) and configure it for use with Mailsac.
+Alternatively, you can purchase a domain from a registrar (`Namecheap
+<https://namecheap.com>`__ or `GoDaddy <https://godaddy.com>`_ are popular) and
+configure it for use with Mailsac.
 
-The exact method for adding DNS records will depend on your DNS hostring provider. Your IT
-department may be able to assist with this. Links to configuring DNS records
-for popular :ref:`DNS solutions <sec_mx_record_links>` are found at the bottom of this page.
+The exact method for adding DNS records will depend on your DNS hosting
+provider. Your IT department may be able to assist with this. Links to
+configuring DNS records for popular :ref:`DNS solutions <sec_mx_record_links>`
+are found at the bottom of this page.
 
 
 `BYODomain Configuration`_
