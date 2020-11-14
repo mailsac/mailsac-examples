@@ -36,11 +36,11 @@ rights or obligations set forth in this Agreement.
 
 Each party represents and warrants that:
 
-1. it has full authority to enter and execute and perform its obligations
+a. it has full authority to enter and execute and perform its obligations
    under this Agreement;
-2. this Agreement will constitute a legal, enforceable and binding
+b. this Agreement will constitute a legal, enforceable and binding
    obligation between the parties;
-3. its execution and performance of this Agreement will not violate any
+c. its execution and performance of this Agreement will not violate any
    law or breach any other agreement with or obligation to any third party.
 
 2 Warnings and Acceptable Use
@@ -122,17 +122,17 @@ a. Public and Private Email
    Private addresses will not be accessible publicly and access to messages
    will be provided only to those with:
 
-   - a validated username and password, which grants a temporary access
-     "session" which may be stored in a cookie
-   - a validated API key (smtp key, api access key, or other key)
+      i. a validated username and password, which grants a temporary access
+        "session" which may be stored in a cookie
+      ii. a validated API key (smtp key, api access key, or other key)
    
-   If you believe your username, password, or API key has been compromised, you
+b. If you believe your username, password, or API key has been compromised, you
    agree to:
 
-   1. change your compromised password, or delete the compromised API key
-   2. and contact the Mailsac support email address immediately.
+      i. change your compromised password, or delete the compromised API key
+      ii. and contact the Mailsac support email address immediately.
    
-   Mailsac does not accept responsibility for damages done by compromised
+c. Mailsac does not accept responsibility for damages done by compromised
    accounts. Users acknowledge that overseers and associates (internal or
    external parties) may have access to inbox contents for the purpose of
    ongoing business operations, but that access and insight will be limited
@@ -144,7 +144,7 @@ a. Public and Private Email
    - system integration support from Mailsac to you
    - comprise the standard reasons for such access
    
-   We may aggregate information included in emails, inbound and outbound
+d. We may aggregate information included in emails, inbound and outbound
    metadata, email attachments, or email body information, for sale or sharing
    with third parties or customers. This aggregated information is useful for
    understanding system trends, spam and viruses sent by malicious systems.
@@ -154,7 +154,7 @@ a. Public and Private Email
    CONTENTS OF THEIR DATA ON MAILSAC.COM MAY BE SHARED WITH OTHER PARTIES.
    Mailsac is not a service for conducting sensitive or private matters.
 
-b. Receipt, Delivery, and Message Accuracy Guarantees
+e. Receipt, Delivery, and Message Accuracy Guarantees
    
    EMAIL MESSAGE RECEIPT AND DELIVERY IS NOT GUARANTEED. Mailsac.com has many
    processes and systems in place built up over years, which result in high
@@ -177,7 +177,7 @@ b. Receipt, Delivery, and Message Accuracy Guarantees
    Spam ratings and spam scores are for informational purposes only - the user
    acknowledges these may indicate non-spam is spam, and spam is non-spam.
 
-c. Email Security
+f. Email Security
 
    The user acknowledges:
    
@@ -195,7 +195,7 @@ c. Email Security
      however internal traffic or even public API / UI traffic may be
      transmitted unencrypted
 
-d. Sending Outbound Mail
+g. Sending Outbound Mail
 
    Outgoing mail may be purchased at cost and may be delivered (relayed) by a
    third party OR Mailsac. The user and sender of this mail is responsible for
@@ -400,33 +400,33 @@ Intellectual Property warranty is provided.
 15. CCPA
 --------
 
-Mailsac agrees to render services consistent with the "California Consumer
-Privacy Act” (“CCPA”) Cal. Civ. Code Title 1.81.5, § 1798.100 et seq. Requests
-related to Personally Identifiable Information (PII) or CCPA may be sent to the
-Mailsac support email listed in this agreement, and Mailsac will make every
-effort to respond within 20 days.
+a. Mailsac agrees to render services consistent with the "California Consumer
+   Privacy Act” (“CCPA”) Cal. Civ. Code Title 1.81.5, § 1798.100 et seq. Requests
+   related to Personally Identifiable Information (PII) or CCPA may be sent to the
+   Mailsac support email listed in this agreement, and Mailsac will make every
+   effort to respond within 20 days.
 
-The user agrees to remove confidential information and PII ("sensitive
-information") from Mailsac systems at the earliest extent possible through
-features provided to the user in the Mailsac platform, such as, but not limited
-to, 
+   The user agrees to remove confidential information and PII ("sensitive
+   information") from Mailsac systems at the earliest extent possible through
+   features provided to the user in the Mailsac platform, such as, but not limited
+   to:
 
-a. deleting email messages containing the sensitive information, or 
-b. bulk deleting all email for a custom domain when containing the sensitive
-   information.
+      i. deleting email messages containing the sensitive information, or 
+      ii. bulk deleting all email for a custom domain when containing the sensitive
+         information.
 
-The user agrees that Mailsac is not responsible for damage caused by sensitive
-information made public through the Customer’s use of the Mailsac platform,
-such as, but not limited to,
+b. The user agrees that Mailsac is not responsible for damage caused by sensitive
+   information made public through the Customer’s use of the Mailsac platform,
+   such as, but not limited to:
 
-a. user making email for a custom domain public by changing settings, or
-b. user sharing public links to private content with embedded access
-   credentials.
+      i. user making email for a custom domain public by changing settings, or
+      ii. user sharing public links to private content with embedded access
+         credentials.
 
-If either party discovers or receives notice of an actual breach of security
-relating to sensitive information in its possession or control, it will
-immediately notify the other of such breach, and will promptly investigate and
-take all reasonable steps to cure the breach.
+c. If either party discovers or receives notice of an actual breach of security
+   relating to sensitive information in its possession or control, it will
+   immediately notify the other of such breach, and will promptly investigate and
+   take all reasonable steps to cure the breach.
 
 16. Information Assurance Program
 ---------------------------------
@@ -470,32 +470,32 @@ coverages:
 20. Other Agreements
 --------------------
 
-If a clause of this agreement is found to be invalid or violated, the rest of
-this agreement still stands.
+a. If a clause of this agreement is found to be invalid or violated, the rest of
+   this agreement still stands.
 
-This agreement represents the entire agreement between the user and Forking
-Software LLC, which includes the Privacy Policy. The two parties may supersede
-parts of this agreement through writing signed by legal representatives of both
-parties. Clauses of this agreement not addressed in any superseding agreement
-will still stand.
+   This agreement represents the entire agreement between the user and Forking
+   Software LLC, which includes the Privacy Policy. The two parties may supersede
+   parts of this agreement through writing signed by legal representatives of both
+   parties. Clauses of this agreement not addressed in any superseding agreement
+   will still stand.
 
-Both parties may assign this agreement, or any rights or obligations hereunder,
-including the right to enforce all of its terms,
+   Both parties may assign this agreement, or any rights or obligations hereunder,
+   including the right to enforce all of its terms:
 
-1. in connection with a merger, acquisition, corporate reorganization, change
-   in control or sale of all or substantially all of its assets or
-2. to an Affiliate (that is an Affiliate at the time of such assignment).
+      i. In connection with a merger, acquisition, corporate reorganization, change
+         in control or sale of all or substantially all of its assets.
+      ii. To an Affiliate which is an Affiliate at the time of such assignment.
 
-No waiver by any party at any time of any other provision of this agreement
-will be deemed a waiver or breach of any other provision of this agreement or
-consent to any subsequent breach of the same of any other provision.
+b. No waiver by any party at any time of any other provision of this agreement
+   will be deemed a waiver or breach of any other provision of this agreement or
+   consent to any subsequent breach of the same of any other provision.
 
-This agreement will be governed in all respects, including validity,
-interpretation and effect, by the laws of the State of California without
-regard to principles of conflicts of law therein. Jurisdiction and venue for
-any claims shall be lie in:
+   This agreement will be governed in all respects, including validity,
+   interpretation and effect, by the laws of the State of California without
+   regard to principles of conflicts of law therein. Jurisdiction and venue for
+   any claims shall be lie in:
 
-- Sacramento, California
+   - Sacramento, California
 
 21. Appendix
 ------------
