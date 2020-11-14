@@ -1,7 +1,7 @@
 .. _Dashboard: https://mailsac.com/dashboard
 .. _`Manage Account Details`: https://mailsac.com/account
 .. _`REST API`: https://mailsac.com/api
-.. _`API Keys`: https://mailsac.com/api-keys
+.. _`API Keys and Users`: https://mailsac.com/api-keys
 .. _`API Use`: https://mailsac.com/usage
 .. _`API Key Login`: https://mailsac.com/login-api-key
 
@@ -31,18 +31,18 @@ reset email.
 
 .. _sec_api_key_management:
 
-API Key Management
-------------------
+API Credentials Management
+--------------------------
 
 API keys are used to authenticate to the `REST API`_,
 :ref:`Email Capture <doc_email_capture>`, :ref:`SMTP <sec_sendingmail_smtp>`,
 :ref:`POP3 <sec_reading_mail_pop3>`, and `API Key Login`_.
 
-API Keys can be created and deleted in the `API Keys`_ section of the
+API Keys can be created and deleted in the `API Keys and Users`_ section of the
 Dashboard_.
 
-Multiple Named API Keys
-^^^^^^^^^^^^^^^^^^^^^^^
+Multiple Named API Credentials
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 For accounts with individual plans, only one API key is allowed.
 
@@ -50,14 +50,15 @@ For accounts with team plans, multiple API keys may be created, each with a
 unique name.
 
 Having multiple API keys enables:
-- restricted access control
-- usage monitoring
-- separate API Keys in each app environment
 
-To create a named API key, go to the `API Keys`_ from the Dashboard_. Enter a
+* restricted access control
+* usage monitoring
+* separate API Keys in each app environment
+
+To create a named API key, go to `API Keys and Users`_ from the Dashboard_. Enter a
 name for the API Key and select *Generate new API key*. API Keys may only be
 viewed once and are not retrievable by the system. API Keys should be treated
-with the same security considerations as a password..
+with the same security considerations as a password.
 
 .. figure:: add_named_key.png
    :align: center
@@ -70,7 +71,7 @@ Enable Website Login Using an API Key
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Website login can be enabled on a named API Key. This setting can be found in
-the Dashboard_ under `API Keys`_. The feature is not enabled for individual
+the Dashboard_ under `API Keys and Users`_. The feature is not enabled for individual
 plans, such as Basic and Indie.
 
 
