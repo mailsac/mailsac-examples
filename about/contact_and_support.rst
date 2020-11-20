@@ -11,11 +11,17 @@ To discuss new ideas and features, visit the `feature discussion forum <https://
 General Questions and API Integration Help
 ------------------------------------------
 
-Browse our `documentation <https://docs.mailsac.com>`_ and `forums <https://forum.mailsac.com>`_.
+We encourage everyone to `ask questions on our community forums <https://forum.mailsac.com>`_. Browsing and
+posting to the forum does not require a Mailsac account.
 
-If you are not on a paid subscription, please post to the forum. API integration requests which are received
-via our support email may be redirected to the forum, too. Mailsac tries to respond to forum requests within
-a day.
+The Mailsac Team tries to respond to forum requests within a day. Team members monitor the forums
+during business hours, USA West Coast Pacific Time (PDT/PST).
+
+Browse our `documentation <https://docs.mailsac.com>`_ on this website. Common use cases are answered here.
+The `API Specification <https://mailsac.com/docs/api>`_ has additional detail.
+
+If you are not on a Business or Enterprise plan, please post to the forum. API integration questions which
+are received via our support email may be redirected to the forum.
 
 Mail Not Received
 -----------------
@@ -25,8 +31,8 @@ The most common support request is about mail not being received. Read this arti
 :ref:`faq-messages-not-received`
 
 
-Paying Customers - Email and API Support
-----------------------------------------
+Business and Enterprise Support
+-------------------------------
 
 For service setup issues, billing questions, and sales support, contact:
 
