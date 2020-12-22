@@ -1,6 +1,7 @@
 .. _doc_dnsverification:
 .. _Dashboard: https://mailsac.com/dashboard
 .. _Domains: https://mailsac.com/domains
+.. _web based dig: https://toolbox.googleapps.com/apps/dig/
 
 DNS Verification
 ================
@@ -9,6 +10,13 @@ DNS (Domain Name System) is at the core of the internet and email delivery.
 When configuring a :ref:`BYO Domain <section_byod_configuration>` DKIM and SPF
 records are required to confirm domain ownership and enable outbound mail. MX
 records are required to receive mail at Mailsac.
+
+Tools to Verify DNS Records
+---------------------------
+
+The command line tool `dig`, which is standard on most Linux distros
+and OSX, can be used to verify DNS records. Google hosts an `online
+version of dig <web based dig_>`_.
 
 MX Record Verification
 ----------------------
@@ -23,8 +31,9 @@ MX       dogtreats.msdc.co 1 in.mailsac.com
 MX       dogtreats.msdc.co 5 alt.mailsac.com
 ======== ================= ==================
 
-To verify a domain's MX Records the command line tool `dig` can be used.
-In this example, the domain `dogtreats.msdc.co` is being used.
+To verify a domain's MX Records the command line tool `dig`
+(`web based dig`_) can be used. In this example, the domain
+`dogtreats.msdc.co` is being used.
 
 .. code-block:: bash
 
@@ -48,7 +57,7 @@ TXT      mailsacrelay._domainkey.dogtreats.msdc.co. v=DKIM1; k=rsa; p=MI....
 ======== ========================================== ========================
 
 DKIM Records are a DNS TXT record and can be queried using the command line
-tool `dig`. 
+tool `dig` (`web based dig`_).
 
 .. code-block:: bash
 
@@ -72,7 +81,7 @@ TXT      dogtreats.msdc.co.  v=spf1 include:relays.mailsac.com ~all
 ======== =================== ======================================
 
 SPF Records are a DNS TXT record and can be queried using the command line
-tool `dig`. 
+tool `dig` (`web based dig`_).
 
 .. code-block:: bash
 
