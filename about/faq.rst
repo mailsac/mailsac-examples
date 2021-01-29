@@ -2,7 +2,7 @@
 .. _`Unified Inbox`: https://mailsac.com/app
 .. _`pricing`: https://mailsac.com/pricing
 .. _api_key_login: https://mailsac.com/login-api-key
-
+.. _`Mailsac Forum`: https://forum.mailsac.com
 .. _faq:
 
 Frequently Asked Questions
@@ -115,3 +115,10 @@ For `plans <pricing_>`_ that support multiple API keys. You can
 :ref:`create API keys <sec_api_key_management>` for your team members. These
 name API keys can be used for API access and
 `website authentication <api_key_login_>`_.
+
+Where Can I Ask a Question About Mailsac?
+-----------------------------------------
+
+The `Mailsac Forum`_ is available to all customers, on both free and
+paid plans. Questions asked of our sales and support staff are often
+answered on the forums.
