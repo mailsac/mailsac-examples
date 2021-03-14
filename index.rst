@@ -37,6 +37,7 @@ Table of Contents
    :caption: Use and Integration of Mailsac
    :name: sec-services
 
+   services/api_calls/api_calls
    services/message_storage/message_storage
    services/attachments
    services/email_hosting
