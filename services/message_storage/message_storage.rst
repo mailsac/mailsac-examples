@@ -1,67 +1,81 @@
 .. role:: red
 .. _`Mailsac Website`: https://mailsac.com
-.. _`messageId`: https://mailsac.com/docs/api/#example-email-message-object
-.. _`List Inbox Email Messages Endpoint`: https://mailsac.com/docs/api/#list-inbox-email-messages
-.. _`WebSocket Frame`: https://mailsac.com/docs/api/#example-web-socket-frame
-.. _`Webhook`: https://mailsac.com/docs/api/#webhooks
+.. _`List Inbox Email Messages Endpoint`: https://mailsac.com/docs/api#tag/Email-Messages-API/paths/~1addresses~1{email}~1messages/get
+.. _`Star Message Endpoint`: https://mailsac.com/docs/api#tag/Email-Messages-API/paths/~1addresses~1{email}~1messages~1{messageId}~1star/put
+.. _`WebSocket Frame`: https://mailsac.com/docs/api#tag/Web-Sockets
+.. _`Webhook`: https://mailsac.com/docs/api#tag/Webhooks
 .. _`Unified Inbox`: https://mailsac.com/app
 .. _Dashboard: https://mailsac.com/dashboard
 .. _`Custom Domains`: https://mailsac.com/domains
+.. _`REST API`: https://mailsac.com/api
 
 .. _doc_message_storage:
 
 Message Storage
 ===============
 
-Message storage defines how many messages can be stored before mail before
-messages are recycled. Messages that are sent to a :ref:`Custom Domain
-<doc_custom_domains>`, :ref:`doc_private_addresses`, or `starred messages`_
-count towards message storage.
+Message storage defines how many messages can be stored before
+the oldest messages are recycled. Messages in
+:ref:`Custom Domains <doc_custom_domains>`, :ref:`doc_private_addresses`,
+and :ref:`starred messages <sec_starred_messages>` count towards message
+storage.
 
 .. _sec_message_recycling:
 
 When are Messages Recycled?
 ---------------------------
 
-Messages sent to non-private addresses and domains will be recycled at times
-to ensure capacity for new messages.
- 
-Messages sent to :ref:`private domains <doc_custom_domains>`, private addresses,
-and `starred messages`_ associated with Mailsac are recycled once the storage 
-limit is reached.
+The oldest messages in a :ref:`Custom Domain <doc_custom_domains>` and
+:ref:`Private Address <doc_private_addresses>` are recycled once the
+storage limit is reached.
+
+Messages sent to non-private addresses and unverified domains are kept for
+a maximum of 4 days, though messages may be recycled earlier to ensure
+capacity for customers on a paid subscription. There is a limit of 6
+messages per inbox.
 
 Examples
 --------
 
-1. If your storage limit is 100 messages and you have starred 125 messages, the
+-  If your storage limit is 100 messages and you have starred 125 messages, the
    oldest 25 messages will be recycled.
-2. If your storage limit is 100 messages and you have 75 messages in your
+-  If your storage limit is 100 messages and you have 75 messages in your
    private domain. No messages will be recycled.
-3. If your storage limit is 100 messages and you have 150 messages in your
+-  If your storage limit is 100 messages and you have 150 messages in your
    private domain, the oldest 50 messages will be recycled.
-4. If your storage limit is 100 messages and you have 50 messages in 3
+-  If your storage limit is 100 messages and you have 50 messages in 3
    private inboxes (total 150 messages), the oldest 50 messages will be
    recycled.
 
 
 Getting More Storage
 --------------------
-Message storage can be purchased on a per-message basis in blocks listed on the 
+Additional message storage can be purchased in the quantities listed on the
 `pricing page <https://mailsac.com/pricing>`_.
 
 .. _sec_starred_messages:
 
-Starred Messages
-----------------
-When you star a message, it counts towards your overall storage. 
+Starred (saved) Messages
+------------------------
 
-:red:`Use the star symbol ★`
+Starred messages in a mailsac.com inbox (ie example@mailsac.com) are
+not visible to other customers. Starred messages count towards your
+overall storage, but will not be recycled when your storage limit is
+reached.
 
-Your user Dashboard_ has links to all 
-inboxes where you starred messages.
-
-You can star messages on any address, including those you own or other 
+You can star messages on any address, including those you own or other
 public addresses.
+
+When viewing an inbox on the website, messages can be starred by
+selecting the star symbol next to the message.
+
+.. image:: star_a_message.png
+   :width: 600px
+   :align: center
+
+Messages can be starred using `Star Message Endpoint`_ using the
+`REST API`_.
+
 
 Managing Storage
 ----------------
@@ -80,10 +94,13 @@ Messages can proactively be deleted:
 Delete a Message
 -------------------
 
-REST API examples require the :code:`messageId` parameter. messageId_ can be
-found using the `List Inbox Email Messages Endpoint`_, a `WebSocket Frame`_,
-and `Webhook POST <Webhook_>`_.
+REST API examples require the :code:`messageId` parameter.
+:code:`messageId` can be found using the
+`List Inbox Email Messages Endpoint`_, a `WebSocket Frame`_, and
+`Webhook POST <Webhook_>`_.
 
+Additional code examples are available in the
+`REST API Documentation <REST API_>`_.
 
 .. tabs::
    .. tab:: Mailsac Website
@@ -103,9 +120,9 @@ and `Webhook POST <Webhook_>`_.
 
        .. literalinclude:: delete_message.sh
           :language: bash
-          :caption: Delete using curl (requires messageId_)
+          :caption: Delete using curl (requires :code:`messageId`)
 
-   .. tab:: Node.js Javascript 
+   .. tab:: Node.js Javascript
 
        .. literalinclude:: delete_message.js
           :language: javascript
@@ -121,8 +138,11 @@ and `Webhook POST <Webhook_>`_.
 Purge Inbox
 -----------
 
-Examples require the Inbox to be a :ref:`Private Address
-<doc_private_addresses>`
+The Purge Inbox features requires the Inbox to be a :ref:`Private Address
+<doc_private_addresses>`.
+
+Additional code examples are available in the
+`REST API Documentation <REST API_>`_.
 
 .. tabs::
    .. tab:: Mailsac Website
@@ -135,9 +155,9 @@ Examples require the Inbox to be a :ref:`Private Address
 
        .. literalinclude:: purge_inbox.sh
           :language: bash
-          :caption: Purge inbox using curl (requires messageId_)
+          :caption: Purge inbox using curl (requires :code:`messageId`)
 
-   .. tab:: Node.js Javascript 
+   .. tab:: Node.js Javascript
 
        .. literalinclude:: purge_inbox.js
           :language: javascript
