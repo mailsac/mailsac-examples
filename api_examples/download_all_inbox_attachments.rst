@@ -46,5 +46,5 @@ This Node script does a few things:
 #. It loops through the list of messages and prints part of the subject, the unique message identifier, and how many attachments it has.
 #. When messages have attachments, the attachment is downloaded into the current folder, using it’s MD5 checksum as an identifier.
 
-That’s it! Read more about `message attachment APIs in the docs. <https://mailsac.com/docs/api/#list-attachments-on-a-message>`_
+That’s it! Read more about `message attachment APIs in the docs. <https://mailsac.com/docs/api#tag/Email-Message-Attachments>`_
 

@@ -1,10 +1,10 @@
 .. _doc_getting_started:
 
 .. _REST API Specification: https://mailsac.com/docs/api
-.. _List Inbox Email Messages Endpoint: https://mailsac.com/docs/api/#list-inbox-email-messages
-.. _Authentication Header: https://mailsac.com/docs/api/#option-1-http-header
-.. _Send Email Messages Endpoint: https://mailsac.com/docs/api/#send-email-messages
-.. _Get Message Text Endpoint: https://mailsac.com/docs/api/#get-message-text
+.. _List Inbox Email Messages Endpoint: https://mailsac.com/docs/api#tag/Email-Messages-API/paths/~1addresses~1{email}~1messages/get
+.. _Authentication Header: https://mailsac.com/docs/api#section/Auth-Option-1:-HTTP-Header
+.. _Send Email Messages Endpoint: https://mailsac.com/docs/api#tag/Email-Messages-API/paths/~1outgoing-messages/post
+.. _Get Message Text Endpoint: https://mailsac.com/docs/api#tag/Email-Messages-API/paths/~1text~1{email}~1{messageId}/get
 
 
 REST API - Getting Started

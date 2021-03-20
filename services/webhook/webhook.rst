@@ -87,10 +87,10 @@ URL.
     }
 
 Webhook contents are very similar to web `socket emails
-<https://mailsac.com/docs/api/#web-socket-api>`_.
+<https://mailsac.com/docs/api#tag/Web-Sockets>`_.
 
 Read more about JSON Webhooks at the `API Reference
-<https://mailsac.com/docs/api/#webhooks>`_
+<https://mailsac.com/docs/api#tag/Webhooks>`_
 
 Troubleshooting
 ---------------

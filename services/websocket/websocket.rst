@@ -249,7 +249,10 @@ a message - it will be parsed into JSON and logged to the console.
       "via": "172.31.42.57"
     }
 
-The WebSocket message body is nearly identical to the `Messages REST API <https://mailsac.com/docs/api/#email-messages-api>`_ with the addition of the key `"raw"` which contains the entire raw email message received over SMTP.
+The WebSocket message body is nearly identical to the
+`Messages REST API <https://mailsac.com/docs/api#tag/Email-Messages-API/paths/~1addresses~1{email}~1messages~1{messageId}/get>`_
+with the addition of the key `"raw"` which contains the entire raw email
+message received over SMTP.
 
 Try It
 ^^^^^^

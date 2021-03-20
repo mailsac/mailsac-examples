@@ -1,4 +1,5 @@
 .. _Dashboard: https://mailsac.com/dashboard
+.. _deny list: https://mailsac.com/docs/api#tag/Email-Stats-API/paths/~1mailstats~1blacklist/get
 
 .. _doc_missingmail:
 
@@ -19,8 +20,8 @@ received it could be because of:
 * Throttling by Mailsac. If you are sending a large volume of email, we may
   throttle the rate of incoming messages
 * The sending SMTP service has a queue
-* The sending domain, IP address, or receiving address has been `blacklisted
-  <https://mailsac.com/docs/api/#check-blacklist>`_
+* The sending domain, IP address, or receiving address is on the
+  `deny list`_
 
 Zero-Setup Private Domain (@mydomain.msdc.co)
 ---------------------------------------------
@@ -31,8 +32,8 @@ receiving mail it could be because of:
 
 * The message size is over 2MB
 * The sending SMTP service has a queue
-* The sending domain, IP address, or receiving address has been `blacklisted
-  <https://mailsac.com/docs/api/#check-blacklist>`_
+* The sending domain, IP address, or receiving address is on the
+  `deny list`_
 
 Bring Your Own Domain (BYOD) Private Domain
 -------------------------------------------
@@ -44,8 +45,8 @@ configuring the MX records see our :ref:`BYODomain Configuration
 * MX Records are incorrect or have no propagated
 * The message size is over 2MB
 * The sending SMTP service has a queue
-* The sending domain, IP address, or receiving address has been `blacklisted
-  <https://mailsac.com/docs/api/#check-blacklist>`_
+* The sending domain, IP address, or receiving address is on the
+  `deny list`_
 
 Custom Domain
 -------------
@@ -57,8 +58,8 @@ causes:
 * MX Records are incorrect or have no propagated
 * The message size is over 2MB
 * The sending SMTP service has a queue
-* The sending domain, IP address, or receiving address has been `blacklisted
-  <https://mailsac.com/docs/api/#check-blacklist>`_
+* The sending domain, IP address, or receiving address is on the
+  `deny list`_
 
 Sender Limits
 -------------

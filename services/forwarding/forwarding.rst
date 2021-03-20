@@ -138,4 +138,4 @@ A code example for a WebSocket is available :ref:`available
 
 Additional information about the WebSocket endpoint, authentication and example
 frame format is show in the `API Documentation
-<https://mailsac.com/docs/api/#web-socket-api>`_.
+<https://mailsac.com/docs/api#tag/Web-Sockets>`_.

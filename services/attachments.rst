@@ -12,8 +12,9 @@ There are several ways to download attachments when authenticated to the Mailsac
 
 1. By clicking the Download button on any public message, you can open it locally in an email client and view the attachements.
 2. For private addresses, attachments can be downloaded in a web browser using the `Unified Inbox app <https://mailsac.com/app>`_.
-3. Attachments can be downloaded using the MD5 hash of the attachment, `using the common-attachments API <https://mailsac.com/docs/api/#download-a-common-attachment>`_.
-4. Attachments can be parsed out of the `raw` message using the `API <https://mailsac.com/docs/api/#example-email-message-object>`_.
+3. Attachments can be downloaded using the MD5 hash of the attachment,
+   `using the common-attachments API <https://mailsac.com/docs/api#tag/Email-Message-Attachments/paths/~1addresses~1{email}~1messages~1{messageId}~1attachments~1{attachmentIdentifier}/get>`_.
+4. Attachments can be parsed out of the `raw` message using the `API <https://mailsac.com/docs/api#tag/Email-Messages-API/paths/~1raw~1{email}~1{messageId}/get>`_.
 
 Additional information on reading mail, including code examples, can be found
 in :ref:`Reading Email <doc_reading_mail>`.
@@ -22,7 +23,7 @@ Sending Attachments
 --------------------
 
 Attachments on outgoing messages are only supported
-`through the API <https://mailsac.com/docs/api/#send-email-messages>`_.
+`through the API <https://mailsac.com/docs/api#tag/Email-Messages-API/paths/~1outgoing-messages/post>`_.
 
 Additional information on sending mail, including code examples, can be found
 in :ref:`Sending Email <doc_sending_mail>`.

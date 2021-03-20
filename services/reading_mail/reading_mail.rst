@@ -93,7 +93,7 @@ REST API
 The REST API is the preferred method for reading messages programmattically.
 The :code:`/api/addresses/:email/messages` and
 :code:`/api/text/:email/:messageId` endpoints documented in the
-`REST API documentation <https://mailsac.com/docs/api/#email-messages-api>`_.
+`REST API documentation <https://mailsac.com/docs/api#tag/Email-Messages-API>`_.
 
 1. Generate an API by selecting `API Keys <https://mailsac.com/api-keys>`_ from
    the Dashboard_.
