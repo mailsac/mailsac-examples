@@ -5,7 +5,7 @@ Terms of Service and Acceptable Use Policy
 
 .. contents:: :local:
 
-Revised November 2020
+Revised March 2021
 
 1. Preamble
 -----------
