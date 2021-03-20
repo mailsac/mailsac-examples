@@ -118,20 +118,20 @@ a. Public and Private Email
    This site provides public disposable email services and mixed public-private
    email testing services. Email inboxes that are not purchased (aka private)
    are public and have no expectation of privacy.
-   
+
    Private addresses will not be accessible publicly and access to messages
    will be provided only to those with:
 
       i. a validated username and password, which grants a temporary access
-        "session" which may be stored in a cookie
+         "session" which may be stored in a cookie
       ii. a validated API key (smtp key, api access key, or other key)
-   
+
 b. If you believe your username, password, or API key has been compromised, you
    agree to:
 
       i. change your compromised password, or delete the compromised API key
       ii. and contact the Mailsac support email address immediately.
-   
+
 c. Mailsac does not accept responsibility for damages done by compromised
    accounts. Users acknowledge that overseers and associates (internal or
    external parties) may have access to inbox contents for the purpose of
@@ -139,34 +139,34 @@ c. Mailsac does not accept responsibility for damages done by compromised
    based on direct need, such as but not limited to:
 
    - billing and subscription help
-   - troubleshooting SMTP or API issues reported by you, or issues alerted by 
+   - troubleshooting SMTP or API issues reported by you, or issues alerted by
      Mailsac telemetry systems
    - system integration support from Mailsac to you
    - comprise the standard reasons for such access
-   
+
 d. We may aggregate information included in emails, inbound and outbound
    metadata, email attachments, or email body information, for sale or sharing
    with third parties or customers. This aggregated information is useful for
    understanding system trends, spam and viruses sent by malicious systems.
-   
+
    The Privacy Policy supercedes this agreement, and outlines additional detail
    around sharing of public and private email. When in doubt, THE USER ASSUMES
    CONTENTS OF THEIR DATA ON MAILSAC.COM MAY BE SHARED WITH OTHER PARTIES.
    Mailsac is not a service for conducting sensitive or private matters.
 
 e. Receipt, Delivery, and Message Accuracy Guarantees
-   
+
    EMAIL MESSAGE RECEIPT AND DELIVERY IS NOT GUARANTEED. Mailsac.com has many
    processes and systems in place built up over years, which result in high
    availability and reliability. Nonetheless the service does NOT provide a
    Service Level Agreement or any certainty of either receiving OR sending
    mail.
-   
+
    While this service does not intend for messages to be altered, there may be
    arbitrary changes whether during transit or storage which are made without
    knowledge of the user. The user's account username and IP address may be
    attached to inbound or outbound email messages.
-   
+
    We cannot guarantee accuracy of any email content. Furthermore this service
    does not know the quality, truthfulness, correctness, or origination of
    messages received. Email messages may contain viruses. Users acknowledge
@@ -180,7 +180,7 @@ e. Receipt, Delivery, and Message Accuracy Guarantees
 f. Email Security
 
    The user acknowledges:
-   
+
    - SMTP and its variants are insecure by design
    - SMTP is a fail-prone protocol
    - SMTP is a "legacy" technology which lacks modern security best practices
@@ -204,15 +204,15 @@ g. Sending Outbound Mail
    Contact Mailsac support if delivery appears to be failing and we may be able
    to assist with troubleshooting, but again we make no guarantees about
    outbound message delivery.
-   
+
    Outgoing mail may be marked as spam by receivers or intermediary deliverers.
    Mailsac is not responsible for email delivered by Mailsac being marked as
    spam, and WILL NOT refund such mail which is marked as spam or undelivered
    or unviewed.
-   
+
    Sending spam email is a serious offense which may result the user's account
    being immediately disabled.
-   
+
    IN THE EVENT THAT LEGAL EXPENSES OR FINANCIAL JUDGEMENTS ARE INCURRED FOR
    THE SENDING OF EMAIL MESSAGES BY A MAILSAC USER, THE USER AGREES TO ACCEPT
    FINANCIAL RESPONSIBILITY FOR THE PAYMENT OF THOSE FEES OR JUDGEMENTS. WHETHER
@@ -411,9 +411,9 @@ a. Mailsac agrees to render services consistent with the "California Consumer
    features provided to the user in the Mailsac platform, such as, but not limited
    to:
 
-      i. deleting email messages containing the sensitive information, or 
+      i. deleting email messages containing the sensitive information, or
       ii. bulk deleting all email for a custom domain when containing the sensitive
-         information.
+          information.
 
 b. The user agrees that Mailsac is not responsible for damage caused by sensitive
    information made public through the Customer’s use of the Mailsac platform,
@@ -421,7 +421,7 @@ b. The user agrees that Mailsac is not responsible for damage caused by sensitiv
 
       i. user making email for a custom domain public by changing settings, or
       ii. user sharing public links to private content with embedded access
-         credentials.
+          credentials.
 
 c. If either party discovers or receives notice of an actual breach of security
    relating to sensitive information in its possession or control, it will
@@ -501,5 +501,3 @@ b. No waiver by any party at any time of any other provision of this agreement
 ------------
 
 Support email address: support@team.mailsac.com
-Alternate support email address: mailsac.com@gmail.com
-
