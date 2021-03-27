@@ -8,6 +8,7 @@
 .. _Dashboard: https://mailsac.com/dashboard
 .. _`Custom Domains`: https://mailsac.com/domains
 .. _`REST API`: https://mailsac.com/api
+.. _`rest_delete_all_by_domain`: http://mailsac.com/docs/api#tag/Email-Messages-API/paths/~1domains~1{domain}~1delete-all-domain-mail/post
 
 .. _doc_message_storage:
 
@@ -170,8 +171,8 @@ Additional code examples are available in the
           :language: python
           :caption: Purge inbox using Python
 
-Purge Domain
-------------
+Delete All Messages in a Domain
+-------------------------------
 
 All messages in a verified domain can be deleted.
 
@@ -181,3 +182,7 @@ click on the advanced tab, and click on the button "Irreversibly Delete Emails".
 .. figure:: purge_domain_website.png
    :width: 400px
    :align: center
+
+Use the `route <rest_delete_all_by_domain_>`_
+:code:`api/domains/{domain}/delete-all-domain-mail` to delete all
+messages in a verified domain using the `REST API`_
