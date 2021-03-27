@@ -11,8 +11,8 @@ Validations can be done using the `Mailsac website`_ or REST API.
 
 Additional information about the REST API endpoint for Email Validation
 is available in the `REST API Documentation
-<https://mailsac.com/docs/api/#email-validations-api>`_. The REST API endpoint
-supports bulk validation of up to 50 email addresses.
+<https://mailsac.com/docs/api#tag/Email-Validations-API>`_. The REST
+API endpoint supports bulk validation of up to 50 email addresses.
 
 Examples
 --------

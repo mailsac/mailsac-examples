@@ -12,7 +12,7 @@ Email can be sent via the following methods:
 
 - `Web Form`_
 - `Unified Inbox`_
-- `REST API <https://mailsac.com/docs/api/#send-email-messages>`_
+- `REST API <https://mailsac.com/docs/api#tag/Email-Messages-API/paths/~1outgoing-messages/post>`_
 - :ref:`SMTP <sec_sendingmail_smtp>`
 
 .. _sec_send_mail_message:
