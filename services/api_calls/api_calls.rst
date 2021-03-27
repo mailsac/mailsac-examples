@@ -50,6 +50,13 @@ Inbound messages are tracked as an API call. The first forward of the
 message to Slack, Webhook, or WebSocket does not count as an additional
 API call. Second and third forwards will count as additional API calls.
 
+Public Domain API Calls
+-----------------------
+
+Validated :ref:`doc_custom_domains` can be set as public. API calls to
+the domain, its addresses or messages will be tracked on the domain
+owners account.
+
 Example API Calculation - Fetch Messages and Body of an Email
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

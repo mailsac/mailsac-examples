@@ -6,12 +6,16 @@
 Custom Domains
 ==============
 
-Mailsac lets you configure a custom domain to receive disposable email at any address
-within the domain, while keep mail private. Mail can be fetched via API and by
+Mailsac lets you configure a custom domain to receive email at any address
+within the domain, while keeping mail private. Mail can be fetched via API and by
 logged-in API users, if your plan supports it.
 
-Custom domains `are included with every subscription <https://mailsac.com/pricing>`_.
-Additional domains may be added to any subscription.
+Custom domains have the advantage higher inbound message throttling
+limits, greater storage limits, and a Catch-All address. Optionally,
+Custom domains can be set to public.
+
+Custom domains `are included with paid subscriptions <https://mailsac.com/pricing>`_.
+Additional domains may be added to paid subscriptions.
 
 Zero-Setup Subdomain
 --------------------
@@ -129,11 +133,11 @@ Adding a Custom Domain
        :align: center
 
 #. Select the DNS Setup tab to verify DNS
-    
+
    "Not Verified - Action Required" indicates DNS is not properly
    configured. The next section explains how to verify
    domain ownership.
-   
+
     .. image:: byod_select_dns.png
         :width: 600px
         :align: center
@@ -157,7 +161,7 @@ Verify Custom Domain Ownership
 #. Select "Query My DNS Settings Now"
 
    Mailsac will attempt to verify domain ownership by querying DNS records for
-   the custom domain. 
+   the custom domain.
 
    .. image:: byod_query_dns.png
       :width: 600px
@@ -167,7 +171,7 @@ Verify Custom Domain Ownership
 
    If the TXT record is correct, an "OK" image will appear in the
    "DNS Records" section.
-   
+
    .. image:: byod_txt_verified.png
       :width: 600px
       :align: center
@@ -206,7 +210,7 @@ Configure Custom Domain for Receiving Mail
 
    .. image:: byod_mx_verified.png
       :width: 600px
-      :align: center 
+      :align: center
 
 .. _sec_configure_dkim_spf_records:
 
@@ -242,7 +246,16 @@ Configure Custom Domain for Sending Mail
 
    .. image:: byod_dkim_spf_verified.png
       :width: 600px
-      :align: center 
+      :align: center
+
+Public Custom Domains
+^^^^^^^^^^^^^^^^^^^^^
+
+Custom domains can be set as public. API calls for the domain,
+its addresses, or messages will be tracked on the domain owner's
+account. Viewing message via the website do not count as an API call.
+
+See :ref:`doc_api_calls` for additional details about API call usage.
 
 .. _sec_mx_record_links:
 
