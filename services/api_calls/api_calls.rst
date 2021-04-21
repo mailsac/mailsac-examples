@@ -6,7 +6,8 @@
 API Calls
 =========
 
-API Calls are used to meter usage of the Mailsac service.
+API Calls are used to meter usage of the Mailsac service. API Call
+usage resets on the first of the month UTC.
 
 What Counts as an API Call?
 ---------------------------

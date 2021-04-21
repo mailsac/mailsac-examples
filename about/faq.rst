@@ -108,6 +108,11 @@ You can use `POP3 <https://mailsac.com/docs/fetch-messages-with-pop3>`_ to
 download messages on a private address or custom domain. Responses can be sent
 from non-mailsac accounts you have configured your email client to use.
 
+When does API Call Usage Reset?
+-------------------------------
+
+:ref:`doc_api_calls` usage resets on the first of the Month UTC.
+
 How can my team members see email in our private domain?
 --------------------------------------------------------
 
