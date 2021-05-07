@@ -63,6 +63,7 @@ Table of Contents
    help/recent_activity/recent_activity
    help/dns_verification/dns_verification
    help/account_management/account_management
+   help/account_management/credential_management
    about/contact_and_support
    about/privacy_policy
    about/terms_of_service
