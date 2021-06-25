@@ -55,7 +55,7 @@ Most often, the following happens:
 1. The sender blocks traffic to disposable email providers like Mailsac. This
    is common with email signups or email verifications. People running websites
    do not want a bunch of spam accounts.
-2. Large message size. Mailsac only supports messages up to about 2 MB.
+2. Large message size. The max message size is 2.5MB
 3. Fast recycling. Without enough message storage, your inbound emails may be
    deleted quickly.
 4. Throttling. Non-paying customers can be throttled for sending too much. We
