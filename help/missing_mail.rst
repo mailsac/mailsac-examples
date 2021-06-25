@@ -1,5 +1,6 @@
 .. _Dashboard: https://mailsac.com/dashboard
 .. _deny list: https://mailsac.com/docs/api#tag/Email-Stats-API/paths/~1mailstats~1blacklist/get
+.. _Support Forum: https://forum.mailsac.com
 
 .. _doc_missingmail:
 
@@ -16,7 +17,7 @@ If the address you sent to ends in *@mailsac.com* and the message was not
 received it could be because of:
 
 * The sender has blocked sending to *@mailsac.com* addresses
-* The message size is over 2MB
+* Large message size. The max message size is 2.5MB
 * Throttling by Mailsac. If you are sending a large volume of email, we may
   throttle the rate of incoming messages
 * The sending SMTP service has a queue
@@ -30,7 +31,7 @@ The Zero-Setup Private Domains handle all MX record changes. You can start
 receiving email with virtually no setup. If you are still have problems
 receiving mail it could be because of:
 
-* The message size is over 2MB
+* Large message size. The max message size is 2.5MB
 * The sending SMTP service has a queue
 * The sending domain, IP address, or receiving address is on the
   `deny list`_
@@ -43,7 +44,7 @@ configuring the MX records see our :ref:`BYODomain Configuration
 <section_byod_configuration>`.
 
 * MX Records are incorrect or have no propagated
-* The message size is over 2MB
+* Large message size. The max message size is 2.5MB
 * The sending SMTP service has a queue
 * The sending domain, IP address, or receiving address is on the
   `deny list`_
@@ -56,7 +57,7 @@ If you have changed your MX records to use *in.mailsac.com* and
 causes:
 
 * MX Records are incorrect or have no propagated
-* The message size is over 2MB
+* Large message size. The max message size is 2.5MB
 * The sending SMTP service has a queue
 * The sending domain, IP address, or receiving address is on the
   `deny list`_
@@ -100,14 +101,16 @@ Whitelisting can be requested for:
 Contacting Support
 ------------------
 
-Feel free to reach out to support@team.mailsac.com if you need assistance.
+The `Support Forum`_ is available to all customers for assistance or
+questions. Customers with email support included in their plan can contact
+support@team.mailsac.com.
+
 Including the following information will help us identify why you are not
 receiving mail.
 
-* the IP address of your sending program, or your IP address if sending locally
+* the IP address of your sending server
 * the email addresses you are sending to, and/or the domain you are sending TO
 * the from email addresses, and/or the domain you are sending FROM
-* Did you use an API key, or the website user interface?
 * Time frames when messages were lost. A ball park is ok, like,
   "from 8am - 9am on Dec 3rd GMT we sent 100 messages and only 85 were received"
   or just "I tried sending 5 messages from 8am - 9am GMT Dec 3rd and none of
