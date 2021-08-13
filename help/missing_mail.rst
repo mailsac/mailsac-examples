@@ -119,8 +119,7 @@ Whitelisting can be requested for:
 Spam Filter
 -----------
 
-Mailsac applies a spam filter to all incoming email. Messages
-classified as spam will be moved to the "spam" folder.
+Mailsac applies a spam filter to all incoming email.
 
 In the single inbox view, a "spam" label appears in the subject line.
 
@@ -128,7 +127,7 @@ In the single inbox view, a "spam" label appears in the subject line.
    :align: center
    :width: 400px
 
-The `Unified Inbox`_ displays messages tagged as spam in the "Spam"
+The `Unified Inbox`_ displays messages classified as spam in the "Spam"
 folder. Spam messages skip the inbox.
 
 .. figure:: inbox_app_spam.png
@@ -138,8 +137,8 @@ folder. Spam messages skip the inbox.
 The spam filter can be controlled at an account level.
 
 To disable or enable the spam filter, select `Account Settings`_ from
-the Dashboard_ and toggle the spam filter setting. This change will only apply
-to new emails received.
+the Dashboard_ and toggle the spam filter setting. This change will only
+apply to new emails received.
 
 .. figure:: spam_filter_toggle.png
    :align: center
