@@ -1,6 +1,8 @@
 .. _Dashboard: https://mailsac.com/dashboard
 .. _deny list: https://mailsac.com/docs/api#tag/Email-Stats-API/paths/~1mailstats~1blacklist/get
 .. _Support Forum: https://forum.mailsac.com
+.. _Unified Inbox: https://mailsac.com/app
+.. _Account Settings: https://mailsac.com
 
 .. _doc_missingmail:
 
@@ -23,6 +25,7 @@ received it could be because of:
 * The sending SMTP service has a queue
 * The sending domain, IP address, or receiving address is on the
   `deny list`_
+* The message may have been marked as spam by the :ref:`Spam Filter <sec_spam_filter>`.
 
 Zero-Setup Private Domain (@mydomain.msdc.co)
 ---------------------------------------------
@@ -35,6 +38,7 @@ receiving mail it could be because of:
 * The sending SMTP service has a queue
 * The sending domain, IP address, or receiving address is on the
   `deny list`_
+* The message may have been marked as spam by the :ref:`Spam Filter <sec_spam_filter>`.
 
 Bring Your Own Domain (BYOD) Private Domain
 -------------------------------------------
@@ -48,6 +52,7 @@ configuring the MX records see our :ref:`BYODomain Configuration
 * The sending SMTP service has a queue
 * The sending domain, IP address, or receiving address is on the
   `deny list`_
+* The message may have been marked as spam by the :ref:`Spam Filter <sec_spam_filter>`.
 
 Custom Domain
 -------------
@@ -61,6 +66,7 @@ causes:
 * The sending SMTP service has a queue
 * The sending domain, IP address, or receiving address is on the
   `deny list`_
+* The message may have been marked as spam by the :ref:`Spam Filter <sec_spam_filter>`.
 
 Sender Limits
 -------------
@@ -107,6 +113,36 @@ Whitelisting can be requested for:
 - Sending addresses
 - Receiving domains
 - Receiving addresses
+
+.. _sec_spam_filter:
+
+Spam Filter
+-----------
+
+Mailsac by default applies a spam filter to all incoming email. Messages
+classified as spam will be tagged as "spam". In the inbox view these
+messages will appear with the "spam" tag next to the subject line.
+
+.. figure:: inbox_view_spam.png
+   :align: center
+   :width: 400px
+
+The `Unified Inbox`_ displays messages tagged as spam in the "Spam"
+folder.
+
+.. figure:: inbox_app_spam.png
+   :align: center
+   :width: 400px
+
+The spam filter can be controlled at an account level.
+
+To disable or enable the spam filter. Select `Account Settings`_ from
+the Dashboard_ and toggle the spam filter. This change will only apply
+to new emails received.
+
+.. figure:: spam_filter_toggle.png
+   :align: center
+   :width: 400px
 
 Contacting Support
 ------------------
