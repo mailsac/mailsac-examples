@@ -56,7 +56,7 @@ products or services, or changes to this privacy policy.
 
 3d. Mailsac has no advertisements or advertisement tracking. Mailsac does not sell any information to advertisers.
 
-3e. Analytics tracking services on (such as, but not limited to, Google Analytics, Hubspot) may be exposed to inbox contents,
+3e. Analytics tracking services on (such as, but not limited to, Google Analytics, Zendesk) may be exposed to inbox contents,
 even on private or paid accounts.
 
 4. Your Access To and Control Over Information
@@ -107,7 +107,7 @@ Cookies can also enable us to track and target the interests of our users to enh
 Mailsac does not have third party advertisements, nor third party advertiser cookies. Mailsac does collect
 usage information on our site to provide a better experience and prevent fraud, and leverages third parties for this purpose:
 
-- Hubspot
+- Zendesk
 - Google Analytics
 - Stripe
 
@@ -119,14 +119,18 @@ our best to limit sharing email contents or usage with our financial providers, 
 often (such as but not limited to fraud investigation, or collateral information for chargeback requests).
 
 We use Stripe for payment processing to bill users for services and may provide information about
-you to them. They may retain, share, store or use personally identifiable information. Our banking partners
-may also receive information about our customers through payment processing.
+you to them. They may retain, share, store or use personally identifiable information.
+Our US banking partners may also receive information about our customers
+through payment processing.
+
+We use a hosted accounting software based in the US to manage
+invoicing, quotes, and accounts payable. Quotes and invoices may contain
+names, email addresses, and physical addresses.
 
 We are not responsible for third party usage of your information. Refer to their privacy policies and terms:
 
 - Stripe (Payment Processing, Invoices)
-- Azlo (Banking)
-- Hubspot (Quotes, Invoices, and CRM)
+- Zendesk (Customer Service Software)
 
 9. Links and Content
 --------------------
