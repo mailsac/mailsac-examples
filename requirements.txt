@@ -1,2 +1,4 @@
 # This file instructs readthedocs to include these extensions in the build.
-https://github.com/djungelorm/sphinx-tabs/releases/download/v1.1.13/sphinx-tabs-1.1.13.tar.gz
+https://github.com/executablebooks/sphinx-tabs/archive/refs/tags/v3.2.0.tar.gz
+Sphinx==4.3.0
+sphinx-rtd-theme==1.0.0
