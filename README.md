@@ -17,7 +17,7 @@ for testing purposes.
    `source venv/bin/activate`
 
 4. Install sphinx
-   `pip3 install Sphinx sphinx_rtd_theme sphinx-tabs`
+   `pip3 install -r requirements.txt`
 
 5. Run build script
    `make html`
