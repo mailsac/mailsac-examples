@@ -30,6 +30,7 @@ custom domain.
 
 Other uses:
 
+* as a developer, to test that your application is sending email
 * avoid spam by keeping your real email address private
 * create an account on a website without disclosing your real email address
 * give it out to strangers
@@ -38,7 +39,6 @@ Other uses:
 * use it when you (legally) want to receive email without disclosing your identity
 * send to an email address or multiple email addresses without needing to
   create them
-* as a developer, to test that your application is sending email
 
 .. _faq-messages-not-received:
 
@@ -108,8 +108,8 @@ You can use `POP3 <https://mailsac.com/docs/fetch-messages-with-pop3>`_ to
 download messages on a private address or custom domain. Responses can be sent
 from non-mailsac accounts you have configured your email client to use.
 
-When does API Call Usage Reset?
--------------------------------
+When does Ops/Operations/API Call Usage Reset?
+-----------------------------------------------
 
 :ref:`doc_api_calls` usage resets on the first of the Month UTC.
 

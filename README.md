@@ -30,4 +30,10 @@ for testing purposes.
 
 8. Alternatively the reStructuredText Visual Studio Code extension can be used for live previews
 
-Copyright © 2019 by Forking Software LLC
+# License
+
+Copyright © 2019-2021 by Forking Software LLC
+
+MIT License
+
+See the LICENSE file in this repository.

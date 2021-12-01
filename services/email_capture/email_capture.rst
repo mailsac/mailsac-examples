@@ -140,7 +140,7 @@ Considerations
 - All email sent will be public (Unless sent to a :ref:`custom domain
   <doc_custom_domains>` or configured to be
   :ref:`private <sec_private_captured_email>`)
-- Each message sent will count as an API call
+- Each message sent will count as an Operation (Op)
 
 Email Capture Use Cases
 -----------------------
