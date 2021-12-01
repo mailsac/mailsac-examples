@@ -6,8 +6,15 @@
 Ops (Operations) Usage
 ======================
 
-*Ops* or *Operations* are used to meter usage of the Mailsac service. Ops
-usage resets on the first of the month UTC.
+*Ops* or *Operations* are used to meter usage of the Mailsac service.
+
+A Mailsac account's subscription (or free plan) provides a certain number
+of allowed operations. Ops are allocated on a monthly basis. Ops usage
+resets on the first of the month UTC.
+
+If an account performs more Ops than are allocated, Mailsac will send
+warning emails before disabling API access for the remainder of the month.
+This "soft limit" allows additional time to upgrade or adjust usage.
 
 Ops were referred to as "api calls" until November 2021. The name was changed
 to *Ops* because not all tracked operations are REST API calls.
@@ -43,9 +50,9 @@ periodically throughout the day.
 Calculating Ops Usage
 ---------------------
 
-Ops calls can be calculated by summing the number of calls to the
+Ops are calculated by summing the number of calls to the
 `REST API`_,  messages published to WebSockets, Webhooks, and Slack, and
-messages sent to a private domain.
+messages sent to a custom domain.
 
 Inbound Message Ops
 -------------------------
@@ -71,35 +78,35 @@ Viewing the body of a message via the `REST API`_ requires 2 API calls.
 2. The second Op is used to
    `retrieve the plaintext body of a specific message <https://mailsac.com/docs/api#tag/Email-Messages-API/paths/~1text~1{email}~1{messageId}/get>`_.
 
-Example APOpsI Calculation - Forward Message from Private Domain to Slack
+Example APOpsI Calculation - Forward Message from Custom Domain to Slack
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Receiving a message and publishing to Slack requires 1 Op.
 
-1. The Op is to receive the message in a private domain.
+1. The Op is to receive the message in a custom domain.
 
 The first forward of an inbound message to Slack, Webhook, or WebSocket
 does not count as an additional Op.
 
-Example Ops Calculation - Forward Message from Private Domain to Multiple Destinations
+Example Ops Calculation - Forward Message from Custom Domain to Multiple Destinations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Receiving a message and publishing to Slack and a WebSocket
 requires 2 Ops.
 
-1. The first Op is to receive the message in a private domain.
+1. The first Op is to receive the message in a custom domain.
 2. The second Op is for the second message forward.
 
 The first forward of an inbound message to Slack, Webhook, or WebSocket
 does not count as an additional Op.
 
-Example Ops Calculation - Forward message to a Private Domain Catch-All
+Example Ops Calculation - Forward message to a Custom Domain Catch-All
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Receiving a message and forwarding to a Private Domain Catch-All
+Receiving a message and forwarding to a Custom Domain Catch-All
 requires one Op.
 
-1. Receive message in a private domain.
+1. Receive message in a custom domain.
 
 Catch-All addresses are considered Mailsac addresses, and internal
 forwarding is not counted as an additional Op.
