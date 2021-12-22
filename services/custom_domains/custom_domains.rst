@@ -253,9 +253,9 @@ Public Custom Domains
 
 Custom domains can be set as public. API calls for the domain,
 its addresses, or messages will be tracked on the domain owner's
-account. Viewing message via the website do not count as an API call.
+account. Viewing message via the website do not count as an Op.
 
-See :ref:`doc_api_calls` for additional details about API call usage.
+See :ref:`doc_api_calls` for additional details about Ops usage.
 
 .. _sec_mx_record_links:
 

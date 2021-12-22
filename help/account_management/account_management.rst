@@ -1,7 +1,7 @@
 .. _Dashboard: https://mailsac.com/dashboard
 .. _`Manage Account Details`: https://mailsac.com/account
 .. _`REST API`: https://mailsac.com/api
-.. _`API Use`: https://mailsac.com/usage
+.. _`Ops Usage`: https://mailsac.com/usage
 .. _`Sub-Account User Login`: https://mailsac.com/login-api-key
 
 .. _doc_account_management:
@@ -17,10 +17,11 @@ on the Dashboard_:
 - :ref:`Password Change <sec_password_change>`
 - :ref:`Account Deletion <sec_account_deletion>`
 
-API Usage
+Ops Usage
 ---------
 
-API calls are calculated based on the following service usage:
+Operations (Ops, formerly "api calls") are calculated based on the following
+service usage:
 
 - `REST API`_ calls
 - Messages sent to the :ref:`Email Capture Service <doc_email_capture>`
@@ -28,10 +29,10 @@ API calls are calculated based on the following service usage:
 - Messages forwarded to a :ref:`Webhook <sec_webhook_forwarding>`
 - Messages forwarded to a :ref:`WebSocket <sec_websocket_forwarding>`
 
-View API Usage
+View Usage
 ^^^^^^^^^^^^^^
 
-API Usage can be viewed by selecting `API Usage`_ from the Dashboard_. Current
+Usage can be viewed by selecting `Ops Usage`_ from the Dashboard_. Current
 month usage and historical usage is available. Breakdown by API Key and service
 is visible by hovering the mouse over the bar graph in Monthly API Usage.
 
@@ -51,7 +52,7 @@ Message Statistics
 ------------------
 
 Monthly summaries of the following statistics are available per custom domain
-and account. Message statistics can be viewed by selecting `API Usage`_ from the
+and account. Message statistics can be viewed by selecting `Ops Usage`_ from the
 Dashboard_.
 
 - Inbound Message Counts
