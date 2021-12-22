@@ -78,7 +78,7 @@ Viewing the body of a message via the `REST API`_ requires 2 API calls.
 2. The second Op is used to
    `retrieve the plaintext body of a specific message <https://mailsac.com/docs/api#tag/Email-Messages-API/paths/~1text~1{email}~1{messageId}/get>`_.
 
-Example APOpsI Calculation - Forward Message from Custom Domain to Slack
+Example Ops Calculation - Forward Message from Custom Domain to Slack
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Receiving a message and publishing to Slack requires 1 Op.
