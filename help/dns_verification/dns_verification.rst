@@ -18,8 +18,36 @@ The command line tool `dig`, which is standard on most Linux distros
 and OSX, can be used to verify DNS records. Google hosts an `online
 version of dig <web based dig_>`_.
 
-MX Record Verification
-----------------------
+Domain Ownership TXT Record
+---------------------------
+
+Mailsac uses a TXT DNS record to verify domain ownership.
+
+The TXT DNS Record is unique per domain. The value of the required TXT
+record can be found in the Dashboard_ under Domains_, then click "Manage"
+and choose the "DNS Setup" tab.
+
+======== ================= ==================
+**Type** **Host**           **Value**
+TXT      dogtreats.msdc.co mailsac_0rlzMqMyDo2wDF6FuE0x54U5 (Example)
+======== ================= ==================
+
+To verify a domain's TXT Record the command line tool `dig`
+(`web based dig`_) can be used. In this example, the domain
+`dogtreats.msdc.co` is being used.
+
+.. code-block:: bash
+
+   dig TXT dogtreats.msdc.co
+
+.. image:: dig_txt_record.png
+   :alt: Example result of dig TXT DNS Query
+
+The values in the ``ANSWER SECTION`` show that the records are configured
+correctly because it corresponds to the value in the table above.
+
+TXT Record Verification
+-----------------------
 
 The values of the MX Records are the :ref:`same <section_email_hosting>` for all
 Private and Public Domains hosted by Mailsac. The Host will be unique per
