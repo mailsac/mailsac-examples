@@ -1,0 +1,20 @@
+# dig TXT example.com
+
+; <<>> DiG 9.10.6 <<>> TXT example.com.
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34522
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;example.com.             IN      TXT
+
+;; ANSWER SECTION:
+example.com.      300     IN      TXT     "v=spf1 include:relays.mailsac.com ~all"
+
+;; Query time: 83 msec
+;; SERVER: 192.168.1.1#53(192.168.1.1)
+;; WHEN: Tue Jan 11 07:04:45 PST 2022
+;; MSG SIZE  rcvd: 97

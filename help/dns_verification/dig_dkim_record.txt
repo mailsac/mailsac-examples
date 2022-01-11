@@ -1,0 +1,20 @@
+# dig TXT mailsacrelay._domainkey.example.com.
+
+; <<>> DiG 9.10.6 <<>> TXT mailsacrelay._domainkey.example.com.
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16974
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;mailsacrelay._domainkey.example.com. IN TXT
+
+;; ANSWER SECTION:
+mailsacrelay._domainkey.example.com. 300 IN TXT "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCJDMFvVPqwytT8n1zJca32nyK+W/KWt/058H7Hf2FGhtNSmTQfDEhBVD5DwPNJsiMKyhWXFtyBZ8NcsDhFl/KYwLj7r9n6cRa2e3jbdr2OyUfbrlqJ1LrjiGc/rH48NJPX2uL7NNGIFBzYRyTxymvWGlchNh8gwQ8Pvedk9ZcueQIDAQAB"
+
+;; Query time: 109 msec
+;; SERVER: 192.168.1.1#53(192.168.1.1)
+;; WHEN: Tue Jan 11 07:00:32 PST 2022
+;; MSG SIZE  rcvd: 317

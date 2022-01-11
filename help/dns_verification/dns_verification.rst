@@ -29,16 +29,16 @@ and choose the "DNS Setup" tab.
 
 ======== ================= ==================
 **Type** **Host**           **Value**
-TXT      dogtreats.msdc.co mailsac_0rlzMqMyDo2wDF6FuE0x54U5 (Example)
+TXT      example.com       mailsac_0rlzMqMyDo2wDF6FuE0x54U5 (Example)
 ======== ================= ==================
 
 To verify a domain's TXT Record the command line tool `dig`
 (`web based dig`_) can be used. In this example, the domain
-`dogtreats.msdc.co` is being used.
+`example.com` is being used.
 
 .. code-block:: bash
 
-   dig TXT dogtreats.msdc.co
+   dig TXT example.com
 
 .. image:: dig_txt_record.png
    :alt: Example result of dig TXT DNS Query
@@ -55,19 +55,20 @@ domain.
 
 ======== ================= ==================
 **Type** **Host**           **Value**
-MX       dogtreats.msdc.co 1 in.mailsac.com
-MX       dogtreats.msdc.co 5 alt.mailsac.com
+MX       example.com       1 in.mailsac.com
+MX       example.com       5 alt.mailsac.com
 ======== ================= ==================
 
 To verify a domain's MX Records the command line tool `dig`
 (`web based dig`_) can be used. In this example, the domain
-`dogtreats.msdc.co` is being used.
+`example.com` is being used.
 
 .. code-block:: bash
 
-   dig MX dogtreats.msdc.co
+   dig MX example.com
 
 .. image:: dig_mx_record.png
+   :alt: Example result of dig MX DNS Query
 
 The values in the `ANSWER SECTION` show that the records are configured
 correctly because it corresponds to the value in the table above.
@@ -81,7 +82,7 @@ be found in the Dashboard_ under Domains_, then click "Manage" and choose the
 
 ======== ========================================== ========================
 **Type** **Host**                                   **Value**
-TXT      mailsacrelay._domainkey.dogtreats.msdc.co. v=DKIM1; k=rsa; p=MI....
+TXT      mailsacrelay._domainkey.example.com.       v=DKIM1; k=rsa; p=MI....
 ======== ========================================== ========================
 
 DKIM Records are a DNS TXT record and can be queried using the command line
@@ -89,9 +90,10 @@ tool `dig` (`web based dig`_).
 
 .. code-block:: bash
 
-   dig TXT mailsacrelay._domainkey.dogtreats.msdc.co.
+   dig TXT mailsacrelay._domainkey.example.com.
 
 .. image:: dig_dkim_record.png
+   :alt: Example result of dig TXT DNS Query for DKIM
 
 The value in the `ANSWER SECTION` show that the DKIM record is configured
 correctly because it corresponds to the value of the provided DKIM record in
@@ -105,7 +107,7 @@ The Host will be unique per domain.
 
 ======== =================== ======================================
 **Type** **Host**            **Value**
-TXT      dogtreats.msdc.co.  v=spf1 include:relays.mailsac.com ~all
+TXT      example.com.        v=spf1 include:relays.mailsac.com ~all
 ======== =================== ======================================
 
 SPF Records are a DNS TXT record and can be queried using the command line
@@ -113,9 +115,10 @@ tool `dig` (`web based dig`_).
 
 .. code-block:: bash
 
-   dig TXT dogtreats.msdc.co.
+   dig TXT example.com.
 
 .. image:: dig_spf_record.png
+   :alt: Example result of dig TXT DNS Query for SPF
 
 The values in the `ANSWER SECTION` shows that the record is configured
 correctly because it corresponds to the value in in the table above.
