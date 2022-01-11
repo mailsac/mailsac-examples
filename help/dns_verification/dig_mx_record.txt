@@ -1,0 +1,21 @@
+# dig mx example.com
+
+; <<>> DiG 9.10.6 <<>> MX example.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 17410
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;example.com.             IN      MX
+
+;; ANSWER SECTION:
+example.com.      300     IN      MX      1 in.mailsac.com.
+example.com.      300     IN      MX      5 alt.mailsac.com.
+
+;; Query time: 121 msec
+;; SERVER: 192.168.1.1#53(192.168.1.1)
+;; WHEN: Tue Jan 11 06:54:36 PST 2022
+;; MSG SIZE  rcvd: 96

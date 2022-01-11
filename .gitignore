@@ -72,3 +72,6 @@ _build/
 
 # python virtual envrionment
 venv/
+
+# mac os
+.DS_Store
