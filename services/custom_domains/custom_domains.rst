@@ -228,6 +228,7 @@ Configure Custom Domain for Sending Mail
       :width: 600px
       :align: center
 
+
 #. Create a TXT record for SPF (Sender Policy Framework) with the
    hostname and value found on the DNS Setup page on the
    `Custom Domains <dash_custom_domains_>`_ page.
@@ -258,6 +259,29 @@ account. Viewing message via the website do not count as an Op.
 See :ref:`doc_api_calls` for additional details about Ops usage.
 
 .. _sec_mx_record_links:
+
+Multiple TXT Records Using AWS Route53
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The TXT records to :ref:`sec_verify_domain_ownership` and SPF both
+use top level domain as the record name. In the AWS Route53
+console each value will need to be quoted and placed on a separate line.
+
+The code sample shows how the record values should be formatted.
+
+.. code-block:: bash
+
+   "mailsac_0rlzMqMyDo2wDF6FuE0x54U5"
+   "v=spf1 include:relays.mailsac.com ~all"`
+
+
+
+.. figure:: aws_console_route53_quick_create_txt.png
+   :width: 600px
+   :align: center
+   :alt: Example of TXT records in AWS Route53 console
+
+   Example of formatted values in Route53 AWS Console
 
 DNS Provider MX Record Links
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
