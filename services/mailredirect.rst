@@ -1,7 +1,18 @@
 .. _doc_mailredirect:
+.. _message_data: https://mailsac.com/docs/api#tag/Email-Messages-API/paths/~1addresses~1{email}~1messages~1{messageId}/get
 
-Alternate Address Redirect
-==========================
+Mail Redirection
+================
+
+Mailsac offers two types of mail redirection or aliasing.
+
+- :ref:`sec_alternate_addressing`
+- :ref:`sec_plus_addressing`
+
+.. _sec_alternate_addressing:
+
+Alternate Addressing
+====================
 
 One of the downsides of public disposable email is that when you give out the
 address, and people know it is disposable, they might know they can view your
@@ -34,3 +45,32 @@ Of course, Mailsac offers private inboxes, too. If you `create an account
 you’ll be able to see the options for getting private mail. Then you can give
 out your actual email address without worrying whether people know it is
 public.
+
+.. _sec_plus_addressing:
+
+Plus-addressing
+---------------
+
+When you send email to any mailsac hosted domain, if a :code:`+` plus
+symbol is included in the local-part of the address, it is removed as
+well as anything up to the the :code:`@` symbol.
+
+For example:
+
+.. code-block:: bash
+
+   jeff+12345asdf@mailsac.com
+
+will be delivered to
+
+.. code-block:: bash
+
+   jeff@mailsac.com
+
+The original :code:`To` email address is stored in the property
+:code:`originalInbox` and is accessible using the
+`Message Data REST API endpoint <message_data_>`_.
+
+Many email services including Gmail, iCloud and Fastmail support
+stripping the + plus symbol and everything after it in the local-part of
+the address (everything before the :code:`@` symbol).
