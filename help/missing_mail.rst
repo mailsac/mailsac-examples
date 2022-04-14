@@ -54,20 +54,6 @@ configuring the MX records see our :ref:`BYODomain Configuration
   `deny list`_
 * The message may have been marked as spam by the :ref:`Spam Filter <sec_spam_filter>`.
 
-Custom Domain
--------------
-
-If you have changed your MX records to use *in.mailsac.com* and
-*alt.mailsac.com* and are not receiving mail. There are several potential
-causes:
-
-* MX Records are incorrect or have no propagated
-* Large message size. The max message size is 2.5MB
-* The sending SMTP service has a queue
-* The sending domain, IP address, or receiving address is on the
-  `deny list`_
-* The message may have been marked as spam by the :ref:`Spam Filter <sec_spam_filter>`.
-
 Sender Limits
 -------------
 Some services place restrictions on the size, type, rate, and quantity of
