@@ -130,6 +130,18 @@ apply to new emails received.
    :align: center
    :width: 400px
 
+
+Mailsac Deny List
+-----------------
+
+Mailsac does deny email from senders that are impacting the overall
+stability of our services. Typically, senders are initially
+:ref:`throttled <doc_smtp_throttling>`. If throttling is not effective senders
+may be added to the deny list.
+
+Emails from social media and streaming services are blocked. Emails from these
+services have been used in ways that are against the :ref:`doc_terms_of_service`.
+
 Contacting Support
 ------------------
 
