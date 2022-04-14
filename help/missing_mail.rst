@@ -12,7 +12,7 @@ Missing Email
 If you have sent email to a *@mailsac.com* address or a private domain hosted
 at Mailsac and it was not received, this document will help you find out why.
 
-@mailsac.com Address
+Sending to an @mailsac.com Address
 --------------------
 
 If the address you sent to ends in *@mailsac.com* and the message was not
@@ -27,7 +27,7 @@ received it could be because of:
   `deny list`_
 * The message may have been marked as spam by the :ref:`Spam Filter <sec_spam_filter>`.
 
-Zero-Setup Private Domain (@mydomain.msdc.co)
+Sending to a Zero-Setup Private Domain (@mydomain.msdc.co)
 ---------------------------------------------
 
 The Zero-Setup Private Domains handle all MX record changes. You can start
@@ -40,7 +40,7 @@ receiving mail it could be because of:
   `deny list`_
 * The message may have been marked as spam by the :ref:`Spam Filter <sec_spam_filter>`.
 
-Bring Your Own Domain (BYOD) Private Domain
+Sending to a Bring Your Own Domain (BYOD) Private Domain
 -------------------------------------------
 
 The BYOD Private Domain requires MX record changes. For assistance in
