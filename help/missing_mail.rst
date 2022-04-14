@@ -13,7 +13,7 @@ If you have sent email to a *@mailsac.com* address or a private domain hosted
 at Mailsac and it was not received, this document will help you find out why.
 
 Sending to an @mailsac.com Address
---------------------
+----------------------------------
 
 If the address you sent to ends in *@mailsac.com* and the message was not
 received it could be because of:
@@ -28,7 +28,7 @@ received it could be because of:
 * The message may have been marked as spam by the :ref:`Spam Filter <sec_spam_filter>`.
 
 Sending to a Zero-Setup Private Domain (@mydomain.msdc.co)
----------------------------------------------
+----------------------------------------------------------
 
 The Zero-Setup Private Domains handle all MX record changes. You can start
 receiving email with virtually no setup. If you are still have problems
@@ -41,7 +41,7 @@ receiving mail it could be because of:
 * The message may have been marked as spam by the :ref:`Spam Filter <sec_spam_filter>`.
 
 Sending to a Bring Your Own Domain (BYOD) Private Domain
--------------------------------------------
+--------------------------------------------------------
 
 The BYOD Private Domain requires MX record changes. For assistance in
 configuring the MX records see our :ref:`BYODomain Configuration
