@@ -141,6 +141,8 @@ may be added to the deny list.
 
 Emails from social media and streaming services are blocked. Emails from these
 services have been used in ways that are against the :ref:`doc_terms_of_service`.
+If you are a QA tester working for a social media company or streaming service
+and wish to use Mailsac reach out to our support team.
 
 Contacting Support
 ------------------
