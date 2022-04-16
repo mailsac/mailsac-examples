@@ -12,8 +12,8 @@ Missing Email
 If you have sent email to a *@mailsac.com* address or a private domain hosted
 at Mailsac and it was not received, this document will help you find out why.
 
-@mailsac.com Address
---------------------
+Sending to an @mailsac.com Address
+----------------------------------
 
 If the address you sent to ends in *@mailsac.com* and the message was not
 received it could be because of:
@@ -27,8 +27,8 @@ received it could be because of:
   `deny list`_
 * The message may have been marked as spam by the :ref:`Spam Filter <sec_spam_filter>`.
 
-Zero-Setup Private Domain (@mydomain.msdc.co)
----------------------------------------------
+Sending to a Zero-Setup Private Domain (@mydomain.msdc.co)
+----------------------------------------------------------
 
 The Zero-Setup Private Domains handle all MX record changes. You can start
 receiving email with virtually no setup. If you are still have problems
@@ -40,26 +40,12 @@ receiving mail it could be because of:
   `deny list`_
 * The message may have been marked as spam by the :ref:`Spam Filter <sec_spam_filter>`.
 
-Bring Your Own Domain (BYOD) Private Domain
--------------------------------------------
+Sending to a Bring Your Own Domain (BYOD) Private Domain
+--------------------------------------------------------
 
 The BYOD Private Domain requires MX record changes. For assistance in
 configuring the MX records see our :ref:`BYODomain Configuration
 <section_byod_configuration>`.
-
-* MX Records are incorrect or have no propagated
-* Large message size. The max message size is 2.5MB
-* The sending SMTP service has a queue
-* The sending domain, IP address, or receiving address is on the
-  `deny list`_
-* The message may have been marked as spam by the :ref:`Spam Filter <sec_spam_filter>`.
-
-Custom Domain
--------------
-
-If you have changed your MX records to use *in.mailsac.com* and
-*alt.mailsac.com* and are not receiving mail. There are several potential
-causes:
 
 * MX Records are incorrect or have no propagated
 * Large message size. The max message size is 2.5MB
@@ -143,6 +129,18 @@ apply to new emails received.
 .. figure:: spam_filter_toggle.png
    :align: center
    :width: 400px
+
+
+Mailsac Deny List
+-----------------
+
+Mailsac does deny email from senders that are impacting the overall
+stability of our services. Typically, senders are initially
+:ref:`throttled <doc_smtp_throttling>`. If throttling is not effective senders
+may be added to the deny list.
+
+Emails from social media and streaming services are blocked. Emails from these
+services have been used in ways that are against the :ref:`doc_terms_of_service`.
 
 Contacting Support
 ------------------
