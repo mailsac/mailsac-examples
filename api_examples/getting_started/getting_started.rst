@@ -127,9 +127,7 @@ retrieve different parsed representations of the SMTP body.
 Sending Mail
 -------------
 
-.. important:: Sending messages requires the
-   `purchase <https://mailsac.com/pricing>`_ of outgoing message credits,
-   unless you are sending interally, within a custom domain hosted by Mailsac.
+.. warning:: Sending outbound SMTP email has been deprecated.
 
 To send an email from `user1@mailsac.com` we will use the
 :code:`/api/outgoing-messages` `endpoint

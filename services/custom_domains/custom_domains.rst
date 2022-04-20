@@ -217,6 +217,8 @@ Configure Custom Domain for Receiving Mail
 Configure Custom Domain for Sending Mail
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. warning:: Sending outbound SMTP email has been deprecated.
+
 #. Create a TXT record for DKIM (DomainKeys Identified Mail) with
    the hostname and value found on the DNS Setup page under the
    `Custom Domains <dash_custom_domains_>`_ page.

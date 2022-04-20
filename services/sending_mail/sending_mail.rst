@@ -8,6 +8,8 @@
 Sending Email
 =============
 
+.. warning:: Sending outbound SMTP email has been deprecated.
+
 Email can be sent via the following methods:
 
 - `Web Form`_

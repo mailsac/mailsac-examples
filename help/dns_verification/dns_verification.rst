@@ -76,6 +76,9 @@ correctly because it corresponds to the value in the table above.
 DKIM Record Verification
 ------------------------
 
+.. note:: Sending outbound SMTP email has been deprecated. DKIM records
+   will not will not be validated by mailsac in the future.
+
 DKIM Records are unique per domain. The value of the required DKIM record can
 be found in the Dashboard_ under Domains_, then click "Manage" and choose the
 "DNS Setup" tab.
@@ -101,6 +104,9 @@ the Dashboard_ under Domains_.
 
 SPF Record Verification
 -----------------------
+
+.. note:: Sending outbound SMTP email has been deprecated. SPF records
+   will not will not be validated by mailsac in the future.
 
 SPF Records are the same for all Private and Public Domains hosted by Mailsac.
 The Host will be unique per domain.
