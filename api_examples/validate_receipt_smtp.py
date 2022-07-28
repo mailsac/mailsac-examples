@@ -13,7 +13,7 @@ Checks if a message from a given address in the a specific mailsac
 inbox. If it is it returns when the message was recived, if not it returns
 a message stating the message was not received"""
 def check_received(receive_address, send_address, base_url, headers):
-    api_url = '{0}/addresses/{1}/messages'.format(base_url, receive_address)
+    api_url = '{0}addresses/{1}/messages'.format(base_url, receive_address)
     response = requests.get(api_url, headers=headers)
     for message in response.json():
         if message['from'][0]['address'] == send_address:
@@ -32,7 +32,7 @@ SUBJECT = "Testing email to mailsac"
 API_TOKEN = 'MY_API_TOKEN_FROM_MAILSAC'
 BASE_URL = 'https://mailsac.com/api/'
 
-BODY_TEXT = ("Mailsac SMTP Validate Emila Send\r\n"
+BODY_TEXT = ("Mailsac SMTP Validate Email Send\r\n"
              "This email was sent using the SMTP to test receipt of an email."
             )
 
