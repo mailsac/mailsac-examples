@@ -17,7 +17,7 @@ What is the process for cancellation?
 -------------------------------------
 
 Subscriptions can be canceled by selecting `Billing`_ from the `Dashboard`_.
-There will be a list of active subscriptions. Selecting "Edit Subscription"
+There will be a list of active subscriptions. Selecting "Cancel Subscription"
 will present a final verification that you intend to cancel the subscription.
 
    .. image:: subscription_cancel.png
