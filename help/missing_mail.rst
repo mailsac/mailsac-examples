@@ -154,10 +154,9 @@ support@team.mailsac.com.
 Including the following information will help us identify why you are not
 receiving mail.
 
+* your mailsac username
 * the IP address of your sending server
 * the email addresses you are sending to, and/or the domain you are sending TO
 * the from email addresses, and/or the domain you are sending FROM
-* Time frames when messages were lost. A ball park is ok, like,
-  "from 8am - 9am on Dec 3rd GMT we sent 100 messages and only 85 were received"
-  or just "I tried sending 5 messages from 8am - 9am GMT Dec 3rd and none of
-  them went through"
+* time frames when messages were sent. Be as specific as possible by including
+  the date, time, and time zone.
