@@ -87,6 +87,9 @@ m. This service is offered for use with NO WARRANTIES and MAKES NO PROMISES
    agreement" nor any guarantee of service uptime. We provide uptime system
    metrics, such as https://status.mailsac.com, on a purely information basis.
    Nor is status or uptime information required to be available.
+n. Use of mailsac to receive emails to facilitate the creation of multiple
+   accounts or identities with a third party where the customer does not have
+   the expressed written consent of the third party is prohibited.
 
 3. Commercial and Non-Commercial Use
 ------------------------------------
