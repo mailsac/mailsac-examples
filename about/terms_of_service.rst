@@ -5,7 +5,7 @@ Terms of Service and Acceptable Use Policy
 
 .. contents:: :local:
 
-Revised March 2021
+Revised September 2022
 
 1. Preamble
 -----------
@@ -43,7 +43,7 @@ b. this Agreement will constitute a legal, enforceable and binding
 c. its execution and performance of this Agreement will not violate any
    law or breach any other agreement with or obligation to any third party.
 
-2 Warnings and Acceptable Use
+2. Warnings and Acceptable Use
 -----------------------------
 
 a. Illegal is defined as against the law in the United States, the
@@ -291,7 +291,7 @@ a. Deleted data (including messages/email) are removed from the servers and the
    guarantees about retention practices but intends to have deleted content be
    deleted. Standard application logs and failed attempts to pass data between
    internal services may be retained for troubleshooting. Mailsac is a
-   best-effort, disposable-first email service and API. Mailsac is not a
+   best-effort, disposable-first email testing service and API. Mailsac is not a
    service that is intended to be used for storage of important information.
    Saved or "starred" messages are intended to be retained up to the indicated
    limits on an account, but this is not guaranteed, and starred messages may
