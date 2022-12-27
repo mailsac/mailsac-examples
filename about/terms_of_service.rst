@@ -44,7 +44,7 @@ c. its execution and performance of this Agreement will not violate any
    law or breach any other agreement with or obligation to any third party.
 
 2. Warnings and Acceptable Use
------------------------------
+------------------------------
 
 a. Illegal is defined as against the law in the United States, the
    State of California, Sacramento, and the applicable jurisdictions
