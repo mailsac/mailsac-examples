@@ -5,7 +5,7 @@ Terms of Service and Acceptable Use Policy
 
 .. contents:: :local:
 
-Revised March 2021
+Revised September 2022
 
 1. Preamble
 -----------
@@ -43,8 +43,8 @@ b. this Agreement will constitute a legal, enforceable and binding
 c. its execution and performance of this Agreement will not violate any
    law or breach any other agreement with or obligation to any third party.
 
-2 Warnings and Acceptable Use
------------------------------
+2. Warnings and Acceptable Use
+------------------------------
 
 a. Illegal is defined as against the law in the United States, the
    State of California, Sacramento, and the applicable jurisdictions
@@ -87,6 +87,9 @@ m. This service is offered for use with NO WARRANTIES and MAKES NO PROMISES
    agreement" nor any guarantee of service uptime. We provide uptime system
    metrics, such as https://status.mailsac.com, on a purely information basis.
    Nor is status or uptime information required to be available.
+n. Use of mailsac to receive emails to facilitate the creation of multiple
+   accounts or identities with a third party where the customer does not have
+   the expressed written consent of the third party is prohibited.
 
 3. Commercial and Non-Commercial Use
 ------------------------------------
@@ -288,7 +291,7 @@ a. Deleted data (including messages/email) are removed from the servers and the
    guarantees about retention practices but intends to have deleted content be
    deleted. Standard application logs and failed attempts to pass data between
    internal services may be retained for troubleshooting. Mailsac is a
-   best-effort, disposable-first email service and API. Mailsac is not a
+   best-effort, disposable-first email testing service and API. Mailsac is not a
    service that is intended to be used for storage of important information.
    Saved or "starred" messages are intended to be retained up to the indicated
    limits on an account, but this is not guaranteed, and starred messages may

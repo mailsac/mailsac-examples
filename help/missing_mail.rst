@@ -27,6 +27,13 @@ received it could be because of:
   `deny list`_
 * The message may have been marked as spam by the :ref:`Spam Filter <sec_spam_filter>`.
 
+.. note::
+  If you have a Mailsac subscription you should be sending to
+  :ref:`private addresses <doc_private_addresses>` or a
+  :ref:`verified custom domain <doc_custom_domains>`. Mail sent to public
+  addresses in the mailsac.com domain or a BYOD that has not been verified is
+  subject to stricter throttling.
+
 Sending to a Zero-Setup Private Domain (@mydomain.msdc.co)
 ----------------------------------------------------------
 

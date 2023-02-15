@@ -3,7 +3,7 @@
 Privacy Policy
 ==============
 
-Revised October 2020
+Revised September 2022
 
 Mailsac is a service of Forking Software LLC.
 
@@ -192,7 +192,7 @@ Mailsac. For a current list, contact support@team.mailsac.com.
 Hosting provider workers may have privilieged access to Mailsac servers.
 
 - https://aws.amazon.com
-- https://cloud.google.com
+- https://cloudflare.com
 
 
 11e. From time to time we may run general analytics to determine usage statistics.
