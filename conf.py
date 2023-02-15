@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = u'Mailsac Documentation'
-copyright = u'2018-2021, Forking Software LLC'
+copyright = u'2018-2023, Forking Software LLC'
 author = u'Forking Software LLC'
 
 # The short X.Y version
