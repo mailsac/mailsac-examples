@@ -47,8 +47,8 @@ API keys are used to authenticate to the `REST API`_,
 :ref:`Email Capture <doc_email_capture>`, :ref:`SMTP <sec_sendingmail_smtp>`,
 :ref:`POP3 <sec_reading_mail_pop3>`.
 
-API Keys can be created and deleted in the `API Keys and Users`_ section of the
-Dashboard_.
+API Keys can be created , regenerated, and deleted in the `API Keys and Users`_
+section of the Dashboard_.
 
 Multiple API Keys
 ^^^^^^^^^^^^^^^^^
@@ -62,10 +62,11 @@ Having multiple API keys enables:
 * usage monitoring
 * separate API Keys for different testing environments
 
-To create an API key, go to `API Keys and Users`_ from the Dashboard_. Enter a
-name for the API Key and select *Generate new API key*. API Keys may only be
-viewed once and are not retrievable by the system. API Keys should be treated
-with the same security considerations as a password.
+To create an API key, go to `API Keys and Users`_  and select "Manage Keys"
+from the Dashboard_. Enter a name for the API Key and select
+*Generate new API key*. API Keys may only be viewed once and are not
+retrievable by the system. API Keys should be treated with the same security
+considerations as a password.
 
 .. figure:: add_named_key.png
    :align: center
@@ -89,7 +90,7 @@ Create User Login
 ^^^^^^^^^^^^^^^^^
 
 User accounts can be created from the Dashboard_ under
-`API Keys and Users`_.
+`API Keys and Users`_ by selecting "Manage Users"
 
 
 .. figure:: create_user_login.png
@@ -99,7 +100,7 @@ User accounts can be created from the Dashboard_ under
    Create User Login
 
 The password for the user login is automatically created. It can only
-be viewed once. The credential can be downloaded as a CSV file.
+be viewed once.
 
 .. figure:: user_login_credentials.png
    :align: center
@@ -138,7 +139,14 @@ Reset Sub-Account User Password
 
 Sub-Account User passwords are generated automatically because they also
 serve as an API key. In order to reset the Sub-Account password the user
-can be deleted and recreated. This can be done from `API Keys and Users`_
+can be recreated by selecting "Regenerate Password".
+This can be done from `API Keys and Users`_
+
+.. figure:: regenerate_sub_account_password.png
+   :align: center
+   :width: 400px
+
+   Regenerate Sub-Account password.
 
 Remove Sub-Account User
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -146,6 +154,11 @@ Remove Sub-Account User
 Sub-Account users can can be removed by clicking on the "Delete" button next to
 the user login on the `API Keys and Users`_ page.
 
+.. figure:: remove_sub_account.png
+   :align: center
+   :width: 400px
+
+   Remove Sub-Account user.
 
 SAML/SSO Integration
 --------------------
