@@ -5,7 +5,7 @@ Terms of Service and Acceptable Use Policy
 
 .. contents:: :local:
 
-Revised September 2022
+Revised March 2023
 
 1. Preamble
 -----------
@@ -50,7 +50,7 @@ a. Illegal is defined as against the law in the United States, the
    State of California, Sacramento, and the applicable jurisdictions
    of the end user (you).
 b. This website can never be used to break the law.
-c. You will not send unsolicited spam to or from this service and you
+c. You will not send unsolicited spam to this service and you
    will comply with CAN-SPAM as well as applicable international, national, and
    local spam laws in your jurisdiction and the State of California, United
    States.
@@ -162,8 +162,7 @@ e. Receipt, Delivery, and Message Accuracy Guarantees
    EMAIL MESSAGE RECEIPT AND DELIVERY IS NOT GUARANTEED. Mailsac.com has many
    processes and systems in place built up over years, which result in high
    availability and reliability. Nonetheless the service does NOT provide a
-   Service Level Agreement or any certainty of either receiving OR sending
-   mail.
+   Service Level Agreement or any certainty of receiving mail.
 
    While this service does not intend for messages to be altered, there may be
    arbitrary changes whether during transit or storage which are made without
@@ -197,34 +196,6 @@ f. Email Security
    - Mailsac strives for encrypted traffic (HTTPS with TLS, SMTP with TLS),
      however internal traffic or even public API / UI traffic may be
      transmitted unencrypted
-
-g. Sending Outbound Mail
-
-   Outgoing mail may be purchased at cost and may be delivered (relayed) by a
-   third party OR Mailsac. The user and sender of this mail is responsible for
-   the content they send. Delivery cannot be guaranteed. Messages which fail to
-   be delivered (including but not limited to "bounces") will not be refunded.
-   Contact Mailsac support if delivery appears to be failing and we may be able
-   to assist with troubleshooting, but again we make no guarantees about
-   outbound message delivery.
-
-   Outgoing mail may be marked as spam by receivers or intermediary deliverers.
-   Mailsac is not responsible for email delivered by Mailsac being marked as
-   spam, and WILL NOT refund such mail which is marked as spam or undelivered
-   or unviewed.
-
-   Sending spam email is a serious offense which may result the user's account
-   being immediately disabled.
-
-   IN THE EVENT THAT LEGAL EXPENSES OR FINANCIAL JUDGEMENTS ARE INCURRED FOR
-   THE SENDING OF EMAIL MESSAGES BY A MAILSAC USER, THE USER AGREES TO ACCEPT
-   FINANCIAL RESPONSIBILITY FOR THE PAYMENT OF THOSE FEES OR JUDGEMENTS. WHETHER
-   SENT INTENTIONALLY OR UNINTENTIONALLY BY THE MAILSAC ACCOUNT OWNER, THE USER
-   ACCEPTS FULL RESPONSIBILITY FOR THE MESSAGES SENT. The user is responsible
-   for mail sent from their account even during a period that the account was
-   compromised. It is the responsibility of the account holder (user) to secure
-   their account and contact support via when it appears to have been
-   compromised.
 
 5. Throttling
 -------------
