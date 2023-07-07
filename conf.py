@@ -97,7 +97,7 @@ html_static_path = ['_static']
 html_css_files = ['custom.css']
 
 # Favicon location
-html_favicon= '_static/favicon-32x32.png'
+html_favicon = '_static/favicon-32x32.png'
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
