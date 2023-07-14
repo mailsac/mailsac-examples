@@ -87,6 +87,7 @@ html_theme_options = {
     'logo_only': True,
     'navigation_depth': 2,
     'collapse_navigation': False,
+    'includehidden': False,
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
