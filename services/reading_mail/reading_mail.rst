@@ -115,7 +115,7 @@ password. The per private address SMTP password can be set through using the
 Dashboard_ -> *Manage Email Addresses* -> Select the
 *POP/SMTP* button next to the email address -> Select *Set New Password*
 
-    .. figure:: ../sending_mail/pop_smtp_set_password.png
+    .. figure:: pop_smtp_set_password.png
         :align: center
         :width: 400px
 
@@ -137,9 +137,6 @@ etc) using these POP3 settings:
 +-----------------------+-------------------------------------------------------+
 | **Auth Settings**     | Password / allow plain / insecure                     |
 +-----------------------+-------------------------------------------------------+
-
-To configure a mail client for sending see the :ref:`Sending Mail via SMTP
-Section <sec_sendingmail_smtp>`.
 
 .. _sec_reading_mail_attachments:
 

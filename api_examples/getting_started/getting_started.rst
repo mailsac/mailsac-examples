@@ -3,7 +3,6 @@
 .. _REST API Specification: https://mailsac.com/docs/api
 .. _List Inbox Email Messages Endpoint: https://mailsac.com/docs/api#tag/Email-Messages-API/paths/~1addresses~1{email}~1messages/get
 .. _Authentication Header: https://mailsac.com/docs/api#section/Auth-Option-1:-HTTP-Header
-.. _Send Email Messages Endpoint: https://mailsac.com/docs/api#tag/Email-Messages-API/paths/~1outgoing-messages/post
 .. _Get Message Text Endpoint: https://mailsac.com/docs/api#tag/Email-Messages-API/paths/~1text~1{email}~1{messageId}/get
 
 
@@ -14,7 +13,6 @@ This example will show how to do the following using the REST API.
 
 - list emails sent to `user1@mailsac.com`
 - read an email sent to `user1@mailsac.com`
-- send an email from `user1@mailsac.com`
 
 `user1@mailsac.com` can be replaced with any email address hosted by Mailsac.
 If you are familiar with REST APIs the `REST API Specification`_ can be
@@ -25,8 +23,7 @@ REST API Overview
 
 REST API interaction is at the core of Mailsac. The examples in this section
 will provide you with easy to understand curl examples. For additional code
-examples (Nodejs and Python) see: :ref:`Reading Email <doc_reading_mail>`
-and :ref:`Sending Mail <doc_sending_mail>`.
+examples (Nodejs and Python) see: :ref:`Reading Email <doc_reading_mail>`.
 
 Prerequisites
 -------------
@@ -123,32 +120,3 @@ retrieve different parsed representations of the SMTP body.
   the header key, lowercased. When there are multiple headers with the same name
   , such as :code:`Received` header, the value of the header will be an array of
   strings. Otherwise the value will be a string.
-
-Sending Mail
--------------
-
-.. warning:: Sending outbound SMTP email has been deprecated.
-
-To send an email from `user1@mailsac.com` we will use the
-:code:`/api/outgoing-messages` `endpoint
-<Send Email Messages Endpoint_>`_. This API endpoint uses a
-POST method, unlike our previous two examples, and accepts the following
-parameters in a JSON body.
-
-* :code:`Mailsac-Key` header with `your API key <https://mailsac.com/api-keys>`_
-* :code:`to` address
-* :code:`from` address
-* :code:`subject` subject
-* :code:`text` message text body
-
-The :code:`/api/outgoing-messages` endpoint expects a JSON encoded body,
-a :code:`Content-Type: application/json` header, and a `Authentication Header`_.
-
-.. code-block:: bash
-    :caption: **Send an email**
-
-    curl -H "Content-Type: application/json" \
-        -H "Mailsac-Key: YOUR_API_KEY_HERE" \
-        -X POST \
-        --data '{"to": "recipient@mailsac.com.com", "subject": "This is a test", "from": "my_sender@mailsac.com", "text": "This is a test"}' \
-        https://mailsac.com/api/outgoing-messages

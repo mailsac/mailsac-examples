@@ -21,8 +21,7 @@ on the service being consumed.
 - `Sub-Account User Login`_: Used to authenticate to Mailsac.com
   (available to `Business and Enterprise Plans <Pricing_>`_)
 - `API Key <API Keys and Users_>`_: Used to authenticate to the `REST API`_,
-  :ref:`Email Capture <doc_email_capture>`, :ref:`SMTP <sec_sendingmail_smtp>`,
-  :ref:`POP3 <sec_reading_mail_pop3>`.
+  :ref:`Email Capture <doc_email_capture>`, :ref:`POP3 <sec_reading_mail_pop3>`.
 - POP3 Password: Used to authenticate to :ref:`POP3 Service <sec_reading_mail_pop3>`
 
 .. _sec_password_change:
@@ -44,8 +43,7 @@ API Key Management
 ------------------
 
 API keys are used to authenticate to the `REST API`_,
-:ref:`Email Capture <doc_email_capture>`, :ref:`SMTP <sec_sendingmail_smtp>`,
-:ref:`POP3 <sec_reading_mail_pop3>`.
+:ref:`Email Capture <doc_email_capture>`, :ref:`POP3 <sec_reading_mail_pop3>`.
 
 API Keys can be created , regenerated, and deleted in the `API Keys and Users`_
 section of the Dashboard_.
