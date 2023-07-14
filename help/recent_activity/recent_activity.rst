@@ -7,8 +7,8 @@
 Recent Activity
 ===============
 
-Recent Activity shows a detailed log of email received,
-:ref:`forwarding <doc_forwarding>`, and :ref:`email sent <doc_sending_mail>`.
+Recent Activity shows a detailed log of email received and
+:ref:`forwarded <doc_forwarding>`.
 This is useful in troubleshooting problems integrating with Mailsac.
 
 Viewing Recent Activity

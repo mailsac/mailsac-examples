@@ -44,7 +44,6 @@ Table of Contents
    services/webhook/webhook
    services/websocket/websocket
    services/forwarding/forwarding
-   services/sending_mail/sending_mail
    services/reading_mail/reading_mail
    services/mailredirect
    services/slack_webhook/slack_webhook

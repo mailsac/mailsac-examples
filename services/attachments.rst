@@ -18,12 +18,3 @@ There are several ways to download attachments when authenticated to the Mailsac
 
 Additional information on reading mail, including code examples, can be found
 in :ref:`Reading Email <doc_reading_mail>`.
-
-Sending Attachments
---------------------
-
-Attachments on outgoing messages are only supported
-`through the API <https://mailsac.com/docs/api#tag/Email-Messages-API/paths/~1outgoing-messages/post>`_.
-
-Additional information on sending mail, including code examples, can be found
-in :ref:`Sending Email <doc_sending_mail>`.
