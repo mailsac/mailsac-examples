@@ -60,7 +60,7 @@ master_doc = 'index'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = 'en'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -84,7 +84,10 @@ html_theme = "sphinx_rtd_theme"
 # documentation.
 #
 html_theme_options = {
-    'logo_only': True
+    'logo_only': True,
+    'navigation_depth': 2,
+    'collapse_navigation': False,
+    'includehidden': False,
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -95,7 +98,7 @@ html_static_path = ['_static']
 html_css_files = ['custom.css']
 
 # Favicon location
-html_favicon= '_static/favicon-32x32.png'
+html_favicon = '_static/favicon-32x32.png'
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.

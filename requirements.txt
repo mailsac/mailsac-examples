@@ -1,4 +1,4 @@
 # This file instructs readthedocs to include these extensions in the build.
-https://github.com/executablebooks/sphinx-tabs/archive/refs/tags/v3.2.0.tar.gz
-Sphinx==4.3.0
-sphinx-rtd-theme==1.0.0
+https://github.com/executablebooks/sphinx-tabs/archive/refs/tags/v3.4.1.tar.gz
+Sphinx==5.3.0
+sphinx-rtd-theme==1.2.2

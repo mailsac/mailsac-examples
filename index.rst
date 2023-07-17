@@ -58,13 +58,7 @@ Table of Contents
    :caption: Help
    :name: sec-Help
 
-   help/missing_mail
-   help/throttling
-   help/recent_activity/recent_activity
-   help/dns_verification/dns_verification
-   help/account_management/account_management
-   help/account_management/credential_management
-   help/subscriptions/faq
+   help/index
    about/contact_and_support
    about/privacy_policy
    about/terms_of_service
