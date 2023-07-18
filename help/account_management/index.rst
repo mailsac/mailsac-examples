@@ -1,3 +1,6 @@
+Account Management
+==================
+
 .. toctree::
     :maxdepth: 2
 
