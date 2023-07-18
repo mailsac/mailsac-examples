@@ -1,3 +1,6 @@
+Help
+====
+
 .. toctree::
     :maxdepth: 1
 
