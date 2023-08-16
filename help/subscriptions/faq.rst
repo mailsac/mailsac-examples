@@ -67,3 +67,10 @@ processor to enter your new payment method.
 .. image:: update_payment_method.png
    :width: 600px
    :align: center
+
+.. _sec_billing_purchase_order:
+
+Can I pay with a purchase order?
+--------------------------------
+
+Yes, purchase orders are supported for Enterprise Plan subscriptions.
