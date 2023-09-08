@@ -56,15 +56,7 @@ and account. Message statistics can be viewed by selecting `Ops Usage`_ from the
 Dashboard_.
 
 - Inbound Message Counts
-- Outbound Message Counts
 - Inbound Bandwidth
-- Outbound Bandwidth
-
-.. figure:: outbound_message_stats.png
-   :align: center
-   :width: 400px
-
-   Monthly outbound message count
 
 .. _sec_account_deletion:
 
