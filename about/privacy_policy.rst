@@ -43,21 +43,80 @@ determined to be linked to an account. Mailsac will not notify the account holde
 -------------------------------------------
 
 3a. We are the sole owners of the information collected on this site, email received to PUBLIC email addresses on
-this site, email TURNED PUBLIC due to released private email addresses or domains or unpaid accounts, and ALL derived/aggregated analytics about email or usage on the website. We may choose to sell or rent this information to third parties, manually or via paid or free API, or by exporting archives of information to third parties.
-We will not sell the private email contents to third parties (such as email in private reserved addresses, custom domain email, or records linking an account or IP address to an email address or custom domain).
+this site, email TURNED PUBLIC due to released private email addresses or domains or unpaid accounts, and ALL
+derived/aggregated analytics about email or usage on the website.
+We will not sell the private email contents to third parties (such as email in private reserved addresses, custom domain
+email, or records linking an account or IP address to an email address or custom domain).
 
-3b. We will use your information to respond to you regarding the reason you contacted us. We may share
-your information with third parties outside of our organization, for the purpose of Mailsac and Forking Software LLC to
-provide better and more relevant services to you, but not for any third parties to sell or provide services
-to you.
+3b. We will use your information to respond to you regarding the reason you contacted us.
 
 3c. Unless you ask us not to, we may contact you via email in the future to tell you about specials, new
 products or services, or changes to this privacy policy.
 
 3d. Mailsac has no advertisements or advertisement tracking. Mailsac does not sell any information to advertisers.
 
-3e. Analytics tracking services on (such as, but not limited to, Google Analytics, Zendesk) may be exposed to inbox contents,
-even on private or paid accounts.
+3e. We may disclose your information in the following ways:
+
+#. Public inboxes: Public inboxes and their contents are public. When you send email to public
+   inboxes this information is public in nature. This data is accessible to anyone,
+   including third parties. This data may be collected, used, or disclosed by other
+   users of our service. This data may be collected and sold to third parties.
+
+..
+
+#. Service providers: We may disclose information to our service providers (e.g.,
+   infrastructure as a service, payment processing, and customer support services),
+   pursuant to written agreements with confidentiality, privacy, and security obligations.
+
+..
+
+#. Online Forums: When you take certain actions on our forums that are public in nature,
+   this information may be collected, used, or disclosed by other users of the forums.
+
+..
+
+#. Compliance and Safety: We may disclose information to law enforcement or other
+   third parties when we determine such disclosure is necessary to comply with legal
+   obligations or to protect our interests or safety, the interests or safety of our
+   customers or others, or to prevent illegal behavior or to otherwise protect our
+   legal rights. We may also disclose information to law enforcement or other third
+   parties when we have a good faith belief that such disclosure is reasonably
+   necessary to respond to subpoenas, court orders, or other legal process.
+
+..
+
+#. Merger or Acquisition: We may disclose information to a third party who acquires
+   or may acquire any or all of our business units, whether such acquisition is by
+   way of merger, consolidation or purchase of all or a substantial portion of our
+   assets, or bankruptcy.
+
+..
+
+#. With Your Consent: We may share information for any other purposes disclosed to
+   you at the time we collect the information or pursuant to your consent.
+
+3f. Sub-processors
+
+The definition of a sub-processor under GDPR is a third-party data processor
+engaged by Mailsac, who has or potentially will have access to or process
+service data (which may contain Personal Data). Mailsac engages different
+types of sub-processors to perform various functions as explained in the tables below.
+
+===================  ============================================================
+Sub-processor         Purpose
+===================  ============================================================
+Amazon Web Services  Cloud Service Provider
+Zendesk              Customer Support Software
+Stripe               Payment Processing
+Atlassian            Internal wiki and documentation
+Dropbox              File storage
+GitHub               Issue tracking
+Slack                Internal team communication
+Quickbooks           Accounting
+Microsoft            Email
+Cloudflare           DNS, CDN, and DDoS protection
+Bank of America      Banking
+===================  ============================================================
 
 4. Your Access To and Control Over Information
 ----------------------------------------------
@@ -108,38 +167,17 @@ Mailsac does not have third party advertisements, nor third party advertiser coo
 usage information on our site to provide a better experience and prevent fraud, and leverages third parties for this purpose:
 
 - Zendesk
-- Google Analytics
+- Plausible Analytics
 - Stripe
 
-8. Sharing
-----------
-We may share aggregated demographic information with our partners. We do our best to not
-link to any personal information that can identify any individual person when not necessary, but this cannot be guaranteed. We do
-our best to limit sharing email contents or usage with our financial providers, but that information is necessary
-often (such as but not limited to fraud investigation, or collateral information for chargeback requests).
-
-We use Stripe for payment processing to bill users for services and may provide information about
-you to them. They may retain, share, store or use personally identifiable information.
-Our US banking partners may also receive information about our customers
-through payment processing.
-
-We use a hosted accounting software based in the US to manage
-invoicing, quotes, and accounts payable. Quotes and invoices may contain
-names, email addresses, and physical addresses.
-
-We are not responsible for third party usage of your information. Refer to their privacy policies and terms:
-
-- Stripe (Payment Processing, Invoices)
-- Zendesk (Customer Service Software)
-
-9. Links and Content
---------------------
-9a. This website contains links to other sites. This website displays email information received by
+10. Links and Content
+---------------------
+10a. This website contains links to other sites. This website displays email information received by
 unknown parties over the internet.
 
 Be aware that we are not responsible for the content or privacy practices of such other sites or of email received.
 
-9b. We encourage our users to be aware when they leave our site via email links, and to read the privacy statements of
+10b. We encourage our users to be aware when they leave our site via email links, and to read the privacy statements of
 any other site that collects personally identifiable information.
 
 Users agree to exercise extreme caution when visiting links and downloading attachments in emails received by this website.
@@ -148,18 +186,18 @@ Mailsac makes a best-effort to block links and image downloads, but this technol
 may also click into rendered HTML emails and we are not responsibile for those contents. We encourage users to be weary
 of viewing raw or rendered email contents.
 
-9c. Outgoing mail sent through this service may be interceptable or publicly viewable and shared with
+10c. Outgoing mail sent through this service may be interceptable or publicly viewable and shared with
 third parties. We may use a third party to store or deliver email and in such cases it may be
 subject to the terms and policies of those respective services. This site is not responsible for
 anything resulting from the presence of you data in their handling.
 
 Mailsac relays its own custom email services, and uses Amazon Web Services Simple Email Services (AWS SES) to send outgoing mail.
 
-9d. Incoming and outgoing mail will be parsed and metadata, or the entire message, will be stored temporarily or
+10d. Incoming and outgoing mail will be parsed and metadata, or the entire message, will be stored temporarily or
 indefinitely by Mailsac. Some of this information may be available for free or for purchase by Mailsac partners or customers,
 if it was public at the time it was received.
 
-10. Surveys and Contests
+11. Surveys and Contests
 ------------------------
 From time-to-time our site requests information via surveys or contests.
 
@@ -167,17 +205,17 @@ Participation in these surveys or contests is completely voluntary and you may c
 to participate and therefore disclose this information. Survey information will be used for purposes
 of monitoring or improving the use and satisfaction of this site.
 
-11. Security
+12. Security
 ------------
-11a. We take precautions to protect your information. When you submit sensitive information via the website,
+12a. We take precautions to protect your information. When you submit sensitive information via the website,
 your information is protected both online and offline. Our goal is to use encryption while information is in transit
 and at rest, but there are exceptions and data may be transmitted or stored without encryption. For a more specific
 agreement, please purchase an Enterprise license.
 
-11b. Stripe is a third party which securely processes financial data. The privacy policy is found on their website, https://www.stripe.com.
+12b. Stripe is a third party which securely processes financial data. The privacy policy is found on their website, https://www.stripe.com.
 Mailsac is NOT P.C.I. COMPLIANT and relies on Stripe for handling credit card information.
 
-11c. We protect your information offline. Only workers who need the information to perform a specific job
+12c. We protect your information offline. Only workers who need the information to perform a specific job
 (for example, billing, troubleshooting team or customer service) are granted access to personally identifiable information,
 or if requested by law enforcement, or in the event of a customer security issue we may give limited
 information to help the customer troubleshoot, which may include IP addresses, inbound email
@@ -185,24 +223,24 @@ addresses, domains, and user account or username information (but not password h
 customers or users of the service who appear to have performed acts intended to cause harm to
 another customer. Workers may or may not be employees of Mailsac.
 
-11d. The computers/servers in which we store personally identifiable information are kept in a secure environment. Mailsac
+12d. The computers/servers in which we store personally identifiable information are kept in a secure environment. Mailsac
 relies on third party virtual server providers. Below is a non-exhaustive list of server providers which may be used by
 Mailsac. For a current list, contact support@team.mailsac.com.
 
-Hosting provider workers may have privilieged access to Mailsac servers.
+Hosting provider workers may have privileged access to Mailsac servers.
 
 - https://aws.amazon.com
 - https://cloudflare.com
 
 
-11e. From time to time we may run general analytics to determine usage statistics.
+12e. From time to time we may run general analytics to determine usage statistics.
 
-11f. We track analytics on 1) inbound email, 2) outbound email, and 3) API or website usage. Inbound and outbound mail information and analytics, when mail
+12f. We track analytics on 1) inbound email, 2) outbound email, and 3) API or website usage. Inbound and outbound mail information and analytics, when mail
 was unpaid and public, may be provided as a feature for customers to consume.
 
-11g. Mailsac team members may inspect analytics on a specific account for the purpose of detecting fraud.
+12g. Mailsac team members may inspect analytics on a specific account for the purpose of detecting fraud.
 
-12. Updates
+13. Updates
 -----------
 This Privacy Policy may change from time to time and all updates will be posted on this website. The user
 is expected to check back here for updates, and we reserve the right to NOT NOTIFY the user via email
@@ -210,11 +248,11 @@ when this Privacy Policy changes.
 
 If you feel that we are not abiding by this privacy policy, you should contact us via support@team.mailsac.com.
 
-13. Altering this Policy
+14. Altering this Policy
 ------------------------
-13a. If you have other privacy concerns, or are interested in an alternative privacy arrangement (such
+14a. If you have other privacy concerns, or are interested in an alternative privacy arrangement (such
 as an enterprise), please contact support@team.mailsac.com to purchase a different arrangement. This
 Privacy Policy may be superseded by an alternative agreement acquired by working with Mailsac Sales and
 Support via obtaining a signed agreement.
 
-13b. WE RECOMMEND USERS REGULARLY REVIEW THIS PRIVACY POLICY SINCE IT MAY CHANGE WITHOUT NOTICE.
+14b. WE RECOMMEND USERS REGULARLY REVIEW THIS PRIVACY POLICY SINCE IT MAY CHANGE WITHOUT NOTICE.
