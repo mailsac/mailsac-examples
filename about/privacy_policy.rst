@@ -62,18 +62,12 @@ products or services, or changes to this privacy policy.
    including third parties. This data may be collected, used, or disclosed by other
    users of our service. This data may be collected and sold to third parties.
 
-..
-
 #. Service providers: We may disclose information to our service providers (e.g.,
    infrastructure as a service, payment processing, and customer support services),
    pursuant to written agreements with confidentiality, privacy, and security obligations.
 
-..
-
 #. Online Forums: When you take certain actions on our forums that are public in nature,
    this information may be collected, used, or disclosed by other users of the forums.
-
-..
 
 #. Compliance and Safety: We may disclose information to law enforcement or other
    third parties when we determine such disclosure is necessary to comply with legal
@@ -83,14 +77,10 @@ products or services, or changes to this privacy policy.
    parties when we have a good faith belief that such disclosure is reasonably
    necessary to respond to subpoenas, court orders, or other legal process.
 
-..
-
 #. Merger or Acquisition: We may disclose information to a third party who acquires
    or may acquire any or all of our business units, whether such acquisition is by
    way of merger, consolidation or purchase of all or a substantial portion of our
    assets, or bankruptcy.
-
-..
 
 #. With Your Consent: We may share information for any other purposes disclosed to
    you at the time we collect the information or pursuant to your consent.
