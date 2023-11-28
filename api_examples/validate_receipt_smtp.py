@@ -12,6 +12,8 @@ from email.mime.text import MIMEText
 Checks if a message from a given address in the a specific mailsac
 inbox. If it is it returns when the message was recived, if not it returns
 a message stating the message was not received"""
+
+
 def check_received(receive_address, send_address, base_url, headers):
     api_url = '{0}/addresses/{1}/messages'.format(base_url, receive_address)
     response = requests.get(api_url, headers=headers)
@@ -32,9 +34,9 @@ SUBJECT = "Testing email to mailsac"
 API_TOKEN = 'MY_API_TOKEN_FROM_MAILSAC'
 BASE_URL = 'https://mailsac.com/api/'
 
-BODY_TEXT = ("Mailsac SMTP Validate Emila Send\r\n"
+BODY_TEXT = ("Mailsac SMTP Validate Email Send\r\n"
              "This email was sent using the SMTP to test receipt of an email."
-            )
+             )
 
 for x in range(1, 10):
     try:
@@ -64,4 +66,4 @@ time.sleep(30)
 
 for x in range(1, 10):
     print(check_received('user{}@mailsac.com'.format(x), send_address=FROM_ADDRESS,
-                      base_url=BASE_URL, headers={'Mailsac-Key': API_TOKEN}))
+                         base_url=BASE_URL, headers={'Mailsac-Key': API_TOKEN}))
