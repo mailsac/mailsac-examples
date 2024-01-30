@@ -4,11 +4,11 @@
 Email Throttling
 ================
 
-Messages sent to custom domains and private addresses, held by customers
+Messages sent to custom domains and enhanced addresses, held by customers
 on a paid plan, are throttled differently than messages sent to public
 addresses in the mailsac.com domain.
 
-Throttling of messages on custom domains and private addresses will
+Throttling of messages on custom domains and enhanced addresses will
 likely be completely unnoticed by customers, with the exception of
 customers who are sending messages at the rate of thousands per minute.
 
@@ -23,13 +23,13 @@ throttling. This includes public @mailsac.com addresses and domains
 that have been configured to deliver mail to Mailsac, but are :ref:`not
 verified <doc_custom_domains>`.
 
-To increase the throttling threshold a :ref:`Private Address <doc_private_addresses>`
+To increase the throttling threshold an :ref:`Enhanced Address <doc_private_addresses>`
 or :ref:`Verified Custom Domain <doc_custom_domains>` should be be used.
 
-Throttling on Private Addresses or Custom Domains
+Throttling on Enhanced Addresses or Custom Domains
 -------------------------------------------------
 
-Most customers sending to :ref:`Private Addresses <doc_private_addresses>`
+Most customers sending to :ref:`Enhanced Addresses <doc_private_addresses>`
 or a :ref:`Verified Custom Domain <doc_custom_domains>` will never
 experience throttling.
 

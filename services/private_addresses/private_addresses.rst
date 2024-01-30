@@ -15,15 +15,15 @@ Private Email Addresses have additional features:
 - `Read / Send Mail using a mail client <https://mailsac.com/docs/fetch-messages-with-pop3>`_
 - `Purge inbox <https://blog.mailsac.com/2020/07/21/easy-purging-of-inboxes/>`_
 
-Reserve a Private Address
+Reserve an Enhanced Address
 -------------------------
 
 .. include:: ./reserve_private_address.rst
 
-Private Addresses In a Custom Domain
+Enhanced Addresses In a Custom Domain
 ------------------------------------
 
-Private Addresses can be used in :ref:`Custom Domains <doc_custom_domains>`.
+Enhanced Addresses can be used in :ref:`Custom Domains <doc_custom_domains>`.
 This allows an address within a :ref:`Custom Domain <doc_custom_domains>` to
 have the features of a
-:ref:`Private Email Address <doc_private_addresses>`.
+:ref:`Enhanced Email Address <doc_private_addresses>`.

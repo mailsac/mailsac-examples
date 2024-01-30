@@ -12,25 +12,25 @@ and reduces latency from when the email arrives and your application responds to
 Want to see it in action? The `WebSocket Test Page <https://sock.mailsac.com/>`_ allows
 you to show how it works with no programming involved.
 
-.. tip:: You will need an :ref:`API key <sec_api_key_management>` and a
-         :ref:`private address <doc_private_addresses>` or custom domain.
+.. tip:: You will need an :ref:`API key <sec_api_key_management>` and an
+         :ref:`enhanced address <doc_private_addresses>` or custom domain.
 
 
 .. _sec_private_address_for_websocket:
 
-Configure Private Address for WebSocket
+Configure an Enhanced Address for WebSocket
 ----------------------------------------
 
-To use the Websocket feature a private email is required. Private addresses can
+To use the Websocket feature an enhanced email is required. Enhanced addresses can
 be purchased `individually <https://mailsac.com/pricing>`_ as part of a `API Developer Subscription
 <https://mailsac.com/subscription>`_.
 
-Option 1: Reserve Private Address via API
+Option 1: Reserve an Enhanced Address via API
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The REST API is the easiest way to reserve a private address.
+The REST API is the easiest way to reserve an enhanced address.
 
-A simple HTTP POST will do. Make sure you have private address credits already, from a paid plan or addon purchase.
+A simple HTTP POST will do. Make sure you have an enhanced address credits already, from a paid plan or addon purchase.
 
 user1@mailsac.com in the example should be replaced with the email address you wish to reserve. If you use a custom domain,
 different than mailsac.com, you must have the domain configured with DNS records to delivery mail to Mailsac.
@@ -39,7 +39,7 @@ different than mailsac.com, you must have the domain configured with DNS records
 
      curl -X POST -H "Mailsac-Key: YOUR_API_KEY_HERE" https://mailsac.com/api/addresses/user1@mailsac.com
 
-Next, configure the private address for web socket publishing:
+Next, configure the an enhanced address for web socket publishing:
 
 .. code-block:: bash
 
@@ -47,7 +47,7 @@ Next, configure the private address for web socket publishing:
 
 
 
-Option 2: Reserve Private Address in the Dashboard
+Option 2: Reserve an Enhanced Address in the Dashboard
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. `Sign in <https://mailsac.com/login>`_ to your Mailsac account.

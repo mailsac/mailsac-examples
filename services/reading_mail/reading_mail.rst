@@ -79,7 +79,7 @@ Unified Inbox
 -------------
 
 The `Unified Inbox`_ provides a way to view the mail of all
-:ref:`private addresses <doc_private_addresses>` for the logged in Mailsac account.
+:ref:`enhanced addresses <doc_private_addresses>` for the logged in Mailsac account.
 
 .. figure:: unified_inbox_view.png
 
@@ -109,9 +109,9 @@ Reading via POP3 allows email clients to read email.
 **Authentication**
 
 POP3 uses a username and password for authentication. The API key or SMTP Key
-for your account can be used to read from any of your :ref:`private addresses
-<doc_private_addresses>`. Alternatively, you can use a per private address SMTP
-password. The per private address SMTP password can be set through using the
+for your account can be used to read from any of your :ref:`enhanced addresses
+<doc_private_addresses>`. Alternatively, you can use a per enhanced address SMTP
+password. The per enhanced address SMTP password can be set through using the
 Dashboard_ -> *Manage Email Addresses* -> Select the
 *POP/SMTP* button next to the email address -> Select *Set New Password*
 
@@ -143,8 +143,8 @@ etc) using these POP3 settings:
 Viewing Email Attachments
 -------------------------
 
-For :ref:`private addresses <doc_private_addresses>`, the `Unified Inbox`_
-allows downloading of attachments. Email fetched from private addresses using
+For :ref:`enhanced addresses <doc_private_addresses>`, the `Unified Inbox`_
+allows downloading of attachments. Email fetched from enhanced addresses using
 :ref:`POP3 from an email client <sec_reading_mail_pop3>`
 such as Apple Mail or GMail, will include attachments.
 

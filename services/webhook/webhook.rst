@@ -25,20 +25,20 @@ Configure Webhook
 
        .. literalinclude:: webhook_setting.sh
           :language: bash
-          :caption: Configure webhook forwarding on private address using curl
+          :caption: Configure webhook forwarding on an enhanced address using curl
 
    .. tab:: Node.js Javascript
 
        .. literalinclude:: webhook_setting.js
           :language: javascript
-          :caption: Configure webhook forwarding on a private address using
+          :caption: Configure webhook forwarding on an enhanced address using
                     Node.js. requires :code:`npm install superagent`
 
    .. tab:: Python
 
        .. literalinclude:: webhook_setting.py
           :language: python
-          :caption: Configure webhook forwarding on a private address using
+          :caption: Configure webhook forwarding on an enhanced address using
                     Python.
 
 Webhook Sample JSON

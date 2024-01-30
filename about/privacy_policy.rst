@@ -23,7 +23,7 @@ internet services that support the mailsac.com website).
 2. Email
 --------
 This site provides public (non-private) email, and public or private email testing services. Email inboxes that are not purchased (AKA private) are public and have no privacy expectation. Email inboxes and custom domains which are marked "public" by the user also have
-no expectation of privacy. Private addresses which are "released" or "deleted" or
+no expectation of privacy. Enhanced addresses which are "released" or "deleted" or
 for which the account loses good standing (such as due to a past-due subscription), may become non-private again.
 
 Consider this warning carefully when you opt to receive email on this website and give out addresses
