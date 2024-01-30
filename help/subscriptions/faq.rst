@@ -35,7 +35,7 @@ renew.
 What happens if I cancel my subscription?
 -----------------------------------------
 
-Any custom domains, private addresses, and other paid features will be removed.
+Any custom domains, enhanced addresses, and other paid features will be removed.
 Cancelling before the end of the term will result in all paid features being removed
 immediately. The :ref:`operations (Ops) per month <doc_api_calls>` will immediately
 revert to the free tier limits.

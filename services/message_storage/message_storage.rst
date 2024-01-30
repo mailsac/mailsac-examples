@@ -26,11 +26,11 @@ storage.
 When are Messages Recycled?
 ---------------------------
 
-The oldest messages in a :ref:`Custom Domain <doc_custom_domains>` and
-:ref:`Private Address <doc_private_addresses>` are recycled once the
+The oldest messages in :ref:`Custom Domains <doc_custom_domains>` and
+:ref:`Enhanced Addresses <doc_private_addresses>` are recycled once the
 storage limit is reached.
 
-Messages sent to non-private addresses and unverified domains are kept for
+Messages sent to non-private (non-enhanced) addresses and unverified domains are kept for
 a maximum of 4 days, though messages may be recycled earlier to ensure
 capacity for customers on a paid subscription. There is a limit of 6
 messages per inbox.
@@ -115,7 +115,7 @@ Additional code examples are available in the
       .. figure:: delete_message_unified_inbox.gif
 
          Delete using the `Unified Inbox`_ (requires
-         :ref:`Private Address <doc_private_addresses>`)
+         :ref:`Enhanced Address <doc_private_addresses>`)
 
    .. tab:: curl
 
@@ -139,7 +139,7 @@ Additional code examples are available in the
 Purge Inbox
 -----------
 
-The Purge Inbox features requires the Inbox to be a :ref:`Private Address
+The Purge Inbox features requires the Inbox to be an :ref:`Enhanced Address
 <doc_private_addresses>`.
 
 Additional code examples are available in the

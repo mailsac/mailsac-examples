@@ -14,7 +14,7 @@ Where are my email attachments?
 Email attachments are not viewable for public addresses from the Website.
 Attachments must be downloaded using `REST API`_.
 
-Attachments on emails sent to :ref:`Private Addresses <doc_private_addresses>`
+Attachments on emails sent to :ref:`Enhanced Addresses <doc_private_addresses>`
 can be viewed in the `Unified Inbox`_ or in an email client using
 :ref:`POP3 <sec_reading_mail_pop3>`.
 
@@ -89,7 +89,7 @@ for 4 days and have a max number of 6 messages per inbox.
 *Message storage* prevents emails from being recycled.
 
 1. If you star a message, it will not be recycled until you unstar it.
-2. Private addresses will not be recycled, up to your storage limit.
+2. Messages in enhanced addresses will not be recycled, up to your storage limit.
 3. Messages on custom domains will not be recycled, up to your storage limit.
 
 Can other people see messages that I starred?
@@ -105,7 +105,7 @@ emails. New accounts have 5 sending credits. Additional credits can be
 `purchased <https://mailsac.com/pricing>_`.
 
 You can use `POP3 <https://mailsac.com/docs/fetch-messages-with-pop3>`_ to
-download messages on a private address or custom domain. Responses can be sent
+download messages on enhanced addresses or custom domains. Responses can be sent
 from non-mailsac accounts you have configured your email client to use.
 
 When does Ops/Operations/API Call Usage Reset?

@@ -27,7 +27,7 @@ The following actions count as one Op:
 - API call to the `REST API`_
 - Using the "Unblock links and images", "Download", and "View Original" buttons
   to view an email.
-- Inbound message to a :ref:`private address <doc_private_addresses>`
+- Inbound message to an :ref:`enhanced address <doc_private_addresses>`
 - Inbound message to a :ref:`custom domain <doc_custom_domains>`
 - Publish message to a :ref:`WebSocket <doc_websocket>`
 - Publish message to :ref:`Webhook <doc_webhook_setup>`

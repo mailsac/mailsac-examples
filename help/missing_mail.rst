@@ -29,7 +29,7 @@ received it could be because of:
 
 .. note::
   If you have a Mailsac subscription you should be sending to
-  :ref:`private addresses <doc_private_addresses>` or a
+  :ref:`enhanced addresses <doc_private_addresses>` or a
   :ref:`verified custom domain <doc_custom_domains>`. Mail sent to public
   addresses in the mailsac.com domain or a BYOD that has not been verified is
   subject to stricter throttling.
@@ -82,10 +82,10 @@ Many Mailsac customers use SendGrid. Until `Sender Authentication <https://www.t
 is configured within SendGrid, emails will be sent from the `sendgrid.net` domain.
 Sending from `sendgrid.net` email address can cause delays in delivery because of the
 quantity of mail sent from `sendgrid.net` to `mailsac.com`.
-Email sent to a :ref:`Private Address <doc_private_addresses>` or a
+Email sent to an :ref:`Enhanced Address <doc_private_addresses>` or a
 :ref:`Custom Domain <doc_custom_domains>` are throttled at a :ref:`higher threshold <doc_smtp_throttling>`.
 In order to ensure timely delivery it is recommended to configure sender authentication
-in SendGrid and use a private address or custom domain at Mailsac.
+in SendGrid and use an enhanced address or custom domain at Mailsac.
 
 Mandrill
 ^^^^^^^^

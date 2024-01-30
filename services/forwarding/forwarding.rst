@@ -8,7 +8,7 @@ Email Forwarding Overview
 =========================
 
 Forwarding, or routing, allows email to be sent on to a further email address
-or service (Webhook, WebSocket, Slack Webhook). Private addresses and custom
+or service (Webhook, WebSocket, Slack Webhook). Enhanced addresses and custom
 domains can be configured for email forwarding. Forwarding is not available on
 disposable email addresss.
 
@@ -19,7 +19,7 @@ Catch-All Domain Forwarding Addresses
 
 A Catch-All email address can receive all the mail for
 a custom domain, and optionally forward it to another address or service (
-Webhook, WebSocket, or Slack Webhook). A Catch-All address is a private address
+Webhook, WebSocket, or Slack Webhook). A Catch-All address is an enhanced address
 in the format `*@example.com`.
 
 A Catch-All email address can be configured by selecting `Manage Domains`_ from
@@ -69,13 +69,13 @@ it.
 Forward to Another Mailsac Address
 ----------------------------------
 
-Any private address, in the *@mailsac.com* domain or private domain can be
-forwarded to another private address. This allows you to consolidate many email
+Any enhanced address, in the *@mailsac.com* domain or private domain can be
+forwarded to another enhanced address. This allows you to consolidate many email
 addresses into a single inbox.
 
-Forwarding to another private address can be configured by selecting
+Forwarding to another enhanced address can be configured by selecting
 `Manage Email Addresses`_ from the Dashboard_. Select the *Settings* button
-next to the email address to manage, then choose the private address to forward
+next to the email address to manage, then choose the enhanced address to forward
 to from the *Forward to Another Email Address* dropdown and select *Save
 Settings*
 
@@ -92,11 +92,11 @@ main@mailsac.com, you could setup the following scheme:
 Forward to Slack
 ----------------
 
-Emails sent to a private address or Catch-All can be forwarded
+Emails sent to a enhanced address or Catch-All can be forwarded
 :ref:`to a Slack Channel <doc_slack_webhook>`.
 
-Slack forwarding requires a private address to be configured, but this can be
-a custom domain with a Catch-All private address (included with a verified
+Slack forwarding requires an enhanced address to be configured, but this can be
+a custom domain with a Catch-All enhanced address (included with a verified
 custom domain).
 
 Forwarding to Slack can be configured by selecting `Manage Email Addresses`_
@@ -109,7 +109,7 @@ Step-by-Step instructions are :ref:`provided <doc_slack_webhook>`.
 Forward to Webhook
 ------------------
 
-Private addresses and Catch-All addresses can have their mail forwarded to a
+Enhanced addresses and Catch-All addresses can have their mail forwarded to a
 webhook. :ref:`Configuration <doc_webhook_setup>` of the webhook only requires
 a destination URL.
 
@@ -123,7 +123,7 @@ Settings*.
 WebSocket Forwarding
 --------------------
 
-Private addresses and Catch-All addresses can have their mail forwarded to a
+Enhanced addresses and Catch-All addresses can have their mail forwarded to a
 WebSocket. A WebSocket uses a single persistent connection to notify a WebSocket
 client as soon as a message arrives. The `WebSocket Test Page
 <https://sock.mailsac.com>`_ demonstrates a WebSocket.

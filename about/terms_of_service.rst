@@ -122,7 +122,7 @@ a. Public and Private Email
    email testing services. Email inboxes that are not purchased (aka private)
    are public and have no expectation of privacy.
 
-   Private addresses will not be accessible publicly and access to messages
+   Enhanced addresses will not be accessible publicly and access to messages
    will be provided only to those with:
 
       i. a validated username and password, which grants a temporary access
