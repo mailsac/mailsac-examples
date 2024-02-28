@@ -3,7 +3,7 @@
 .. _`Manage Account Details`: https://mailsac.com/account
 .. _`REST API`: https://mailsac.com/api
 .. _`API Keys and Users`: https://mailsac.com/api-keys
-.. _`Sub-Account User Login`: https://mailsac.com/login-api-key
+.. _`Team User Login`: https://mailsac.com/login-api-key
 .. _`Standard Login`: https://mailsac.com/login
 .. _`Pricing`: https://mailsac.com/pricing
 .. _`SAML/SSO`: https://mailsac.com/v2/saml
@@ -18,7 +18,7 @@ There are different ways to authenticate to Mailsac services depending
 on the service being consumed.
 
 - `Standard Login`_: Used to authenticate to Mailsac.com Website
-- `Sub-Account User Login`_: Used to authenticate to Mailsac.com
+- `Team User Login`_: Used to authenticate to Mailsac.com
   (available to `Business and Enterprise Plans <Pricing_>`_)
 - `API Key <API Keys and Users_>`_: Used to authenticate to the `REST API`_,
   :ref:`Email Capture <doc_email_capture>`, :ref:`POP3 <sec_reading_mail_pop3>`.
@@ -34,7 +34,7 @@ An account password can be changed on the Website under
 `Password Reset Form <https://mailsac.com/password-reset>`_ to send a password
 reset email.
 
-Sub-Account Users will need to contact the Primary Account Holder to :ref:`reset
+Team users will need to contact the Primary Account Holder to :ref:`reset
 their password <sec_sub_account_user_password_reset>`.
 
 .. _sec_api_key_management:
@@ -74,20 +74,20 @@ considerations as a password.
 
 .. _sec_sub_account_user:
 
-Sub-Account Users
------------------
+Team Users
+----------
 
-Sub-Account User accounts may access a subset of Mailsac functionality
+Team user accounts may access a subset of Mailsac functionality
 - almost everything except managing the account, billing, and API keys or
 user logins. This feature is available on Business and Enterprise Plans.
 
-A Sub-Account User's password serves both as the password to the Mailsac.com
+A team user's password serves both as the password to the Mailsac.com
 website and the `REST API`_
 
-Create User Login
+Create Team User
 ^^^^^^^^^^^^^^^^^
 
-User accounts can be created from the Dashboard_ under
+Team users can be created from the Dashboard_ under
 `API Keys and Users`_ by selecting "Manage Users"
 
 
@@ -95,7 +95,7 @@ User accounts can be created from the Dashboard_ under
    :align: center
    :width: 400px
 
-   Create User Login
+   Create Team User Login
 
 The password for the user login is automatically created. It can only
 be viewed once.
@@ -114,11 +114,11 @@ is restricted from:
 - managing account features
 - adding or removing custom domains
 
-Login Using an Sub-Account User
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Login Using a Team User
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Use the `Sub-Account User Login`_ to sign into Mailsac to login
-user a Sub-Account User
+Use the `Team User Login`_ to sign into Mailsac to login
+user a Team User
 
 - **Primary Account ID:** The primary account name used to sign up for Mailsac
 - **User Name:** The name of the user login
@@ -128,15 +128,15 @@ user a Sub-Account User
    :align: center
    :width: 400px
 
-   Login using a Sub-Account User.
+   Login using a Team User.
 
 .. _sec_sub_account_user_password_reset:
 
-Reset Sub-Account User Password
+Reset Team User Password
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Sub-Account User passwords are generated automatically because they also
-serve as an API key. In order to reset the Sub-Account password the user
+Team User passwords are generated automatically because they also
+serve as an API key. In order to reset the Team password the user
 can be recreated by selecting "Regenerate Password".
 This can be done from `API Keys and Users`_
 
@@ -144,24 +144,24 @@ This can be done from `API Keys and Users`_
    :align: center
    :width: 400px
 
-   Regenerate Sub-Account password.
+   Regenerate team user password.
 
-Remove Sub-Account User
-^^^^^^^^^^^^^^^^^^^^^^^
+Remove Team User
+^^^^^^^^^^^^^^^^
 
-Sub-Account users can can be removed by clicking on the "Delete" button next to
+Team users can can be removed by clicking on the "Delete" button next to
 the user login on the `API Keys and Users`_ page.
 
 .. figure:: ../remove_sub_account.png
    :align: center
    :width: 400px
 
-   Remove Sub-Account user.
+   Remove Team user.
 
 SAML/SSO Integration
 --------------------
 
-SAML provides a way for sub-account users to authenticate using a third party
+SAML provides a way for team users to authenticate using a third party
 identity provider. Mailsac has been tested with Okta, Google Workspace, and
 Microsoft Cloud based Active Directory products. Other SAML identity providers
 may work since SAML is based on a standard framework.
@@ -200,7 +200,7 @@ the identity provider.
 Adding SAML Users
 ^^^^^^^^^^^^^^^^^
 
-In order to login using SSO a :ref:`sub-account user <sec_sub_account_user>`
+In order to login using SSO a :ref:`team user <sec_sub_account_user>`
 must be created with a username that matches the name ID returned from the SAML SSO
 provider. This is typically the username used to authenticate to the
 identity provider.
@@ -212,12 +212,12 @@ using SAML SSO.
    :align: center
    :width: 400px
 
-   Add a sub-account user with the same name as returned by the identity provider
+   Add a team user with the same name as returned by the identity provider
 
 Removing SAML SSO Users
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-SAML SSO :ref:`sub-account users <sec_sub_account_user>` can be removed by
+SAML SSO :ref:`team users <sec_sub_account_user>` can be removed by
 clicking on the "Delete" button next to the user login on the `API Keys and Users`_
 page.
 

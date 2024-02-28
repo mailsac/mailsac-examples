@@ -2,7 +2,7 @@
 .. _`Manage Account Details`: https://mailsac.com/account
 .. _`REST API`: https://mailsac.com/api
 .. _`Ops Usage`: https://mailsac.com/usage
-.. _`Sub-Account User Login`: https://mailsac.com/login-api-key
+.. _`Team User Login`: https://mailsac.com/login-api-key
 
 .. _doc_account_management:
 
