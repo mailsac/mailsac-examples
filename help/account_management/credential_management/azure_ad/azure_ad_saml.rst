@@ -142,7 +142,7 @@ Configuring Mailsac
 
       Paste the "Entity ID" and "Login URL" from Azure AD into the "Identity Provider Settings" section.
 
-#. The final step is to add a :ref:`sub-account user<sec_sub_account_user>`
+#. The final step is to add a :ref:`team user<sec_sub_account_user>`
    to Mailsac. Open the `API Keys and Users`_ page and click "Manage Users".
    Add a user with the same name as their Azure AD email address.
 
@@ -150,7 +150,7 @@ Configuring Mailsac
       :align: center
       :width: 400px
 
-      Click "Manage Users" and add a sub-account with the same name as their
+      Click "Manage Users" and add a team user with the same name as their
       Azure AD email address.
 
 Now, Mailsac and Azure AD should be set up for SAML SSO. Users will be able to
