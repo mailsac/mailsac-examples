@@ -19,14 +19,14 @@ you to show how it works with no programming involved.
 .. _sec_private_address_for_websocket:
 
 Configure an Enhanced Address for WebSocket
-----------------------------------------
+-------------------------------------------
 
 To use the Websocket feature an enhanced email is required. Enhanced addresses can
 be purchased `individually <https://mailsac.com/pricing>`_ as part of a `API Developer Subscription
 <https://mailsac.com/subscription>`_.
 
 Option 1: Reserve an Enhanced Address via API
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The REST API is the easiest way to reserve an enhanced address.
 
@@ -48,7 +48,7 @@ Next, configure the an enhanced address for web socket publishing:
 
 
 Option 2: Reserve an Enhanced Address in the Dashboard
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. `Sign in <https://mailsac.com/login>`_ to your Mailsac account.
 #. Select `Manage Email Addresses <https://mailsac.com/addresses>`_ from the dropdown.

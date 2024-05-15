@@ -27,7 +27,7 @@ To increase the throttling threshold an :ref:`Enhanced Address <doc_private_addr
 or :ref:`Verified Custom Domain <doc_custom_domains>` should be be used.
 
 Throttling on Enhanced Addresses or Custom Domains
--------------------------------------------------
+--------------------------------------------------
 
 Most customers sending to :ref:`Enhanced Addresses <doc_private_addresses>`
 or a :ref:`Verified Custom Domain <doc_custom_domains>` will never

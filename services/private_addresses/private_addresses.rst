@@ -16,12 +16,12 @@ Private Email Addresses have additional features:
 - `Purge inbox <https://blog.mailsac.com/2020/07/21/easy-purging-of-inboxes/>`_
 
 Reserve an Enhanced Address
--------------------------
+---------------------------
 
 .. include:: ./reserve_private_address.rst
 
 Enhanced Addresses In a Custom Domain
-------------------------------------
+-------------------------------------
 
 Enhanced Addresses can be used in :ref:`Custom Domains <doc_custom_domains>`.
 This allows an address within a :ref:`Custom Domain <doc_custom_domains>` to
