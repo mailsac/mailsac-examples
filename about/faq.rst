@@ -8,6 +8,15 @@
 Frequently Asked Questions
 ==========================
 
+Do email addresses expire?
+--------------------------
+
+Email addresses do not expire. An address can be made private through
+:ref:`Enhanced Addresses <doc_private_addresses>`. If the address is no
+longer owned by a customer, it becomes a public address.
+
+Messages have a :ref:`different retention policy <faq_message_storage>` than email addresses.
+
 Where are my email attachments?
 -------------------------------
 
@@ -79,6 +88,7 @@ We love to hear from developers that use Mailsac - contact us anytime.
 Throttling may occur when sending. Avoid throttling by using a
 `Custom Domain <https://mailsac.com/domains>`_
 
+.. _faq_message_storage:
 
 How long is email saved?
 ------------------------
