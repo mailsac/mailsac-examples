@@ -110,9 +110,7 @@ Nope. Only you can see them when you are logged in.
 How do I reply to my Mailsac emails?
 ------------------------------------
 
-You must `create an account <https://mailsac.com/register>`_ to reply to
-emails. New accounts have 5 sending credits. Additional credits can be
-`purchased <https://mailsac.com/pricing>_`.
+Mailsac is a receive-only service.
 
 You can use `POP3 <https://mailsac.com/docs/fetch-messages-with-pop3>`_ to
 download messages on enhanced addresses or custom domains. Responses can be sent
