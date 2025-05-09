@@ -8,7 +8,7 @@ Custom Domains
 
 Mailsac lets you configure a custom domain to receive email at any address
 within the domain, while keeping mail private. Mail can be fetched via API,
-the web interface (:ref:`sec_inbox_view`), unified inbox(:ref:`sec_unified_inbox`),
+the web interface (:ref:`sec_inbox_view`), unified inbox (:ref:`sec_unified_inbox`),
 or POP3 (:ref:`sec_reading_mail_pop3`). Access to the email is limited to
 Team Users(:ref:`sec_sub_account_user`) and the Primary Account Holder
 by default.
