@@ -18,7 +18,7 @@ longer owned by a customer, it becomes a public address.
 Messages have a :ref:`different retention policy <faq_message_storage>` than email addresses.
 
 How do I delete an email address?
---------------------------------
+---------------------------------
 
 Non-enhanced email addresses cannot be deleted. The addresses don’t exist as
 separate entities within our system. Instead, we process and store individual
