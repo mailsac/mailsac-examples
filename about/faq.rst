@@ -122,10 +122,6 @@ How do I reply to my Mailsac emails?
 
 Mailsac is a receive-only service.
 
-You can use `POP3 <https://mailsac.com/docs/fetch-messages-with-pop3>`_ to
-download messages on enhanced addresses or custom domains. Responses can be sent
-from non-mailsac accounts you have configured your email client to use.
-
 When does Ops/Operations/API Call Usage Reset?
 -----------------------------------------------
 
