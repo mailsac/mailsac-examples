@@ -17,6 +17,16 @@ longer owned by a customer, it becomes a public address.
 
 Messages have a :ref:`different retention policy <faq_message_storage>` than email addresses.
 
+How do I delete an email address?
+--------------------------------
+
+Non-enhanced email addresses cannot be deleted. The addresses don’t exist as
+separate entities within our system. Instead, we process and store individual
+email messages that are sent to any address under any domain using mailsac for
+their mail server. When you view what seems to be an “inbox” for an address,
+it’s actually a view of the messages that were sent to that particular address.
+
+
 Where are my email attachments?
 -------------------------------
 
