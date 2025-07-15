@@ -82,6 +82,15 @@ products or services, or changes to this privacy policy.
    way of merger, consolidation or purchase of all or a substantial portion of our
    assets, or bankruptcy.
 
+#. SMS Data Privacy: We respect your privacy and are committed to protecting your
+   personal information. Any mobile phone numbers and text messaging opt-in
+   consent information that we collect will not be shared with third parties or
+   affiliates for marketing or promotional purposes.
+
+   All other categories of data sharing described in this Privacy Policy exclude
+   text messaging originator opt-in data and consent. This information will not
+   be shared with any third parties.
+
 #. With Your Consent: We may share information for any other purposes disclosed to
    you at the time we collect the information or pursuant to your consent.
 
