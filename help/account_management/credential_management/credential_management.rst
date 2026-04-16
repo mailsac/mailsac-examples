@@ -37,6 +37,35 @@ reset email.
 Team users will need to contact the Primary Account Holder to :ref:`reset
 their password <sec_sub_account_user_password_reset>`.
 
+Multi-Factor Authentication (MFA)
+---------------------------------
+
+Multi-Factor Authentication (MFA) can be enabled on the account to add an
+additional layer of security to the account. MFA can be enabled from the
+`Manage Account Details`_ page on the Dashboard_.
+
+.. figure:: dashboard_account_manage_mfa.png
+   :align: center
+   :width: 400px
+
+   Enable Multi-Factor Authentication (MFA)
+
+Select "Generate MFA" to generate a QR code that can be scanned by an
+MFA application such as Google Authenticator or Authy. A secret key is
+also provided that can be entered into the MFA application if the QR code cannot
+be scanned. Recovery codes are provided that can be used to access the account if the MFA device is lost.
+
+.. figure:: mfa_configuration.png
+   :align: center
+   :width: 400px
+
+   MFA Configuration
+
+You will prompted to confirm MFA is working by entering a code from the MFA
+application. After confirming MFA is working, MFA will be enabled on the account.
+
+You can also disable MFA from the `Manage Account Details`_ page.
+
 .. _sec_api_key_management:
 
 API Key Management
