@@ -1,27 +1,27 @@
 .. _`Mailsac SAML`: https://mailsac.com/v2/saml
 .. _`API Keys and Users`: https://mailsac.com/api-keys
+.. _`Entra Admin Center`: https://entra.microsoft.com/
 
 .. _doc_azure_ad_saml_configuration:
 
-Configuring SAML SSO Between Mailsac and Microsoft Azure Active Directory
-===========================================================================
+Configuring SAML SSO Between Mailsac and Microsoft Entra
+========================================================
 
-Before we start, ensure that you have admin rights on both Mailsac and Azure AD.
+Before we start, ensure that you have admin rights on both Mailsac and
+Microsoft Entra.
 
-Configuring Azure AD
---------------------
+Configuring Microsoft Entra
+---------------------------
 
-#. Sign in to the Azure portal.
+#. Sign in to the Entra Admin Center at `Entra Admin Center`_.
 
-#. Search for and select "Azure Active Directory".
-
-#. From the left-hand menu, choose "Enterprise applications".
+#. From the left-hand menu, choose "Enterprise apps".
 
    .. figure:: enterprise_applications_sidebar.png
       :align: center
       :width: 400px
 
-      Select "Enterprise Applications" from the left-hand menu.
+      Select "Enterprise Apps" from the left-hand menu.
 
 #. Click "New application".
 
@@ -31,7 +31,7 @@ Configuring Azure AD
 
       Click "New application".
 
-#. In the section page titled "Browse Azure AD Gallery" select
+#. In the section page titled "Browse Microsoft Entra Gallery" select
    "Create your own application".
 
    .. figure:: create_your_own_application.png
@@ -70,7 +70,7 @@ Configuring Azure AD
       Click "Edit" in the "Basic SAML Configuration" section then add the
       Entity ID and Reply URL.
 
-#. In the "User Attributes & Claims" section, you will need to send
+#. In the "Attributes & Claims" section, you will need to send
    the Unique User Identifier (Name ID) to Mailsac. The default for this should be
    acceptable.
 
@@ -78,7 +78,7 @@ Configuring Azure AD
       :align: center
       :width: 400px
 
-      Click "Edit" in the "User Attributes & Claims" section then add the
+      Click "Edit" in the "Attributes & Claims" section then add the
       Unique User Identifier (Name ID).
 
 #. In the "SAML Certificate" section, download the SAML Certificate (Base64).
@@ -90,14 +90,15 @@ Configuring Azure AD
 
       Click "Download" in the "SAML Certificate" section.
 
-#. In the "Set up mailsac sso" section, copy the "Login URL" and "Azure AD Identifier"
-   values. We'll need these when configuring the Mailsac side of things.
+#. In the "Set up {Your Enterprise Application Name}" section, copy the
+"Login URL" and "Microsoft Entra Identifier" values. We'll need these when
+configuring the Mailsac to work with Entra.
 
    .. figure:: setup_mailsac_sso.png
       :align: center
       :width: 400px
 
-      Copy the "Login URL" and "Azure AD Identifier" values.
+      Copy the "Login URL" and "Microsoft Entra Identifier" values.
 
 #. In the "Users and Groups" item in the sidebar, you can add users and groups
    that will be able to sign in to Mailsac using Azure AD.
@@ -134,13 +135,14 @@ Configuring Mailsac
       Set "Name ID Format" to "urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress".
 
 #. In the "Identity Provider Settings", paste the "Entity ID" and "Login URL"
-   from Azure AD.
+   from Microsoft Entra.
 
    .. figure:: identity_provider_settings.png
       :align: center
       :width: 400px
 
-      Paste the "Entity ID" and "Login URL" from Azure AD into the "Identity Provider Settings" section.
+      Paste the "Entity ID" and "Login URL" from Microsoft Entra into the
+      "Identity Provider Settings" section.
 
 #. The final step is to add a :ref:`team user<sec_sub_account_user>`
    to Mailsac. Open the `API Keys and Users`_ page and click "Manage Users".
@@ -151,7 +153,7 @@ Configuring Mailsac
       :width: 400px
 
       Click "Manage Users" and add a team user with the same name as their
-      Azure AD email address.
+      Microsoft Entra email address.
 
-Now, Mailsac and Azure AD should be set up for SAML SSO. Users will be able to
-sign in to Mailsac using their Azure AD credentials.
+Now, Mailsac and Entra should be set up for SAML SSO. Users will be able to
+sign in to Mailsac using their Microsoft Entra credentials.
