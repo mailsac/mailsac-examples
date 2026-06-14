@@ -141,3 +141,11 @@ Where Can I Ask a Question About Mailsac?
 The `Mailsac Forum`_ is available to all customers, on both free and
 paid plans. Questions asked of our sales and support staff are often
 answered on the forums.
+
+I Forgot My Username or Password. What Do I Do?
+----------------------------------------------
+
+If you have forgotten your username, you can use the
+`Password Reset Form <https://mailsac.com/password-reset>`_ to send a password
+reset email. Once you received the password reset email and reset your password,
+you will receive a password change confirmation email with your username.
