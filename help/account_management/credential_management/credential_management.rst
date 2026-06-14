@@ -192,10 +192,10 @@ SAML/SSO Integration
 
 SAML provides a way for team users to authenticate using a third party
 identity provider. Mailsac has been tested with Okta, Google Workspace, and
-Microsoft Cloud based Active Directory products. Other SAML identity providers
+Microsoft Entra. Other SAML identity providers
 may work since SAML is based on a standard framework.
 
-- :ref:`Microsoft Azure Active Directory SAML/SSO Configuration <doc_azure_ad_saml_configuration>`
+- :ref:`Microsoft Entra SAML/SSO Configuration <doc_azure_ad_saml_configuration>`
 
 SAML Setup
 ^^^^^^^^^^
@@ -224,7 +224,7 @@ the identity provider.
 
 - `Google Workspace Custom SAML Application <https://support.google.com/a/answer/6087519?hl=en>`_
 - `Okta Custom SAML Application <https://developer.okta.com/docs/guides/build-sso-integration/saml2/main/>`_
-- `Microsoft Azure AD - Enterprise Application <https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/add-application-portal>`_
+- `Microsoft Entra - Enterprise Application <https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/add-application-portal>`_
 
 Adding SAML Users
 ^^^^^^^^^^^^^^^^^
@@ -234,7 +234,7 @@ must be created with a username that matches the name ID returned from the SAML 
 provider. This is typically the username used to authenticate to the
 identity provider.
 
-After the user is added as a sub account user they will be able to login
+After the user is added as a team account user they will be able to login
 using SAML SSO.
 
 .. figure:: ../saml/saml_sub_account.png
@@ -250,7 +250,7 @@ SAML SSO :ref:`team users <sec_sub_account_user>` can be removed by
 clicking on the "Delete" button next to the user login on the `API Keys and Users`_
 page.
 
-Login As a SAML SSO User
+Login as a SAML SSO User
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 The `SSO login page`_, which can be accessed directly or found via the
