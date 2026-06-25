@@ -143,7 +143,7 @@ paid plans. Questions asked of our sales and support staff are often
 answered on the forums.
 
 I Forgot My Username or Password. What Do I Do?
-----------------------------------------------
+-----------------------------------------------
 
 If you have forgotten your username, you can use the
 `Password Reset Form <https://mailsac.com/password-reset>`_ to send a password
