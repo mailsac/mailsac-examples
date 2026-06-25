@@ -107,12 +107,12 @@ considerations as a password.
 Team Users
 ----------
 
-Team user accounts may access a subset of Mailsac functionality
-- almost everything except managing the account, billing, and API keys or
-user logins. This feature is available on Business and Enterprise Plans.
+Team user accounts may access a subset of Mailsac functionality: almost
+everything except managing the account, billing, and API keys or user logins.
+This feature is available on Business and Enterprise Plans.
 
 A team user's password serves both as the password to the Mailsac.com
-website and the `REST API`_
+website and the `REST API`_.
 
 Create Team User
 ^^^^^^^^^^^^^^^^^
@@ -136,7 +136,7 @@ be viewed once.
 
    User Login Credentials
 
-When logged into the website using an user login, the user session
+When logged into the website using a team user login, the user session
 is restricted from:
 
 - viewing and modifying payment information
@@ -144,11 +144,13 @@ is restricted from:
 - managing account features
 - adding or removing custom domains
 
+The root account can allow selected team users to temporarily elevate to a
+root account session when they need to perform account administration.
+
 Login Using a Team User
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Use the `Team User Login`_ to sign into Mailsac to login
-user a Team User
+Use the `Team User Login`_ to sign into Mailsac as a team user.
 
 - **Primary Account ID:** The primary account name used to sign up for Mailsac
 - **User Name:** The name of the user login
