@@ -101,7 +101,7 @@ configuring the Mailsac to work with Entra.
       Copy the "Login URL" and "Microsoft Entra Identifier" values.
 
 #. In the "Users and Groups" item in the sidebar, you can add users and groups
-   that will be able to sign in to Mailsac using Azure AD.
+   that will be able to sign in to Mailsac using Microsoft Entra.
 
    .. figure:: users_and_groups.png
       :align: center
@@ -117,7 +117,7 @@ Configuring Mailsac
 
 #. Navigate to the `Mailsac SAML`_ page.
 
-#. Copy and paste the SAML Certificate (Base64), that you downloaded from Azure AD,
+#. Copy and paste the SAML Certificate (Base64), that you downloaded from Microsoft Entra,
    into the "Identity Provider Certs" field.
 
    .. figure:: identity_provider_certs.png
@@ -146,7 +146,7 @@ Configuring Mailsac
 
 #. The final step is to add a :ref:`team user<sec_sub_account_user>`
    to Mailsac. Open the `API Keys and Users`_ page and click "Manage Users".
-   Add a user with the same name as their Azure AD email address.
+   Add a user with the same name as their Microsoft Entra email address.
 
    .. figure:: add_sub_account.png
       :align: center
@@ -155,5 +155,5 @@ Configuring Mailsac
       Click "Manage Users" and add a team user with the same name as their
       Microsoft Entra email address.
 
-Now, Mailsac and Entra should be set up for SAML SSO. Users will be able to
+Now, Mailsac and Entra are configured for SAML SSO. Users will be able to
 sign in to Mailsac using their Microsoft Entra credentials.
