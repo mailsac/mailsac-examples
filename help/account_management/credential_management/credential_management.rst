@@ -109,7 +109,9 @@ Team Users
 
 Team user accounts may access a subset of Mailsac functionality: almost
 everything except managing the account, billing, and API keys or user logins.
-This feature is available on Business and Enterprise Plans.
+The team users feature is available on Business and Enterprise Plans. If a team user
+needs to access account management features, the root account can allow
+temporary elevation to a :ref:`root account session <sec_team_user_root_elevation>`.
 
 A team user's password serves both as the password to the Mailsac.com
 website and the `REST API`_.
