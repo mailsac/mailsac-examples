@@ -8,6 +8,7 @@
 .. _`Pricing`: https://mailsac.com/pricing
 .. _`SAML/SSO`: https://mailsac.com/v2/saml
 .. _`SSO login page`: https://mailsac.com/v2/sso
+.. _`Elevate to Root`: https://mailsac.com/v2/elevate
 
 .. _doc_credential_management:
 
@@ -158,6 +159,44 @@ user a Team User
    :width: 400px
 
    Login using a Team User.
+
+.. _sec_team_user_root_elevation:
+
+Allow a Team User to Elevate to Root
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Root elevation lets an approved team user replace their current browser
+session with a root account session. A root account session has full account
+permissions, including access to billing, user management, API keys, custom
+domains, and other sensitive account settings.
+
+Root elevation is disabled by default and can only be enabled for team users.
+It is not available for API keys that are only used for REST API access.
+
+To allow a team user to elevate:
+
+#. Sign in as the root account.
+#. Open `API Keys and Users`_ from the Dashboard_.
+#. Select "Manage Users".
+#. Select "Edit" then "Manage" next to the team user login.
+#. Enable "Allow this team user to elevate to root".
+#. Select "Save".
+
+After elevation is enabled, the team user can elevate from the website:
+
+#. Sign in with the `Team User Login`_.
+#. Select "Elevate to Root User" from the dashboard sidebar, or go directly to
+   `Elevate to Root`_.
+#. Re-enter the team user password.
+#. If MFA is enabled for the team user, enter the MFA/TOTP code.
+#. Select "Elevate to Root".
+
+After a successful elevation, Mailsac redirects the browser to the dashboard
+with root account permissions. To return to a restricted team user session, log
+out and sign in again using the team user login.
+
+Only enable elevation for team users who are trusted with full account access.
+Successful root elevations are recorded in the account audit log.
 
 .. _sec_sub_account_user_password_reset:
 
