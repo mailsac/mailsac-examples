@@ -107,8 +107,21 @@ considerations as a password.
 Team Users
 ----------
 
-Team user accounts may access a subset of Mailsac functionality: almost
-everything except managing the account, billing, and API keys or user logins.
+Team user accounts are restricted from a subset of Mailsac functionality:
+
+- Account deletion
+- Billing management
+- API key management
+- User management
+- Custom domain management
+- Receiving usage and analytics
+
+Team user accounts can:
+
+- Create enhanced email addresses
+- Access and manage messages owned by the team including messages sent to enhanced email addresses and private custom domains
+- Access the REST API
+
 The team users feature is available on Business and Enterprise Plans. If a team user
 needs to access account management features, the root account can allow
 temporary elevation to a :ref:`root account session <sec_team_user_root_elevation>`.
