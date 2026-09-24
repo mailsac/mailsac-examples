@@ -12,7 +12,7 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
+import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
@@ -78,6 +78,15 @@ pygments_style = 'sphinx'
 #
 # html_theme = 'alabaster'
 html_theme = "sphinx_rtd_theme"
+
+# Page titles render as "<Page> — Mailsac Docs" instead of the default
+# "<Page> — Mailsac Documentation documentation".
+html_title = "Mailsac Docs"
+
+# Emit <link rel="canonical"> on every page. Read the Docs sets
+# READTHEDOCS_CANONICAL_URL (with a trailing slash); local builds fall back
+# to the production docs URL.
+html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "https://docs.mailsac.com/en/latest/")
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the

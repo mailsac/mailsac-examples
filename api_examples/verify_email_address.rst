@@ -1,3 +1,7 @@
+.. meta::
+   :description: Check whether email addresses are well-formed or disposable with the Mailsac
+      validation API. Node.js examples for one address or bulk checks of up to 50.
+
 .. _doc_verify_email_address:
 
 Verifying Email Addresses

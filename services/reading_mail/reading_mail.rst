@@ -1,3 +1,7 @@
+.. meta::
+   :description: Read Mailsac email in the web inbox or Unified Inbox, over POP3, or by REST API
+      with curl, Node.js and Python examples. Also covers attachments.
+
 .. _`Mailsac Website`: https://mailsac.com
 .. _Unified Inbox: https://mailsac.com/app
 .. _Dashboard: https://mailsac.com/dashboard
@@ -15,6 +19,10 @@ There are several ways for to view email messages using Mailsac
 - :ref:`Unified Inbox <sec_unified_inbox>`
 - :ref:`REST API <sec_reading_mail_rest_api>`
 - :ref:`POP3 <sec_reading_mail_pop3>`
+
+New to automated email tests? See how the `Mailsac email testing API
+<https://mailsac.com/pages/email-testing-api/>`_ works: trigger an email, wait
+for it, and check the code or link.
 
 .. _sec_read_mail_message:
 

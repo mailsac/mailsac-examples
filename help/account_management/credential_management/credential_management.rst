@@ -1,3 +1,6 @@
+.. meta::
+   :description: Manage Mailsac credentials: API keys, named keys, MFA, team user logins, root
+      elevation, and SAML/SSO with Okta, Google Workspace or Microsoft Entra.
 
 .. _Dashboard: https://mailsac.com/dashboard
 .. _`Manage Account Details`: https://mailsac.com/account

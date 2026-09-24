@@ -1,3 +1,7 @@
+.. meta::
+   :description: Email Capture is a fake SMTP relay for test environments: point your app at
+      capture.mailsac.com and Mailsac keeps each message instead of delivering it.
+
 .. _Mailsac website: https://mailsac.com
 .. _Mailsac API: https://mailsac.com/api
 

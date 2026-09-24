@@ -1,3 +1,7 @@
+.. meta::
+   :description: Receive private test email on your own domain or a zero-setup msdc.co subdomain.
+      Covers TXT ownership checks, MX records, catch-all and DNS provider links.
+
 .. _Dashboard: https://mailsac.com/dashboard
 .. _dash_custom_domains: https://mailsac.com/domains
 

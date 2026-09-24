@@ -1,3 +1,7 @@
+.. meta::
+   :description: Get incoming email as JSON over a Mailsac WebSocket instead of polling the API.
+      Enable it on an enhanced address, then run the Node.js example.
+
 .. _doc_websocket:
 
 WebSocket

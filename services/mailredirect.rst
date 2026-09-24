@@ -1,3 +1,7 @@
+.. meta::
+   :description: Mailsac plus-addressing: user+tag@mailsac.com lands in user@mailsac.com and the API
+      keeps the original recipient. Also covers inbox- redirect addresses.
+
 .. _doc_mailredirect:
 .. _message_data: https://mailsac.com/docs/api#tag/Email-Messages-API/paths/~1addresses~1{email}~1messages~1{messageId}/get
 

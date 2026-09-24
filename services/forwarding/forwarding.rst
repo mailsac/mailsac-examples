@@ -1,3 +1,7 @@
+.. meta::
+   :description: Forward mail from Mailsac enhanced addresses and custom-domain catch-alls to
+      another Mailsac inbox, a webhook, a WebSocket or Slack, with setup steps.
+
 .. _Dashboard: https://mailsac.com/dashboard
 .. _`Manage Email Addresses`: http://mailsac.com/addresses
 .. _`Manage Domains`: http://mailsac.com/domains

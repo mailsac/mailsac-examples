@@ -1,3 +1,7 @@
+.. meta::
+   :description: Start with the Mailsac REST API using curl: authenticate with the Mailsac-Key
+      header, list an inbox's messages, then read one as text, HTML or raw source.
+
 .. _doc_getting_started:
 
 .. _REST API Specification: https://mailsac.com/docs/api
@@ -17,6 +21,10 @@ This example will show how to do the following using the REST API.
 `user1@mailsac.com` can be replaced with any email address hosted by Mailsac.
 If you are familiar with REST APIs the `REST API Specification`_ can be
 referenced during this example.
+
+New to automated email tests? See how the `Mailsac email testing API
+<https://mailsac.com/pages/email-testing-api/>`_ works: trigger an email, wait
+for it, and check the code or link.
 
 REST API Overview
 -----------------

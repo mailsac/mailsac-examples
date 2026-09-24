@@ -1,3 +1,7 @@
+.. meta::
+   :description: Why email didn't reach a Mailsac inbox or custom domain: sender blocks, the 2.5MB
+      size limit, throttling, MX records, spam filtering and the deny list.
+
 .. _Dashboard: https://mailsac.com/dashboard
 .. _deny list: https://mailsac.com/docs/api#tag/Email-Stats-API/paths/~1mailstats~1blacklist/get
 .. _Support Forum: https://forum.mailsac.com

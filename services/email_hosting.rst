@@ -1,3 +1,7 @@
+.. meta::
+   :description: Set your domain's MX records to in.mailsac.com and alt.mailsac.com to host free,
+      public disposable email. Private mail and forwarding need a paid plan.
+
 .. _doc_emailhosting:
 
 Email Hosting

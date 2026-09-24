@@ -1,3 +1,7 @@
+.. meta::
+   :description: Mailsac FAQ: how long public email is kept, where attachments are, why messages go
+      missing, throttling, private addresses, API usage and team access.
+
 .. _`REST API`: https://mailsac.com/api
 .. _`Unified Inbox`: https://mailsac.com/app
 .. _`pricing`: https://mailsac.com/pricing

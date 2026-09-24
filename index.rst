@@ -1,7 +1,11 @@
+.. meta::
+   :description: Mailsac docs for developers and QA: receive test email at disposable addresses or
+      custom domains, then read it by REST API, WebSocket, webhook or POP3.
+
 .. mailsac-examples documentation master file, created by Forking Software LLC
 
-Mailsac Docs
-============
+Mailsac Documentation
+=====================
 
 Welcome to the official documentation for Mailsac, the disposable email
 service built for developers.
