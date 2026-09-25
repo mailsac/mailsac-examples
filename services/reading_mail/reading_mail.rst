@@ -112,7 +112,14 @@ The :code:`/api/addresses/:email/messages` and
 Reading with POP3
 -----------------
 
-Reading via POP3 allows email clients to read email.
+Mailsac supports reading received email with clients that allow plaintext POP3
+on port 110. You must own the Enhanced Email Address you want to read.
+
+.. warning::
+
+   POP3 sends credentials and message contents without transport encryption.
+   SSL/TLS and STARTTLS are not supported. For encrypted access, use the
+   `Mailsac Website`_ or the HTTPS `REST API`_.
 
 **Authentication**
 
@@ -129,22 +136,30 @@ Dashboard_ -> *Manage Email Addresses* -> Select the
 
 **Email Client Configuration**
 
-Configure your email client (Gmail, Apple mail, Thunberbird, Outlook, iPhone,
-etc) using these POP3 settings:
+Use a client that supports plaintext POP3. Clients that require TLS or an
+outgoing SMTP server cannot use these settings as a complete mail-account
+configuration. Do not assume that every Outlook version or setup is compatible.
 
-+-----------------------+-------------------------------------------------------+
-| **Hostname / Server** | poppy.mailsac.com                                     |
-+-----------------------+-------------------------------------------------------+
-| **Email Address**     | Private email address                                 |
-+-----------------------+-------------------------------------------------------+
-| **Username**          + Private email address                                 |
-+-----------------------+-------------------------------------------------------+
-| **Password**          | `API Key`_ or SMTP Key                                |
-+-----------------------+-------------------------------------------------------+
-| **Port**              | 110                                                   |
-+-----------------------+-------------------------------------------------------+
-| **Auth Settings**     | Password / allow plain / insecure                     |
-+-----------------------+-------------------------------------------------------+
+Mailsac does not provide outgoing SMTP or IMAP. Existing interface labels such
+as *SMTP Key* and *POP/SMTP* refer to credentials and settings also used for
+POP3; they do not provide an outgoing SMTP server.
+
+.. list-table:: POP3 connection settings
+   :widths: 30 70
+   :header-rows: 0
+
+   * - **Hostname / Server**
+     - poppy.mailsac.com
+   * - **Email Address**
+     - Your Enhanced Email Address
+   * - **Username**
+     - Your full Enhanced Email Address
+   * - **Password**
+     - `API Key`_ or the Enhanced Email Address password
+   * - **Port**
+     - 110
+   * - **Connection security**
+     - Plaintext; no SSL/TLS or STARTTLS
 
 .. _sec_reading_mail_attachments:
 
@@ -153,8 +168,7 @@ Viewing Email Attachments
 
 For :ref:`enhanced addresses <doc_private_addresses>`, the `Unified Inbox`_
 allows downloading of attachments. Email fetched from enhanced addresses using
-:ref:`POP3 from an email client <sec_reading_mail_pop3>`
-such as Apple Mail or GMail, will include attachments.
+:ref:`POP3 from a compatible email client <sec_reading_mail_pop3>` will include attachments.
 
 Public email addresses disallow downloading attachments
 - :ref:`you must download the entire message file, or fetch attachments
