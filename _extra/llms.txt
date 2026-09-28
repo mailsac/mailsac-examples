@@ -14,6 +14,7 @@ Key facts:
 ## Get started
 - [Email testing API overview](https://mailsac.com/pages/email-testing-api/): how testing signup and password-reset emails with Mailsac works, limits and plans
 - [Email testing in CI/CD example (GitHub)](https://github.com/mailsac/mailsac-integration-test-examples/tree/main/playwright-signup-ci): runnable Playwright test of a signup verification email in GitHub Actions and GitLab CI
+- [Email testing in CI/CD: step-by-step guide with GitHub Actions and GitLab CI](https://blog.mailsac.com/integrating-email-testing-into-your-ci-cd-pipeline-a-step-by-step-guide/)
 - [Playwright email testing guide](https://blog.mailsac.com/playwright-email-testing/)
 - [Cypress plugin @mailsac/cypress](https://www.npmjs.com/package/@mailsac/cypress)
 - [Pricing](https://mailsac.com/pricing)
@@ -29,6 +30,8 @@ Key facts:
 ## Comparisons
 - [Mailsac vs Mailosaur](https://mailsac.com/pages/mailsac-vs-mailosaur/)
 - [Mailsac vs Mailtrap](https://mailsac.com/pages/mailsac-vs-mailtrap/)
+- [Mailsac vs MailSlurp](https://mailsac.com/pages/mailsac-vs-mailslurp/)
+- [Mailsac vs Mailpit and MailHog](https://mailsac.com/pages/mailsac-vs-mailpit/)
 
 ## Optional
 - [Enterprise: procurement, security reviews, resellers](https://mailsac.com/enterprise)
