@@ -23,7 +23,7 @@ on the service being consumed.
 
 - `Standard Login`_: Used to authenticate to Mailsac.com Website
 - `Team User Login`_: Used to authenticate to Mailsac.com
-  (available to `Business and Enterprise Plans <Pricing_>`_)
+  (available on `Business, Business+ and Enterprise Plans <Pricing_>`_)
 - `API Key <API Keys and Users_>`_: Used to authenticate to the `REST API`_,
   :ref:`Email Capture <doc_email_capture>`, :ref:`POP3 <sec_reading_mail_pop3>`.
 - POP3 Password: Used to authenticate to :ref:`POP3 Service <sec_reading_mail_pop3>`
@@ -84,7 +84,7 @@ section of the Dashboard_.
 Multiple API Keys
 ^^^^^^^^^^^^^^^^^
 
-For accounts on Business or Enterprise plans, multiple API keys may be
+For accounts on Business, Business+ or Enterprise plans, multiple API keys may be
 created, each with a unique name.
 
 Having multiple API keys enables:
@@ -125,7 +125,7 @@ Team user accounts can:
 - Access and manage messages owned by the team including messages sent to enhanced email addresses and private custom domains
 - Access the REST API
 
-The team users feature is available on Business and Enterprise Plans. If a team user
+The team users feature is available on Business, Business+ and Enterprise Plans. If a team user
 needs to access account management features, the root account can allow
 temporary elevation to a :ref:`root account session <sec_team_user_root_elevation>`.
 

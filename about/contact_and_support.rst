@@ -20,7 +20,7 @@ during business hours, USA West Coast Pacific Time (PDT/PST).
 Browse our `documentation <https://docs.mailsac.com>`_ on this website. Common use cases are answered here.
 The `API Specification <https://mailsac.com/docs/api>`_ has additional detail.
 
-If you are not on a Business or Enterprise plan, please post to the forum. API integration questions which
+If you are not on a Business, Business+ or Enterprise plan, please post to the forum. API integration questions which
 are received via our support email may be redirected to the forum.
 
 Mail Not Received

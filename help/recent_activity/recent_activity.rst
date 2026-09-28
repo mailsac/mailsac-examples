@@ -25,4 +25,4 @@ Analytics`_, then Recent Activity.
    bclinton@mailsac.com, and a webhook that failed to POST.
 
 The last 15 minutes of activity is available for all users. Extended history
-is available for `Business Plan customers <pricing_>`_.
+is available for `Business, Business+ and Enterprise Plan customers <pricing_>`_.

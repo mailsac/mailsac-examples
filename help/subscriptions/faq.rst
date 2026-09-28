@@ -35,10 +35,15 @@ renew.
 What happens if I cancel my subscription?
 -----------------------------------------
 
-Any custom domains, enhanced addresses, and other paid features will be removed.
-Cancelling before the end of the term will result in all paid features being removed
-immediately. The :ref:`operations (Ops) per month <doc_api_calls>` will immediately
-revert to the free tier limits.
+Your plan keeps working until the end of the period you have paid for, and then does not
+renew. Until then you can undo the cancellation with "Keep plan" on the `Billing`_ page.
+
+When the period ends, custom domains, enhanced addresses and other paid features beyond the
+free plan are removed, and the :ref:`operations (Ops) per month <doc_api_calls>` revert to the
+free tier limits.
+
+Removing a single add-on (for example an extra custom domain) takes effect straight away, and
+the unused time is credited to your next invoice.
 
 
 .. _sec_billing_apple_pay:
@@ -73,4 +78,4 @@ processor to enter your new payment method.
 Can I pay with a purchase order?
 --------------------------------
 
-Yes, purchase orders are supported for Enterprise Plan subscriptions.
+Yes, purchase orders are supported for annual Business+ and Enterprise Plan subscriptions.

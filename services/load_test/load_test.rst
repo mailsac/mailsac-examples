@@ -8,8 +8,8 @@ Load Test
 Overview
 --------
 
-The Load Testing feature is available to subscribers of our `Business
-and Enterprise plans <pricing_>`_. This feature allows you to create a
+The Load Testing feature is available to subscribers of our `Business,
+Business+ and Enterprise plans <pricing_>`_. This feature allows you to create a
 temporary domain for sending and receiving emails, enabling you to test
 the performance of your sending email service.
 
@@ -32,8 +32,8 @@ Instructions
 
 Follow these steps to use the Load Testing Emails feature:
 
-1. **Upgrade to a Business or Enterprise Plan**:
-   Ensure you are subscribed to a `Business or Enterprise plan <pricing_>`_
+1. **Upgrade to a Business, Business+ or Enterprise Plan**:
+   Ensure you are subscribed to a `Business, Business+ or Enterprise plan <pricing_>`_
    to access this feature.
 
 2. **Create a New Load Test**:
