@@ -1,0 +1,35 @@
+# Mailsac
+
+> Mailsac is an email testing service for developers and QA teams. It gives you test inboxes you can read over a REST API, so automated tests and CI/CD pipelines can check that signup verification, password reset, magic link and one-time code emails arrive and work. Public @mailsac.com inboxes need no setup; paid plans add private addresses and private test domains (your own domain or a zero-setup *.msdc.co subdomain), webhooks, WebSockets, team logins with SAML SSO, and higher volume.
+
+Key facts:
+- Every address at @mailsac.com already exists and receives mail; there is nothing to create first. These public inboxes can be read by anyone, so use made-up data. Private addresses and private domains keep test mail visible only to your account.
+- REST API at https://mailsac.com/api, authenticated with the `Mailsac-Key` header. List messages: `GET /api/addresses/{email}/messages`. Read plain text: `GET /api/text/{email}/{messageId}`. Delete: `DELETE /api/addresses/{email}/messages/{messageId}`.
+- Email Capture is a fake SMTP relay (capture.mailsac.com, port 5587, STARTTLS, Mailsac username and API key): point a test environment's SMTP settings at it and every message is kept in Mailsac instead of being delivered.
+- Mailsac can also test real delivery: your app sends through its normal email provider to a Mailsac address or private domain, which catches provider, DNS, SPF/DKIM and sending-domain problems that a local SMTP catcher cannot.
+- Push instead of polling: webhooks, WebSockets and Slack forwarding deliver each new email as it arrives.
+- Usage is counted in operations (one API call, one inbound email to a private address or domain, or one push).
+- Plans (USD): Free (1,500 operations/month); Indie $18/month for one developer (25,000 operations); Business $89/month for teams (500,000 operations, 5 users, SAML SSO); Business+ $199/month (2 million operations, 10 users, invoice or purchase order on annual); Enterprise from $7,500/year or $799/month (2–20M+ operations, 25 users, security reviews, purchase orders and resellers).
+
+## Get started
+- [Email testing API overview](https://mailsac.com/pages/email-testing-api/): how testing signup and password-reset emails with Mailsac works, limits and plans
+- [Playwright email testing guide](https://blog.mailsac.com/playwright-email-testing/)
+- [Cypress plugin @mailsac/cypress](https://www.npmjs.com/package/@mailsac/cypress)
+- [Pricing](https://mailsac.com/pricing)
+
+## Documentation
+- [Docs home](https://docs.mailsac.com/en/latest/)
+- [REST API reference](https://mailsac.com/docs/api)
+- [Email Capture (fake SMTP relay)](https://docs.mailsac.com/en/latest/services/email_capture/email_capture.html)
+- [Custom and private domains](https://docs.mailsac.com/en/latest/services/private_domains/private_domains.html)
+- [Webhooks and forwarding](https://docs.mailsac.com/en/latest/services/forwarding/forwarding.html)
+- [Subscriptions and billing FAQ](https://docs.mailsac.com/en/latest/help/subscriptions/faq.html)
+
+## Comparisons
+- [Mailsac vs Mailosaur](https://mailsac.com/pages/mailsac-vs-mailosaur/)
+- [Mailsac vs Mailtrap](https://mailsac.com/pages/mailsac-vs-mailtrap/)
+
+## Optional
+- [Enterprise: procurement, security reviews, resellers](https://mailsac.com/enterprise)
+- [Blog](https://blog.mailsac.com/)
+- [Status page](https://status.mailsac.com/)
