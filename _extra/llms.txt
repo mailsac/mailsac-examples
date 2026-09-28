@@ -13,6 +13,7 @@ Key facts:
 
 ## Get started
 - [Email testing API overview](https://mailsac.com/pages/email-testing-api/): how testing signup and password-reset emails with Mailsac works, limits and plans
+- [Email testing in CI/CD example (GitHub)](https://github.com/mailsac/mailsac-integration-test-examples/tree/main/playwright-signup-ci): runnable Playwright test of a signup verification email in GitHub Actions and GitLab CI
 - [Playwright email testing guide](https://blog.mailsac.com/playwright-email-testing/)
 - [Cypress plugin @mailsac/cypress](https://www.npmjs.com/package/@mailsac/cypress)
 - [Pricing](https://mailsac.com/pricing)
