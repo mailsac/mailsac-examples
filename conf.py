@@ -20,8 +20,8 @@ import os
 # -- Project information -----------------------------------------------------
 
 project = u'Mailsac Documentation'
-copyright = u'2018-2023, Forking Software LLC'
-author = u'Forking Software LLC'
+copyright = u'2018-2026, Habitat AI Incorporated'
+author = u'Habitat AI Incorporated'
 
 # The short X.Y version
 version = u''
@@ -157,7 +157,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'mailsac-examples.tex', u'mailsac-examples Documentation',
-     u'Forking Software LLC', 'manual'),
+     u'Habitat AI Incorporated', 'manual'),
 ]
 
 

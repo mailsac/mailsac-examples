@@ -3,14 +3,15 @@
 Privacy Policy
 ==============
 
-Revised September 2022
+Revised September 30, 2026
 
-Mailsac is a service of Forking Software LLC.
+Mailsac is a service of Habitat AI Incorporated, which acquired Mailsac from
+Forking Software LLC on September 8, 2026.
 
 1. Preamble
 -----------
 
-1a. This Privacy Policy discloses the privacy practices for the Mailsac service by Forking Software LLC (mailsac.com, associated sites, and backend or frontend
+1a. This Privacy Policy discloses the privacy practices for the Mailsac service by Habitat AI Incorporated (mailsac.com, associated sites, and backend or frontend
 internet services that support the mailsac.com website).
 
 1b. This Privacy Policy applies to information collected by Mailsac. It will educate the user of the following:

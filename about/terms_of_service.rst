@@ -5,12 +5,16 @@ Terms of Service and Acceptable Use Policy
 
 .. contents:: :local:
 
-Revised March 2023
+Revised September 30, 2026
+
+On September 8, 2026, Habitat AI Incorporated acquired Mailsac from Forking
+Software LLC. Habitat AI Incorporated now operates Mailsac and has assumed these
+terms. References to Mailsac, "we" and "us" mean Habitat AI Incorporated.
 
 1. Preamble
 -----------
 
-By using Mailsac by Forking Software LLC (also "mailsac.com" "mailsac", "we",
+By using Mailsac by Habitat AI Incorporated (also "mailsac.com" "mailsac", "we",
 "us", "this/the service", "this/the website", "this/the site"), you (also
 "user", "the user", "end user", "customer", "account") accept these terms and
 the Privacy Policies (separate agreement) and agree to ABIDE BY THEM AT ALL
@@ -363,8 +367,8 @@ Mailsac from the customer.
 -------------------------
 
 For Enterprise customers, Mailsac warranties that all Intellectual Property
-delivered under this agreement will be of original development by Forking
-Software LLC or subject to appropriate license and will not infringe or violate
+delivered under this agreement will be of original development by Habitat AI
+Incorporated or its predecessor, Forking Software LLC, or subject to appropriate license and will not infringe or violate
 any patent, copyright, trade secret, trademark, or other intellectual property
 right of a third party.
 
@@ -447,8 +451,8 @@ coverages:
 a. If a clause of this agreement is found to be invalid or violated, the rest of
    this agreement still stands.
 
-   This agreement represents the entire agreement between the user and Forking
-   Software LLC, which includes the Privacy Policy. The two parties may supersede
+   This agreement represents the entire agreement between the user and Habitat AI
+   Incorporated, which includes the Privacy Policy. The two parties may supersede
    parts of this agreement through writing signed by legal representatives of both
    parties. Clauses of this agreement not addressed in any superseding agreement
    will still stand.

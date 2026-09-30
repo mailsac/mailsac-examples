@@ -32,7 +32,7 @@ for testing purposes.
 
 # License
 
-Copyright © 2019-2023 by Forking Software LLC
+Copyright © 2019-2026 by Habitat AI Incorporated
 
 MIT License
 
