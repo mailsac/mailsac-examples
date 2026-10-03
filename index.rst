@@ -56,6 +56,7 @@ Table of Contents
    services/private_addresses/private_addresses
    services/email_validation/email_validation
    services/load_test/load_test
+   services/mcp_server/mcp_server
 
 
 .. toctree::
