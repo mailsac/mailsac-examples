@@ -3,7 +3,7 @@
 Privacy Policy
 ==============
 
-Revised September 30, 2026
+Revised October 12, 2026
 
 Mailsac is a service of Habitat AI Incorporated, which acquired Mailsac from
 Forking Software LLC on September 8, 2026.
@@ -23,16 +23,19 @@ internet services that support the mailsac.com website).
 
 2. Email
 --------
-This site provides public (non-private) email, and public or private email testing services. Email inboxes that are not purchased (AKA private) are public and have no privacy expectation. Email inboxes and custom domains which are marked "public" by the user also have
-no expectation of privacy. Enhanced addresses which are "released" or "deleted" or
-for which the account loses good standing (such as due to a past-due subscription), may become non-private again.
+This site provides public and private email testing services. Public inboxes, and inboxes or custom domains
+marked "public" by the user, have no expectation of privacy. Enhanced addresses explicitly released or deleted by the account holder may become
+public again. Canceling a subscription, downgrading a plan or failing to pay does not by itself release private
+address or domain reservations or make retained private email public. If retained reservations exceed the remaining
+allowance, incoming delivery is suspended for the affected class of addresses or domains until sufficient allowance
+is restored. Billing holds can also suspend delivery. Existing storage and retention limits continue to apply;
+maintaining privacy does not guarantee indefinite retention of messages.
 
 Consider this warning carefully when you opt to receive email on this website and give out addresses
 that will have email delivered to this website. Email is PUBLICLY VIEWABLE CONTENT unless otherwise explicitly indicated.
-On private email, we reserve the right to inspect or share information contained in those emails, but it REASONABLY
-EXPECTED that mail termed "private" will not be made viewable to the public at large or to any third party. However it
-MAY BE MADE PUBLIC due to lack of payment or lapsed accounts, and it MAY BE MADE AVAILBLE to third parties in the case
-of:
+On private email, we reserve the right to inspect or share information contained in those emails, but it is REASONABLY
+EXPECTED that mail termed "private" will not be made viewable to the public at large or to any third party. It
+MAY BE MADE AVAILABLE to third parties in the case of:
 1. fraud complaints, in which case Mailsac may share data upstream to the verified entity complaining of fraud
 2. cybersecurity incident requests related to fraud from entities deemed reliably verified by the Mailsac team
 3. requests from government agencies based in the United States of America
