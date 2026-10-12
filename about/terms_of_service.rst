@@ -5,7 +5,7 @@ Terms of Service and Acceptable Use Policy
 
 .. contents:: :local:
 
-Revised September 30, 2026
+Revised October 12, 2026
 
 On September 8, 2026, Habitat AI Incorporated acquired Mailsac from Forking
 Software LLC. Habitat AI Incorporated now operates Mailsac and has assumed these
@@ -111,10 +111,13 @@ c. An exception the previous clause (3c) is made when a business is evaluating
    the service on a temporary trial basis. Service usage for evaluation
    purposes will require the business to abide by these terms, the acceptable
    use guidelines, and the Privacy Policy (separate agreement).
-d. Mailsac services and customer assets (aka "entitlements") such as email
-   addresses or custom domains, API keys, or other service features, will be
-   locked or released publicly if an account's payment status becomes past due
-   (aka "delinquent" or "unpaid invoice"). Past due accounts will receive
+d. Access to Mailsac services and customer assets (aka "entitlements"), such as
+   email addresses, custom domains, API keys or other service features, may be
+   suspended if an account's payment status becomes past due
+   (aka "delinquent" or "unpaid invoice"). Non-payment, cancellation or downgrade
+   does not by itself release private address or domain reservations or make
+   retained private email public. Existing storage and retention limits continue
+   to apply. Past due accounts will receive
    courtesy payment reminder emails. MAILSAC IS NOT RESPONSIBLE FOR MISSED
    EMAIL NOTIFICATIONS RESULTING IN CANCELED SERVICE.
 

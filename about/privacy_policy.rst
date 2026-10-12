@@ -47,7 +47,7 @@ determined to be linked to an account. Mailsac will not notify the account holde
 -------------------------------------------
 
 3a. We are the sole owners of the information collected on this site, email received to PUBLIC email addresses on
-this site, email TURNED PUBLIC due to released private email addresses or domains or unpaid accounts, and ALL
+this site, email received publicly after the account holder explicitly releases a private address or domain, and ALL
 derived/aggregated analytics about email or usage on the website.
 We will not sell the private email contents to third parties (such as email in private reserved addresses, custom domain
 email, or records linking an account or IP address to an email address or custom domain).
