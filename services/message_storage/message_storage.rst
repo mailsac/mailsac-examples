@@ -33,7 +33,9 @@ storage limit is reached.
 Messages sent to non-private (non-enhanced) addresses and unverified domains are kept for
 a maximum of 4 days, though messages may be recycled earlier to ensure
 capacity for customers on a paid subscription. There is a limit of 6
-messages per inbox.
+messages per inbox. A private internal archive of public-inbox messages is kept
+for abuse investigation, legal requests and product analytics; messages to private
+addresses and custom domains are not archived.
 
 Examples
 --------

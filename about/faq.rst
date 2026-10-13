@@ -108,7 +108,9 @@ How long is email saved?
 ------------------------
 
 Email messages that are sent to public domains ( ie `mailsac.com`) are retained
-for 4 days and have a max number of 6 messages per inbox.
+for 4 days and have a max number of 6 messages per inbox. We also keep a private
+internal archive of public-inbox messages for abuse investigation, legal requests
+and product analytics. Messages to private addresses and custom domains are not archived.
 
 *Message storage* prevents emails from being recycled.
 

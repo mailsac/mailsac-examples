@@ -3,7 +3,7 @@
 Privacy Policy
 ==============
 
-Revised October 12, 2026
+Revised October 13, 2026
 
 Mailsac is a service of Habitat AI Incorporated, which acquired Mailsac from
 Forking Software LLC on September 8, 2026.
@@ -30,6 +30,10 @@ address or domain reservations or make retained private email public. If retaine
 allowance, incoming delivery is suspended for the affected class of addresses or domains until sufficient allowance
 is restored. Billing holds can also suspend delivery. Existing storage and retention limits continue to apply;
 maintaining privacy does not guarantee indefinite retention of messages.
+
+Messages received at public inboxes are removed from the service after 4 days, but we keep a private, encrypted
+internal archive of public-inbox messages for abuse investigation, legal requests and product analytics. Messages
+received at private addresses and custom domains are not added to this archive.
 
 Consider this warning carefully when you opt to receive email on this website and give out addresses
 that will have email delivered to this website. Email is PUBLICLY VIEWABLE CONTENT unless otherwise explicitly indicated.
